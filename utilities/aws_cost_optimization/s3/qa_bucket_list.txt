@@ -1,0 +1,12 @@
+aws-config-notifications-634621569833-qa
+cf-templates-h35zy3an6d1l-us-east-1
+fm-jobs
+fmg-dw-landing-qa
+fmg-dw-qa
+fmg-dw-working-qa
+franklin-alb-access-logs-qa
+franklin-qa-awsconfig-bucket-634621569833
+franklin-qa-platformconfig
+franklin-qa-s3-access-logs
+franklin-qa-vpcflowlogs
+franklinqa-cloudtrails3bucket-snwslqnwvq2v

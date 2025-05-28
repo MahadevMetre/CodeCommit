@@ -1,0 +1,61 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>&lt;h4 style=&quot;color:Tomato;&quot;&gt;&#xd;
+Building this job will&#xd;
+&lt;ol&gt;&#xd;
+&lt;li style=&quot;color:Orange;&quot;&gt;Create a snapshot of rds-pg-fmg-serverless-prod in prod account us-east-1 region encrypted with the aws managed kms aws/rds in us-east-1&lt;/li&gt;&#xd;
+&lt;li style=&quot;color:Yellow;&quot;&gt;Copy the snapshot to prod account us-west-2 region encrypted with prod cmk in us-west-2&lt;/li&gt;&#xd;
+&lt;li style=&quot;color:Orange;&quot;&gt;Share the snapshot to dr account us-west-2 region encrypted with prod cmk in us-west-2&lt;/li&gt;&#xd;
+&lt;li style=&quot;color:Yellow;&quot;&gt;Copy the snapshot to dr account us-west-2 region encrypted with dr cmk in us-west-2&lt;/li&gt;&#xd;
+&lt;/ol&gt;&#xd;
+Feel free to modify the job/script to accomodate other rds dr snapshot copy activities.&#xd;
+&lt;/h4&gt;</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@332.va_1ee476d8f6d">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>true</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+
+set +x
+
+RED=&apos;\033[0;31m&apos;
+GREEN=&apos;\033[0;32m&apos;
+ORANGE=&apos;\033[0;33m&apos;
+BLUE=&apos;\033[0;34m&apos;
+PURPLE=&apos;\033[0;35m&apos;
+NC=&apos;\033[0m&apos;
+
+if [[ &quot;${BUILD_USER_ID}&quot; == &quot;controlaccount&quot; || &quot;${BUILD_USER_ID}&quot; == &quot;apilla&quot; || &quot;${BUILD_USER_ID}&quot; == &quot;jsamuel&quot; || &quot;${BUILD_USER_ID}&quot; == &quot;ksenkodi&quot; ]]; then
+	printf &quot;${PURPLE}Hello ${GREEN}$BUILD_USER_ID${PURPLE}, you are authorized to build this job.${NC}\n&quot;
+else
+	printf &quot;${PURPLE}Hello ${GREEN}$BUILD_USER_ID${PURPLE}, you are not authorized to build this job.${NC}\n&quot;
+	exit 1
+fi
+
+cd /opt/scripts/
+./rds_snapshot_copy.sh</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</project>

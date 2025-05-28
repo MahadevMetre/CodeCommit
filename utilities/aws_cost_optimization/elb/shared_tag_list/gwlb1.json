@@ -1,0 +1,13 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:964190570136:loadbalancer/gwy/gwlb1/df944d075b75e141",
+  "Tags": [
+    {
+      "Key": "x-chkp-management",
+      "Value": "Checkpoint-mgmt-aws"
+    },
+    {
+      "Key": "x-chkp-template",
+      "Value": "gwlb-ASG-configuration"
+    }
+  ]
+}

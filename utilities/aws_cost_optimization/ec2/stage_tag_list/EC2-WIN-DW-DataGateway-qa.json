@@ -1,0 +1,76 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-045438467c7fec2d4"
+  ],
+  "Tags": [
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-DW-DataGateway-qa"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Datawarehouse"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "env",
+      "Value": "qa"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "purpose",
+      "Value": "data-warehouse"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "Department",
+      "Value": "DLH"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    }
+  ]
+}

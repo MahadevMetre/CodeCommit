@@ -1,0 +1,68 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-08c617bf5b39d52ff"
+  ],
+  "Tags": [
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "PyCharm"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Weekly"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Department",
+      "Value": "HMS"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "PCI"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-RML-PCI2"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "Operations"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    }
+  ]
+}

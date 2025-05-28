@@ -1,0 +1,17 @@
+domain_name = "hermes.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "08182023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "08182023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

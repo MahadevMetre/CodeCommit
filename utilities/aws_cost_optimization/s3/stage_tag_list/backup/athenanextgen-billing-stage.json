@@ -1,0 +1,28 @@
+{
+    "TagSet": [
+        {
+            "Key": "project",
+            "Value": "Insuranceapps"
+        },
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "createdDate",
+            "Value": "02162022"
+        },
+        {
+            "Key": "purpose",
+            "Value": "athenanextgen-billing output storage bucket"
+        }
+    ]
+}

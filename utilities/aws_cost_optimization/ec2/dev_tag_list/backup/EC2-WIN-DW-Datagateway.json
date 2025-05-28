@@ -1,0 +1,16 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0fbccdd56a0b95c92"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-DW-Datagateway"
+    },
+    {
+      "Key": "Purpose",
+      "Value": "Test connectivity"
+    }
+  ]
+}

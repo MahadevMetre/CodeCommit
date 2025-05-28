@@ -1,0 +1,40 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-066e528b6e546c0f2"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-ELK-Logstash"
+    },
+    {
+      "Key": "environment",
+      "Value": "shared"
+    },
+    {
+      "Key": "UpdatedOn",
+      "Value": "02152023"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "02152023"
+    },
+    {
+      "Key": "project",
+      "Value": "elk"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "purpose",
+      "Value": "Logstash and Heartbeat"
+    }
+  ]
+}

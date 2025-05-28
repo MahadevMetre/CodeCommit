@@ -1,0 +1,43 @@
+ebs_size = 30
+volume_type = "gp2"
+ebs_tags = {
+    "ApplicationName" = "DevOps"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "NoInfo"
+    "DataClassification" = "Low"
+    "Department" = "DOS"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+ebs_encrypted = true
+kms_key_id =  "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09"
+ami = "ami-096fda3c22c1c990a"
+instance_type = "c4.large"
+ec2_region = "us-east-1b"
+public_ip_bool = false
+key_name = "EC2-Stage-Key"
+security_groups = ["sg-0404a2805e92627ec",
+    "sg-010670cd25f4a1a7c"]
+subnet_id = "subnet-076a071fa0723c80e"
+tags = {
+    "ApplicationName" = "DevOps"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "NoInfo"
+    "DataClassification" = "Low"
+    "Department" = "DOS"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+instance_initiated_shutdown_behavior = "stop"

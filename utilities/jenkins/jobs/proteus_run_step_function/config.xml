@@ -1,0 +1,79 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@332.va_1ee476d8f6d">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Account</name>
+          <description>AWS account to use. Make sure you choose the right account.</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Choose One</string>
+              <string>dev</string>
+              <string>stage</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Step_Function_Name</name>
+          <description>Enter the name of step function.</description>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>true</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+
+set +x
+
+RED=&apos;\033[0;31m&apos;
+GREEN=&apos;\033[0;32m&apos;
+ORANGE=&apos;\033[0;33m&apos;
+BLUE=&apos;\033[0;34m&apos;
+PURPLE=&apos;\033[0;35m&apos;
+NC=&apos;\033[0m&apos;
+
+jenkins_user=$BUILD_USER_ID
+
+if [[ &quot;${jenkins_user}&quot; != &quot;sbose&quot; &amp;&amp; &quot;${jenkins_user}&quot; != &quot;vhd&quot; &amp;&amp; &quot;${jenkins_user}&quot; != &quot;mkumaraswamy&quot; ]]; then
+	printf &quot;${PURPLE}Hey there ${GREEN}$BUILD_USER${PURPLE}, you are not allowed to perform this action.\n&quot;
+	printf &quot;${RED}Please reach out to admin for assistance.${RED}\n&quot;
+	exit 1
+fi
+
+if [[ &quot;${Account}&quot; == &quot;Choose One&quot; ]]; then
+	printf &quot;${RED}Too lazy to change the default values...?${BLUE}\n&quot;
+	exit 1
+fi
+
+printf &quot;${PURPLE}Running the step function ${GREEN}$Step_Function_Name${BLUE}\n&quot;
+Step_Function_Arn=`aws stepfunctions list-state-machines --profile &quot;jenkins_proteus_user_$Account&quot; | jq -r &quot;.stateMachines[] | select (.name == \&quot;$Step_Function_Name\&quot;) | .stateMachineArn&quot;`
+aws stepfunctions start-execution --state-machine-arn &quot;$Step_Function_Arn&quot; --profile &quot;jenkins_proteus_user_$Account&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</project>

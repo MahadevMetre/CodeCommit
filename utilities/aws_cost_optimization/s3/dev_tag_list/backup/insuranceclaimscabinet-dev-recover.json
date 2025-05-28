@@ -1,0 +1,12 @@
+{
+    "TagSet": [
+        {
+            "Key": "CretedBy",
+            "Value": "bclements"
+        },
+        {
+            "Key": "environment",
+            "Value": "dev"
+        }
+    ]
+}

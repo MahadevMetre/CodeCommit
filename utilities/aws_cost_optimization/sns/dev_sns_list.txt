@@ -1,0 +1,14 @@
+arn:aws:sns:us-east-1:116762271881:CISBenchmarkCloudTrail
+arn:aws:sns:us-east-1:116762271881:CloudWatch_Alarms_Topic
+arn:aws:sns:us-east-1:116762271881:autoscaling_dev_topic
+arn:aws:sns:us-east-1:116762271881:aws-config-notifications-topic-dev
+arn:aws:sns:us-east-1:116762271881:ccms_aws_ses_email_status_incoming_sns_dev
+arn:aws:sns:us-east-1:116762271881:csv_to_dynamoDb
+arn:aws:sns:us-east-1:116762271881:fmdev-healthmonitoringalert
+arn:aws:sns:us-east-1:116762271881:fmg-dw-stepfunctions-error-notifications
+arn:aws:sns:us-east-1:116762271881:franklindev
+arn:aws:sns:us-east-1:116762271881:glacier_job_topic
+arn:aws:sns:us-east-1:116762271881:hermes_email_archive_topic_dev
+arn:aws:sns:us-east-1:116762271881:hermes_ses_events_topic_dev
+arn:aws:sns:us-east-1:116762271881:outcomestopic
+arn:aws:sns:us-east-1:116762271881:processS3ArchiveEvent_sns_dev

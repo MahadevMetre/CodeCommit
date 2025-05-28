@@ -1,0 +1,23 @@
+bucket_short_name = "fmg-dw-acxiom"
+logging_bucket_name =  "franklin-pci-s3-access-logs"
+logging_bucket_base_prefix = "fmg-dw-acxiom"
+acl                 = "private"
+tags ={
+	   "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "DevOps"
+	   "DataClassification" = "PCI"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "08052024"
+	   "LastUpdated"        = "08052024"
+}
+s3_eventbridge_notifications = true
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 15
+versioning_enabled_bool	= false

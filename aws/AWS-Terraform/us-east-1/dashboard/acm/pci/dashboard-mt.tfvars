@@ -1,0 +1,17 @@
+domain_name = "dashboard-mt.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+        "Department": "DSB"
+		"LastUpdated": "09182024"
+		"CostCenter": "FMG"
+		"CreatedOn": "09182024"
+		"DataClassification": "PCI"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "1.0"
+		"ApplicationName": "DashBoard"
+		"TechStack": "None"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "DevOps"
+    }

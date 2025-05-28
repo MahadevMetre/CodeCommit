@@ -1,0 +1,18 @@
+{
+    "Tags": {
+        "ApplicationName": "aws_config",
+        "Automated": "True",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+        "CreatedBy": "sbose",
+        "CreatedOn": "03012023",
+        "DataClassification": "Low",
+        "Department": "AWS",
+        "Infrastructure": "False",
+        "LastUpdated": "04012023",
+        "TechStack": "Python",
+        "Usage": "Project",
+        "Version": "1.0",
+    }
+}
+

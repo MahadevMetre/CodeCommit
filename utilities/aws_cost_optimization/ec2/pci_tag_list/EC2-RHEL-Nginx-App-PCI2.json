@@ -1,0 +1,68 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-092fba76a0c77a0aa"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-Nginx-App-PCI2"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "PCI"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Weekly"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "Department",
+      "Value": "HMS"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "Nginx"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "Operations"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    }
+  ]
+}

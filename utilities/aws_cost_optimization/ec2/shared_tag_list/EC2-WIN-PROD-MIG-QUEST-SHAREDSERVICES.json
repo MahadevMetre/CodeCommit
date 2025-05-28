@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-00f2bdf03427aff62"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-PROD-MIG-QUEST-SHAREDSERVICES"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0b21f6c2a6ea31b89"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Slave-InsuranceApps"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "purpose",
+      "Value": "EC2 JBoss Slave Golden source for insurance apps servers"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "project",
+      "Value": "insuranceapps"
+    }
+  ]
+}

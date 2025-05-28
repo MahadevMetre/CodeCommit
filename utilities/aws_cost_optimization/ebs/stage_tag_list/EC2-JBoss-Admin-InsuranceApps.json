@@ -1,0 +1,68 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-05eac8e6c01ab624e"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "InsuranceApps"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "Department",
+      "Value": "IAPPS"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "InstanceID",
+      "Value": "i-0e67c3a7ca562a060"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Admin-InsuranceApps"
+    }
+  ]
+}

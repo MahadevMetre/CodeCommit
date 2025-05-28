@@ -1,0 +1,18 @@
+iam_policy_name			= "digital-ecr-docker-policy-pci"
+iam_policy_tags			= {
+		"Department": "DGT"
+        "LastUpdated": "07222024"
+        "CostCenter":  "FMG"
+        "CreatedOn": "07222024"
+        "DataClassification": "PCI"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Digital"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "DevOps"
+    }
+digital_ecr_docker_policy	= "true"
+iam_policy_desc				= "Digital Lambda ECR Docker Policy PCI"

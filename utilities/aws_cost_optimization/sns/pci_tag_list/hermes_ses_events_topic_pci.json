@@ -1,0 +1,21 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:601751840347:hermes_ses_events_topic_pci",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "CCMS"
+    },
+    {
+      "Key": "environment",
+      "Value": "dev"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    }
+  ]
+}

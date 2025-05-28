@@ -1,0 +1,32 @@
+lambda_function_name = "Proteus2-olmb-pre-copy"
+role = "arn:aws:iam::702230634984:role/proteus2-acxiom-olmb-lambda-role-stage"
+description = "Lambda to Invoke Stepfunctions"
+env_variables = {
+	"database" = "proteus2"
+	"db_creds" = "fmgDWadminCredentials"
+}
+tags = {
+    "ApplicationName" = "Proteus2"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "08222024"
+    "DataClassification" = "Low"
+    "Department" = "PTS2"
+    "Infrastructure" = "False"
+    "LastUpdated" = "08222024"
+    "TechStack" = "Python"
+    "Usage" = "Project"
+    "Version" = "2.0"
+}
+memory_size = 128
+ephemeral_storage_size = 512
+timeout = 120
+reserved_concurrent_executions = -1
+publish = false
+runtime = "python3.11"
+handler = "Proteus2-olmb-pre-copy.lambda_handler"
+filename = "py/Proteus2-olmb-pre-copy.zip"
+package_type = "Zip"
+source_code_hash = "py/Proteus2-olmb-pre-copy.zip"

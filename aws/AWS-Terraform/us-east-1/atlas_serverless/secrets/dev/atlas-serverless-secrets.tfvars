@@ -1,0 +1,73 @@
+secret_name				= "atlas-serverless-secrets-dev"
+secret_description		= "Atlas Serverless Secrets Dev"
+secret_rc_window		= "0"
+secret_tags = {
+    "ApplicationName" = "Atlas2.0"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "07092024"
+    "DataClassification" = "Low"
+    "Department" = "ATS2"
+    "Infrastructure" = "False"
+    "LastUpdated" = "07102024"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+
+secret_values = {
+	"hermesservices_userName" = "DUMMY_VALUE"
+	"hermesservices_userPassword" = "DUMMY_VALUE"
+	"amazon_ses_access_key" = "DUMMY_VALUE"
+	"amazon_ses_secret_key" = "DUMMY_VALUE"
+	"captivasqs_acesskey" = "DUMMY_VALUE"
+	"captivasqs_secretkey" = "DUMMY_VALUE"
+	"s3eventsqsuser_acesskey" = "DUMMY_VALUE"
+	"s3eventsqsuser_secretkey" = "DUMMY_VALUE"
+	"pdftron_license_key" = "DUMMY_VALUE"
+	"atlasservices_jwt_token" = "DUMMY_VALUE"
+	"customercommunications_acesskey" = "DUMMY_VALUE"
+	"customercommunications_secretkey" = "DUMMY_VALUE"
+	"as400_db_username" = "DUMMY_VALUE"
+	"as400_db_password" = "DUMMY_VALUE"
+	"as400_db_hostname" = "DUMMY_VALUE"
+	"as400_libraries" = "DUMMY_VALUE"
+	"inscabinet_encryption_key" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2008" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2009" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2010" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2011" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2012" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2013" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2014" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2015" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2016" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2017" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2018" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2019" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2020" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2024" = "DUMMY_VALUE"
+    "inscabinet_encryption_key2023" = "DUMMY_VALUE"
+    "inscabinet_encryption_key2022" = "DUMMY_VALUE"
+	"insclaimscabinet_acesskey" = "DUMMY_VALUE"
+	"insclaimscabinet_secretkey" = "DUMMY_VALUE"
+	"instermcabinet_acesskey" = "DUMMY_VALUE"
+	"instermcabinet_secretkey" = "DUMMY_VALUE"
+	"insnontermcabinet_acesskey" = "DUMMY_VALUE"
+	"insnontermcabinet_secretkey" = "DUMMY_VALUE"
+	"inshistoriccabinet_acesskey" = "DUMMY_VALUE"
+	"inshistoriccabinet_secretkey" = "DUMMY_VALUE"
+}
+
+
+
+
+
+
+
+
+
+
+

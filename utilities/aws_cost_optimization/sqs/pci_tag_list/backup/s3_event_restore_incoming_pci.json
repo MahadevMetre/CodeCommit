@@ -1,0 +1,9 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/s3_event_restore_incoming_pci",
+  "Tags": {
+    "Project": "Insurance Migration",
+    "environment": "pci",
+    "terraform": "True",
+    "CretedBy": "Arrington Jeffrey JARRINGTON"
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-processPayment-stage",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:onlinepayment-processPayment-stage",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/onlinepayment-processPayment-staging",
+        "Handler": "todos/processPayment.processPayment",
+        "CodeSize": 11039564,
+        "Description": "",
+        "Timeout": 120,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.443+0000",
+        "CodeSha256": "Sm53U9ifxzOjRE99W1aolUcBpd2OYBy0uk+5DELlMZY=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0ed61b6beb807094e",
+                "subnet-076a071fa0723c80e"
+            ],
+            "SecurityGroupIds": [
+                "sg-0a5da8e1a87daaa60"
+            ],
+            "VpcId": "vpc-0051d323df13c7db3"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHiEbmZYZoosOoas35/jcfKOpWEoKN/lQJ3A1VVLVlWFAAGFvyKq+UZmGbSJzF3r+JeYAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMrDSArtj3mw0OOQ8pAgEQgDuMpwxBsXXvP5eCCed1U26JtsuC4CTcaqdh/4mV0k9wikjz5fCy5vgBFpPFyZECXalhoTnNfCFBck3KAg=="
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:702230634984:key/25d3c9c7-2173-4df2-976e-f400f58f052d",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "77757957-018f-4a4e-86bd-49847e95b010",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:702230634984:layer:parameterlayer:129",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/onlinepayment-processPayment-stage-db693adf-a7e6-4f51-8e20-f9a233a5778b?versionId=zfA5N1Y.n1ErScEvaOeuFKkymEpi6JX2&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEwaCXVzLWVhc3QtMSJHMEUCIQDsRf0KSjobXMitO2XjLU5AaUpUFaQ%2Fsc7fETTf2kGI4AIgF8T3Q%2FHMn9SJPYTL06eMIb3VkTUSm5BmDvKuZVN35hkqsQUIRRAAGgw3NDk2Nzg5MDI4MzkiDM6GGPYtzuWsxh3vWiqOBU7iXixu3IJHSMf4IJQ%2F8kXcj1C2XuQwxo2GmI0TZNI9dWq2YkZAkM0Da5Q0MOg6h%2F2mNkH1lnSR67BzNOVs9MmGS7XdJKWoym9mQStAWInJm60U3UEO67grPl529EVU%2Bf6bjU98K4MqAaR5DTNtXlszjSG735puAdpGrsX7hFVlKBQNZAHr2e9X9Qj%2BKk1s9USECMi0rn9CrzfFzIbOSE0hV3RG9pbPx96bIVYJJmUh6tmInugRlkq%2FZFpOeE6y56jA%2BY5HtEYEeKBKIGxDA4n1ca0YAdvvNjB%2BLX1LDFzwQqdcGCAR3fwGBk6i46NbNOd8Ij5UJ2QU3ImwMXc6Ds%2FqnYKxixCj8MXC%2F8lRfDi3knxeEEF%2BCfDxAmJzaBU01RWohED9dYZX8j76brFipEJdS0ohKG0vPVVLqzBCOWYDut%2BocjMBBTPIaYG4wG0NF2AyK9%2FMytAx3hndAmr4OZSm33OCUporMSGl7eTTG1OjNayQcch75kBKu9%2B%2FWcUv6jbwo%2B%2FbHvHEyucfLWEQPCU5lL9DyLWbmOAVTp6qqFKkJiMPJX4lbBhGUrHFmVbbO3DwgnG6Cxu%2FrH60POraI09y4L%2F977TY7u79WynhPs0TSFGEPKtcLiIOw9IP23174k%2FXohv2U7HdGSVx2d7ZFuZEqjp1W%2BZHRgVkBfgP3VATRtpnM9zEOqo4heouKIAV%2Be8wG01FRbtCMpJZG9Y0AjyU6abIHhbiOH6XYRlbVxCbs1bNsGBOk9vgOk%2BygSl86ZN7BzxN9t%2FGoCHPN5XZfQIYu6QjK6qFdvHTEhsefcMZN7acC8CzszlGs4HE7%2BoxQTDN%2B%2FMmTKT6rXJE%2FyarmYiscU%2BHFSOU%2FIqu4DowGDDl5vShBjqxAfs9P6qe0%2BKv4d%2F4w8oBB0mGRI7%2FY%2F8WvZq3itjf6h2mBQh98qaVWki%2FoADMn8MFLNg%2FDPAVpJk5QATSEyeuDMKk9kvzBShx%2BumLDYB7wRgu1QQfsHW9Eli82Ysq23c6B9PEppQ%2F52ixuIQlZ964C2quC40O%2FaRYUO4BFZIyJoDO2VN5pHMUM4zXZ%2BpLBgao%2BclyBXl27d0ptoFlJ%2Bp7sp83VCLC1FG2uqF3PET9y7JEFw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T133742Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3TFQW7Y57%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d5245f179a7df3d5c75d2076fe202e64656693211b0452b2118060cd867242f0"
+    },
+}

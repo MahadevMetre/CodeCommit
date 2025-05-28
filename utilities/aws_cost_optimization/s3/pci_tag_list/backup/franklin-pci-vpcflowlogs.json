@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "Common"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jarrington"
+        },
+        {
+            "Key": "Customer",
+            "Value": "FMAD"
+        },
+        {
+            "Key": "Name",
+            "Value": "frk-vpcflowlogs"
+        }
+    ]
+}

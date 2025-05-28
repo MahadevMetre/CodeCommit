@@ -1,0 +1,58 @@
+{
+    "EmailIdentities": [
+        {
+            "IdentityType": "DOMAIN",
+            "IdentityName": "fmservice.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "DOMAIN",
+            "IdentityName": "franklinmadisonds.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "DOMAIN",
+            "IdentityName": "franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "CR_Franklin@AffinionGroup.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "fsamgupload@s-2d0gf1x094vxwyl4scj4z5an9hqrp9q98qhu2antmpq01cx8b8.7-je65eac.na117.apex.salesforce.com",
+            "SendingEnabled": false,
+            "VerificationStatus": "FAILED"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "EXSTREAM_INS@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "ins_batch_exception@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "ins_middletier_exception_prod@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "MNL_Term_UW@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-02d09dd809a4fee83"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Type",
+      "Value": "adhoc"
+    },
+    {
+      "Key": "Project",
+      "Value": "CCMS"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-PSCHM-Stage1"
+    }
+  ]
+}

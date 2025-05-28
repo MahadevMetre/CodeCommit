@@ -1,0 +1,24 @@
+{
+    "IPSets": [
+        {
+            "IPSetId": "3fef53a5-5273-4d34-bc5f-698e278d8eaa",
+            "Name": "onlinepayment-WAF-security-automation-stage-CloudFrontStack-K1Y5VJ1KLH1X - Blacklist Set"
+        },
+        {
+            "IPSetId": "9e447d32-8b19-45b7-83a3-2473e1b3771b",
+            "Name": "onlinepayment-WAF-security-automation-stage-CloudFrontStack-K1Y5VJ1KLH1X - IP Reputation Lists Set"
+        },
+        {
+            "IPSetId": "a38200a3-1613-4578-840d-66295c0dc59e",
+            "Name": "onlinepayment-WAF-security-automation-stage-CloudFrontStack-K1Y5VJ1KLH1X - Scanners & Probes Set"
+        },
+        {
+            "IPSetId": "f4a45df7-a9eb-40af-a12f-e3180f1ab11d",
+            "Name": "onlinepayment-WAF-security-automation-stage-CloudFrontStack-K1Y5VJ1KLH1X - Whitelist Set"
+        },
+        {
+            "IPSetId": "f9771714-1b17-4ab7-ab37-345749e2c44e",
+            "Name": "onlinepayment-WAF-security-automation-stage-CloudFrontStack-K1Y5VJ1KLH1X - IP Bad Bot Set"
+        }
+    ]
+}

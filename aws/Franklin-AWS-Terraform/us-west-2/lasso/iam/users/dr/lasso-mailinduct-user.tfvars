@@ -1,0 +1,18 @@
+iam_user_name			= "lasso-mailinduct-user-dr"
+iam_user_tags			= {
+		"Department": "LSO"
+		"LastUpdated": "06162023"
+		"CostCenter": "FMG"
+		"CreatedOn": "06162023"
+		"DataClassification": "Low"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "1.0"
+		"ApplicationName": "Lasso"
+		"TechStack": "None"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "mfaizudeen"
+	}
+iam_policy_name			= "arn:aws:iam::214946096060:policy/lasso-kms-policy-dr"
+lasso_kms_policy		= "true"

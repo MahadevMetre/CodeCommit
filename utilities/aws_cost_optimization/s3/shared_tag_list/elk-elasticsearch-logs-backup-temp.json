@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "ELK"
+        },
+        {
+            "Key": "Purpose",
+            "Value": "To backup the elastic logs"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "04062023"
+        }
+    ]
+}

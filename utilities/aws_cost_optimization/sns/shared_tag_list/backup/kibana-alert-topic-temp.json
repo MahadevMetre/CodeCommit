@@ -1,0 +1,21 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:964190570136:kibana-alert-topic-temp",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "ELK"
+    },
+    {
+      "Key": "Purpose",
+      "Value": "sns topic for kibana alerts"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "04062023"
+    }
+  ]
+}

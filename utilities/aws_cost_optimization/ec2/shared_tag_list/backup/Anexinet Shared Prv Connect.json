@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-04aad3022e25bc095"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "Anexinet Shared Prv Connect"
+    }
+  ]
+}

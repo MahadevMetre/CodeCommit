@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0a79a4cdc6950cdbe"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-PROD-CERT02"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+iam_policy_name			= "Cloud-front-digital-sg-update-lambda-policy-qa"
+iam_policy_tags			= {
+		"Department": "DGT"
+        "LastUpdated": "09122024"
+        "CostCenter":  "FMG"
+        "CreatedOn": "09122024"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Digital"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "DevOps"
+    }
+Cloud-front-digital-sg-update-lambda-policy	= "true"
+iam_policy_desc			= "Cloud Front Digital SG Update Lambda Policy QA"

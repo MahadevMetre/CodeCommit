@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-017b7b56593fd012f"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-CrushFTP-PCI1"
+    }
+  ]
+}

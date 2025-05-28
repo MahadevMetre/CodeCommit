@@ -1,0 +1,22 @@
+bucket_short_name = "lasso-batch-files"
+environment = "qa"
+logging_bucket_name =  "franklin-stage-s3-access-logs"
+logging_bucket_base_prefix = "lasso-batch-files-qa"
+acl                 = "private"
+tags ={
+    "ApplicationName"		= "Lasso"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "sbose"
+	"CreatedOn"				= "07182022"
+	"CostCenter"			= "FMG"
+	"DataClassification"	= "None"
+	"Department"			= "LSO"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "06262023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 90

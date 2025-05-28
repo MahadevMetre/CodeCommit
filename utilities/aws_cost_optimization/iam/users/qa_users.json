@@ -1,0 +1,18 @@
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "fmg-dw-terraform-user",
+            "UserId": "AIDAZHQTEVMU3P7ID2IHP",
+            "Arn": "arn:aws:iam::634621569833:user/fmg-dw-terraform-user",
+            "CreateDate": "2022-03-25T20:35:44+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses-smtp-user.20220309-052420",
+            "UserId": "AIDAZHQTEVMUXIMIK5O7P",
+            "Arn": "arn:aws:iam::634621569833:user/ses-smtp-user.20220309-052420",
+            "CreateDate": "2022-03-08T23:54:29+00:00"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+$ aws lambda get-function --function-name "maintenancegw-dustyPage-pci"
+{
+    "Configuration": {
+        "FunctionName": "maintenancegw-dustyPage-pci",
+        "FunctionArn": "arn:aws:lambda:us-east-1:601751840347:function:maintenancegw-dustyPage-pci",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::601751840347:role/maintenancegw-dustyPage-lambda-role-pci",
+        "Handler": "todos/dustyPage.dustyPage",
+        "CodeSize": 11071032,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2020-05-06T23:56:46.748+0000",
+        "CodeSha256": "7+Hq7Wotj8uz+Dfn3QQF+pc4SDwknKhmFoxkKyR57VE=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0a33ed77fe2cfb6ef",
+                "subnet-0a797df6e7dcae3db"
+            ],
+            "SecurityGroupIds": [
+                "sg-06fb67b2feff9f1b3"
+            ],
+            "VpcId": "vpc-00bd4d2758879b1e0"
+        },
+        "DeadLetterConfig": {
+            "TargetArn": "arn:aws:sqs:us-east-1:601751840347:frk-pci-lambda-dlq"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHg4AGu0HKeiAfOL+TrokLUKhiQE94JAF1f57czOFfyRRQEpgsxMpi44LY10GyA8maPoAAAAejB4BgkqhkiG9w0BBwagazBpAgEAMGQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMoBQ6llt1czqApAOnAgEQgDdkZbAlRD0L/ThQ92zxfEOFPmBHl5VOq47JXFGbkI7QcYg4BHUyw0AeW9iRYdtJCOlPouRKZfuo"
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:601751840347:key/1fde54ab-d3d8-4936-8abd-446f011abc58",
+        "TracingConfig": {
+            "Mode": "Active"
+        },
+        "RevisionId": "112b9dc5-7be3-4728-ba2d-a36e4adaa2c8",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:601751840347:layer:parameterlayer:6",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/601751840347/maintenancegw-dustyPage-pci-8e6c66c3-fb65-4720-af29-a1ca42dd032f?versionId=XbDB3a6HpetmxID3Ee29Yjt3MvbVCR1e&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHlUYOk7nNB9gkmmmjZa1gfvOSTBeX96JYqIVe7W40FUAiEA6fW8rspl6xzzCCVTafDi2z8vcE4bqqfc7tQfkeJC4rgqugUI%2B%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3NDk2Nzg5MDI4MzkiDAYqOvdfhdg%2F4eBIziqOBeBY%2ByMAmsBCKJ89zk4ofjRJz3Q%2BA2v7AtycwkRrBMr3APasSHdER23rIszJvF88yYyIOuf4%2F01az5rZ3Gmn%2B3BdjrW1V%2Bkiv%2FNyWpHbSbjpwE6BGdHeqb9OeCk04MbUrcPWVm7tB8KDT%2F5FM4uQebZqGdr4iofqRQy9cKom6fFgYmmxq1aSxDwpvuxh8kB8VXVJeGZ7Pvpei0iXm3cFf%2FPXRbMgasiqcRx2Fx%2FvWZ8fPntDiR1JIozfY3uzjdiBsYNtMtqz53IdMVwxU5Fv6vnmVQ0v8tG3pkTxTNSwyhYXPnwQ7Da%2FkR452kcJNeKoZC8EsKpmY9F76XiLCBm45WvKjprJEZcaGeuMbnp%2BD8OSz9kET1JgG3o1PdsBtuj2SEVVuiOGOo1r3FL7%2FEAsakQGHccDFV08GPD3rWFeGQIrJ1luGpLvg7tw1bpM7A3S7snIEZj1hoBNuWvZ9A%2BuCzSsr4embQnVWdAkPe4Ew%2Bd9iG2OTBEaTfpXJIseGzQ6SIlst2tS6NKuAZ2sSOOnCQehN3yoB%2BCUwMDGURzKwkhMjilHgzYln90JViCigJKy36TPotR%2BcXLVjN0AZZKJgeZyIZbc%2Bo6HQXKLbee2GHFGls7%2F7CsmIl5gNsXeLh5kG6DfVPdCmxH4whiVQkRGuZgrSRqCNod%2BgcQGe5x6M6SeHFblV5RP%2BrtxAMOOpeX0SxuYLk%2BwUGkrjyEU3QfwS4dhz%2B%2FPfLmXoJ4l45V7v9ovt9VA6E6ankEOIdG7fvvrtsx6ZzEzESvGsoKCGROnQGsb2HSvQyWoyCVYnbz7IwgdtdSYj0KRubODDnKI8cuc4LO6ZZF5YkIm0FzoK5tNAb%2Fjks9fBPS8EtYtpViRizCh09GiBjqxAQ3syb4SknhgliBLog9tu4VHSjeKBvQXva9mRVyQRiOjMH0PTIOaOtEJuHSHv2Tk7m%2BpxtVe%2FcTfiYMa96zDAmAdg%2BQCJ5Z%2BnIhwloRXO2WzeK4iTgD%2FLcTfmFewIs37ubQFnYj86%2F9m9btWMtbtKUqHtLyKGnsxDByO3yvDVkcpFlZt3T4nxuWr%2FThUtGYJfMUM%2F1HlrdQLl3Ti1gBWmRQI3oHpqFWVKxPa3FT1y%2BTwng%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230505T035454Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3ZOWMOWUX%2F20230505%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=59ded9be236d843f02f2634922a919baa27c8cd595f95a4f62be91310438690e"
+    },
+    "Tags": {
+        "Project": "maintenancegw",
+        "aws:cloudformation:stack-name": "maintenancegw-pci",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:601751840347:stack/maintenancegw-pci/25b0cd90-a8e2-11e9-be2f-0a0bad6f0bfa",
+        "STAGE": "pci",
+        "aws:cloudformation:logical-id": "DustyPageLambdaFunction",
+        "Name": "Lambda-priv-dustyPage-pci"
+    },
+    "Concurrency": {
+        "ReservedConcurrentExecutions": 40
+    }
+}

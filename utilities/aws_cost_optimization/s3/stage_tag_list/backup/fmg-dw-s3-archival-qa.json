@@ -1,0 +1,16 @@
+{
+    "TagSet": [
+        {
+            "Key": "env",
+            "Value": "qa"
+        },
+        {
+            "Key": "purpose",
+            "Value": "data-warehouse"
+        },
+        {
+            "Key": "Name",
+            "Value": "fmg-dw-s3-archival-qa"
+        }
+    ]
+}

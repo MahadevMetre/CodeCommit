@@ -1,0 +1,17 @@
+domain_name = "qa-dashboard-ui.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+        "Department": "DSB"
+		"LastUpdated": "06242024"
+		"CostCenter": "FMG"
+		"CreatedOn": "06242024"
+		"DataClassification": "Low"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "1.0"
+		"ApplicationName": "DashBoard"
+		"TechStack": "None"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "DevOps"
+    }

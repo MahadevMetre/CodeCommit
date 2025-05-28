@@ -1,0 +1,19 @@
+role_name							= "proteus-redshift-scheduler-stage"
+iam_role_desc						= "Grant access to redshift Stage"
+role_tags							= {
+       "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "mfaizudeen"
+	   "DataClassification" = "Low"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "05182023"
+	   "LastUpdated"        = "05182023"
+    }
+proteus-redshift-scheduler		    = true
+proteus-redshift-scheduler_arn	    = "arn:aws:iam::702230634984:policy/proteus-redshift-scheduler"

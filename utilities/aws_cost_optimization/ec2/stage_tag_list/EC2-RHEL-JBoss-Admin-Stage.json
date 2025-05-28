@@ -1,0 +1,76 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-005c6309ecb92216a"
+  ],
+  "Tags": [
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-JBoss-Admin-Stage"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "Department",
+      "Value": "HMS"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Type",
+      "Value": "jboss-admin-adhoc"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "JBoss"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "Operations"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "True"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    }
+  ]
+}

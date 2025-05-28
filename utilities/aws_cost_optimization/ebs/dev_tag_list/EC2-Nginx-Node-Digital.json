@@ -1,0 +1,68 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0a72dbf8892888e63"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-Nginx-Node-Digital"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "InstanceID",
+      "Value": "i-09f780e2e62dc159f"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Digital"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Department",
+      "Value": "DGT"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    }
+  ]
+}

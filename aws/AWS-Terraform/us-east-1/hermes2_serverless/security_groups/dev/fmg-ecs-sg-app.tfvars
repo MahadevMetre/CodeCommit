@@ -1,0 +1,42 @@
+sg_name				= "fmg-ecs-sg-app-dev"
+sg_description		= "Security group to allow inbound to ecs service from alb"
+sg_vpc_id			= "vpc-00ff8e33839358d28"
+sg_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07152023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "10312023"
+	"Name"					= "fmg-ecs-sg-app-dev"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+sg_ingress_rules = {
+	"1" = {
+		from_port			= 8080
+		to_port				= 8080
+		protocol			= "tcp"
+		cidr_blocks			= ["10.153.14.0/23"]
+		description			= "Port 8080 From Private Subnets Dev"
+	},
+	"2" = {
+		from_port			= 80
+		to_port				= 80
+		protocol			= "tcp"
+		cidr_blocks			= ["10.153.14.0/23"]
+		description			= "HTTP From Private Subnets Dev"
+	},
+	"3" = {
+		from_port			= 22
+		to_port				= 22
+		protocol			= "tcp"
+		cidr_blocks			= ["10.64.0.0/16"]
+		description			= "SSH From Palo VPN"
+	}
+}

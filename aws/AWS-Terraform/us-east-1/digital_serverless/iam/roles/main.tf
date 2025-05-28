@@ -1,0 +1,31 @@
+module "role" {
+	source									= "../../../../modules/iam/roles/"
+	policy_name								= var.policy_name
+	role_name								= var.role_name
+	role_tags								= var.role_tags
+	iam_role_desc							= var.iam_role_desc
+	lambda-invoke-policy					= var.lambda-invoke-policy
+	lambda_invoke_policy_arn				= var.lambda_invoke_policy_arn
+	digital-logger-policy					= var.digital-logger-policy
+	digital_logger_policy_arn				= var.digital_logger_policy_arn
+	digital-secrets-manager-policy			= var.digital-secrets-manager-policy
+	digital_secrets_manager_policy_arn		= var.digital_secrets_manager_policy_arn
+	digital-vpc-access-policy				= var.digital-vpc-access-policy
+	digital_vpc_access_policy_arn			= var.digital_vpc_access_policy_arn
+	digital-ecr-docker-policy				= var.digital-ecr-docker-policy
+	digital_ecr_docker_policy_arn			= var.digital_ecr_docker_policy_arn
+	eventbridge_scheduler_source_arn		= var.eventbridge_scheduler_source_arn
+	marketing-vanity-lambda-policy			= var.marketing-vanity-lambda-policy
+	s3_bucket_name							= var.s3_bucket_name
+	secrets_name							= var.secrets_name
+	marketing-dynamodb-policy               = var.marketing-dynamodb-policy
+	marketing_dynamodb_policy_arn           = var.marketing_dynamodb_policy_arn
+	marketing_kms_policy                    = var.marketing_kms_policy
+	marketing_kms_policy_arn                = var.marketing_kms_policy_arn
+	digital-serverless-parameter    		= var.digital-serverless-parameter
+  	kms_key                         		= var.kms_key
+	Cloud-front-digital-sg-update-lambda-policy_arn = var.Cloud-front-digital-sg-update-lambda-policy_arn
+	Cloud-front-digital-sg-update-lambda-policy = var.Cloud-front-digital-sg-update-lambda-policy
+    # digital-cognito-up-sms-policy_arn = var.digital-cognito-up-sms-policy_arn
+    # digital-cognito-up-sms-policy = var.digital-cognito-up-sms-policy
+}

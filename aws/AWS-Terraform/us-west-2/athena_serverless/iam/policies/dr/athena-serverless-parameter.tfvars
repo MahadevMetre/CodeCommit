@@ -1,0 +1,5 @@
+iam_policy_name				= "athena-serverless-parameter-dr"
+iam_role_id					= "athena-ecs-task-execution-role-dr"
+athena-serverless-parameter	= "true"
+ssm_parameter_arn           = "arn:aws:ssm:us-east-1:214946096060:parameter/athena-serverless-parameters-dr"
+kms_key                     = "update-arn-kms-athena-serverless-dr/kms"

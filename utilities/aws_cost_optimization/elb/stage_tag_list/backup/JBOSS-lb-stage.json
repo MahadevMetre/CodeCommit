@@ -1,0 +1,21 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/app/JBOSS-lb-stage/46e76f0af7233aad",
+  "Tags": [
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CretedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Name",
+      "Value": "JBOSS-lb-stage"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-09a4b401c51ec4916"
+  ],
+  "Tags": [
+    {
+      "Key": "ApplicationName",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "Operations"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "Project",
+      "Value": "CCMS"
+    },
+    {
+      "Key": "Department",
+      "Value": "HMS"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-RML-Stage1"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Type",
+      "Value": "adhoc"
+    },
+    {
+      "Key": "InstanceID",
+      "Value": "i-0d058b9c78b3794b2"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    }
+  ]
+}

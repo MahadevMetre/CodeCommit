@@ -1,0 +1,214 @@
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "access_key_for_vs_code",
+            "UserId": "AIDARWL4S4CEWXP5MMCMM",
+            "Arn": "arn:aws:iam::116762271881:user/access_key_for_vs_code",
+            "CreateDate": "2023-03-07T09:10:23+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "apilla",
+            "UserId": "AIDARWL4S4CEV6U3H4PMY",
+            "Arn": "arn:aws:iam::116762271881:user/apilla",
+            "CreateDate": "2023-01-26T20:11:08+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "aws-s3-api-user-dev",
+            "UserId": "AIDARWL4S4CE7DG4NRQOM",
+            "Arn": "arn:aws:iam::116762271881:user/aws-s3-api-user-dev",
+            "CreateDate": "2022-12-22T04:12:31+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "brawat",
+            "UserId": "AIDARWL4S4CETFJH3SCDH",
+            "Arn": "arn:aws:iam::116762271881:user/brawat",
+            "CreateDate": "2022-03-16T07:59:12+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "dev_s3_credentials",
+            "UserId": "AIDARWL4S4CEZUIEW3YIX",
+            "Arn": "arn:aws:iam::116762271881:user/dev_s3_credentials",
+            "CreateDate": "2023-02-20T15:51:21+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "digital-admin-cognito-user",
+            "UserId": "AIDARWL4S4CEY5S2QKYHT",
+            "Arn": "arn:aws:iam::116762271881:user/digital-admin-cognito-user",
+            "CreateDate": "2021-07-05T06:25:06+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr_user_jenkins",
+            "UserId": "AIDARWL4S4CE7B3PDZS2O",
+            "Arn": "arn:aws:iam::116762271881:user/ecr_user_jenkins",
+            "CreateDate": "2023-01-06T15:11:11+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "fmadison-dw-etl",
+            "UserId": "AIDARWL4S4CE4DP6VTDTD",
+            "Arn": "arn:aws:iam::116762271881:user/fmadison-dw-etl",
+            "CreateDate": "2022-02-11T13:26:56+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "fmadison-dw-qlik-replicate",
+            "UserId": "AIDARWL4S4CEZDF35GDE5",
+            "Arn": "arn:aws:iam::116762271881:user/fmadison-dw-qlik-replicate",
+            "CreateDate": "2022-01-14T17:36:38+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "garamide",
+            "UserId": "AIDARWL4S4CEZAZIHNZMX",
+            "Arn": "arn:aws:iam::116762271881:user/garamide",
+            "CreateDate": "2022-03-22T14:56:35+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "gkim",
+            "UserId": "AIDARWL4S4CEZE5LXDN3R",
+            "Arn": "arn:aws:iam::116762271881:user/gkim",
+            "CreateDate": "2022-03-16T07:55:53+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "jenkins-glue-role-temp",
+            "UserId": "AIDARWL4S4CEU3PRAMS66",
+            "Arn": "arn:aws:iam::116762271881:user/jenkins-glue-role-temp",
+            "CreateDate": "2023-04-25T12:01:45+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "jenkins_ec2_management_user_dev",
+            "UserId": "AIDARWL4S4CE7G4DDI3ZD",
+            "Arn": "arn:aws:iam::116762271881:user/jenkins_ec2_management_user_dev",
+            "CreateDate": "2023-04-14T19:51:55+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "kmehto",
+            "UserId": "AIDARWL4S4CEW3CB4GM3A",
+            "Arn": "arn:aws:iam::116762271881:user/kmehto",
+            "CreateDate": "2023-02-01T16:00:00+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ksenkodi",
+            "UserId": "AIDARWL4S4CESXUNFRVS4",
+            "Arn": "arn:aws:iam::116762271881:user/ksenkodi",
+            "CreateDate": "2022-03-16T07:46:52+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "kvijayakumar",
+            "UserId": "AIDARWL4S4CE2YAVA4FUM",
+            "Arn": "arn:aws:iam::116762271881:user/kvijayakumar",
+            "CreateDate": "2023-03-21T13:48:30+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "mgunti",
+            "UserId": "AIDARWL4S4CE3PB6HIFGN",
+            "Arn": "arn:aws:iam::116762271881:user/mgunti",
+            "CreateDate": "2022-03-16T14:13:19+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "porteus-qlik-s3-dev",
+            "UserId": "AIDARWL4S4CEVQXHJTCZF",
+            "Arn": "arn:aws:iam::116762271881:user/porteus-qlik-s3-dev",
+            "CreateDate": "2023-02-15T05:25:34+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "proteus-local-development",
+            "UserId": "AIDARWL4S4CEXVFG25J45",
+            "Arn": "arn:aws:iam::116762271881:user/proteus-local-development",
+            "CreateDate": "2023-04-25T19:33:39+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "rfountain",
+            "UserId": "AIDARWL4S4CE6I7NBRBX4",
+            "Arn": "arn:aws:iam::116762271881:user/rfountain",
+            "CreateDate": "2022-04-20T20:40:05+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "rreddy",
+            "UserId": "AIDARWL4S4CE5CUYPHRQY",
+            "Arn": "arn:aws:iam::116762271881:user/rreddy",
+            "CreateDate": "2022-10-10T16:44:16+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "S3-Browser",
+            "UserId": "AIDARWL4S4CE4K2JLQDOH",
+            "Arn": "arn:aws:iam::116762271881:user/S3-Browser",
+            "CreateDate": "2022-09-22T04:34:52+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "serverless",
+            "UserId": "AIDARWL4S4CESQ56AA27I",
+            "Arn": "arn:aws:iam::116762271881:user/serverless",
+            "CreateDate": "2022-02-08T04:30:09+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "SES-Api-User-Dev",
+            "UserId": "AIDARWL4S4CEXSASRWVRM",
+            "Arn": "arn:aws:iam::116762271881:user/SES-Api-User-Dev",
+            "CreateDate": "2020-08-26T18:33:36+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses-smtp-dev-fmservice",
+            "UserId": "AIDARWL4S4CEUKSD3GF7D",
+            "Arn": "arn:aws:iam::116762271881:user/ses-smtp-dev-fmservice",
+            "CreateDate": "2022-02-14T15:08:02+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses-smtp-user-fm-dev",
+            "UserId": "AIDARWL4S4CEWMEOZNLPN",
+            "Arn": "arn:aws:iam::116762271881:user/ses-smtp-user-fm-dev",
+            "CreateDate": "2020-02-06T20:36:56+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses-smtp-user.jira",
+            "UserId": "AIDARWL4S4CETRFXIGOL2",
+            "Arn": "arn:aws:iam::116762271881:user/ses-smtp-user.jira",
+            "CreateDate": "2022-12-28T05:06:05+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "SGudavalli",
+            "UserId": "AIDARWL4S4CEYA5YNZN5R",
+            "Arn": "arn:aws:iam::116762271881:user/SGudavalli",
+            "CreateDate": "2022-03-16T07:52:09+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ssitaraman",
+            "UserId": "AIDARWL4S4CE6QA6AIZLK",
+            "Arn": "arn:aws:iam::116762271881:user/ssitaraman",
+            "CreateDate": "2022-05-31T18:37:12+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "userpool_admin_test",
+            "UserId": "AIDARWL4S4CES6J7E2WYL",
+            "Arn": "arn:aws:iam::116762271881:user/userpool_admin_test",
+            "CreateDate": "2021-06-11T06:35:40+00:00"
+        }
+    ]
+}

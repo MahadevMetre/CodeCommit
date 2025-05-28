@@ -1,0 +1,21 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/116762271881/selfservice-confirm-user-incoming-dev",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "Digital",
+    "CreatedBy": "jsamuel",
+    "Automated": "False",
+    "BackupPlan": "None",
+    "Purpose": "Confirm User Registration",
+    "Project": "Digital",
+    "Department": "DGT",
+    "CostCenter": "FMG",
+    "Version": "1.0",
+    "createdBy": "jsamuel",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "NoInfo"
+  }
+}

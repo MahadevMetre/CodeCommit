@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0f4c978c33af2e9b4"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-PROD-LDAP02"
+    }
+  ]
+}

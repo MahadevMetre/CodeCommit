@@ -1,0 +1,68 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0c18a2d4b0c1acf2f"
+  ],
+  "Tags": [
+    {
+      "Key": "DataClassification",
+      "Value": "PCI"
+    },
+    {
+      "Key": "Department",
+      "Value": "DLH"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-Win-fmg-dw-qlik_replica2"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Datawarehouse"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "Qlik"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-03740b6445e2f70fb"
+  ],
+  "Tags": [
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-PSCHM-PCI1"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "PCI"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "Department",
+      "Value": "HMS"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "PsCharm"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Weekly"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "Operations"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    }
+  ]
+}

@@ -1,0 +1,3215 @@
+{
+  "Roles": [
+    {
+      "Path": "/",
+      "RoleName": "alertlogic-iam-role-ci-ma-ALIamRolecimanual2020120-OCSJLCNCK8JN",
+      "RoleId": "AROARWL4S4CEW4GDD4SHR",
+      "Arn": "arn:aws:iam::116762271881:role/alertlogic-iam-role-ci-ma-ALIamRolecimanual2020120-OCSJLCNCK8JN",
+      "CreateDate": "2021-05-19T15:10:36+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::733251395267:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "134273047"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Role for Alert Logic to assume role and perform action on this account",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AlertLogicGaurdDuty-BasicLambdaRole-N6RDDMALHBBN",
+      "RoleId": "AROARWL4S4CEVMUIRUW4R",
+      "Arn": "arn:aws:iam::116762271881:role/AlertLogicGaurdDuty-BasicLambdaRole-N6RDDMALHBBN",
+      "CreateDate": "2021-12-10T19:13:44+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AlertLogicGaurdDuty-CloudWatchEventsRole-1XBIKRTS6NWRD",
+      "RoleId": "AROARWL4S4CE35Z5ORCW7",
+      "Arn": "arn:aws:iam::116762271881:role/AlertLogicGaurdDuty-CloudWatchEventsRole-1XBIKRTS6NWRD",
+      "CreateDate": "2021-12-10T19:16:54+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "events.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AlertLogicGaurdDuty-CollectLambdaRole-1GMS2SEF2PMMP",
+      "RoleId": "AROARWL4S4CEWCUW4HVIK",
+      "Arn": "arn:aws:iam::116762271881:role/AlertLogicGaurdDuty-CollectLambdaRole-1GMS2SEF2PMMP",
+      "CreateDate": "2021-12-10T19:13:45+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AlertLogicGaurdDuty-EncryptLambdaRole-7SCX5VLC0EUN",
+      "RoleId": "AROARWL4S4CEXZMNFY62N",
+      "Arn": "arn:aws:iam::116762271881:role/AlertLogicGaurdDuty-EncryptLambdaRole-7SCX5VLC0EUN",
+      "CreateDate": "2021-12-10T19:13:45+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AmazonSSMRoleForAutomationAssumeQuickSetup",
+      "RoleId": "AROARWL4S4CE3CVDW6JBY",
+      "Arn": "arn:aws:iam::116762271881:role/AmazonSSMRoleForAutomationAssumeQuickSetup",
+      "CreateDate": "2019-10-09T15:57:22+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ssm.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "IAM role for SSM for Quick-Setup to run automation",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AmazonSSMRoleForInstancesQuickSetup",
+      "RoleId": "AROARWL4S4CEWDM5E4NIU",
+      "Arn": "arn:aws:iam::116762271881:role/AmazonSSMRoleForInstancesQuickSetup",
+      "CreateDate": "2019-10-09T15:57:22+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "EC2 role for SSM for Quick-Setup",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "Amazon_EventBridge_Invoke_Step_Functions_1357957546",
+      "RoleId": "AROARWL4S4CEQQ65JJGAN",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/Amazon_EventBridge_Invoke_Step_Functions_1357957546",
+      "CreateDate": "2022-03-10T15:59:03+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "events.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "Amazon_EventBridge_Invoke_Step_Functions_551743429",
+      "RoleId": "AROARWL4S4CE7FYZCGHIP",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/Amazon_EventBridge_Invoke_Step_Functions_551743429",
+      "CreateDate": "2022-07-07T17:10:26+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "events.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "Amazon_EventBridge_Invoke_Step_Functions_993454276",
+      "RoleId": "AROARWL4S4CE4HA2J4GGQ",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/Amazon_EventBridge_Invoke_Step_Functions_993454276",
+      "CreateDate": "2022-05-04T21:09:40+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "events.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Anexinet-Ops",
+      "RoleId": "AROARWL4S4CE26EGTKJBV",
+      "Arn": "arn:aws:iam::116762271881:role/Anexinet-Ops",
+      "CreateDate": "2020-09-03T16:45:02+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Read Only role for Anexinet Operations team.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "aws-config-notifications-lambda-role-dev",
+      "RoleId": "AROARWL4S4CE5OV7TSMCS",
+      "Arn": "arn:aws:iam::116762271881:role/aws-config-notifications-lambda-role-dev",
+      "CreateDate": "2023-03-04T09:30:38+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "aws-elasticbeanstalk-service-role",
+      "RoleId": "AROARWL4S4CE23MUJKEQC",
+      "Arn": "arn:aws:iam::116762271881:role/aws-elasticbeanstalk-service-role",
+      "CreateDate": "2019-12-19T15:07:35+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "elasticbeanstalk.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "elasticbeanstalk"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AWS-QuickSetup-HostMgmtRole-us-east-1-fdp8p",
+      "RoleId": "AROARWL4S4CETOQD5BR74",
+      "Arn": "arn:aws:iam::116762271881:role/AWS-QuickSetup-HostMgmtRole-us-east-1-fdp8p",
+      "CreateDate": "2023-03-14T18:31:06+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ssm.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AWS-QuickSetup-StackSet-Local-AdministrationRole",
+      "RoleId": "AROARWL4S4CEWLSLYFQHI",
+      "Arn": "arn:aws:iam::116762271881:role/AWS-QuickSetup-StackSet-Local-AdministrationRole",
+      "CreateDate": "2023-02-09T17:31:39+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cloudformation.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AWS-QuickSetup-StackSet-Local-ExecutionRole",
+      "RoleId": "AROARWL4S4CE3YAV7K6DA",
+      "Arn": "arn:aws:iam::116762271881:role/AWS-QuickSetup-StackSet-Local-ExecutionRole",
+      "CreateDate": "2023-02-09T17:31:56+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::116762271881:role/AWS-QuickSetup-StackSet-Local-AdministrationRole"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "AWSBackupDefaultServiceRole",
+      "RoleId": "AROARWL4S4CE7U4UYFYLL",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/AWSBackupDefaultServiceRole",
+      "CreateDate": "2023-02-08T20:10:25+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "backup.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Provides AWS Backup permission to create backups and perform restores on your behalf across AWS services",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AWSCustomMonitorAdminSSM",
+      "RoleId": "AROARWL4S4CEZKHHNQ3F5",
+      "Arn": "arn:aws:iam::116762271881:role/AWSCustomMonitorAdminSSM",
+      "CreateDate": "2022-09-27T20:49:35+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows EC2 instances to call AWS services on your behalf.  Only used to add the Cloudwatch Agent Config file to SSM.  Remove after config file has been loaded.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "AWSCustomMonitorsEC2",
+      "RoleId": "AROARWL4S4CE7FDSN4GM5",
+      "Arn": "arn:aws:iam::116762271881:role/AWSCustomMonitorsEC2",
+      "CreateDate": "2022-09-27T20:40:04+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows EC2 instances to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/email.cognito-idp.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForAmazonCognitoIdpEmailService",
+      "RoleId": "AROARWL4S4CESV35RLNW7",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/email.cognito-idp.amazonaws.com/AWSServiceRoleForAmazonCognitoIdpEmailService",
+      "CreateDate": "2021-06-14T07:46:50+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "email.cognito-idp.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Service linked role for Amazon Cognito User Pools service to send emails on your behalf",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/elasticfilesystem.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForAmazonElasticFileSystem",
+      "RoleId": "AROARWL4S4CETSXKJ7FUP",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/elasticfilesystem.amazonaws.com/AWSServiceRoleForAmazonElasticFileSystem",
+      "CreateDate": "2020-01-02T23:30:12+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "elasticfilesystem.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/guardduty.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForAmazonGuardDuty",
+      "RoleId": "AROAJH6DEX5KBMWWBPB5Y",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/guardduty.amazonaws.com/AWSServiceRoleForAmazonGuardDuty",
+      "CreateDate": "2019-01-30T16:37:36+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "guardduty.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "A service-linked role required for Amazon GuardDuty to access your resources. ",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/ssm.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForAmazonSSM",
+      "RoleId": "AROARWL4S4CEVFHMPTSMG",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/ssm.amazonaws.com/AWSServiceRoleForAmazonSSM",
+      "CreateDate": "2019-10-09T15:58:30+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ssm.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Provides access to AWS Resources managed or used by Amazon SSM.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/opsinsights.ssm.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForAmazonSSM_OpsInsights",
+      "RoleId": "AROARWL4S4CEUPUV6VKP2",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/opsinsights.ssm.amazonaws.com/AWSServiceRoleForAmazonSSM_OpsInsights",
+      "CreateDate": "2023-03-13T16:04:57+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "opsinsights.ssm.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Grants AWS Systems Manager (SSM) permission to create OpsInsights.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/ops.apigateway.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForAPIGateway",
+      "RoleId": "AROARWL4S4CEVHYEAQYLN",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/ops.apigateway.amazonaws.com/AWSServiceRoleForAPIGateway",
+      "CreateDate": "2021-06-09T11:21:04+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ops.apigateway.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "The Service Linked Role is used by Amazon API Gateway.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/dynamodb.application-autoscaling.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForApplicationAutoScaling_DynamoDBTable",
+      "RoleId": "AROARWL4S4CE5DGMA4X2O",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/dynamodb.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_DynamoDBTable",
+      "CreateDate": "2022-03-10T14:12:43+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "dynamodb.application-autoscaling.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/autoscaling.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForAutoScaling",
+      "RoleId": "AROARWL4S4CEWCNIFO5UK",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+      "CreateDate": "2019-12-19T15:08:23+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "autoscaling.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Default Service-Linked Role enables access to AWS Services and Resources used or managed by Auto Scaling",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/license-manager.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForAWSLicenseManagerRole",
+      "RoleId": "AROARWL4S4CE5YNNKED5F",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/license-manager.amazonaws.com/AWSServiceRoleForAWSLicenseManagerRole",
+      "CreateDate": "2022-09-08T01:24:24+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "license-manager.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/backup.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForBackup",
+      "RoleId": "AROARWL4S4CET6WF5YH4A",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/backup.amazonaws.com/AWSServiceRoleForBackup",
+      "CreateDate": "2021-05-06T14:39:37+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "backup.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/reports.backup.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForBackupReports",
+      "RoleId": "AROARWL4S4CEWHH376UKO",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/reports.backup.amazonaws.com/AWSServiceRoleForBackupReports",
+      "CreateDate": "2023-02-08T20:31:18+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "reports.backup.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/member.org.stacksets.cloudformation.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForCloudFormationStackSetsOrgMember",
+      "RoleId": "AROARWL4S4CESKE23FLU7",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/member.org.stacksets.cloudformation.amazonaws.com/AWSServiceRoleForCloudFormationStackSetsOrgMember",
+      "CreateDate": "2023-03-30T18:52:20+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "member.org.stacksets.cloudformation.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Service linked role for CloudFormation StackSets (Organization Member)",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/logger.cloudfront.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForCloudFrontLogger",
+      "RoleId": "AROARWL4S4CESF2PIAWXG",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/logger.cloudfront.amazonaws.com/AWSServiceRoleForCloudFrontLogger",
+      "CreateDate": "2019-04-26T07:16:33+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "logger.cloudfront.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/cloudwatch-crossaccount.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForCloudWatchCrossAccount",
+      "RoleId": "AROARWL4S4CE2GS2Q2MVU",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/cloudwatch-crossaccount.amazonaws.com/AWSServiceRoleForCloudWatchCrossAccount",
+      "CreateDate": "2019-11-12T17:46:47+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cloudwatch-crossaccount.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows CloudWatch to assume CloudWatch-CrossAccountSharing roles in remote accounts on behalf of the current account in order to display data cross-account, cross region",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/compute-optimizer.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForComputeOptimizer",
+      "RoleId": "AROARWL4S4CEVWROVISBN",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/compute-optimizer.amazonaws.com/AWSServiceRoleForComputeOptimizer",
+      "CreateDate": "2023-04-14T07:13:14+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "compute-optimizer.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows ComputeOptimizer to call AWS services and collect workload details on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/config.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForConfig",
+      "RoleId": "AROARWL4S4CEQGJCSHWMB",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/config.amazonaws.com/AWSServiceRoleForConfig",
+      "CreateDate": "2019-11-12T04:31:45+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "config.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/ecs.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForECS",
+      "RoleId": "AROARWL4S4CEZSPZEL56X",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+      "CreateDate": "2023-01-06T15:53:43+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ecs.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Role to enable Amazon ECS to manage your cluster.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/elasticloadbalancing.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForElasticLoadBalancing",
+      "RoleId": "AROARWL4S4CEUFREXSM2Q",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing",
+      "CreateDate": "2019-08-16T20:19:14+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "elasticloadbalancing.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows ELB to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/elasticmapreduce.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForEMRCleanup",
+      "RoleId": "AROARWL4S4CEWWZI52ZTK",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/elasticmapreduce.amazonaws.com/AWSServiceRoleForEMRCleanup",
+      "CreateDate": "2023-03-13T09:27:18+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "elasticmapreduce.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/lakeformation.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForLakeFormationDataAccess",
+      "RoleId": "AROARWL4S4CETWC3WU3ZX",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/lakeformation.amazonaws.com/AWSServiceRoleForLakeFormationDataAccess",
+      "CreateDate": "2022-01-15T14:37:23+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lakeformation.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/replicator.lambda.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForLambdaReplicator",
+      "RoleId": "AROARWL4S4CERLW223UIU",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/replicator.lambda.amazonaws.com/AWSServiceRoleForLambdaReplicator",
+      "CreateDate": "2019-04-26T07:16:33+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "replicator.lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/license-management.marketplace.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForMarketplaceLicenseManagement",
+      "RoleId": "AROARWL4S4CEUGURLWCHW",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/license-management.marketplace.amazonaws.com/AWSServiceRoleForMarketplaceLicenseManagement",
+      "CreateDate": "2022-09-08T01:24:24+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "license-management.marketplace.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/organizations.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForOrganizations",
+      "RoleId": "AROARWL4S4CEW5KHK64SL",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/organizations.amazonaws.com/AWSServiceRoleForOrganizations",
+      "CreateDate": "2019-08-21T20:31:52+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "organizations.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Service-linked role used by AWS Organizations to enable integration of other AWS services with Organizations.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/rds.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForRDS",
+      "RoleId": "AROARWL4S4CER5RIWNFBC",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/rds.amazonaws.com/AWSServiceRoleForRDS",
+      "CreateDate": "2019-09-30T20:39:58+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "rds.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Amazon RDS to manage AWS resources on your behalf",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/redshift.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForRedshift",
+      "RoleId": "AROARWL4S4CEZ7KMHHWYT",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift",
+      "CreateDate": "2022-01-12T23:48:56+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "redshift.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Amazon Redshift to call AWS services on your behalf ",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/resource-explorer-2.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForResourceExplorer",
+      "RoleId": "AROARWL4S4CEWSL2IB6TS",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "CreateDate": "2022-11-09T17:41:11+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "resource-explorer-2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/securityhub.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForSecurityHub",
+      "RoleId": "AROARWL4S4CER3ZYG7MGB",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/securityhub.amazonaws.com/AWSServiceRoleForSecurityHub",
+      "CreateDate": "2023-03-23T15:08:38+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "securityhub.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "A service-linked role required for AWS Security Hub to access your resources.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/support.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForSupport",
+      "RoleId": "AROAIECQLGRB2CVKWNTKU",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/support.amazonaws.com/AWSServiceRoleForSupport",
+      "CreateDate": "2019-01-29T20:49:31+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "support.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Enables resource access for AWS to provide billing, administrative and support services",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/opsdatasync.ssm.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForSystemsManagerOpsDataSync",
+      "RoleId": "AROARWL4S4CEYZN7OA6SM",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/opsdatasync.ssm.amazonaws.com/AWSServiceRoleForSystemsManagerOpsDataSync",
+      "CreateDate": "2023-02-20T18:50:55+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "opsdatasync.ssm.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Provides access to AWS Resources managed or used by Amazon SSM Explorer.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/trustedadvisor.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForTrustedAdvisor",
+      "RoleId": "AROAIS5Q44J2TGXZQIVUG",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/trustedadvisor.amazonaws.com/AWSServiceRoleForTrustedAdvisor",
+      "CreateDate": "2019-01-29T20:49:31+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "trustedadvisor.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Access for the AWS Trusted Advisor Service to help reduce cost, increase performance, and improve security of your AWS environment.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/aws-service-role/transitgateway.amazonaws.com/",
+      "RoleName": "AWSServiceRoleForVPCTransitGateway",
+      "RoleId": "AROAJZ5EEBNY2XZCE2MTQ",
+      "Arn": "arn:aws:iam::116762271881:role/aws-service-role/transitgateway.amazonaws.com/AWSServiceRoleForVPCTransitGateway",
+      "CreateDate": "2019-03-12T22:37:56+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "transitgateway.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "AWSSystemsManagerDefaultEC2InstanceManagementRole",
+      "RoleId": "AROARWL4S4CE7SN6UWABW",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/AWSSystemsManagerDefaultEC2InstanceManagementRole",
+      "CreateDate": "2023-03-13T12:36:42+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ssm.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "AWS Systems Manager Default EC2 Instance Management Role",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "aws_config_bucket_events_role",
+      "RoleId": "AROARWL4S4CEVZNPR73L5",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/aws_config_bucket_events_role",
+      "CreateDate": "2023-01-12T14:04:02+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "batch-job-launcher-role-dev",
+      "RoleId": "AROARWL4S4CEZEXWAEZTX",
+      "Arn": "arn:aws:iam::116762271881:role/batch-job-launcher-role-dev",
+      "CreateDate": "2023-03-20T10:53:45+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "LambdaAssumeRole",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          },
+          {
+            "Sid": "EventBridgeAssumeRole",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "scheduler.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "aws:SourceAccount": "116762271881"
+              },
+              "StringLike": {
+                "aws:SourceArn": "arn:aws:scheduler:us-east-1:116762271881:schedule/batch_integration/*"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "bottomsup-lambda-role-dev",
+      "RoleId": "AROARWL4S4CEZFXM26DH3",
+      "Arn": "arn:aws:iam::116762271881:role/bottomsup-lambda-role-dev",
+      "CreateDate": "2023-01-24T09:50:04+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Lambda to call AWS services Dev",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "captiva-resolution-step-functions-role-dev-manual",
+      "RoleId": "AROARWL4S4CEVMYNYNDD6",
+      "Arn": "arn:aws:iam::116762271881:role/captiva-resolution-step-functions-role-dev-manual",
+      "CreateDate": "2022-07-08T17:09:01+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "states.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Captiva Resolution Step functions roles to access other required AWS services",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "CheckPointRole",
+      "RoleId": "AROARWL4S4CE33PGN6GUR",
+      "Arn": "arn:aws:iam::116762271881:role/CheckPointRole",
+      "CreateDate": "2021-05-20T13:24:27+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::634729597623:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "Exb8qcUyyrMHOpQliyUtmOBW"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Role to provide permissions to Anexinet team to use for CheckPoint  Project",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Cloud-front-digital-sg-update-lambda-role",
+      "RoleId": "AROARWL4S4CE2AA5HPQ7P",
+      "Arn": "arn:aws:iam::116762271881:role/Cloud-front-digital-sg-update-lambda-role",
+      "CreateDate": "2021-07-14T05:55:39+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Lambda functions to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "CSV-to-DDB-LambdaRole-19JGV2R2PCJE1",
+      "RoleId": "AROARWL4S4CEV2OWMPDGB",
+      "Arn": "arn:aws:iam::116762271881:role/CSV-to-DDB-LambdaRole-19JGV2R2PCJE1",
+      "CreateDate": "2022-10-19T11:33:59+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": [
+                "lambda.amazonaws.com",
+                "s3.amazonaws.com"
+              ]
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "digital-cognito-admin-role",
+      "RoleId": "AROARWL4S4CE2SYIYTKK7",
+      "Arn": "arn:aws:iam::116762271881:role/digital-cognito-admin-role",
+      "CreateDate": "2021-07-05T06:11:08+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1_tnDOC6ast"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "digital-cognito-ip-auth-role",
+      "RoleId": "AROARWL4S4CET5GWFQJRU",
+      "Arn": "arn:aws:iam::116762271881:role/digital-cognito-ip-auth-role",
+      "CreateDate": "2021-07-13T14:06:03+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1:34ebac37-31c7-40a7-8abb-7fa90d5a8778"
+              },
+              "ForAnyValue:StringLike": {
+                "cognito-identity.amazonaws.com:amr": "authenticated"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "digital-cognito-ip-unauth-role",
+      "RoleId": "AROARWL4S4CEZZ327BZ65",
+      "Arn": "arn:aws:iam::116762271881:role/digital-cognito-ip-unauth-role",
+      "CreateDate": "2021-07-13T14:23:06+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1:34ebac37-31c7-40a7-8abb-7fa90d5a8778"
+              },
+              "StringLike": {
+                "cognito-identity.amazonaws.com:amr": "unauthenticated"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "digital-cognito-up-sms-role",
+      "RoleId": "AROARWL4S4CEUPIFMJY7V",
+      "Arn": "arn:aws:iam::116762271881:role/digital-cognito-up-sms-role",
+      "CreateDate": "2021-07-08T07:04:24+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1_tnDOC6ast"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "digital-lambda-role-dev",
+      "RoleId": "AROARWL4S4CEW2UQS2TL6",
+      "Arn": "arn:aws:iam::116762271881:role/digital-lambda-role-dev",
+      "CreateDate": "2021-07-06T06:11:24+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Lambda functions to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "digital-user-migration-dev",
+      "RoleId": "AROARWL4S4CEWZRK7DWOI",
+      "Arn": "arn:aws:iam::116762271881:role/digital-user-migration-dev",
+      "CreateDate": "2022-02-24T02:42:08+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Lambda functions to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "digital-userpool-sms-role-dev",
+      "RoleId": "AROARWL4S4CEUPQUFITUP",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/digital-userpool-sms-role-dev",
+      "CreateDate": "2021-07-28T09:06:23+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cognito-idp.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "147fd3ea-53ed-4b24-bee7-b93b6133bcbe"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "dms-access-for-endpoint",
+      "RoleId": "AROARWL4S4CERS4EKA52O",
+      "Arn": "arn:aws:iam::116762271881:role/dms-access-for-endpoint",
+      "CreateDate": "2022-08-04T12:19:15+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "1",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "dms.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          },
+          {
+            "Sid": "2",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "redshift.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "dms-cloudwatch-logs-role",
+      "RoleId": "AROARWL4S4CEYCO2SMZEB",
+      "Arn": "arn:aws:iam::116762271881:role/dms-cloudwatch-logs-role",
+      "CreateDate": "2022-08-30T20:13:13+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "dms.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "dms-vpc-role",
+      "RoleId": "AROARWL4S4CEXJFK7VAKA",
+      "Arn": "arn:aws:iam::116762271881:role/dms-vpc-role",
+      "CreateDate": "2022-01-12T04:29:00+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "dms.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "ec2-AutoScaling_SNS",
+      "RoleId": "AROARWL4S4CE7ZOOTMOKK",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/ec2-AutoScaling_SNS",
+      "CreateDate": "2021-03-29T10:46:14+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "ec2-AutoScaling_SNS_role",
+      "RoleId": "AROARWL4S4CEZ2K635V4U",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/ec2-AutoScaling_SNS_role",
+      "CreateDate": "2021-03-29T10:45:03+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "ec2-start-stop-role-dev",
+      "RoleId": "AROARWL4S4CEZQ7YM7GWA",
+      "Arn": "arn:aws:iam::116762271881:role/ec2-start-stop-role-dev",
+      "CreateDate": "2023-01-21T14:45:01+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "LambdaAssumeRole",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          },
+          {
+            "Sid": "EventBridgeAssumeRole",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "scheduler.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "aws:SourceAccount": "116762271881"
+              },
+              "StringLike": {
+                "aws:SourceArn": "arn:aws:scheduler:us-east-1:116762271881:schedule/ec2_instance_management/*"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "EC2CloudWatch2AgentRole",
+      "RoleId": "AROARWL4S4CEVVREOJ2F5",
+      "Arn": "arn:aws:iam::116762271881:role/EC2CloudWatch2AgentRole",
+      "CreateDate": "2022-08-02T19:23:44+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows EC2 instances to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "ecsTaskExecutionRole",
+      "RoleId": "AROARWL4S4CEQVAOE2RDJ",
+      "Arn": "arn:aws:iam::116762271881:role/ecsTaskExecutionRole",
+      "CreateDate": "2023-01-10T05:47:10+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2008-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ecs-tasks.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "elk_logs",
+      "RoleId": "AROARWL4S4CEURFPOIDHK",
+      "Arn": "arn:aws:iam::116762271881:role/elk_logs",
+      "CreateDate": "2023-05-11T15:45:02+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Lambda functions to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "email-tracker-test-role-fge0sire",
+      "RoleId": "AROARWL4S4CE7VTUUCVOF",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/email-tracker-test-role-fge0sire",
+      "CreateDate": "2023-05-08T11:56:47+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "EMR_DefaultRole",
+      "RoleId": "AROARWL4S4CEQXXH6DH75",
+      "Arn": "arn:aws:iam::116762271881:role/EMR_DefaultRole",
+      "CreateDate": "2023-03-13T09:27:06+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2008-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "elasticmapreduce.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "EMR_EC2_DefaultRole",
+      "RoleId": "AROARWL4S4CEZJOS5UCNK",
+      "Arn": "arn:aws:iam::116762271881:role/EMR_EC2_DefaultRole",
+      "CreateDate": "2023-03-13T09:27:06+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2008-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmadison-dw-glue-to-redshift",
+      "RoleId": "AROARWL4S4CE2ZTY5437C",
+      "Arn": "arn:aws:iam::116762271881:role/fmadison-dw-glue-to-redshift",
+      "CreateDate": "2022-01-13T02:24:27+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root",
+              "Service": "glue.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Glue to call Redshift ",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmadison-dw-glue-to-redshift-poc",
+      "RoleId": "AROARWL4S4CE5XXUKK3TO",
+      "Arn": "arn:aws:iam::116762271881:role/fmadison-dw-glue-to-redshift-poc",
+      "CreateDate": "2023-02-07T18:42:49+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "glue.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Glue to call AWS services on your behalf. ",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmadison-dw-glue-to-s3",
+      "RoleId": "AROARWL4S4CEZ36KXBUEE",
+      "Arn": "arn:aws:iam::116762271881:role/fmadison-dw-glue-to-s3",
+      "CreateDate": "2022-01-13T02:17:40+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "glue.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Glue to call s3 on your behalf. ",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmadison-dw-lambda-to-dynamodb",
+      "RoleId": "AROARWL4S4CESTHEXGBDN",
+      "Arn": "arn:aws:iam::116762271881:role/fmadison-dw-lambda-to-dynamodb",
+      "CreateDate": "2022-03-10T14:05:27+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Lambda functions to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmadison-dw-spectrum-to-data-catalog",
+      "RoleId": "AROARWL4S4CE35QZBGO4X",
+      "Arn": "arn:aws:iam::116762271881:role/fmadison-dw-spectrum-to-data-catalog",
+      "CreateDate": "2022-01-15T13:14:39+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "redshift.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Redshift clusters to call tables defined within Glue Data catalog",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmadison-glue-dev-notebook",
+      "RoleId": "AROARWL4S4CEVMI2I3Y23",
+      "Arn": "arn:aws:iam::116762271881:role/fmadison-glue-dev-notebook",
+      "CreateDate": "2022-02-17T13:15:16+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "glue.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Glue to call AWS services on your behalf. ",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "FMG-Digital-Dev",
+      "RoleId": "AROARWL4S4CE6Q3OSKQAT",
+      "Arn": "arn:aws:iam::116762271881:role/FMG-Digital-Dev",
+      "CreateDate": "2023-03-06T22:04:08+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-glue-role",
+      "RoleId": "AROARWL4S4CETSNQJ456W",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-glue-role",
+      "CreateDate": "2022-06-07T12:11:05+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "glue.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-glue-role-pci",
+      "RoleId": "AROARWL4S4CESYYM364JZ",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-glue-role-pci",
+      "CreateDate": "2023-04-11T19:05:21+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "glue.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Glue to call AWS services on your behalf. ",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-lambda-role",
+      "RoleId": "AROARWL4S4CE2AZ2AUVKG",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-lambda-role",
+      "CreateDate": "2022-06-07T12:11:05+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-phase1-drop3-dev-glue-role",
+      "RoleId": "AROARWL4S4CEUYDF7WE6P",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-phase1-drop3-dev-glue-role",
+      "CreateDate": "2022-04-25T07:11:39+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "glue.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-phase1-drop3-dev-lakeformation-admin-role",
+      "RoleId": "AROARWL4S4CE5LL6AH73Y",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-phase1-drop3-dev-lakeformation-admin-role",
+      "CreateDate": "2022-04-25T07:11:39+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lakeformation.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-phase1-drop3-dev-redshift-spectrum-role",
+      "RoleId": "AROARWL4S4CEVPDIEEJPR",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-phase1-drop3-dev-redshift-spectrum-role",
+      "CreateDate": "2022-04-25T07:11:39+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "redshift.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-qlik_role",
+      "RoleId": "AROARWL4S4CESXFP2I4WN",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-qlik_role",
+      "CreateDate": "2022-06-07T12:11:05+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-redshift_role",
+      "RoleId": "AROARWL4S4CES4SZLD6HL",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-redshift_role",
+      "CreateDate": "2022-06-07T12:11:05+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "redshift.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "fmg-dw-stepfunctions-role",
+      "RoleId": "AROARWL4S4CERYVCTSRHQ",
+      "Arn": "arn:aws:iam::116762271881:role/fmg-dw-stepfunctions-role",
+      "CreateDate": "2022-06-07T12:11:04+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "states.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "FMG-Lasso-Dev",
+      "RoleId": "AROARWL4S4CEZWKGFZZW3",
+      "Arn": "arn:aws:iam::116762271881:role/FMG-Lasso-Dev",
+      "CreateDate": "2023-03-06T22:05:03+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "FMG-Proteus-Dev",
+      "RoleId": "AROARWL4S4CE7SYJ7FXYE",
+      "Arn": "arn:aws:iam::116762271881:role/FMG-Proteus-Dev",
+      "CreateDate": "2023-03-05T13:04:55+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Franklin-Admin",
+      "RoleId": "AROAJMVUQPKGRJYGYAPBK",
+      "Arn": "arn:aws:iam::116762271881:role/Franklin-Admin",
+      "CreateDate": "2019-02-05T15:47:55+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Franklin-Admin-NonProd",
+      "RoleId": "AROAJTO6CN46SWMJJLXJ6",
+      "Arn": "arn:aws:iam::116762271881:role/Franklin-Admin-NonProd",
+      "CreateDate": "2019-03-05T21:30:13+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "AWS Admin for Non-Prod accounts",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "franklin-dev-processS3ArchiveEvent-lambda-role",
+      "RoleId": "AROARWL4S4CE53GGDPI27",
+      "Arn": "arn:aws:iam::116762271881:role/franklin-dev-processS3ArchiveEvent-lambda-role",
+      "CreateDate": "2020-03-26T00:58:23+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "franklin-dev-s3-replication-role",
+      "RoleId": "AROARWL4S4CEYZBSODMQ2",
+      "Arn": "arn:aws:iam::116762271881:role/franklin-dev-s3-replication-role",
+      "CreateDate": "2020-03-03T23:17:21+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "s3.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows S3 to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "franklin-dev-ssm-ec2-role",
+      "RoleId": "AROARWL4S4CEYF5TWWRRD",
+      "Arn": "arn:aws:iam::116762271881:role/franklin-dev-ssm-ec2-role",
+      "CreateDate": "2020-04-01T19:30:03+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows EC2 instances to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Franklin-Developer",
+      "RoleId": "AROARWL4S4CEQR6KUU5AK",
+      "Arn": "arn:aws:iam::116762271881:role/Franklin-Developer",
+      "CreateDate": "2020-11-24T16:06:12+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "Role for Onsite AWS developers",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Franklin-DW-PowerUser",
+      "RoleId": "AROARWL4S4CEZD2IW76TZ",
+      "Arn": "arn:aws:iam::116762271881:role/Franklin-DW-PowerUser",
+      "CreateDate": "2022-02-22T12:51:48+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "Allows S3 to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Franklin-DW-StandardUser",
+      "RoleId": "AROARWL4S4CEVMNT4P2DC",
+      "Arn": "arn:aws:iam::116762271881:role/Franklin-DW-StandardUser",
+      "CreateDate": "2022-06-07T03:58:06+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "Franklin-DW-StandardUser",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Franklin-Readonly",
+      "RoleId": "AROARWL4S4CEWIBGDET77",
+      "Arn": "arn:aws:iam::116762271881:role/Franklin-Readonly",
+      "CreateDate": "2021-12-28T20:21:04+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "Bool": {
+                "aws:MultiFactorAuthPresent": "true"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Provides ReadOnly access to Dev AWS Resources",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "franklindev-TrailLogGroupRole-AZAGDV5WRMA2",
+      "RoleId": "AROAI6BJBTLPRSWQ5OXBG",
+      "Arn": "arn:aws:iam::116762271881:role/franklindev-TrailLogGroupRole-AZAGDV5WRMA2",
+      "CreateDate": "2019-01-30T00:11:24+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "AssumeRole1",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cloudtrail.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "FranklinDevLimited",
+      "RoleId": "AROARWL4S4CEXJKT32QOR",
+      "Arn": "arn:aws:iam::116762271881:role/FranklinDevLimited",
+      "CreateDate": "2022-11-14T18:21:28+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "Bool": {
+                "aws:MultiFactorAuthPresent": "true"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Role with policy to allow users to assume FranklinDevLimited role within the Franklin-Dev account with the following permissions - Elastic Search-Lambda Function-CloudWatch-S3 buckets",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "gateway_role",
+      "RoleId": "AROARWL4S4CE4GAIC7S7D",
+      "Arn": "arn:aws:iam::116762271881:role/gateway_role",
+      "CreateDate": "2022-06-07T12:11:03+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "hermes-job-launcher-role-dev",
+      "RoleId": "AROARWL4S4CESTFQVPQKI",
+      "Arn": "arn:aws:iam::116762271881:role/hermes-job-launcher-role-dev",
+      "CreateDate": "2023-02-08T14:20:04+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "LambdaAssumeRole",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          },
+          {
+            "Sid": "EventBridgeAssumeRole",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "scheduler.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "aws:SourceAccount": "116762271881"
+              },
+              "StringLike": {
+                "aws:SourceArn": "arn:aws:scheduler:us-east-1:116762271881:schedule/hermes/*"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "inscabinet_sftp_role_dev",
+      "RoleId": "AROARWL4S4CESE4FQZH57",
+      "Arn": "arn:aws:iam::116762271881:role/inscabinet_sftp_role_dev",
+      "CreateDate": "2019-10-16T21:54:08+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "transfer.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allow AWS Transfer to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "KinesisFirehoseServiceRole-digital-s3-em-us-east-1-1668590340933",
+      "RoleId": "AROARWL4S4CEVFGJPEZHD",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/KinesisFirehoseServiceRole-digital-s3-em-us-east-1-1668590340933",
+      "CreateDate": "2022-11-16T09:22:29+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "firehose.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "KinesisFirehoseServiceRole-PUT-S3-O7cJj-us-east-1-1668677300330",
+      "RoleId": "AROARWL4S4CEY7UYIXGNR",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/KinesisFirehoseServiceRole-PUT-S3-O7cJj-us-east-1-1668677300330",
+      "CreateDate": "2022-11-17T09:29:55+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "firehose.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "lambda-test-role-pavan",
+      "RoleId": "AROARWL4S4CERMBPLT7P6",
+      "Arn": "arn:aws:iam::116762271881:role/lambda-test-role-pavan",
+      "CreateDate": "2019-11-15T15:21:56+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Lambda functions to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "lasso-email-tracker-induction-dev-poc-containerima-role-mf359rvz",
+      "RoleId": "AROARWL4S4CEWKUA6DNA6",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/lasso-email-tracker-induction-dev-poc-containerima-role-mf359rvz",
+      "CreateDate": "2023-05-05T11:11:06+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "lasso-email-tracker-induction-dev-role-fdrb1s4v",
+      "RoleId": "AROARWL4S4CEZBGOEAFOC",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/lasso-email-tracker-induction-dev-role-fdrb1s4v",
+      "CreateDate": "2023-05-05T15:11:11+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "lasso-lambda-role-dev",
+      "RoleId": "AROARWL4S4CE46KFVIJEB",
+      "Arn": "arn:aws:iam::116762271881:role/lasso-lambda-role-dev",
+      "CreateDate": "2022-07-13T21:48:09+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "LambdaAssumeRole",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          },
+          {
+            "Sid": "EventBridgeAssumeRole",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "scheduler.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "aws:SourceAccount": "116762271881"
+              },
+              "StringLike": {
+                "aws:SourceArn": "arn:aws:scheduler:us-east-1:116762271881:schedule/lasso/*"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Allows Lambda to call AWS services Dev",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "lasso-rds-role-dev",
+      "RoleId": "AROARWL4S4CEXJ5WTHKXV",
+      "Arn": "arn:aws:iam::116762271881:role/lasso-rds-role-dev",
+      "CreateDate": "2022-07-13T21:30:03+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "rds.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Grant RDS access to secret manager Dev",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "LogicMonitoring-Role",
+      "RoleId": "AROARWL4S4CE5AT2LCTGI",
+      "Arn": "arn:aws:iam::116762271881:role/LogicMonitoring-Role",
+      "CreateDate": "2020-09-03T22:31:59+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          },
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::282028653949:root",
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Role for the vendor alert logic monitoring",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "ManagedInstanceRoleforSSM",
+      "RoleId": "AROARWL4S4CEXOWC46QSV",
+      "Arn": "arn:aws:iam::116762271881:role/ManagedInstanceRoleforSSM",
+      "CreateDate": "2022-02-28T19:05:50+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows EC2 instances to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "ManagedOpsDeploymentRole",
+      "RoleId": "AROARWL4S4CEZZL6UHM3Y",
+      "Arn": "arn:aws:iam::116762271881:role/ManagedOpsDeploymentRole",
+      "CreateDate": "2021-06-28T22:11:14+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "Role to provide access to Anexinet team members responsible for managing the deployments in the account.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "marketing-apigw-accesslogs-dev",
+      "RoleId": "AROARWL4S4CE7EF4GFV4X",
+      "Arn": "arn:aws:iam::116762271881:role/marketing-apigw-accesslogs-dev",
+      "CreateDate": "2021-08-24T06:29:21+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "apigateway.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows API Gateway to push logs to CloudWatch Logs.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "marketing-cognito-ip-auth-role-dev",
+      "RoleId": "AROARWL4S4CEQNRLT7BOR",
+      "Arn": "arn:aws:iam::116762271881:role/marketing-cognito-ip-auth-role-dev",
+      "CreateDate": "2021-08-10T07:38:17+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1:0bfe2239-bbaa-4182-b4df-884556836fc4"
+              },
+              "ForAnyValue:StringLike": {
+                "cognito-identity.amazonaws.com:amr": "authenticated"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "marketing-cognito-ip-unauth-role-dev",
+      "RoleId": "AROARWL4S4CE7DGLR5OE3",
+      "Arn": "arn:aws:iam::116762271881:role/marketing-cognito-ip-unauth-role-dev",
+      "CreateDate": "2021-08-10T07:38:17+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1:0bfe2239-bbaa-4182-b4df-884556836fc4"
+              },
+              "ForAnyValue:StringLike": {
+                "cognito-identity.amazonaws.com:amr": "unauthenticated"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "marketing-ip-group-role",
+      "RoleId": "AROARWL4S4CEWCRYY7MHQ",
+      "Arn": "arn:aws:iam::116762271881:role/marketing-ip-group-role",
+      "CreateDate": "2021-08-10T12:24:42+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1_JGaosu7PO"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "marketing-lambda-role-dev",
+      "RoleId": "AROARWL4S4CEZLF4DE5OT",
+      "Arn": "arn:aws:iam::116762271881:role/marketing-lambda-role-dev",
+      "CreateDate": "2021-08-11T10:58:01+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "Allows Lambda functions to call AWS services on your behalf.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "marketing-user-group-axelerant-role-dev",
+      "RoleId": "AROARWL4S4CE36SBVGAFN",
+      "Arn": "arn:aws:iam::116762271881:role/marketing-user-group-axelerant-role-dev",
+      "CreateDate": "2021-08-11T08:39:16+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1:0bfe2239-bbaa-4182-b4df-884556836fc4"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Marketing user group role for axelerant",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "marketingservice-api-createtoken-dev-role-tyc3md9d",
+      "RoleId": "AROARWL4S4CEXBVQJJX3L",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/marketingservice-api-createtoken-dev-role-tyc3md9d",
+      "CreateDate": "2021-07-13T11:37:27+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Mindtree-Developer",
+      "RoleId": "AROAJRZF4XRSJLA76NADW",
+      "Arn": "arn:aws:iam::116762271881:role/Mindtree-Developer",
+      "CreateDate": "2019-03-11T05:17:22+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "Developer role for Mindtree users.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "onlinepayment-basic-lambdaedge-dev",
+      "RoleId": "AROARWL4S4CE5LXLF2S73",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/onlinepayment-basic-lambdaedge-dev",
+      "CreateDate": "2019-05-09T04:14:36+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": [
+                "edgelambda.amazonaws.com",
+                "lambda.amazonaws.com"
+              ]
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "onlinepayment-lambda-role-dev",
+      "RoleId": "AROARWL4S4CE3N3CR3TSR",
+      "Arn": "arn:aws:iam::116762271881:role/onlinepayment-lambda-role-dev",
+      "CreateDate": "2019-06-18T10:03:09+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2008-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "onlinepaymentuserpooldev-SMS-Role",
+      "RoleId": "AROARWL4S4CETT27GVXLR",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/onlinepaymentuserpooldev-SMS-Role",
+      "CreateDate": "2022-03-01T07:22:09+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cognito-idp.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "4848f29d-30f5-41fd-a3bf-c26338af3b28"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "onlineselfservicetest1-SMS-Role",
+      "RoleId": "AROARWL4S4CERKULGHQGJ",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/onlineselfservicetest1-SMS-Role",
+      "CreateDate": "2021-07-12T05:01:27+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cognito-idp.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "53746b57-976f-4e46-b2f1-5f00bbdb8a9d"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Prod-Support",
+      "RoleId": "AROARWL4S4CE252DUQBLQ",
+      "Arn": "arn:aws:iam::116762271881:role/Prod-Support",
+      "CreateDate": "2020-01-02T21:14:35+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "Bool": {
+                "aws:MultiFactorAuthPresent": "true"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "DEV Access and Support cases",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "QA-Tester",
+      "RoleId": "AROARWL4S4CEYFUUAAC2J",
+      "Arn": "arn:aws:iam::116762271881:role/QA-Tester",
+      "CreateDate": "2019-12-20T17:17:51+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "Bool": {
+                "aws:MultiFactorAuthPresent": "true"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Read only for QA",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Qualys-EC2Dev-Connector-Role",
+      "RoleId": "AROARWL4S4CEYOOR65OP5",
+      "Arn": "arn:aws:iam::116762271881:role/Qualys-EC2Dev-Connector-Role",
+      "CreateDate": "2019-10-12T20:05:17+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::805950163170:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "1574347166863"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Qualys-EC2Dev-Connector-Role",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "QualysEC2Role",
+      "RoleId": "AROARWL4S4CETA4LNW7EF",
+      "Arn": "arn:aws:iam::116762271881:role/QualysEC2Role",
+      "CreateDate": "2019-10-18T16:00:26+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::805950163170:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "1574814002073"
+              }
+            }
+          }
+        ]
+      },
+      "Description": "Role used by Qualys EC2 connector to scan the account for vulnerabilities.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "rds-monitoring-role",
+      "RoleId": "AROARWL4S4CEQ2Z6WJCXK",
+      "Arn": "arn:aws:iam::116762271881:role/rds-monitoring-role",
+      "CreateDate": "2022-04-01T19:56:18+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "monitoring.rds.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "role-api-gateway-cognito-authenticated",
+      "RoleId": "AROARWL4S4CER43QWDBPR",
+      "Arn": "arn:aws:iam::116762271881:role/role-api-gateway-cognito-authenticated",
+      "CreateDate": "2021-06-09T10:18:40+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1:646fb176-f3c5-4537-91b1-ad1839c7530b"
+              },
+              "ForAnyValue:StringLike": {
+                "cognito-identity.amazonaws.com:amr": "authenticated"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "role-api-gateway-cognito-unauthenticated",
+      "RoleId": "AROARWL4S4CEXJ576HRTB",
+      "Arn": "arn:aws:iam::116762271881:role/role-api-gateway-cognito-unauthenticated",
+      "CreateDate": "2021-06-09T10:18:40+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Federated": "cognito-identity.amazonaws.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+              "StringEquals": {
+                "cognito-identity.amazonaws.com:aud": "us-east-1:646fb176-f3c5-4537-91b1-ad1839c7530b"
+              },
+              "ForAnyValue:StringLike": {
+                "cognito-identity.amazonaws.com:amr": "unauthenticated"
+              }
+            }
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/service-role/",
+      "RoleName": "selfservice-custom-trigger-dev-role-y9k7wxrw",
+      "RoleId": "AROARWL4S4CE435F6SWEZ",
+      "Arn": "arn:aws:iam::116762271881:role/service-role/selfservice-custom-trigger-dev-role-y9k7wxrw",
+      "CreateDate": "2021-07-30T04:46:50+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "sftp_logging_role_dev",
+      "RoleId": "AROARWL4S4CE4P6PIHJ7M",
+      "Arn": "arn:aws:iam::116762271881:role/sftp_logging_role_dev",
+      "CreateDate": "2019-10-16T22:05:09+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "transfer.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "Description": "IAM Role for Cloudwatch logging.",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "terraform-execution-role",
+      "RoleId": "AROARWL4S4CE25WSTEG7B",
+      "Arn": "arn:aws:iam::116762271881:role/terraform-execution-role",
+      "CreateDate": "2021-08-25T13:00:26+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "Role for AWS STS to execute tf templates",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "ui-logger-role-dev",
+      "RoleId": "AROARWL4S4CEQKJJ5EFNK",
+      "Arn": "arn:aws:iam::116762271881:role/ui-logger-role-dev",
+      "CreateDate": "2022-10-07T13:39:00+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "Virtusa-Developer",
+      "RoleId": "AROAJRLVLQFTWBOHS2MTY",
+      "Arn": "arn:aws:iam::116762271881:role/Virtusa-Developer",
+      "CreateDate": "2019-03-19T21:11:55+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::894891841990:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {}
+          }
+        ]
+      },
+      "Description": "Developer ROLE for Virtusa",
+      "MaxSessionDuration": 3600
+    },
+    {
+      "Path": "/",
+      "RoleName": "workspaces_DefaultRole",
+      "RoleId": "AROARWL4S4CEWDGG3W2HR",
+      "Arn": "arn:aws:iam::116762271881:role/workspaces_DefaultRole",
+      "CreateDate": "2022-10-20T03:36:01+00:00",
+      "AssumeRolePolicyDocument": {
+        "Version": "2008-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "workspaces.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      "MaxSessionDuration": 3600
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+iam_user_name			= "digital-admin-cognito-user-qa"
+iam_user_tags			= {
+		"Department": "DGT"
+		"LastUpdated": "09142024"
+		"CostCenter": "FMG"
+		"CreatedOn": "09142024"
+		"DataClassification": "Low"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "1.0"
+		"ApplicationName": "Digital"
+		"TechStack": "None"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "DevOps"
+	}
+iam_policy_name			= "arn:aws:iam::634621569833:policy/digital-admin-cognito-policy-qa"
+lasso_kms_policy		= "true"

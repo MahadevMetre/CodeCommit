@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/selfservice-confirm-user-incoming-stage",
+  "Tags": {
+    "Project": "Digital",
+    "createdBy": "sbose",
+    "Purpose": "Confirm User Registration"
+  }
+}

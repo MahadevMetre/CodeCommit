@@ -1,0 +1,73 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/JBOSS-lb-dev/ecd687ba4839980e",
+  "Tags": [
+    {
+      "Key": "TechStack",
+      "Value": "JBoss"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Digital"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "None"
+    },
+    {
+      "Key": "Name",
+      "Value": "JBOSS-lb-dev"
+    },
+    {
+      "Key": "Department",
+      "Value": "DGT"
+    },
+    {
+      "Key": "environment",
+      "Value": "dev"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "CretedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    }
+  ]
+}

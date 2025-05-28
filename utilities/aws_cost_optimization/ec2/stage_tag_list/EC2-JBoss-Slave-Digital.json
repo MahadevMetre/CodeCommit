@@ -1,0 +1,84 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-07ae63ca33deab429"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Slave-Digital"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "CretedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Digital"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "JBoss"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "Department",
+      "Value": "DGT"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "QSConfigName-8l8fj",
+      "Value": "Stage Patch Report"
+    }
+  ]
+}

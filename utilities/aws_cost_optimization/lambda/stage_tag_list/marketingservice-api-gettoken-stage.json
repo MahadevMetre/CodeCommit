@@ -1,0 +1,18 @@
+{
+    "Tags": {
+        "ApplicationName": "Marketing",
+        "Automated": "False",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+		"CreatedBy": "NoInfo",
+        "CreatedOn": "NoInfo",
+        "DataClassification": "Low",
+        "Department": "MKT",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Node.js",
+        "Usage": "Project",
+        "Version": "1.0"
+    }
+}
+

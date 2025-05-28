@@ -1,0 +1,73 @@
+{
+    "HostedZones": [
+        {
+            "Id": "/hostedzone/ZPBW4OW87DHIA",
+            "Name": "onlineselfservicing.com.",
+            "CallerReference": "97CA56E1-F3E5-88C0-B2F3-AE5167089D01",
+            "Config": {
+                "Comment": "onlineselfservicing.com",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 19
+        },
+        {
+            "Id": "/hostedzone/ZOLO44RSRJQP3",
+            "Name": "myonlineservicing.com.",
+            "CallerReference": "1B3960C9-BCD9-9211-83D6-48D6748D8C9A",
+            "Config": {
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 20
+        },
+        {
+            "Id": "/hostedzone/Z1RLPXFQT7M8OO",
+            "Name": "franklinmadisonds.com.",
+            "CallerReference": "RISWorkflow-RD:728c24bb-23f2-45b0-958b-8f13dcbbffe5",
+            "Config": {
+                "Comment": "HostedZone created by Route53 Registrar",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 70
+        },
+        {
+            "Id": "/hostedzone/Z0357685RB8KSTMKXFPD",
+            "Name": "fmservice.com.",
+            "CallerReference": "ec26f2e1-c1bf-4a17-91b3-c78a8e3c382d",
+            "Config": {
+                "Comment": "fmservice.com - This domain is used for Self Service Portal (Digital Initiative)",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 64
+        },
+        {
+            "Id": "/hostedzone/Z02189901UW3TLCWZW6OL",
+            "Name": "fingerhut.fmservice.com.",
+            "CallerReference": "85f18d29-b963-4a11-abd4-b9d6b0ea390d",
+            "Config": {
+                "Comment": "",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 5
+        },
+        {
+            "Id": "/hostedzone/Z02361551SWCL802QTG4C",
+            "Name": "email.fmservice.com.",
+            "CallerReference": "6147dffe-d492-4398-9e75-1c40bbdd2271",
+            "Config": {
+                "Comment": "",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 5
+        },
+        {
+            "Id": "/hostedzone/Z0862144YVTKDSZJV0HB",
+            "Name": "marketing.fmservice.com.",
+            "CallerReference": "7cbb1f24-7166-4bfb-adba-1938d808daa4",
+            "Config": {
+                "Comment": "",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 5
+        }
+    ]
+}

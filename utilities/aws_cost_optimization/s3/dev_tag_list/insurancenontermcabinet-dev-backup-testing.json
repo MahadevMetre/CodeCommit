@@ -1,0 +1,72 @@
+{
+    "TagSet": [
+        {
+            "Key": "ReplicateTags",
+            "Value": "Tagging copy"
+        },
+        {
+            "Key": "TechStack",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "Atlas"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Automated",
+            "Value": "False"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "ReplicateDelete",
+            "Value": "Remove"
+        },
+        {
+            "Key": "Department",
+            "Value": "ATS"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "GetObjectVersionTagging",
+            "Value": "Permission"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "None"
+        },
+        {
+            "Key": "ReplicateObject",
+            "Value": "Objects"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "NoInfo"
+        }
+    ]
+}

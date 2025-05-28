@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-03c08538b540c879c"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-SKLM-PCI2-xvdb"
+    }
+  ]
+}

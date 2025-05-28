@@ -1,0 +1,12 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "Brian"
+        }
+    ]
+}

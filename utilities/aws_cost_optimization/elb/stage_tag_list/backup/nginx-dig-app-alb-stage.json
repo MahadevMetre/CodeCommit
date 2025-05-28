@@ -1,0 +1,13 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/app/nginx-dig-app-alb-stage/877be3487e6c8d7f",
+  "Tags": [
+    {
+      "Key": "createdBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "project",
+      "Value": "Digital"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/selfservice-confirm-user-error-stage",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "Digital",
+    "CreatedBy": "NoInfo",
+    "Automated": "False",
+    "BackupPlan": "None",
+    "Department": "DGT",
+    "CostCenter": "FMG",
+    "Version": "1.0",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "NoInfo"
+  }
+}

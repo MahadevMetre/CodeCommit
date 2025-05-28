@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "aws_config"
+        },
+        {
+            "Key": "environment",
+            "Value": "dev"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "04012023"
+        },
+        {
+            "Key": "Purpose",
+            "Value": "To have the config changes sent as email and pushed to s3 bucket"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "04012023"
+        }
+    ]
+}

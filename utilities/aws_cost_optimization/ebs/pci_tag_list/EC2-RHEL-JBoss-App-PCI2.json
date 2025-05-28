@@ -1,0 +1,72 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0b2000c8098ed910b"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-JBoss-App-PCI2"
+    },
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "InstanceID",
+      "Value": "i-002ec6ab9da7de2a4"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "Operations"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Department",
+      "Value": "HMS"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "XssMatchSets": [
+        {
+            "XssMatchSetId": "1ff738c4-bdea-40b1-80e2-af9d288a7620",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N - XSS Detection Detection"
+        }
+    ]
+}

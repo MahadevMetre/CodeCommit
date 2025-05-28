@@ -1,0 +1,20 @@
+module "launch_configuration" {
+  source = "../../../modules/autoscaling/launch_config"
+  config_name = var.config_name
+  image_id = var.image_id
+  instance_type = var.instance_type
+  key_name = var.key_name
+  security_groups = var.security_groups
+  associate_public_ip_address = var.associate_public_ip_address
+  enable_monitoring = var.enable_monitoring
+  ebs_optimized = var.ebs_optimized
+  root_size = var.root_size
+  root_volume_type = var.root_volume_type
+  root_encrypted = var.root_encrypted
+  device_name = var.device_name
+  ebs_volume = var.ebs_volume
+  ebs_delete = var.ebs_delete
+  ebs_encrypted = var.ebs_encrypted
+  ebs_volume_type = var.ebs_volume_type
+  iam_instance_profile = var.iam_instance_profile
+}

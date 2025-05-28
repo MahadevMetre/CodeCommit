@@ -1,0 +1,92 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0e67c3a7ca562a060"
+  ],
+  "Tags": [
+    {
+      "Key": "purpose",
+      "Value": "EC2 JBOSS Admin server for insurance apps servers"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "InsuranceApps"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Department",
+      "Value": "IAPPS"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "JBoss"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "True"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "Type",
+      "Value": "jboss-admin-adhoc"
+    },
+    {
+      "Key": "project",
+      "Value": "insuranceapps"
+    },
+    {
+      "Key": "QSConfigName-8l8fj",
+      "Value": "Stage Patch Report"
+    },
+    {
+      "Key": "Automated",
+      "Value": "True"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Admin-InsuranceApps"
+    }
+  ]
+}

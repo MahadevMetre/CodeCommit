@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "project",
+            "Value": "aws_config"
+        },
+        {
+            "Key": "createdBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "purpose",
+            "Value": "To store athena query results"
+        },
+        {
+            "Key": "createdOn",
+            "Value": "01202023"
+        }
+    ]
+}

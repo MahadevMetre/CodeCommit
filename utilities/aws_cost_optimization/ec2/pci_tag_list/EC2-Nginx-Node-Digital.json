@@ -1,0 +1,68 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0b1b40d95dee45f2a"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "Nginx"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Weekly"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-Nginx-Node-Digital"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Automated",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "Department",
+      "Value": "DGT"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "PCI"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Digital"
+    }
+  ]
+}

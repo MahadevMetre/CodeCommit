@@ -1,0 +1,32 @@
+variable "efs_name" {}
+
+variable "efs_perf_mode" {}
+
+variable "efs_throughput_mode" {}
+
+variable "efs_encrypted" {
+    type = bool
+}
+
+variable vpc_id {}
+
+variable "efs_security_group_name" {}
+
+variable kms_key_id {}
+
+variable "efs_tags" {
+  description = "A map of tags to add to all resources"
+  type = map
+  default = {
+    "terraform" = "True"
+  }
+}
+
+variable "subnet_id" {}
+
+variable "efs_attach_to_second_subnet" {
+    type = bool
+    default = false
+}
+
+variable "subnet2_id" {}

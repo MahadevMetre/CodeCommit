@@ -1,0 +1,20 @@
+{
+    "Tags": {
+        "ApplicationName": "OnlinePayment",
+        "Automated": "True",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+        "CreatedBy": "NoInfo",
+        "CreatedOn": "NoInfo",
+        "DataClassification": "Low",
+        "Department": "OnlinePayment",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Node.js",
+        "Usage": "Project",
+        "Version": "1.0",
+        "aws:cloudformation:logical-id": "EncryptLambdaFunction",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:702230634984:stack/alert-logic-guard-duty-stack/fa545d80-5f53-11ec-a275-0a204fe5f003",
+        "aws:cloudformation:stack-name": "alert-logic-guard-duty-stack"
+    }
+}

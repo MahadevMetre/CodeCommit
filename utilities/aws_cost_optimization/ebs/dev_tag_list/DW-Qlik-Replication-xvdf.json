@@ -1,0 +1,72 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0ba99db18a1edb703"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "DW-Qlik-Replication-xvdf"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "InstanceID",
+      "Value": "i-089b0dde70501e6c7"
+    },
+    {
+      "Key": "purpose",
+      "Value": "Dev Qlik Volume"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "Department",
+      "Value": "DLH"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Datawarehouse"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    }
+  ]
+}

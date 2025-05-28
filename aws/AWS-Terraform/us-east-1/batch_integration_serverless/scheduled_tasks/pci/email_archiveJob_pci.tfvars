@@ -1,0 +1,24 @@
+scheduled_rule_name         = "email_archiveJob"
+scheduled_rule_description  = "Triggers ECS task on a schedule."
+schedule_type               = "rate"
+rate_expression             = "5 minute"  # Triggers every 5 minutes
+cron_expression             = "0 18 ? * MON-FRI *" 
+# schedule_expression         = "rate(1 minutes)"
+rule_state                  = "DISABLED"
+target_id                   = "email_archiveJob"
+cluster_arn                 = "to_be_updated"               # Replace with actual ARN
+launch_type                 = "FARGATE"
+platform_version            = "LATEST"
+task_definition_arn         = "to_be_updated"               # Replace with actual ARN
+subnets                     = ["subnet-0a33ed77fe2cfb6ef", "subnet-0a797df6e7dcae3db"]
+security_groups             = ["sg-0c24f21c2c6c2943b"]
+assign_public_ip            = false
+number_of_tasks             = 1
+eventbridge_iam_role_arn    = "to_be_updated"               # Replace with actual ARN
+container_name     		    = "batch-integration-container"
+container_command 		    = ["emailArchivalJob"]
+environmentname1            = "JWT_TOKEN_EXPIRY_MINS"
+jwt_token_expiry_mins       = "30"
+environmentname2            = "LOG_LEVEL"
+log_level                   = "DEBUG"
+

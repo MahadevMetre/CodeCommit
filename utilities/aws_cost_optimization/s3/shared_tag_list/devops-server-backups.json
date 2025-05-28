@@ -1,0 +1,64 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "Automated",
+            "Value": "False"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Host backups from SVN and jenkins"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "project",
+            "Value": "DevOps"
+        },
+        {
+            "Key": "Department",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "None"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "08212021"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "NoInfo"
+        }
+    ]
+}

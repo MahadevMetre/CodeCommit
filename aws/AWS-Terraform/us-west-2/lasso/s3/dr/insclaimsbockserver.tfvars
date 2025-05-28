@@ -1,0 +1,25 @@
+bucket_short_name = "insclaimsbockserver"
+environment = "dr"
+logging_bucket_name =  "franklin-dr-s3-access-logs"
+logging_bucket_base_prefix = "insclaimsbockserver-dr"
+acl                 = "private"
+tags ={
+    "ApplicationName" = "Lasso"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02152023"
+	"DataClassification" = "Low"
+	"Department" = "LSO"
+	"Infrastructure" = "False"
+	"LastUpdated" = "02152023"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+}
+insclaimsbockserver_policy = true
+allowed_read_only_user_list = ["arn:aws:iam::894891841990:user/InsuranceClaimsBockServer-LassoBiz-UserDR"]
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 90
+versioning_enabled_bool	= false

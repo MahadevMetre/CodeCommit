@@ -1,0 +1,39 @@
+hermes_email_transformer_api_bool = true
+lambda_function_name = "hermes-email-transformer-api-stage"
+role = "arn:aws:iam::702230634984:role/hermes-lambda-role-stage"
+description = "Hermes Email Transformer API Stage"
+env_variables = {
+	"EMAIL_API_URL"				= "https://stage-ecs.mtservices.franklinmadisonds.com/emailintegration/emailSqsQueueApi"
+	"PREVIEW_EMAIL_API_URL"		= "https://stage-ecs.mtservices.franklinmadisonds.com/emailintegration/previewEmailSqsQueueApi"
+}
+tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "10222023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "11042023"
+	"TechStack"				= "Python"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+memory_size = 128
+ephemeral_storage_size = 512
+timeout = 10
+subnets = ["subnet-0ed61b6beb807094e","subnet-076a071fa0723c80e"]
+security_groups = ["sg-0b2cbcc29401d05ef"]
+reserved_concurrent_executions = -1
+publish = false
+runtime = "python3.11"
+handler = "hermes-email-transformer-api.lambda_handler"
+filename = "py/hermes-email-transformer-api.zip"
+package_type = "Zip"
+source_code_hash = "py/hermes-email-transformer-api.zip"
+
+schedule_group_name = "hermes-serverless-scheduled-jobs-stage"
+schedule_name = "hermes-email-transformer-api-schedule-stage"
+schedule_target_role_arn = "arn:aws:iam::702230634984:role/hermes-ecs-task-execution-role-stage"

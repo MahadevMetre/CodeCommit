@@ -1,0 +1,18 @@
+iam_policy_name			= "lasso-lambda-invoke-policy-dev"
+iam_policy_tags			= {
+        "Department": "LSO"
+        "LastUpdated": "01312023"
+        "CostCenter":  "FMG"
+        "CreatedOn": "01312023"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Lasso"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "sbose"
+    }
+lambda_invoke_policy	= "true"
+iam_policy_desc			= "Lasso Lambda Invoke Policy Dev"

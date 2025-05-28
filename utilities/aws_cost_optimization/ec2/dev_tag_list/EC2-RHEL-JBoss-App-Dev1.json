@@ -1,0 +1,80 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0ee2f2e2cb456bdea"
+  ],
+  "Tags": [
+    {
+      "Key": "Type",
+      "Value": "adhoc"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "Operations"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-JBoss-App-Dev1"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "JBoss"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "True"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "Department",
+      "Value": "HMS"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Patch Group",
+      "Value": "rhel"
+    }
+  ]
+}

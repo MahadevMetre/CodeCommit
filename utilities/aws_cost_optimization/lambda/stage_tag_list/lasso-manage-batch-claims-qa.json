@@ -1,0 +1,20 @@
+{
+    "Tags": {
+        "ApplicationName": "Lasso",
+        "Automated": "True",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+        "CreatedBy": "sbose",
+        "CreatedOn": "01132023",
+        "DataClassification": "Low",
+        "Department": "LSO",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Java",
+        "Usage": "Project",
+        "Version": "1.0"
+    }
+}
+
+
+

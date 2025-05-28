@@ -1,0 +1,18 @@
+iam_policy_name			= "lasso-vpc-access-policy-dr"
+iam_policy_tags			= {
+	"ApplicationName" = "Lasso"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02202023"
+	"DataClassification" = "Low"
+	"Department" = "LSO"
+	"Infrastructure" = "False"
+	"LastUpdated" = "02202023"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+    }
+lasso_vpc_access_policy	= "true"
+iam_policy_desc			= "Lasso Lambda VPC Access Policy DR"

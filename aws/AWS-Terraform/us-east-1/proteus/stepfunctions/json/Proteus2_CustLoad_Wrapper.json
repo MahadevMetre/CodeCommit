@@ -1,0 +1,179 @@
+{
+  "Comment": "Proteus2 ETL Custom Load Wrapper",
+  "StartAt": "Create Proteus2 ETL BatchID",
+  "States": {
+    "Create Proteus2 ETL BatchID": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "OutputPath": "$.Payload",
+      "Parameters": {
+        "Payload.$": "$",
+        "FunctionName": "${create_batch_lambda_arn}"
+      },
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "Lambda.ServiceException",
+            "Lambda.AWSLambdaException",
+            "Lambda.SdkClientException"
+          ],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 6,
+          "BackoffRate": 2
+        }
+      ],
+      "Next": "Update ETL Batch as Processing"
+    },
+    "Update ETL Batch as Processing": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::dynamodb:updateItem",
+      "Parameters": {
+        "TableName": "${dynamodb_table_name}",
+        "Key": {
+          "batchid": {
+            "S.$": "$.batchid"
+          },
+          "datecreated": {
+            "S.$": "$.batchdatetime"
+          }
+        },
+        "UpdateExpression": "SET #status = :myValueRef",
+        "ExpressionAttributeNames": {
+          "#status": "status"
+        },
+        "ExpressionAttributeValues": {
+          ":myValueRef": {
+            "S": "PROCESSING"
+          }
+        }
+      },
+      "Next": "Capture Dim Hold By Coverage Changes",
+      "ResultPath": null
+    },
+    "Error Handler": {
+      "Type": "Pass",
+      "Result": {
+        "processed": true,
+        "success": false,
+        "status": "FAILED"
+      },
+      "ResultPath": "$.batchprocessinfo",
+      "Next": "Update ETL Batch as Failed"
+    },
+    "Update ETL Batch as Failed": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::dynamodb:updateItem",
+      "Parameters": {
+        "TableName": "${dynamodb_table_name}",
+        "Key": {
+          "batchid": {
+            "S.$": "$.batchid"
+          },
+          "datecreated": {
+            "S.$": "$.batchdatetime"
+          }
+        },
+        "UpdateExpression": "SET #status = :myValueRef",
+        "ExpressionAttributeNames": {
+          "#status": "status"
+        },
+        "ExpressionAttributeValues": {
+          ":myValueRef": {
+            "S": "FAILED"
+          }
+        }
+      },
+      "Next": "Step function has Failed"
+    },
+    "Step function has Failed": {
+      "Type": "Fail"
+    },
+    "Capture Dim Hold By Coverage Changes": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun.sync",
+      "Parameters": {
+        "JobName": "${gluejob_name}",
+        "Arguments": {
+          "--batch_id.$": "$.batchid",
+          "--target_db.$": "$.target_db",
+          "--db_creds.$": "$.db_creds",
+          "--procedure": "billing.sp_capture_changes_dim_hold_by_coverage",
+          "--batch_starttime.$": "$.ccstartintervaldateTime",
+          "--batch_endtime.$": "$.ccendintervaldateTime",
+          "--etl_type": "CaptureChanges"
+        }
+      },
+      "Next": "Apply Dim Hold By Coverage Changes",
+      "ResultPath": null,
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.TaskFailed"
+          ],
+          "Next": "Error Handler",
+          "ResultPath": "$.batchprocessinfo"
+        }
+      ]
+    },
+    "Apply Dim Hold By Coverage Changes": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun.sync",
+      "Parameters": {
+        "JobName": "${gluejob_name}",
+        "Arguments": {
+          "--batch_id.$": "$.batchid",
+          "--target_db.$": "$.target_db",
+          "--db_creds.$": "$.db_creds",
+          "--procedure": "billing.sp_apply_changes_dim_hold_by_coverage",
+          "--etl_type": "ApplyChanges"
+        }
+      },
+      "Next": "No Errors",
+      "ResultPath": null,
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.TaskFailed"
+          ],
+          "Next": "Error Handler",
+          "ResultPath": "$.batchprocessinfo"
+        }
+      ]
+    },
+    "No Errors": {
+      "Type": "Pass",
+      "Next": "Update ETL Batch as Success",
+      "Result": {
+        "processed": true,
+        "success": true,
+        "status": "SUCCESS"
+      },
+      "ResultPath": "$.batchprocessinfo"
+    },
+    "Update ETL Batch as Success": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::dynamodb:updateItem",
+      "Parameters": {
+        "TableName": "${dynamodb_table_name}",
+        "Key": {
+          "batchid": {
+            "S.$": "$.batchid"
+          },
+          "datecreated": {
+            "S.$": "$.batchdatetime"
+          }
+        },
+        "UpdateExpression": "SET #status = :myValueRef",
+        "ExpressionAttributeNames": {
+          "#status": "status"
+        },
+        "ExpressionAttributeValues": {
+          ":myValueRef": {
+            "S": "SUCCESS"
+          }
+        }
+      },
+      "End": true
+    }
+  }
+}

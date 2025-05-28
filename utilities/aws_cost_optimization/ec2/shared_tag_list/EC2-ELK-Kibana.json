@@ -1,0 +1,40 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0da0b605220604519"
+  ],
+  "Tags": [
+    {
+      "Key": "purpose",
+      "Value": "Elasticsearch and Kibana"
+    },
+    {
+      "Key": "project",
+      "Value": "elk"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "02152023"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-ELK-Kibana"
+    },
+    {
+      "Key": "UpdatedOn",
+      "Value": "02152023"
+    },
+    {
+      "Key": "environment",
+      "Value": "shared"
+    }
+  ]
+}

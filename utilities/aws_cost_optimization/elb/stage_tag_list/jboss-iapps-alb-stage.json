@@ -1,0 +1,73 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/app/jboss-iapps-alb-stage/8f32ff9d7d0ae8ce",
+  "Tags": [
+    {
+      "Key": "TechStack",
+      "Value": "JBoss"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "InsuranceApps"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Automated",
+      "Value": "True"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "None"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-iapps-alb-stage"
+    },
+    {
+      "Key": "Project",
+      "Value": "insuranceapps"
+    },
+    {
+      "Key": "Department",
+      "Value": "IAPPS"
+    },
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    }
+  ]
+}

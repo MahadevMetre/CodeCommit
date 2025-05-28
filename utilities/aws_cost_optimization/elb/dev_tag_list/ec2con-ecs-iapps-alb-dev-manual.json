@@ -1,0 +1,77 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/ec2con-ecs-iapps-alb-dev-manual/16f44c9483bbd376",
+  "Tags": [
+    {
+      "Key": "TechStack",
+      "Value": "Java"
+    },
+    {
+      "Key": "Usage",
+      "Value": "POC"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Atlas"
+    },
+    {
+      "Key": "Created On",
+      "Value": "12/1/2023"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "vlakshmi"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "None"
+    },
+    {
+      "Key": "Department",
+      "Value": "ATS"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Test",
+      "Value": "True"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "Environment",
+      "Value": "devel"
+    },
+    {
+      "Key": "Created By",
+      "Value": "vlakshmi"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Application",
+      "Value": "Atlas Serverless"
+    }
+  ]
+}

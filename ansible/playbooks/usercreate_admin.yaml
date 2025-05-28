@@ -1,0 +1,33 @@
+- hosts: all
+  become: yes
+  remote_user: ansible
+  become_user: root
+  tasks:
+  - name: Create User and Update Password
+    become: true
+    user:
+      name: "{{ user_name }}"
+      uid: "{{ uid }}"
+      group: "{{ gid }}"
+      groups: "wheel"
+      update_password: always
+      password: "{{ password|password_hash('sha512') }}"
+
+  - name: Create SSH Folders
+    file:
+      path: /home/{{ user_name }}/.ssh
+      state: directory
+      mode: "0700"
+      owner: "{{ user_name }}"
+
+  - name: Create authorized key file
+    file:
+      path: /home/{{ user_name }}/.ssh/authorized_keys
+      state: touch
+      mode: "0600"
+      owner: "{{ user_name }}"
+
+  - name: Copy ssh key to users authorized keys
+    copy:
+      src: /var/lib/jenkins/workspace/ansible_user_create_admin/SSH-Public-Key
+      dest: /home/{{ user_name }}/.ssh/authorized_keys

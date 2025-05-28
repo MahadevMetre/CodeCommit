@@ -1,0 +1,28 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0748caeff1e77ad11"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Type",
+      "Value": "jboss-admin-adhoc"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-JBoss-Admin-Dev"
+    },
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "Patch Group",
+      "Value": "rhel"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-021c999b527cb34c3"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-RML-Stage2"
+    },
+    {
+      "Key": "Project",
+      "Value": "CCMS"
+    },
+    {
+      "Key": "Type",
+      "Value": "adhoc"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    }
+  ]
+}

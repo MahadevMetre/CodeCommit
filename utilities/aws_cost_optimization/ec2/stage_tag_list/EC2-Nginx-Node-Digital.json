@@ -1,0 +1,84 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-08d914255da46373a"
+  ],
+  "Tags": [
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Digital"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "CretedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "QSConfigName-8l8fj",
+      "Value": "Stage Patch Report"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    },
+    {
+      "Key": "Department",
+      "Value": "DGT"
+    },
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "Nginx"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-Nginx-Node-Digital"
+    }
+  ]
+}

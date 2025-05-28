@@ -1,0 +1,7 @@
+arn:aws:lambda:us-east-1:964190570136:function:fmg-security-monitor-cloudtraillogs-lambda
+arn:aws:lambda:us-east-1:964190570136:function:fmg-security-monitor-es-index-deletion-lambda
+arn:aws:lambda:us-east-1:964190570136:function:fmg-security-monitor-kibana-alerts-lambda
+arn:aws:lambda:us-east-1:964190570136:function:fmg-security-monitor-s3accesslogs-lambda
+arn:aws:lambda:us-east-1:964190570136:function:fmg-security-monitor-vpcflowlogs-lambda
+arn:aws:lambda:us-east-1:964190570136:function:maintenancegw-recordset-status-shared
+arn:aws:lambda:us-east-1:964190570136:function:maintenancegw-update-recordset-shared

@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "pci"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "mfaizudeen"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Lasso Scanned Files PCI"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "11042022"
+        },
+        {
+            "Key": "project",
+            "Value": "Lasso"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "08112022"
+        }
+    ]
+}

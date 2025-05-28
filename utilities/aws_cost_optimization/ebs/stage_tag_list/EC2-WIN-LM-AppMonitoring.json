@@ -1,0 +1,68 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-07ccf6e59643e191e"
+  ],
+  "Tags": [
+    {
+      "Key": "InstanceID",
+      "Value": "i-0de87740198403b78"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-LM-AppMonitoring"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "Department",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "NoInfo"
+    }
+  ]
+}

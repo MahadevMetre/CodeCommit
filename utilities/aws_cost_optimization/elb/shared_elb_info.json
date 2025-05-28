@@ -1,0 +1,67 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:964190570136:loadbalancer/gwy/gwlb1/df944d075b75e141",
+            "CreatedTime": "2021-07-30T00:52:30.087000+00:00",
+            "LoadBalancerName": "gwlb1",
+            "VpcId": "vpc-04338f10380dc00ef",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "gateway",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-00a3eeaa7b5f59e2e"
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-063286a09a0261749"
+                }
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:964190570136:loadbalancer/gwy/franklin-shared-security-gwlb/b37237127ee16cbc",
+            "CreatedTime": "2022-07-07T15:42:13.827000+00:00",
+            "LoadBalancerName": "franklin-shared-security-gwlb",
+            "VpcId": "vpc-00975e2d14b239975",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "gateway",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-09590e1f6e1cd9c63"
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0028b956ace9fd928"
+                }
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:964190570136:loadbalancer/gwy/franklin-security-gwlb/499287c465d0f1ca",
+            "CreatedTime": "2022-07-27T15:29:17.929000+00:00",
+            "LoadBalancerName": "franklin-security-gwlb",
+            "VpcId": "vpc-077403705c4159be7",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "gateway",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0920b31ec5edc3250"
+                },
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-0b0322ab7b692b19a"
+                }
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}

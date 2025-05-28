@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0d343cfb43a90ca8f"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Admin-Digital"
+    }
+  ]
+}

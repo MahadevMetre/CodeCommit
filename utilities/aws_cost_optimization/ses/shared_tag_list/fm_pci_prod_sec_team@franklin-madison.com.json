@@ -1,0 +1,13 @@
+{
+  "ResourceArn": "arn:aws:ses:us-east-1:964190570136:identity/fm_pci_prod_sec_team@franklin-madison.com",
+  "Tags": [
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "NoInfo"
+    }
+  ]
+}

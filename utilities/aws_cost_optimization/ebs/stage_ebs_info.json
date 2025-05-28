@@ -1,0 +1,2494 @@
+{
+    "Volumes": [
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-01-15T20:13:14+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-005c6309ecb92216a",
+                    "State": "attached",
+                    "VolumeId": "vol-07a463a78c214a595",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2020-01-15T20:13:14.692000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 30,
+            "SnapshotId": "snap-015bcf94735a3f785",
+            "State": "in-use",
+            "VolumeId": "vol-07a463a78c214a595",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Department",
+                    "Value": "HMS"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Hermes"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Operations"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-JBoss-Admin-Stage"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Insurance Migration"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-005c6309ecb92216a"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-01-16T21:58:02+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0a2379bf4941445aa",
+                    "State": "attached",
+                    "VolumeId": "vol-0710dbe96615f69d0",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2020-01-16T21:58:02.278000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 30,
+            "SnapshotId": "snap-024b1d5d14960ebdf",
+            "State": "in-use",
+            "VolumeId": "vol-0710dbe96615f69d0",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Project",
+                    "Value": "Insurance Migration"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Operations"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "HMS"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Hermes"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0a2379bf4941445aa"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-JBoss-App-Stage1"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2020-01-30T18:26:52.779000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 56,
+            "SnapshotId": "snap-000bff2cfd2bff443",
+            "State": "available",
+            "VolumeId": "vol-0a219e7c086bf4044",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-Priv-Qualys-Vscan Encrypted"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-08-27T17:53:34+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0d058b9c78b3794b2",
+                    "State": "attached",
+                    "VolumeId": "vol-09a4b401c51ec4916",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2020-08-27T17:53:34.574000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 30,
+            "SnapshotId": "snap-0d1294269b8b9d3f0",
+            "State": "in-use",
+            "VolumeId": "vol-09a4b401c51ec4916",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Hermes"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Operations"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "CCMS"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "HMS"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-RML-Stage1"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Type",
+                    "Value": "adhoc"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0d058b9c78b3794b2"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-11-24T21:49:48+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-02d09dd809a4fee83",
+                    "State": "attached",
+                    "VolumeId": "vol-06cf98a00c7ad76d5",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2020-11-24T21:49:48.375000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 30,
+            "SnapshotId": "snap-011d4ce90456add74",
+            "State": "in-use",
+            "VolumeId": "vol-06cf98a00c7ad76d5",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "Project",
+                    "Value": "CCMS"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Hermes"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-PSCHM-Stage1"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Operations"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-02d09dd809a4fee83"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Type",
+                    "Value": "adhoc"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "HMS"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-19T15:38:05+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0de87740198403b78",
+                    "State": "attached",
+                    "VolumeId": "vol-07ccf6e59643e191e",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-08-19T15:38:05.500000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 80,
+            "SnapshotId": "snap-0866053e60abfae8d",
+            "State": "in-use",
+            "VolumeId": "vol-07ccf6e59643e191e",
+            "Iops": 240,
+            "Tags": [
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0de87740198403b78"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-LM-AppMonitoring"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "NoInfo"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-10-26T04:41:30+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-09353943c1e2d9b04",
+                    "State": "attached",
+                    "VolumeId": "vol-0483780984886f999",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-10-26T04:41:30.814000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 50,
+            "SnapshotId": "snap-0ba909817271a4fd9",
+            "State": "in-use",
+            "VolumeId": "vol-0483780984886f999",
+            "Iops": 150,
+            "Tags": [
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-CrushFTP-Proxy-Stage1"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-09353943c1e2d9b04"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "EFT"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-10-26T05:02:12+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0fe6175027a493f38",
+                    "State": "attached",
+                    "VolumeId": "vol-0dd945cdabf12128a",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-10-26T05:02:13.087000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 80,
+            "SnapshotId": "snap-06bd430c2e97f1c29",
+            "State": "in-use",
+            "VolumeId": "vol-0dd945cdabf12128a",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-CrushFTP-Stage1"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0fe6175027a493f38"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-10-26T05:02:12+00:00",
+                    "Device": "xvdb",
+                    "InstanceId": "i-0fe6175027a493f38",
+                    "State": "attached",
+                    "VolumeId": "vol-0781a0bfdcbff7bc2",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-10-26T05:02:12.837000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "in-use",
+            "VolumeId": "vol-0781a0bfdcbff7bc2",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-CrushFTP-Stage1-xvdb"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0fe6175027a493f38"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-11-04T22:40:55.502000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 30,
+            "SnapshotId": "snap-0b0d3f51365c42679",
+            "State": "available",
+            "VolumeId": "vol-03a13468f55235528",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-11-04T22:45:05.517000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 100,
+            "SnapshotId": "snap-07050f83e83769250",
+            "State": "available",
+            "VolumeId": "vol-03a40f3bfb92213f4",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-11-04T22:45:05.652000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 80,
+            "SnapshotId": "snap-063ef48d07d0eaa01",
+            "State": "available",
+            "VolumeId": "vol-0c5dff6e4fe94ca0e",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-01-16T22:07:49+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0fa90acc0fd45f010",
+                    "State": "attached",
+                    "VolumeId": "vol-0cd1872ba60ebc0d9",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2020-01-16T22:07:50.019000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 30,
+            "SnapshotId": "snap-024b1d5d14960ebdf",
+            "State": "in-use",
+            "VolumeId": "vol-0cd1872ba60ebc0d9",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "HMS"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Operations"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Hermes"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0fa90acc0fd45f010"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-JBoss-App-Stage2"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Insurance Migration"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-02-02T04:26:29+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0e9100fdc2d27c290",
+                    "State": "attached",
+                    "VolumeId": "vol-020de6812db66cb3d",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2020-02-02T04:26:29.494000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 30,
+            "SnapshotId": "snap-0b1aab49d5f734811",
+            "State": "in-use",
+            "VolumeId": "vol-020de6812db66cb3d",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Insurance Migration"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0e9100fdc2d27c290"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-Nginx-App-Stage2"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "HMS"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Hermes"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Operations"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-08-27T20:29:06+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-021c999b527cb34c3",
+                    "State": "attached",
+                    "VolumeId": "vol-088bc9c847ed8c670",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2020-08-27T20:29:06.251000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 30,
+            "SnapshotId": "snap-0d1294269b8b9d3f0",
+            "State": "in-use",
+            "VolumeId": "vol-088bc9c847ed8c670",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "CCMS"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "HMS"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-RML-Stage2"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Operations"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-021c999b527cb34c3"
+                },
+                {
+                    "Key": "Type",
+                    "Value": "adhoc"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Hermes"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-11-25T17:44:29+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0969b054fcede4a59",
+                    "State": "attached",
+                    "VolumeId": "vol-03fe4993ffe4b69f9",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2020-11-25T17:44:29.970000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 30,
+            "SnapshotId": "snap-011d4ce90456add74",
+            "State": "in-use",
+            "VolumeId": "vol-03fe4993ffe4b69f9",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "Type",
+                    "Value": "adhoc"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0969b054fcede4a59"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Operations"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-PSCHM-Stage2"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "CCMS"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Hermes"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "HMS"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-05-28T07:56:38+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-04202842ef0a5546c",
+                    "State": "attached",
+                    "VolumeId": "vol-0e40d4f8607c7b117",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2021-05-28T07:56:38.268000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-03f2e24f30f580353",
+            "State": "in-use",
+            "VolumeId": "vol-0e40d4f8607c7b117",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "DGT"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-JBoss-Admin-Digital"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-04202842ef0a5546c"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Digital"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-06-01T11:30:40+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-07ae63ca33deab429",
+                    "State": "attached",
+                    "VolumeId": "vol-074d19814087c0ec0",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2021-06-01T11:30:40.472000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-03f2e24f30f580353",
+            "State": "in-use",
+            "VolumeId": "vol-074d19814087c0ec0",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Digital"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-JBoss-Slave-Digital"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-07ae63ca33deab429"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "DGT"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-09-22T08:36:15+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0e67c3a7ca562a060",
+                    "State": "attached",
+                    "VolumeId": "vol-05eac8e6c01ab624e",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2021-09-22T08:36:15.448000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 30,
+            "SnapshotId": "snap-0d201f7df3a90a282",
+            "State": "in-use",
+            "VolumeId": "vol-05eac8e6c01ab624e",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "InsuranceApps"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "IAPPS"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0e67c3a7ca562a060"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-JBoss-Admin-InsuranceApps"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-09-22T09:18:10+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-07b3b5d6ca186b62b",
+                    "State": "attached",
+                    "VolumeId": "vol-084d78320f0c60bff",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2021-09-22T09:18:10.650000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 30,
+            "SnapshotId": "snap-0b43b3805222f6abe",
+            "State": "in-use",
+            "VolumeId": "vol-084d78320f0c60bff",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "InsuranceApps"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "IAPPS"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-07b3b5d6ca186b62b"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-JBoss-Slave-InsuranceApps"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-09-23T15:02:28+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0bc8496623933bb6b",
+                    "State": "attached",
+                    "VolumeId": "vol-0b5cdb85eaf3466db",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2021-09-23T15:02:29.081000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 30,
+            "SnapshotId": "snap-050822386c063e77a",
+            "State": "in-use",
+            "VolumeId": "vol-0b5cdb85eaf3466db",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "IAPPS"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "InsuranceApps"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0bc8496623933bb6b"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-Nginx-Node-InsuranceApps"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-04-04T13:55:44+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0dd1ab6fce643d711",
+                    "State": "attached",
+                    "VolumeId": "vol-0a72df4ca8eda19cc",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-04-04T13:55:44.893000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 200,
+            "SnapshotId": "snap-0dac90c68f7ad7581",
+            "State": "in-use",
+            "VolumeId": "vol-0a72df4ca8eda19cc",
+            "Iops": 600,
+            "Tags": [
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Datawarehouse"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-DW-Qlik-Base Instance"
+                },
+                {
+                    "Key": "purpose",
+                    "Value": "FMG DW Qlik Replicate Instance"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0dd1ab6fce643d711"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "DLH"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-06-15T18:33:50+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-045438467c7fec2d4",
+                    "State": "attached",
+                    "VolumeId": "vol-072ddaaedb74517ef",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-06-15T18:33:50.566000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 50,
+            "SnapshotId": "snap-0128fa3439bd66181",
+            "State": "in-use",
+            "VolumeId": "vol-072ddaaedb74517ef",
+            "Iops": 150,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-DW-DataGateway-qa"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-045438467c7fec2d4"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "DLH"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Datawarehouse"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-06-15T18:34:09+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0ba70819a5e640591",
+                    "State": "attached",
+                    "VolumeId": "vol-09eea0f3202d08b0f",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-06-15T18:34:09.907000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 200,
+            "SnapshotId": "snap-0732b35fabadb9cc1",
+            "State": "in-use",
+            "VolumeId": "vol-09eea0f3202d08b0f",
+            "Iops": 600,
+            "Tags": [
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Datawarehouse"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "DLH"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0ba70819a5e640591"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-Win-fmg-dw-qlik_replica"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-01T07:19:09+00:00",
+                    "Device": "/dev/sdb",
+                    "InstanceId": "i-06dbc5b5827f7ad12",
+                    "State": "attached",
+                    "VolumeId": "vol-0f6c041e430d38f0a",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-08-01T07:19:09.978000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 150,
+            "SnapshotId": "",
+            "State": "in-use",
+            "VolumeId": "vol-0f6c041e430d38f0a",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-06dbc5b5827f7ad12"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "True"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Lasso"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lasso-sgw-ec2-stage-sdb"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "LSO"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-01T07:19:09+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-06dbc5b5827f7ad12",
+                    "State": "attached",
+                    "VolumeId": "vol-034b6b1b8b66523b2",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-08-01T07:19:09.828000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 80,
+            "SnapshotId": "snap-0e1cd28fe60fd71b8",
+            "State": "in-use",
+            "VolumeId": "vol-034b6b1b8b66523b2",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Lasso"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lasso-sgw-ec2-stage"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "True"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "LSO"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-06dbc5b5827f7ad12"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "None"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-10-26T04:45:37+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-08b7930ca11189fa6",
+                    "State": "attached",
+                    "VolumeId": "vol-0ccb04e5e65238ff1",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-10-26T04:45:37.169000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 50,
+            "SnapshotId": "snap-0ba909817271a4fd9",
+            "State": "in-use",
+            "VolumeId": "vol-0ccb04e5e65238ff1",
+            "Iops": 150,
+            "Tags": [
+                {
+                    "Key": "ApplicationName",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-CrushFTP-Proxy-Stage2"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-08b7930ca11189fa6"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "EFT"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-10-26T05:04:28+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0784324a327204546",
+                    "State": "attached",
+                    "VolumeId": "vol-0a4702535c1408e43",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-10-26T05:04:28.596000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 80,
+            "SnapshotId": "snap-06bd430c2e97f1c29",
+            "State": "in-use",
+            "VolumeId": "vol-0a4702535c1408e43",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0784324a327204546"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-CrushFTP-Stage2"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-10-26T05:04:28+00:00",
+                    "Device": "xvdb",
+                    "InstanceId": "i-0784324a327204546",
+                    "State": "attached",
+                    "VolumeId": "vol-03b79fa14aa302085",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-10-26T05:04:28.457000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "in-use",
+            "VolumeId": "vol-03b79fa14aa302085",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-0784324a327204546"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-CrushFTP-Stage2-xvdb"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "EFT"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-11-04T22:42:35.706000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 30,
+            "SnapshotId": "snap-0fa61face3c727cf5",
+            "State": "available",
+            "VolumeId": "vol-0cfa246e2b680fb56",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-11-04T22:46:05.767000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 80,
+            "SnapshotId": "snap-0b18396c82089f694",
+            "State": "available",
+            "VolumeId": "vol-04a95021cc23815e1",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-11-04T22:46:05.634000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/1768f1e1-0140-4b26-83ba-6e3a4f50a1d0",
+            "Size": 100,
+            "SnapshotId": "snap-066373b5579b1e758",
+            "State": "available",
+            "VolumeId": "vol-0941fdf677b081237",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2023-01-03T06:03:42+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-04d4f8a2ffca1f8fd",
+                    "State": "attached",
+                    "VolumeId": "vol-045eb0389118627da",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2023-01-03T06:03:42.522000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 30,
+            "SnapshotId": "snap-0ff744ed7d2605a79",
+            "State": "in-use",
+            "VolumeId": "vol-045eb0389118627da",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-04d4f8a2ffca1f8fd"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "IAPPS"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-Automation"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "InsuranceApps"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2023-01-26T10:19:45+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-08d914255da46373a",
+                    "State": "attached",
+                    "VolumeId": "vol-0b683e51775999b55",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2023-01-26T10:18:52.749000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0bd35d07db9178ecc",
+            "State": "in-use",
+            "VolumeId": "vol-0b683e51775999b55",
+            "Iops": 3000,
+            "Tags": [
+                {
+                    "Key": "CreatedOn",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "InstanceID",
+                    "Value": "i-08d914255da46373a"
+                },
+                {
+                    "Key": "Usage",
+                    "Value": "Project"
+                },
+                {
+                    "Key": "BackupPlan",
+                    "Value": "Monthly"
+                },
+                {
+                    "Key": "Version",
+                    "Value": "1.0"
+                },
+                {
+                    "Key": "Automated",
+                    "Value": "False"
+                },
+                {
+                    "Key": "LastUpdated",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-Nginx-Node-Digital"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "DGT"
+                },
+                {
+                    "Key": "ApplicationName",
+                    "Value": "Digital"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "FMG"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "None"
+                },
+                {
+                    "Key": "TechStack",
+                    "Value": "NoInfo"
+                },
+                {
+                    "Key": "Infrastructure",
+                    "Value": "False"
+                }
+            ],
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2023-02-04T04:40:27.996000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:702230634984:key/e4cd9ef3-fd41-4a9f-b079-0fa7d85d5a09",
+            "Size": 30,
+            "SnapshotId": "snap-0498db601fa9ee6d5",
+            "State": "available",
+            "VolumeId": "vol-09058593bb0db08bb",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss-admin-fordr-ami volume"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        }
+    ]
+}

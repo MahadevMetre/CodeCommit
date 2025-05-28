@@ -1,0 +1,91 @@
+{
+	"dev": {
+		"plan_and_execute": [
+			"apilla",
+			"jsamuel",
+			"mahadev",
+			"mfaizudeen",
+			"sbose",
+			"ssyeed"
+		],
+		"plan_only": [
+			"add_here_if_you_dont_want_user_to_apply"
+		]
+	},
+	"qa": {
+		"plan_and_execute": [
+			"apilla",
+			"jsamuel",
+			"mahadev",
+			"mfaizudeen",
+			"sbose",
+			"ssyeed"
+		],
+		"plan_only": [
+			"add_here_if_you_dont_want_user_to_apply"
+		]
+	},
+	"stage": {
+		"plan_and_execute": [
+			"apilla",
+			"jsamuel",
+			"mahadev",
+			"mfaizudeen",
+			"sbose",
+			"ssyeed"
+		],
+		"plan_only": [
+			"add_here_if_you_dont_want_user_to_apply"
+		]
+	},
+	"shared": {
+		"plan_and_execute": [
+			"apilla",
+			"controlaccount",
+			"jsamuel",
+			"ksenkodi",
+			"mfaizudeen",
+			"sbose"
+		],
+		"plan_only": [
+			"mahadev",
+			"ssyeed"
+		]
+	},
+	"prod": {
+		"plan_and_execute": [
+			"apilla",
+			"controlaccount",
+			"jsamuel",
+			"ksenkodi"
+		],
+		"plan_only": [
+			"mfaizudeen",
+			"sbose"
+		]
+	},
+	"pci": {
+		"plan_and_execute": [
+			"apilla",
+			"controlaccount",
+			"jsamuel",
+			"ksenkodi"
+		],
+		"plan_only": [
+			"mfaizudeen",
+			"sbose"
+		]
+	},
+	"dr": {
+		"plan_and_execute": [
+			"apilla",
+			"controlaccount",
+			"jsamuel",
+			"ksenkodi"
+		],
+		"plan_only": [
+			"mfaizudeen",
+			"sbose"
+		]
+	}
+}

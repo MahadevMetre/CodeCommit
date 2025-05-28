@@ -1,0 +1,32 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-04202842ef0a5546c"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Admin-Digital"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "Type",
+      "Value": "jboss-admin-adhoc"
+    },
+    {
+      "Key": "createdDate",
+      "Value": "05/28/2021"
+    },
+    {
+      "Key": "environment",
+      "Value": "stage"
+    }
+  ]
+}

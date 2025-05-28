@@ -1,0 +1,17 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:601751840347:loadbalancer/app/jboss-app-lb-pci/474d97536471938d",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-app-lb-pci"
+    }
+  ]
+}

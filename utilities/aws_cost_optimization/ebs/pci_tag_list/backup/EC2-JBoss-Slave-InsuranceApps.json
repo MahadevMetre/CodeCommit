@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-01b335246936f758a"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Slave-InsuranceApps"
+    }
+  ]
+}

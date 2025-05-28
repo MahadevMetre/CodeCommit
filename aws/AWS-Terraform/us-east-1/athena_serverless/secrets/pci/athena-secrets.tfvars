@@ -1,0 +1,32 @@
+secret_name				= "athena-secrets-pci"
+secret_description		= "Athena Marketing services Secrets PCI"
+secret_rc_window		= "0"
+secret_tags = {
+	"ApplicationName"		= "AthenaNextgen2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07222024"
+	"DataClassification"	= "PCI"
+	"Department"			= "ANG2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "07222024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+
+secret_values = {
+	"as400_db_hostname" = "DUMMY_VALUE"
+	"as400_db_password" = "DUMMY_VALUE"
+	"as400_db_username" = "DUMMY_VALUE"
+	"as400_default_schema" = "DUMMY_VALUE"
+	"as400_pcml_username" = "DUMMY_VALUE"
+	"as400_pcml_password" = "DUMMY_VALUE"
+	"athenaNextgenSecret" = "DUMMY_VALUE"
+    "datasource_username" = "DUMMY_VALUE"
+    "datasource_password" = "DUMMY_VALUE"
+    "datasource_url" = "DUMMY_VALUE"
+    "driver-class-name" = "DUMMY_VALUE"
+}

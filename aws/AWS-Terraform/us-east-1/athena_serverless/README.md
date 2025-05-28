@@ -1,0 +1,16 @@
+Infra setup for Production Athena-Marketing Services (Serverless)
+
+1. IAM Role - athena-ecs-task-execution-role including 5 policies - Terraform
+   Policy - Parameter store policy-Terraform
+2. Application Load balancer(including one security group)  - Terraform
+   Target Group - Terraform
+3. ECS Cluster - Terraform
+4. ACM/Route53  - Terraform
+5. KMS and Param Store - Terraform
+6. Secret Manager-for Secret manager please refer JBOSS Stage secret Values and need to update accordingly - Terraform
+7. ECR Repo - fmg-insuranceapps - Terraform
+8. s3 Bucket and Cloudfront-UI -Hosting--Terraform
+
+
+Note: QA and Stage AWS setup was completely Terraform code.
+Only Dev is Manual.

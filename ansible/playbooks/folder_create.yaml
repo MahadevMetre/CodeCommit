@@ -1,0 +1,13 @@
+- hosts: all
+  become: yes
+  remote_user: ansible
+  become_user: root
+  become_method: sudo
+  tasks:
+  - name: create a directory
+    file:
+      path: "{{ dir_path }}"
+      state: directory 
+      owner: "{{ own }}"
+      group: "{{ grp }}"
+      mode: "{{ chmod }}"

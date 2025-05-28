@@ -1,0 +1,24 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0b9c2fd15d644ba87"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "ebs-1"
+    },
+    {
+      "Key": "Application",
+      "Value": "Palo Alto Networks Panorama"
+    },
+    {
+      "Key": "ManagedBy",
+      "Value": "terraform"
+    },
+    {
+      "Key": "Owner",
+      "Value": "PS Team"
+    }
+  ]
+}

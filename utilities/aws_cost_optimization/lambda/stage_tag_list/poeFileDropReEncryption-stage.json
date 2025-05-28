@@ -1,0 +1,21 @@
+{
+    "Tags": {
+        "ApplicationName": "Hermes",
+        "Automated": "False",
+        "BackupPlan": "None",
+        "CostCenter": "Operations",
+        "CreatedBy": "NoInfo",
+        "CreatedOn": "NoInfo",
+        "DataClassification": "Low",
+        "Department": "HMS",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Java",
+        "Usage": "Project",
+        "Version": "1.0"
+    }
+}
+
+
+
+

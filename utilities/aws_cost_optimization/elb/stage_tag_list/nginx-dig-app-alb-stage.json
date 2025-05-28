@@ -1,0 +1,65 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/app/nginx-dig-app-alb-stage/877be3487e6c8d7f",
+  "Tags": [
+    {
+      "Key": "TechStack",
+      "Value": "Nginx"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Digital"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "None"
+    },
+    {
+      "Key": "project",
+      "Value": "Digital"
+    },
+    {
+      "Key": "Department",
+      "Value": "DGT"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "createdBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    }
+  ]
+}

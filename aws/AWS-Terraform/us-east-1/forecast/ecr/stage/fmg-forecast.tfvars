@@ -1,0 +1,16 @@
+repo_name				= "fmg-forecast"
+repo_tags = {
+	"ApplicationName"		= "InsuranceApps"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "08212024"
+	"DataClassification"	= "Low"
+	"Department"			= "IAPPS"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "08212024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

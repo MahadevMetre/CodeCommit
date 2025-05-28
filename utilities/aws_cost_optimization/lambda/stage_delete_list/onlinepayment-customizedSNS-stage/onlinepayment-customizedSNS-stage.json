@@ -1,0 +1,59 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-customizedSNS-stage",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:onlinepayment-customizedSNS-stage",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/onlinepayment-customizedSNS-staging",
+        "Handler": "todos/cloudwatch_logs_filtering.cloudwatchTrigger",
+        "CodeSize": 11039564,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.450+0000",
+        "CodeSha256": "1EnXw3zMi0MWhf3EnaAN/D9b+RT8gMIf2D5AGDJoDW4=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0ed61b6beb807094e",
+                "subnet-076a071fa0723c80e"
+            ],
+            "SecurityGroupIds": [
+                "sg-0a5da8e1a87daaa60"
+            ],
+            "VpcId": "vpc-0051d323df13c7db3"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHiEbmZYZoosOoas35/jcfKOpWEoKN/lQJ3A1VVLVlWFAAGFvyKq+UZmGbSJzF3r+JeYAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMrDSArtj3mw0OOQ8pAgEQgDuMpwxBsXXvP5eCCed1U26JtsuC4CTcaqdh/4mV0k9wikjz5fCy5vgBFpPFyZECXalhoTnNfCFBck3KAg=="
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:702230634984:key/25d3c9c7-2173-4df2-976e-f400f58f052d",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "ae58b988-38c2-4227-9e17-2e9d60b60c94",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:702230634984:layer:parameterlayer:129",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/onlinepayment-customizedSNS-stage-f177f5e7-a601-48ea-bf91-14c714936022?versionId=DkVsV.pzoK4RQivrqhzYKC31VENPkqzc&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEwaCXVzLWVhc3QtMSJHMEUCIHe1fMrN1t7kDrOetK8%2ByCG7Xo0ssZ%2BQqrBB%2FygxMax%2FAiEA1gVVtGAKJ%2BQ0oOgVBcxID9GweJMnq9q%2B74tQTBUw5uUqsAUIRBAAGgw3NDk2Nzg5MDI4MzkiDIP40lSdKP5Kcv0WgSqNBWn0oArEFaskQkWJdd9vaPKpkGxnHhtS1zdXpYL97TtDSd%2FIPlMgB%2FGYDQVMx2Oq5ButGt4ToAXnmCUcYmkW5PJdayveJwG%2Fi411I1zaORBTefUqKTjKKF8OjWx8HvNUdwDx6EC3zzuJDccvEas2k%2FojaNSrkFXyWIQ%2B4hZM1V26EixOS00dnhbKNDgGsRuzpuJkz5DhzusJZZPo72eyYsfzSOJxsz5LN1iQybLjEir4u%2Fvwiu1ILEGYz5PaoG4yMVMcXPQp36Sew4iTbiozBFIyoM4syKIJ9TsLNEyVGYo34pZ7DP7qL7EMg9f%2BiyRTvGMF4JzFHbjiJu1hB2XZtM62EKXfVFvyUUeLOrP%2BKBhD2L4sKMFe7rMqA479jJbnXFrUHmcD%2FfCv%2Bj%2BQobqSmS7f5m3p5w6NYHCard%2FRlvGJutAJPQwSdoE7V6Nx3TKonMq2Pt0x7x0uyqaRp5GbqOExoggX8N2MpR23S60XgT4PpLGjDnOMp955%2Fc0GEmyrb2x5tLQoMYagHO2vaqetxVBqozsBmIM4hiJRq5B3MvdsvR6SsUBL%2BCvjixPXWnAazJZmQJ5n7NZkdlpCKPPVtdNChq5oKDX6ZBQ9cw6%2F%2BXaoaIt1z%2Ba2BacEfaQgFFLD%2FUKPoWAbfSGSx9a3i9du8F2g%2BfEcmfGgvzcJHiFD5dhnAUdEX8FD1hMGuWwmID48D7xcpzpc1jPKADZIO%2BxrJQ86%2FbeA778OL5ulpo0muDidVppl4iRnNpgd2T4aHafS9%2FA%2Buc%2B21NBitmqzRwGhXC0wpvyHNl4jurwbDDhMJOrAiir3YEnvzuCpwyMHvAfCHeOZ6qTw2DM8Qfvhg0WGs6Kn85bz2l7FV9IOqeH3MNvW9KEGOrEB1Q3Ye9ZMpqwhIC7D5481%2FEsqL3dHsdMiBN4rkRCZoZ3zEFYMcm%2B%2Bv9LGOzL412ZMGre8JS%2FM5uIwW5T8jabJinjq94P6%2Fr27T5%2BrpUbDUeUR1lr3ChoOW8WVxKZBH43tnJzRpV%2B3s%2FZHc59lR7xzVxDlkfHFcLFuWa3m19SV%2F%2FZsVJIMqxn6MXt%2B%2BPpZuqnuDKaJSUhz2sNx8ZPKubTPYroNpwVqfS2HqfQ4r%2BQDn3xb&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T122945Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3TFMURQQD%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=870722e41504c8b5d90d5bbfa91ac20e4314b0f3519f9fcd9eb94201cec62088"
+    },
+}

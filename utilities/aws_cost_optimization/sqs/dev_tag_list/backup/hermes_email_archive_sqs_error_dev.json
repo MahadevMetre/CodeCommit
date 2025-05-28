@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/116762271881/hermes_email_archive_sqs_error_dev",
+  "Tags": {
+    "Project": "CCMS",
+    "CreatedBy": "dselvaraj",
+    "Name": "hermes_email_archive_sqs_error_dev"
+  }
+}

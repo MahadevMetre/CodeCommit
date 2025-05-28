@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0ccb04e5e65238ff1"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-CrushFTP-Proxy-Stage2"
+    }
+  ]
+}

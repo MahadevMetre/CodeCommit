@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/gps_printpo_sqs_error_prod",
+  "Tags": {
+    "CretedBy": "jsamuel",
+    "environment": "pci",
+    "terraform": "True"
+  }
+}

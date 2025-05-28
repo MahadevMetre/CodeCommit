@@ -1,0 +1,12 @@
+awsconfig-shared-bucket-964190570136
+cf-templates-z7f531tk25fk-us-east-1
+cisbenchmark-cloudtrails3bucket-kcdxbuy0e6mx
+devops-server-backups
+elk-elasticsearch-logs-backup-temp
+franklin-security-vpcflowlogs
+franklin-shared-fmg-security-monitor-es-snapshots
+franklin-shared-pbcs-snapshots
+franklin-shared-platformconfig
+franklin-shared-vpcflowlogs
+sharedroutesbackup
+verinext-aws-configs-info

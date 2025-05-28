@@ -1,0 +1,73 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/jboss-insuranceapps-alb-dev/6b90e3d19f704505",
+  "Tags": [
+    {
+      "Key": "TechStack",
+      "Value": "JBoss"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "InsuranceApps"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Automated",
+      "Value": "True"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "None"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-insuranceapps-alb-dev"
+    },
+    {
+      "Key": "Project",
+      "Value": "insuranceapps"
+    },
+    {
+      "Key": "Department",
+      "Value": "IAPPS"
+    },
+    {
+      "Key": "environment",
+      "Value": "dev"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    }
+  ]
+}

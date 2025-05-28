@@ -1,0 +1,16 @@
+{
+    "TagSet": [
+        {
+            "Key": "createdBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "purpose",
+            "Value": "tfstate repo"
+        },
+        {
+            "Key": "project",
+            "Value": "fastrax"
+        }
+    ]
+}

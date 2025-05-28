@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-092fba76a0c77a0aa"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-Nginx-App-PCI2"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    }
+  ]
+}

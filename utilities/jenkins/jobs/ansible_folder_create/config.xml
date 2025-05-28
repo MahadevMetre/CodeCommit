@@ -1,0 +1,87 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@332.va_1ee476d8f6d">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>ServerName</name>
+          <description>ServerName To choose on which playbook to be Execute</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Choose One</string>
+              <string>insjb_dev_admin</string>
+              <string>insjb_dev_slave</string>
+              <string>insjb_rml_dev</string>
+              <string>insjb_pscharm_dev</string>
+              <string>digital_dev</string>
+              <string>insuranceapp_dev</string>
+              <string>insjb_nginx_stage</string>
+              <string>insjb_stage_slave2</string>
+              <string>insjb_rml2</string>
+              <string>insjb_pcshm2</string>
+              <string>insjb_stage_admin</string>
+              <string>insjb_stage_slave1</string>
+              <string>insjb_rml1</string>
+              <string>insjb_pcshm1</string>
+              <string>automation</string>
+              <string>digital_stage</string>
+              <string>insuranceapp_stage</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Dir_path</name>
+          <description>Folder path where it needs to be created</description>
+          <defaultValue>must_change_this</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Owner</name>
+          <description>Owner Name of the folder</description>
+          <defaultValue>must_change_this</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Group</name>
+          <description>Which group should this folder comes</description>
+          <defaultValue>must_change_this</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Mode</name>
+          <description>Permissions(chmod) for this folder(Enter 4 digits with &quot;0&quot;)</description>
+          <defaultValue>must_change_this</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>true</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>ansible-playbook /opt/ansible-playbooks/folder_create.yaml -e &quot;dir_path=$Dir_path own=$Owner grp=$Group chmod=$Mode&quot; -i /etc/ansible/$ServerName -u ansible --private-key=&quot;~/.ssh/ansible.pem&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</project>

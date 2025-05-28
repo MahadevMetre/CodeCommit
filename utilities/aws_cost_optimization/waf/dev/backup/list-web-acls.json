@@ -1,0 +1,8 @@
+{
+    "WebACLs": [
+        {
+            "WebACLId": "46c26e9b-24e5-499b-81c9-0530cfd82e68",
+            "Name": "onlinepayment-WAF-security-automation-stage-CloudFrontStack-K1Y5VJ1KLH1X"
+        }
+    ]
+}

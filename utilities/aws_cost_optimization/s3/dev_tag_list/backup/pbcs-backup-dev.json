@@ -1,0 +1,24 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "PBCS Backup"
+        },
+        {
+            "Key": "Customer",
+            "Value": "FMAD"
+        },
+        {
+            "Key": "purpose",
+            "Value": "S3 bucket for PBCS Backup"
+        },
+        {
+            "Key": "created_by",
+            "Value": "pcharan"
+        },
+        {
+            "Key": "Name",
+            "Value": "pbcs-backup-dev"
+        }
+    ]
+}

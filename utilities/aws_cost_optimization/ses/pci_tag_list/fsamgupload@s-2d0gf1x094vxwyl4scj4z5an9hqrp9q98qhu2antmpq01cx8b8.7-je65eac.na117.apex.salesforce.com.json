@@ -1,0 +1,9 @@
+{
+  "ResourceArn": "arn:aws:ses:us-east-1:601751840347:identity/fsamgupload@s-2d0gf1x094vxwyl4scj4z5an9hqrp9q98qhu2antmpq01cx8b8.7-je65eac.na117.apex.salesforce.com",
+  "Tags": [
+    {
+      "Key": "project",
+      "Value": "salesforce"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "Rules": [
+        {
+            "RuleId": "0c4a0d1d-4b44-4157-b85e-3e08f46b32e4",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N - SQL Injection Rule"
+        },
+        {
+            "RuleId": "7ade50b7-06d1-421e-aa36-16e828675095",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N - Whitelist Rule"
+        },
+        {
+            "RuleId": "a2197eca-6420-4941-8e0d-2d295edb188d",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N - Scanners & Probes Rule"
+        },
+        {
+            "RuleId": "a9a7d226-96b8-4d1c-8e52-e5e50cb20a01",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N - Blacklist Rule"
+        },
+        {
+            "RuleId": "b5cd4c0b-d885-452b-a192-485dce87f550",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N - XSS Rule"
+        },
+        {
+            "RuleId": "e9028f86-fdbb-4b62-a8c0-0fe1ebad2e68",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N - WAF IP Reputation Lists Rule"
+        },
+        {
+            "RuleId": "fcd7ba67-1277-4d08-94d3-867af863e60f",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N - Bad Bot Rule"
+        }
+    ]
+}

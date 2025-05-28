@@ -1,0 +1,19 @@
+{
+    "Tags": {
+        "ApplicationName": "Atlas",
+        "Automated": "False",
+        "BackupPlan": "None",
+        "CostCenter": "Operations",
+        "CreatedBy": "NoInfo",
+        "CreatedOn": "NoInfo",
+        "DataClassification": "Low",
+        "Department": "ATS",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Java",
+        "Usage": "Project",
+        "Version": "1.0"
+    }
+}
+
+

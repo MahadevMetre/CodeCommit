@@ -1,0 +1,76 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0698ed81874f1c823"
+  ],
+  "Tags": [
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "False"
+    },
+    {
+      "Key": "project",
+      "Value": "Data warehouse Project"
+    },
+    {
+      "Key": "InstanceID",
+      "Value": "i-089b0dde70501e6c7"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "Monthly"
+    },
+    {
+      "Key": "Name",
+      "Value": "DW-Qlik-Replication"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Datawarehouse"
+    },
+    {
+      "Key": "purpose",
+      "Value": "Data Replication AS400 to S3"
+    },
+    {
+      "Key": "Department",
+      "Value": "DLH"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    }
+  ]
+}

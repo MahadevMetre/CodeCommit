@@ -1,0 +1,68 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "Digital"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "Automated",
+            "Value": "True"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Bucket to input xlsx file for vanity URL update in stage environment"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "project",
+            "Value": "digital"
+        },
+        {
+            "Key": "Department",
+            "Value": "DGT"
+        },
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "None"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "02012023"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "02012023"
+        }
+    ]
+}

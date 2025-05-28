@@ -1,0 +1,17 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:601751840347:autoscaling_pci_topic",
+  "Tags": [
+    {
+      "Key": "CretedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    }
+  ]
+}

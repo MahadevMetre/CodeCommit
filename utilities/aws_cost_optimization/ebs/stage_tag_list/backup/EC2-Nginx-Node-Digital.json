@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0b683e51775999b55"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-Nginx-Node-Digital"
+    }
+  ]
+}

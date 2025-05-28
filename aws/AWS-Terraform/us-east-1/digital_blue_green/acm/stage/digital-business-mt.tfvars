@@ -1,0 +1,17 @@
+domain_name = "stage-digital-business-mt.fmservice.com"
+validation = "DNS"
+tags = {
+	"ApplicationName"		= "Digital"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "09052024"
+	"DataClassification"	= "dev"
+	"Department"			= "DGT"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "09052024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

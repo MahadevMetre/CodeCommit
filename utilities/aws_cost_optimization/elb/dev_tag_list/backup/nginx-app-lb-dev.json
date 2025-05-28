@@ -1,0 +1,13 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/nginx-app-lb-dev/abfe34b944383e6b",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "Name",
+      "Value": "nginx-app-lb-dev"
+    }
+  ]
+}

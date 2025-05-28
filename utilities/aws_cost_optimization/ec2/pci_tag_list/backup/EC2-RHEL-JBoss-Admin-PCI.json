@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-09cd666ed8def5c82"
+  ],
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-JBoss-Admin-PCI"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    }
+  ]
+}

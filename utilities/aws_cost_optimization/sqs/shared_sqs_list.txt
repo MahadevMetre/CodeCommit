@@ -1,0 +1,2 @@
+https://sqs.us-east-1.amazonaws.com/964190570136/cloudtrail_logs_es_processing_error_queue_shared
+https://sqs.us-east-1.amazonaws.com/964190570136/outcomesbucket-134273047

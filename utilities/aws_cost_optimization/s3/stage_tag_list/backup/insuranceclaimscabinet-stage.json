@@ -1,0 +1,16 @@
+{
+    "TagSet": [
+        {
+            "Key": "CretedBy",
+            "Value": "Arrington Jeffrey JARRINGTON"
+        },
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        }
+    ]
+}

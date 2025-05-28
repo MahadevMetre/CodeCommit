@@ -1,0 +1,9 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/net/eft-crushftp-public-nlb-stage/1ee20246c153fe28",
+  "Tags": [
+    {
+      "Key": "purpose",
+      "Value": "EFT Process CrushFTP"
+    }
+  ]
+}

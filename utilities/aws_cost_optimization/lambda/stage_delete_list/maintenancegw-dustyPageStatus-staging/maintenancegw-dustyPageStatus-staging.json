@@ -1,0 +1,62 @@
+{
+    "Configuration": {
+        "FunctionName": "maintenancegw-dustyPageStatus-staging",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:maintenancegw-dustyPageStatus-staging",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/maintenancegw-dustyPageStatus-staging",
+        "Handler": "todos/dustyPageStatus.dustyPageStatus",
+        "CodeSize": 10297114,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.452+0000",
+        "CodeSha256": "d0hHMc0Jj+jm6IP8O1wOO6hkk8/oZjfeyRVc83i6JLw=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0ed61b6beb807094e",
+                "subnet-076a071fa0723c80e"
+            ],
+            "SecurityGroupIds": [
+                "sg-0a5da8e1a87daaa60"
+            ],
+            "VpcId": "vpc-0051d323df13c7db3"
+        },
+        "DeadLetterConfig": {
+            "TargetArn": "arn:aws:sqs:us-east-1:702230634984:franklin-stage-lambda-dlq"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHjafs2VvAP7uYo7gLu2fM/1wM+uUXU0e27IsGp3Ys1YvwFdbFslY/vv4/KPXa7Zcm4cAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMtsKkOp55LIOsSVEWAgEQgDvWhgd/8DL0a0UwDZH2LwIuDTy+ZXjr1wBxCQPoRnxiWHHx2DFoyZIGeVjR5XiQw33uLc4knp/kYxfC7Q=="
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:702230634984:key/25d3c9c7-2173-4df2-976e-f400f58f052d",
+        "TracingConfig": {
+            "Mode": "Active"
+        },
+        "RevisionId": "5e8fd05d-2cea-464e-9c82-d74719fd99fe",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:702230634984:layer:parameterlayer:129",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/maintenancegw-dustyPageStatus-staging-265a854f-c9a9-4653-82a1-ec488d09ef34?versionId=OsAJ8vgzbAQ.Dcu2rmIATEbEgR2GNYnY&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJHMEUCIQDKISNwmIzT3C7IpZzmBPe8%2Fkl6MxhLaLsk4IOHB0Q5XwIgdSLk%2BdGFltqffX9CRCI%2FbWvREYlAlWKaQtdCs4zUkl8qsAUIRhAAGgw3NDk2Nzg5MDI4MzkiDIeN5Y%2FVBVnpiVBNYyqNBXxUMoZjKHxk%2BZUA1NVNkbMYw1i7l3R5fMmI1V0PJ9%2FiAwqVaHLoTWtSEcRnaxusfHlXTQr5i2S7Cl%2BUr2o31ZrJgFilSaLZ7dvsiqqAmq5DLNANG7uiTllYfWpR6Ij1%2B5M%2B%2F8gLOYN9tAI9bTwWa7hpuJ%2B1vnFjZXsH7XDW3iYHc%2FdW9J9RfBBLZQXZ0OUBg3Q79bfd0ie5gEk4kydw9fpPHxVyCt%2F8sBcUjLndAX0PwDaUogVlJETrC6RwR5uzW0C2Yn%2FVZqZgXd4MpHz6j8BBOekbIQNdNUW50DTcq%2Ftd9SuyO3wiXsYbnUlFIGWgmnxwc1qvTKe4rWF3Or428gosrZdhAjNZLV%2BsFUh6m429T9y%2Fe9AX8gtpwYkmIGQE61JrS%2B35oWPbXTWTstnjcNc%2F4msrfLb2iXpFWbVNhV3R%2FXcApmvjWG%2Bd2JMR9hLgPsoNlffnD0MC%2B90Noek5IdyFbJe6wH7VdOlPmvlJDzGztQO8s8L8UOAxMlBHIzc9WcHX%2FNdYYQ%2FnNHtOLr5nnyAx8qBBthX1O9Ass%2B5C37p9tAPk5tUsfmReeY354OkO7HVamadrcdiPZH1mgeLM9tpCyNcehFxDeHfQSVzMwWT414XZNFbk1xVeh3MzTXLIsNtJRfKWC%2FtVbFs7nyjVbDnqLa3FKFmVO2KVBxOfEkIaExw3hkhzBmIEI2%2Fy69fxaRFY%2Bj4mTCigX18CYU1Wpa%2BB%2F4TmnS13q9QrSmLGOrkGR2iyACLGV0mCL228jFFmEgD%2BP3EPS6BlSwZHp19udavfFmCm5hBfQbxnsxN9mBa2nzsmGmsZ1SZt%2BCzzmX5GyKsDZeNRTKlS4Gz8f5VDPr%2FakdPIYEi99hHUABWGMPGC9aEGOrEBr7ib%2FNMZh56S1%2B3ehjHvRGFhfGQ463T4ZeG8pHAwcng16V%2FyHJTMQwiwljPfZveKINvnCFrRJo9B8uy2V6NCX79HaePv9zJixym9%2BAL%2FCOK0DZh5sF3E2M6ttkC7i4clxAple06GrCYum2Jwbt9gAvF5NmcMGw2dGXzm%2FnnRczHCuWuRogjQawyoyTBoNo56NAlJ%2FqS%2BmFN0gGFSP24i7Mv14Ckq0tuPE6VAROB6zkh8&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T133215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3WZ3X7ZFP%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c0e953544066208ab77dcbf81024407bfe7f64406a6b762d3cb682a948fdd08b"
+    },
+}

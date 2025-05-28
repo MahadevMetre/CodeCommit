@@ -1,0 +1,20 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/634621569833/athenanextgen_cc_dashboard_error_qa",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "AthenaNextGen",
+    "CreatedBy": "sbose",
+    "Automated": "True",
+    "BackupPlan": "None",
+    "Department": "ANG",
+    "environment": "qa",
+    "CostCenter": "FMG",
+    "Version": "1.0",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "terraform": "True",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "NoInfo"
+  }
+}

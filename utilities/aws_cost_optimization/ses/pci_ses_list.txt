@@ -1,0 +1,9 @@
+fmservice.com
+franklinmadisonds.com
+franklin-madison.com
+CR_Franklin@AffinionGroup.com
+fsamgupload@s-2d0gf1x094vxwyl4scj4z5an9hqrp9q98qhu2antmpq01cx8b8.7-je65eac.na117.apex.salesforce.com
+EXSTREAM_INS@franklin-madison.com
+ins_batch_exception@franklin-madison.com
+ins_middletier_exception_prod@franklin-madison.com
+MNL_Term_UW@franklin-madison.com

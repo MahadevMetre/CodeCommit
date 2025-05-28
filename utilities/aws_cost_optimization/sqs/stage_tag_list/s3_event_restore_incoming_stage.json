@@ -1,0 +1,23 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/s3_event_restore_incoming_stage",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "NoInfo",
+    "CreatedBy": "jarrington",
+    "ModifedDate": "04/02/2021",
+    "Automated": "True",
+    "BackupPlan": "None",
+    "ModifiedBy": "jsamuel",
+    "Department": "NoInfo",
+    "environment": "stage",
+    "CostCenter": "NoInfo",
+    "CretedBy": "Arrington Jeffrey JARRINGTON",
+    "Version": "1.0",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "terraform": "True",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "04022021"
+  }
+}

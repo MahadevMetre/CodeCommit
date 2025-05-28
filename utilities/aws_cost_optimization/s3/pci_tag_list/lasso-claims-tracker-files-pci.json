@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "pci"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Lasso Claims Tracker Files PCI"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "05302023"
+        },
+        {
+            "Key": "project",
+            "Value": "Lasso"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "05302023"
+        }
+    ]
+}

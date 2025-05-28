@@ -1,0 +1,59 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-customizedSNS-dev",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:onlinepayment-customizedSNS-dev",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::116762271881:role/onlinepayment-lambda-role-dev",
+        "Handler": "todos/cloudwatch_logs_filtering.cloudwatchTrigger",
+        "CodeSize": 8731322,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-07T14:17:53.213+0000",
+        "CodeSha256": "M2C/Q8TdUS1Q7xSAO/MqK5DplUeET4yzJIhpSxNdLik=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0734d8f28467d319f",
+                "subnet-06291ceaa523f684c"
+            ],
+            "SecurityGroupIds": [
+                "sg-0ff4bf9432cb53221"
+            ],
+            "VpcId": "vpc-00ff8e33839358d28"
+        },
+        "Environment": {
+            "Variables": {
+                "stage": "AQICAHhwO394notFxgPOxiYF68obYT7qqM1RsHQ9SSMmBIEKpwHLKUNoqu/VAGlxPjVk++bqAAAAYTBfBgkqhkiG9w0BBwagUjBQAgEAMEsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMyxWNvikFBSQFov6nAgEQgB58grHYEYufdwPcZO5c1+F3nk/DqLQBPoqcFMbOhPk=",
+                "parameter_store": "AQICAHhwO394notFxgPOxiYF68obYT7qqM1RsHQ9SSMmBIEKpwEisheTzgokAtxCRqCseWTPAAAAejB4BgkqhkiG9w0BBwagazBpAgEAMGQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMutKUfbgC5gFni633AgEQgDeu0dFlFC2K2d+UEKBp6jBQPhHVTQ4BtrnEveHY004yvpHIMTyeeYCkipX8+W5M6ioCUSsN+1WO"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "166619a0-b2fe-402d-9401-1c674fc777ec",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:116762271881:layer:parameterlayer:438",
+                "CodeSize": 442
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/onlinepayment-customizedSNS-dev-759a6281-32a6-405a-a155-c2af17b695e6?versionId=nW183ePsOMnwEBTIiLImdwTVq5vZfk4a&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJHMEUCIGPNS2iAqRbS6o%2FElta9q4%2FaZuiRrJ%2FgDHBSHHJrIIUZAiEAkE%2FxmBvrdXZrG94fJN8Ivf7EldtvhRkZnrYevDxd%2BloqsQUIQxAAGgw3NDk2Nzg5MDI4MzkiDPRr8ZqV3Pz%2BX7sp%2BCqOBRSSCWvRoZAMKMgMKYCHgMLulBmkvrnR0RAIpBkp1t1QjACfhfApB4ziEG25HJiCDb%2B6sPgGm9yrE5q8TS6u6n4%2BVOJL1iTv60YGKA5favzfyCN05NOu9axbwHPrktP3fWlc4pRZUV208Scpb3UBGV7kygiKQfXJ9ii3pE93oCGjmiZDIqjUAYQeLZLCuE6Elw46QWO5ZvStD%2FF120yzXxRwuyvaQTVGZhLVjAXHrSLj%2FTE2cdoqC4fEwvNA4RTRi5qr1WOqNe3oc6%2FZh9CD%2BcJO5NBnDO3A0GuW%2F9%2BRjoOX6bjyj4ffP%2BjDB2rRqCjFjUtwi5EnJVUMz%2B0AR1r5ijs2kvEBER9Hk172RieVMBh%2FeyF4amsvW60P5x%2BOtNRNOTe2mdPxon2QrGUzjMYifNypo4FLycYfFt9LB47%2Fw4n2FcxZj4JAButBd8L08kVWyncN6gBPqYOzr2GUwea7UNJiw3nEbrkqlJ9OdIyxWMI%2BqvbLjSFRhNek2scEv4teWQ0VUt4l3wRNP5gj1c4IggTMItzV5X%2BYbfv6FSdkjBpg41bHyzuAaNtBjB%2Fx5k1N3sqZrMPUC5eImUrupPHgNqUMCZg76OQZpV3jW5m5DWxKMjWYFh%2FOd5%2FioI4Tz39Hnd3i2yNs36oOfqR6zQfEpASw9e7Cz3LddfciE12sik1c%2FGv9YaYmWbUkkXmrbfmSQoKL54fkKHTRjhIdniP9XJS07ygs8qJDnCVExd%2FzHUXW7StkZj4sLqpe3pcURu8Ibo3gZsam1obufTGa0LbZzEOnRYQyi%2FbTdtRlTTkOvHm%2Fu9jejY3GLRLnEu8Pflmhag4e7kfMI0IDEf2xiEZggPj1KZvnjY1c43LGVA9lezCTs%2FShBjqxARjbbUelGXvn80ZzcbhTXMUl%2Fq6nQ78t5qO%2Bc4wEl%2B163SnnEfHmAI9MMISiBXP5xCJQ%2Frnwg6DsJjkact1zNHUnjhher4KZWUeizZlf1ge8vBuncEhRuBAFVUbr%2BXafCNogCTfX%2BgDe%2BGTK9fylgyUFeikvnuTUPy9fTXNhtwmosTspCctx6uviKdOGPrzc9A1W73OiwZjQHBgFwJypEgNIgfp0gTeDL%2FZruXjjvAaxKw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T112043Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3X3JYBMVI%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=38fabafdf492593d1a6dc005a5228c6689db421a4d6cbcf496ecebe6bc4d5ee4"
+    },
+}

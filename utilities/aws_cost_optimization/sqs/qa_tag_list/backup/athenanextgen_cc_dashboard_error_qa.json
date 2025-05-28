@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/634621569833/athenanextgen_cc_dashboard_error_qa",
+  "Tags": {
+    "environment": "qa",
+    "terraform": "True",
+    "CreatedBy": "sbose"
+  }
+}

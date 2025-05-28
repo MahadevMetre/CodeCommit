@@ -1,0 +1,21 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:116762271881:autoscaling_dev_topic",
+  "Tags": [
+    {
+      "Key": "environment",
+      "Value": "dev"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "createdDate",
+      "Value": "05/22/2021"
+    }
+  ]
+}

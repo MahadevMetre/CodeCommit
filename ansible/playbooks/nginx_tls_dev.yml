@@ -1,0 +1,15 @@
+# ansible-playbook nginx_tls_dev.yml -u ansible --private-key="~/.ssh/ansible.pem"
+- hosts: nginx_node_dev
+  remote_user: ansible
+  become: yes
+  become_user: root
+  tasks:
+  - name: "Backup the current nginx config"
+    shell: |
+        cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf_backup_tls_fix
+  - name: "Remove the ssl_protocols from nginx config"
+    shell: |
+        sed -i '/ssl_protocols/d' /etc/nginx/nginx.conf
+  - name: "Restart nginx"
+    shell: |
+        systemctl restart nginx

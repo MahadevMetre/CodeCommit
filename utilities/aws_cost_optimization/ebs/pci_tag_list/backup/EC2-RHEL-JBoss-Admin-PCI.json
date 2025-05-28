@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-093231b88151671ea"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-JBoss-Admin-PCI"
+    }
+  ]
+}

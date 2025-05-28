@@ -1,0 +1,17 @@
+domain_name = "nonprod-argocd.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+    "ApplicationName" = "DevOps"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "09172024"
+    "DataClassification" = "Low"
+    "Department" = "DOS"
+    "Infrastructure" = "False"
+    "LastUpdated" = "09172024"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}

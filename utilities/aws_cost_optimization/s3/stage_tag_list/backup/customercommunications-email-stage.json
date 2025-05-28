@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "createdDate",
+            "Value": "03/02/2021"
+        }
+    ]
+}

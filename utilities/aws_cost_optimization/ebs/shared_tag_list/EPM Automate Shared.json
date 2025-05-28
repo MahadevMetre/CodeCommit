@@ -1,0 +1,16 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0de6cde627f7d0882"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EPM Automate Shared"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "pcharan"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+repo_name				= "fmg-atlas"
+repo_tags = {
+	"ApplicationName"		= "Atlas"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "08282024"
+	"DataClassification"	= "PCI"
+	"Department"			= "ATS"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "08282024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

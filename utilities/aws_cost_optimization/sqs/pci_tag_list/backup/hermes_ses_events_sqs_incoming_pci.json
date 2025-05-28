@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_ses_events_sqs_incoming_pci",
+  "Tags": {
+    "CretedBy": "jsamuel",
+    "environment": "pci",
+    "terraform": "True"
+  }
+}

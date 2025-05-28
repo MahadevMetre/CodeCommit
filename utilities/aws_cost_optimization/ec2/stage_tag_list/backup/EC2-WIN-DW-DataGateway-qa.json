@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-045438467c7fec2d4"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-DW-DataGateway-qa"
+    },
+    {
+      "Key": "env",
+      "Value": "qa"
+    },
+    {
+      "Key": "purpose",
+      "Value": "data-warehouse"
+    }
+  ]
+}

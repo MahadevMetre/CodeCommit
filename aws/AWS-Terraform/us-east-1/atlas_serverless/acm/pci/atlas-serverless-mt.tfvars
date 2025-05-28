@@ -1,0 +1,17 @@
+domain_name = "atlas-serverless-mt.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+	    "Department": "ATS2"
+		"LastUpdated": "08302024"
+		"CostCenter": "FMG"
+		"CreatedOn": "08302024"
+		"DataClassification": "PCI"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "2.0"
+		"ApplicationName": "Atlas2.0"
+		"TechStack": "None"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "DevOps"
+}

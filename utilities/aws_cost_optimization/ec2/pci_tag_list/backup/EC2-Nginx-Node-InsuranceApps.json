@@ -1,0 +1,32 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-07567132b0c638a90"
+  ],
+  "Tags": [
+    {
+      "Key": "project",
+      "Value": "insuranceapps"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "purpose",
+      "Value": "EC2 Golden source for insurance apps servers"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-Nginx-Node-InsuranceApps"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    }
+  ]
+}

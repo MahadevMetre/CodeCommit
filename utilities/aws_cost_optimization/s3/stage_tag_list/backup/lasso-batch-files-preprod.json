@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "preprod"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Lasso Batch Files PreProd"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "10312022"
+        },
+        {
+            "Key": "project",
+            "Value": "Lasso"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "10132022"
+        }
+    ]
+}

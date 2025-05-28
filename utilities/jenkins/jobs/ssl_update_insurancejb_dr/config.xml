@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.authorizeproject.AuthorizeProjectProperty plugin="authorize-project@1.7.1">
+      <strategy class="org.jenkinsci.plugins.authorizeproject.strategy.TriggeringUsersAuthorizationStrategy"/>
+    </org.jenkinsci.plugins.authorizeproject.AuthorizeProjectProperty>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@332.va_1ee476d8f6d">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>ssl_path</name>
+          <description>&lt;h3 style=&quot;color:Tomato;&quot;&gt;The path where renewed cert is stored&lt;/h3&gt;</description>
+          <defaultValue>Change Me</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>cert_file</name>
+          <description>&lt;h3 style=&quot;color:Tomato;&quot;&gt;Name of the cert file&lt;/h3&gt;</description>
+          <defaultValue>Change Me</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>key_file</name>
+          <description>&lt;h3 style=&quot;color:Tomato;&quot;&gt;Name of the key file&lt;/h3&gt;</description>
+          <defaultValue>Change Me</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>true</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>set +x
+echo Updating &quot;DR Nginx Master 1&quot;
+cd /opt/scripts
+./ssl_deployment.sh $ssl_path $cert_file 10.153.42.20 $key_file &quot;dr&quot;
+echo Updating &quot;DR Nginx Master 2&quot;
+cd /opt/scripts
+./ssl_deployment.sh $ssl_path $cert_file 10.153.43.20 $key_file &quot;dr&quot;
+echo Updating &quot;DR PyCharm Master 1&quot;
+cd /opt/scripts
+./ssl_deployment.sh $ssl_path $cert_file 10.153.42.22 $key_file &quot;dr&quot;
+echo Updating &quot;DR PyCharm Master 2&quot;
+cd /opt/scripts
+./ssl_deployment.sh $ssl_path $cert_file 10.153.43.22 $key_file &quot;dr&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+    <org.jenkinsci.plugins.builduser.BuildUser plugin="build-user-vars-plugin@1.9"/>
+  </buildWrappers>
+</project>

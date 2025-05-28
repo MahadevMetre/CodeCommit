@@ -1,0 +1,20 @@
+iam_policy_name = "dashboard-rds-policy-pci"
+iam_policy_tags = {
+    "ApplicationName" = "DashBoard"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "09182024"
+    "DataClassification" = "PCI"
+    "Department" = "DSB"
+    "Infrastructure" = "False"
+    "LastUpdated" = "09182024"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+
+dashboard_rds_policy     = "true"
+dashboard_rds_dbuser_arn = "to-be-updated-arn:aws:rds-db:us-east-1:601751840347:dbuser:prx-0b2d56fde80058f3e/*"  
+iam_policy_desc          = "Dashboard Access RDS PCI"

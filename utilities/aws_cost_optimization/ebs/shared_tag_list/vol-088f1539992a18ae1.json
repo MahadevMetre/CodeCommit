@@ -1,0 +1,24 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-088f1539992a18ae1"
+  ],
+  "Tags": [
+    {
+      "Key": "Created On",
+      "Value": "07/19/2021"
+    },
+    {
+      "Key": "Purpose",
+      "Value": "Elastic Search - Node1"
+    },
+    {
+      "Key": "Project",
+      "Value": "Common"
+    },
+    {
+      "Key": "Created By",
+      "Value": "rasekar"
+    }
+  ]
+}

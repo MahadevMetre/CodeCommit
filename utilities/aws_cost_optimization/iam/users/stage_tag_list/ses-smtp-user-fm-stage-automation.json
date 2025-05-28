@@ -1,0 +1,56 @@
+{
+    "Tags": [
+        {
+            "Key": "ApplicationName",
+            "Value": "QA Automation Server"
+        },
+        {
+            "Key": "Automated",
+            "Value": "False"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "07212021"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "Low"
+        },
+        {
+            "Key": "Department",
+            "Value": "QA"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "TechStack",
+            "Value": "None"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        }
+    ]
+}

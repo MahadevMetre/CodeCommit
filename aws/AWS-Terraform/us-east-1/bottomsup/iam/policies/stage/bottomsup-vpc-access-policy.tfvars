@@ -1,0 +1,18 @@
+iam_policy_name			= "bottomsup-vpc-access-policy-stage"
+iam_policy_tags			= {
+		"Department": "BottomsUp"
+        "LastUpdated": "06262023"
+        "CostCenter":  "FMG"
+        "CreatedOn": "01242023"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "BottomsUp"
+        "TechStack": "AWS"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "sbose"
+    }
+lasso_vpc_access_policy	= "true"
+iam_policy_desc			= "BottomsUp Lambda VPC Access Policy Stage"

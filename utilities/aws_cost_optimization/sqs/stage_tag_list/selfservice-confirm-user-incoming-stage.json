@@ -1,0 +1,21 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/selfservice-confirm-user-incoming-stage",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "Digital",
+    "CreatedBy": "sbose",
+    "Automated": "False",
+    "BackupPlan": "None",
+    "Purpose": "Confirm User Registration",
+    "Project": "Digital",
+    "Department": "DGT",
+    "CostCenter": "FMG",
+    "Version": "1.0",
+    "createdBy": "sbose",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "NoInfo"
+  }
+}

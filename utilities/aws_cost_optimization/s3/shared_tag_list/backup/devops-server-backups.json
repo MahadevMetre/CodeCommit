@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "project",
+            "Value": "DevOps"
+        },
+        {
+            "Key": "createdDate",
+            "Value": "08212021"
+        },
+        {
+            "Key": "createdBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Host backups from SVN and jenkins"
+        }
+    ]
+}

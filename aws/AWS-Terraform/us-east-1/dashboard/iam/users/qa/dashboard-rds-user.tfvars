@@ -1,0 +1,18 @@
+iam_user_name = "athena-db-user-qa"
+iam_user_tags = {
+  Department         = "DSB"
+  LastUpdated        = "06262024"
+  CostCenter         = "FMG"
+  CreatedOn          = "06262024"
+  DataClassification = "Low"
+  Infrastructure     = "False"
+  Usage              = "Project"
+  Version            = "1.0"
+  ApplicationName    = "DashBoard"
+  TechStack          = "AWS"
+  Automated          = "True"
+  BackupPlan         = "None"
+  CreatedBy          = "DevOps"
+}
+iam_policy_name      = "arn:aws:iam::634621569833:policy/dashboard-rds-policy-qa"
+dashboard_rds_policy = "true"

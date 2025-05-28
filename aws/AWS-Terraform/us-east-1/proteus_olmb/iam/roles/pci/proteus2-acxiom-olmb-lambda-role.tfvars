@@ -1,0 +1,19 @@
+role_name							= "proteus2-acxiom-olmb-lambda-role-pci"
+iam_role_desc						= "Proteus2 Acxiom OLMB Lambda Role PCI"
+role_tags							= {
+	   "ApplicationName"    = "Proteus2.0"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "DevOps"
+	   "DataClassification" = "PCI"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "2.0"
+	   "CreatedOn"		    = "09252024"
+	   "LastUpdated"        = "09252024"
+    }
+proteus2_acxiom_olmb_lambda_policy				= true
+proteus2_acxiom_olmb_lambda_policy_arn			= "arn:aws:iam::601751840347:policy/proteus2-acxiom-olmb-lambda-policy-pci"

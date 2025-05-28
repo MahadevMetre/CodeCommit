@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/116762271881/ISGFulfillment-PrintImmediate-File-Process-DL-Queue",
+  "Tags": {
+    "Project": "Hermes Serverless",
+    "Created On": "06162023",
+    "Created By": "vlakshmi"
+  }
+}

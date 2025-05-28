@@ -1,0 +1,34 @@
+lambda_function_name = "selfservice-pre-signup-pci"
+role = "arn:aws:iam::601751840347:role/digital-lambda-role-pci"
+description = "This is a presignup lambda trigger for cognito to validate the coverage and customer details from api."
+env_variables = {
+		"HOST" = "mtservicesapps.fmservice.com"
+		"LOGGER" = "DEBUG"
+		"PORT" = "443"
+	}
+tags = {
+	"ApplicationName" = "Digital"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "DevOps"
+	"CreatedOn" = "08032022"
+	"DataClassification" = "Low"
+	"Department" = "DGT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "01242024"
+	"TechStack" = "NodeJS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+	}
+memory_size = 512
+timeout = 6
+subnets = ["subnet-0a33ed77fe2cfb6ef","subnet-0a797df6e7dcae3db"]
+security_groups = ["sg-0a0103659b308d78b","sg-0f4493af34ac18357"]
+reserved_concurrent_executions = -1
+publish = false
+runtime = "nodejs16.x"
+handler = "selfservice-pre-signup.handler"
+filename = "js/selfservice-pre-signup.zip"
+package_type = "Zip"
+source_code_hash = "js/selfservice-pre-signup.zip"

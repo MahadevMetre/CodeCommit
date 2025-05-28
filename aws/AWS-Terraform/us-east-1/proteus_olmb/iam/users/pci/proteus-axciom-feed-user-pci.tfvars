@@ -1,0 +1,18 @@
+iam_user_name			= "proteus-axciom-feed-user-pci"
+iam_user_tags			= {
+		"Department": "PTS"
+		"LastUpdated": "03062024"
+		"CostCenter": "FMG"
+		"CreatedOn": "03062024"
+		"DataClassification": "Low"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "1.0"
+		"ApplicationName": "Proteus"
+		"TechStack": "None"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "DevOps"
+    }
+iam_policy_name			   = "arn:aws:iam::601751840347:policy/proteus-s3-access-policy-pci"
+proteus_s3_access_policy   = "true"

@@ -1,0 +1,68 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "GPSNextGen"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "Automated",
+            "Value": "True"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Data output storage bucket"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "project",
+            "Value": "Insuranceapps"
+        },
+        {
+            "Key": "Department",
+            "Value": "GPS"
+        },
+        {
+            "Key": "environment",
+            "Value": "dev"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "Graphics"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "None"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "09222021"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "NoInfo"
+        }
+    ]
+}

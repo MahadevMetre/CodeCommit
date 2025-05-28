@@ -1,0 +1,36 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0bc8496623933bb6b"
+  ],
+  "Tags": [
+    {
+      "Key": "purpose",
+      "Value": "EC2 Golden source for insurance apps servers"
+    },
+    {
+      "Key": "project",
+      "Value": "insuranceapps"
+    },
+    {
+      "Key": "QSConfigName-8l8fj",
+      "Value": "Stage Patch Report"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-Nginx-Node-InsuranceApps"
+    }
+  ]
+}

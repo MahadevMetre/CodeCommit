@@ -1,0 +1,42 @@
+---
+swagger: "2.0"
+info:
+  description: "API created by AWS WAF Security Automations CloudFormation template.\
+    \ This endpoint will be used to capture bad bots."
+  version: "2019-04-12T06:39:07Z"
+  title: "Security Automations - WAF Bad Bot API"
+host: "p6enyg2zdd.execute-api.us-east-1.amazonaws.com"
+basePath: "/onlinepayment"
+schemes:
+- "https"
+paths:
+  /:
+    x-amazon-apigateway-any-method:
+      parameters:
+      - name: "X-Forwarded-For"
+        in: "header"
+        required: false
+        type: "string"
+      responses: {}
+      x-amazon-apigateway-integration:
+        httpMethod: "POST"
+        uri: "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:116762271881:function:onlinepayment-WAF-securit-LambdaWAFBadBotParserFun-ALK05939GHKG/invocations"
+        passthroughBehavior: "when_no_match"
+        type: "aws_proxy"
+  /{proxy+}:
+    x-amazon-apigateway-any-method:
+      parameters:
+      - name: "X-Forwarded-For"
+        in: "header"
+        required: false
+        type: "string"
+      - name: "proxy"
+        in: "path"
+        required: true
+        type: "string"
+      responses: {}
+      x-amazon-apigateway-integration:
+        httpMethod: "POST"
+        uri: "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:116762271881:function:onlinepayment-WAF-securit-LambdaWAFBadBotParserFun-ALK05939GHKG/invocations"
+        passthroughBehavior: "when_no_match"
+        type: "aws_proxy"

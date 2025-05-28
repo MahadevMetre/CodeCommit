@@ -1,0 +1,24 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-09d145aef7c56bba2"
+  ],
+  "Tags": [
+    {
+      "Key": "createdBy",
+      "Value": "clafonant"
+    },
+    {
+      "Key": "Name",
+      "Value": "Anexinet Shared LogicMonitor Collector"
+    },
+    {
+      "Key": "createdOn",
+      "Value": "11-9-2022"
+    },
+    {
+      "Key": "purpose",
+      "Value": "To install Anexinet Monitoring Software on"
+    }
+  ]
+}

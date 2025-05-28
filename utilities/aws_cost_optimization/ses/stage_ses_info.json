@@ -1,0 +1,46 @@
+{
+    "EmailIdentities": [
+        {
+            "IdentityType": "DOMAIN",
+            "IdentityName": "fmservice.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "DOMAIN",
+            "IdentityName": "franklinmadisonds.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "FMG_CLOPS_Proj@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "ins_batch_exception_nonprod@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "arahuman@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "ins_middletier_exception_nonprod@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "Automation-FranklinMadisonGroup@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+hermes2_email_fifo_bool = true
+sqs_queue_name = "hermes2-email-ISG-TP-stage.fifo"
+fifo_queue_bool = true
+visibility_timeout_seconds = 60
+sqs_queue_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "11042023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "11042023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+sqs_user_arn = "arn:aws:iam::894891841990:user/Hermes2-SQS-User-NonProd"
+
+eb_rule_name = "hermes-email-transformer-ISG-TP-api-rule-stage"
+eb_rule_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "11042023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "11042023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+eb_rule_event_pattern = {
+	detail = {
+		bucket = {
+			name = ["hermes-batch-processor-stage"]
+		},
+		object = {
+			key = [
+				{
+					prefix = "transformer/email/TP/ISG/incoming/"
+				}
+			]
+		}
+	}
+	detail-type = ["Object Created"]
+	source = ["aws.s3"]
+}
+sqs_dlq_arn = "arn:aws:sqs:us-east-1:702230634984:hermes-serverless-dlq-stage"

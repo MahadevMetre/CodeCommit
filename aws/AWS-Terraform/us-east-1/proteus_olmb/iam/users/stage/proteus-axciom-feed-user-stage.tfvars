@@ -1,0 +1,18 @@
+iam_user_name			= "proteus-axciom-feed-user-stage"
+iam_user_tags			= {
+		"Department": "PTS"
+		"LastUpdated": "02052024"
+		"CostCenter": "FMG"
+		"CreatedOn": "02052024"
+		"DataClassification": "Low"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "1.0"
+		"ApplicationName": "Proteus"
+		"TechStack": "None"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "DevOps"
+    }
+iam_policy_name			   = "arn:aws:iam::702230634984:policy/proteus-s3-access-policy-stage"
+proteus_s3_access_policy   = "true"

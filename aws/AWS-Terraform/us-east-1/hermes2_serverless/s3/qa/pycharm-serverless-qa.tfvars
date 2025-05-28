@@ -1,0 +1,24 @@
+bucket_short_name = "pycharm-serverless"
+environment = "qa"
+logging_bucket_name =  "franklin-stage-s3-access-logs"
+logging_bucket_base_prefix = "pycharm-serverless-qa"
+acl                 = "private"
+tags ={
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "10052023"
+	"CostCenter"			= "Operations"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "10052023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+s3_eventbridge_notifications = true
+pycharm_serverless_bucket_policy = true
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 30

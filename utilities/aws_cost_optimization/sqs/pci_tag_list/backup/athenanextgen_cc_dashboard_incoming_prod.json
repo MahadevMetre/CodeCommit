@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/athenanextgen_cc_dashboard_incoming_prod",
+  "Tags": {
+    "environment": "pci",
+    "terraform": "True",
+    "CreatedBy": "mfaizudeen"
+  }
+}

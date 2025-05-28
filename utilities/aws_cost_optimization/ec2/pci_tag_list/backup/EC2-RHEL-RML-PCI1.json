@@ -1,0 +1,28 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-00aafaaf2dfe5397a"
+  ],
+  "Tags": [
+    {
+      "Key": "LastTagUpdate",
+      "Value": "clafontant - 2-27-23"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Project",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-RML-PCI1"
+    },
+    {
+      "Key": "Notes",
+      "Value": "One of the RML servers that Hermes uses; affects PyCharm service"
+    }
+  ]
+}

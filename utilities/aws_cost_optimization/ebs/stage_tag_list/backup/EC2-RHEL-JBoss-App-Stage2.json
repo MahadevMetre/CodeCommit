@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0cd1872ba60ebc0d9"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-JBoss-App-Stage2"
+    },
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+bucket_short_name = "proteus-axciom-feed"
+environment = "pci"
+logging_bucket_name =  "franklin-pci-s3-access-logs"
+logging_bucket_base_prefix = "proteus-axciom-feed-pci"
+acl                 = "private"
+tags ={
+	   "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "DevOps"
+	   "DataClassification" = "Low"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "03062024"
+	   "LastUpdated"        = "03272024"
+}
+s3_eventbridge_notifications = true
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 90
+versioning_enabled_bool	= true

@@ -1,0 +1,12 @@
+{
+    "TagSet": [
+        {
+            "Key": "project",
+            "Value": "fmg-dw"
+        },
+        {
+            "Key": "created-by",
+            "Value": "terraform"
+        }
+    ]
+}

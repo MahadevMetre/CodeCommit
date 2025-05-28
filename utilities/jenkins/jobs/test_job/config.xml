@@ -1,0 +1,63 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>&lt;h4 style=&quot;color:Tomato;&quot;&gt;Dont modify/delete/trigger this job if you don&apos;t know what you are doing. This job is used for testing purpose&lt;/h4&gt;</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@332.va_1ee476d8f6d">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>zip_file</name>
+          <description>Proceed with caution.
+Dont trigger this if you don&apos;t know what you are doing.</description>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>true</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+# /opt/scripts/testing.sh $zip_file
+#cd /opt/scripts/
+#./sonarscan_maven.sh &quot;true&quot; &quot;clean verify sonar:sonar&quot; &quot;Digital WebService&quot; &quot;digital_webservice&quot;
+# echo &quot;**************************************************************************&quot;
+# echo Before Changing to Java Version 11
+# mvn -version
+# echo &quot;**************************************************************************&quot;
+# echo After Changing to Java Version 11
+# export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+# echo export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+# mvn -version
+# echo &quot;**************************************************************************&quot;
+
+/usr/share/maven/bin/mvn -v
+/opt/apache-maven/bin/mvn -v
+mvn -v
+echo $MAVEN_OPTS
+echo $MAVEN_ARGS
+echo $WORKSPACE
+pwd</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</project>

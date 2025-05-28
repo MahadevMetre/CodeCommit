@@ -1,0 +1,56 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "Atlas"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jarrington"
+        },
+        {
+            "Key": "Automated",
+            "Value": "True"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "Department",
+            "Value": "ATS"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "PCI"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "NoInfo"
+        }
+    ]
+}

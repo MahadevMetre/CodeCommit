@@ -1,0 +1,4 @@
+nginx-insuranceapps-ec2-scaling-stage
+jboss-insuranceapps-ec2-scaling-stage
+NGINX-EC2-Scaling
+JBOSS-EC2-Scaling

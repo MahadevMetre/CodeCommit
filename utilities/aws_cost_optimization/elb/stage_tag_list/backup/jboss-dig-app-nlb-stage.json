@@ -1,0 +1,17 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/net/jboss-dig-app-nlb-stage/4e52652857fd9e47",
+  "Tags": [
+    {
+      "Key": "createdBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "purpose",
+      "Value": "NLB for JBOSS auto scaling Env"
+    },
+    {
+      "Key": "project",
+      "Value": "Digital"
+    }
+  ]
+}

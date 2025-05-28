@@ -1,0 +1,17 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/app/nginx-app-lb-stage/13317c4755dd1c73",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Name",
+      "Value": "nginx-app-lb-stage"
+    }
+  ]
+}

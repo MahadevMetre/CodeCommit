@@ -1,0 +1,58 @@
+{
+    "EmailIdentities": [
+        {
+            "IdentityType": "DOMAIN",
+            "IdentityName": "franklinmadisonds.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "CR_Franklin@AffinionGroup.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "fm_staging_sec_team@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "EXSTREAM_INS@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "gitadmin@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "pbcs-admin@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "fm_pci_prod_sec_team@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "GitDeployments@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        },
+        {
+            "IdentityType": "EMAIL_ADDRESS",
+            "IdentityName": "ins_middletier_exception_prod@franklin-madison.com",
+            "SendingEnabled": true,
+            "VerificationStatus": "SUCCESS"
+        }
+    ]
+}

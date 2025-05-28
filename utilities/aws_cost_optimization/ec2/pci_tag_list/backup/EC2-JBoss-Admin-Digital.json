@@ -1,0 +1,36 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-06b2d5f3fdb150c18"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Admin-Digital"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "purpose",
+      "Value": "EC2 JBOSS Admin server for digital servers"
+    },
+    {
+      "Key": "project",
+      "Value": "digital"
+    },
+    {
+      "Key": "Type",
+      "Value": "jboss-admin-adhoc"
+    }
+  ]
+}

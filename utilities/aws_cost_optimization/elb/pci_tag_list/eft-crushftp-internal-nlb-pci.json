@@ -1,0 +1,9 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:601751840347:loadbalancer/net/eft-crushftp-internal-nlb-pci/3a77ba47a3ce6b9a",
+  "Tags": [
+    {
+      "Key": "purpose",
+      "Value": "Used for internal EFT access"
+    }
+  ]
+}

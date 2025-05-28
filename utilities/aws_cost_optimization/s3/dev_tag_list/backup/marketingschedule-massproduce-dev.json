@@ -1,0 +1,16 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "Access Migration"
+        },
+        {
+            "Key": "Customer",
+            "Value": "Client Services"
+        },
+        {
+            "Key": "Name",
+            "Value": "marketingschedule-massproduce-dev"
+        }
+    ]
+}

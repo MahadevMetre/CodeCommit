@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/selfservice-confirm-user-error_pci",
+  "Tags": {
+    "environment": "pci",
+    "terraform": "True",
+    "CreatedBy": "sbose"
+  }
+}

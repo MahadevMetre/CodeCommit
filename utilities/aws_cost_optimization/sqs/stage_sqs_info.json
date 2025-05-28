@@ -1,0 +1,30 @@
+{
+    "QueueUrls": [
+        "https://sqs.us-east-1.amazonaws.com/702230634984/athenanextgen_cc_dashboard_error_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/athenanextgen_cc_dashboard_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/athenanextgen_upr_dashboard_error_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/athenanextgen_upr_dashboard_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/franklin-stage-lambda-dlq",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/gps_printpo_sqs_error_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/gps_printpo_sqs_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_email_archive_sqs_error_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_email_archive_sqs_error_test_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_email_archive_sqs_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_postscript_sqs_error_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_postscript_sqs_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_ses_events_sqs_error_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_ses_events_sqs_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_ses_events_sqs_incoming_stage_test_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_statusupdate_sqs_error_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_statusupdate_sqs_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/nemesysnextgen_job_bulk_copy_error_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/nemesysnextgen_job_bulk_copy_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/outcomesbucket-134273047",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/s3_event_archive_incoming_error_queue_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/s3_event_archive_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/s3_event_restore_incoming_error_queue_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/s3_event_restore_incoming_stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/selfservice-confirm-user-error-stage",
+        "https://sqs.us-east-1.amazonaws.com/702230634984/selfservice-confirm-user-incoming-stage"
+    ]
+}

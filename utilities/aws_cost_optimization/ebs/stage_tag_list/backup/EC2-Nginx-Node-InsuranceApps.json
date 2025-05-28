@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0b5cdb85eaf3466db"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-Nginx-Node-InsuranceApps"
+    }
+  ]
+}

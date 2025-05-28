@@ -1,0 +1,24 @@
+bucket_short_name = "proteus-axciom-feed"
+environment = "stage"
+logging_bucket_name =  "franklin-stage-s3-access-logs"
+logging_bucket_base_prefix = "proteus-axciom-feed-stage"
+acl                 = "private"
+tags ={
+	   "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "DevOps"
+	   "DataClassification" = "Low"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "02052024"
+	   "LastUpdated"        = "02052024"
+}
+s3_eventbridge_notifications = true
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 15
+versioning_enabled_bool	= false

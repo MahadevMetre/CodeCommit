@@ -1,0 +1,13 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/jboss-app-lb-dev/c4e16d452786a869",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Documentum Migration"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-app-lb-dev"
+    }
+  ]
+}

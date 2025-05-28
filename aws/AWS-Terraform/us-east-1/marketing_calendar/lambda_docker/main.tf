@@ -1,0 +1,20 @@
+module "lambda" {
+    source = "../../../modules/compute/docker_lambda"
+    lambda_function_name = var.lambda_function_name
+    role = var.role
+    description = var.description
+    env_variables = var.env_variables
+    tags = var.tags
+    memory_size = var.memory_size
+	ephemeral_storage_size = var.ephemeral_storage_size
+    timeout = var.timeout
+    subnets = var.subnets
+    security_groups = var.security_groups
+    reserved_concurrent_executions = var.reserved_concurrent_executions
+    publish = var.publish
+    image_uri = var.image_uri
+    layers = var.layers
+    snap_start_apply_on = var.snap_start_apply_on
+    attach_apigw_permission = var.attach_apigw_permission
+    apigw_arn = var.apigw_arn
+}

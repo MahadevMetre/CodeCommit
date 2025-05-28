@@ -1,0 +1,36 @@
+lambda_function_name = "lasso-authorizer-dr"
+role = "arn:aws:iam::214946096060:role/lasso-lambda-role-dr"
+description = "Lasso APIs JWT Authorizer DR"
+env_variables = {
+		"AUTHORIZER_JWT_SECRET"				=	"lasso-secrets-dr"
+		"DB_REGION_NAME"					=	"us-west-2"
+		"ENVIRONMENT"                       =	"Dr"
+		"LOG_LEVEL"							=	"DEBUG"
+		"LSO_AUTHORIZER_JWT_SECRET"			=	"jwt_secret"
+		"LSO_AUTHORIZER_JWT_TOKEN_EXPIRY"	=	"60"
+	}
+tags = {
+    "ApplicationName" = "Lasso"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02162023"
+	"DataClassification" = "Low"
+	"Department" = "LSO"
+	"Infrastructure" = "False"
+	"LastUpdated" = "02162023"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+        }
+memory_size = 512
+timeout = 15
+reserved_concurrent_executions = -1
+publish = true
+runtime = "java11"
+handler = "com.ins.LSOJWTAuthorizer::handleRequest"
+filename = "jar/sample.jar"
+package_type = "Zip"
+source_code_hash = "jar/sample.jar"
+snap_start_apply_on = "PublishedVersions"

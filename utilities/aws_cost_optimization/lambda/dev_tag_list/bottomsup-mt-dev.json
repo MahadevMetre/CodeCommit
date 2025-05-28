@@ -1,0 +1,18 @@
+{
+    "Tags": {
+        "ApplicationName": "Bottomsup",
+        "Automated": "True",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+        "CreatedBy": "sbose",
+        "CreatedOn": "01242023",
+        "DataClassification": "Low",
+        "Department": "Bottomsup",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack ": "Java",
+        "Usage": "Project",
+        "Version": "1.0"
+    }
+}
+

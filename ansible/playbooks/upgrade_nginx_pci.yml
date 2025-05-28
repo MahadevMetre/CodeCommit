@@ -1,0 +1,30 @@
+# ansible-playbook upgrade_nginx_pci.yml -u ansible --private-key="~/.ssh/ansible.pem"
+- hosts: nginx_pci
+  remote_user: ansible
+  become: yes
+  become_user: root
+  tasks:
+  - name: "Get current nginx version"
+    shell: nginx -v
+    register: nv
+  - debug: var=nv.stderr
+  - name: "Reset nginx module to 1.20"
+    shell: |
+        yum module reset nginx -y
+        yum module enable nginx:1.20 -y
+  - name: "Upgrade nginx to latest version"
+    shell: |
+        yum install nginx -y
+  - name: "Set php module 7.4 as default"
+    shell: |
+        yum module enable php:7.4 -y
+  - name: "Update nginx modules"
+    shell: |
+        yum update nginx* -y
+  - name: "Restart nginx"
+    shell: |
+        systemctl restart nginx
+  - name: "Get current nginx version"
+    shell: nginx -v
+    register: nv
+  - debug: var=nv.stderr

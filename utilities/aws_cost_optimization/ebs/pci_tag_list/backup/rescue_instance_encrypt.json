@@ -1,0 +1,16 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0a3b71af876d19e31"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "Jsmart"
+    },
+    {
+      "Key": "Name",
+      "Value": "rescue_instance_encrypt"
+    }
+  ]
+}

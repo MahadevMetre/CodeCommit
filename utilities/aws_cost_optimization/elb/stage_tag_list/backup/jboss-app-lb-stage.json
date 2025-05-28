@@ -1,0 +1,17 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/app/jboss-app-lb-stage/a942799491a0377b",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-app-lb-stage"
+    }
+  ]
+}

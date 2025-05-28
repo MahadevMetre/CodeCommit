@@ -1,0 +1,36 @@
+lambda_function_name = "lasso-manage-queue-dr"
+role = "arn:aws:iam::214946096060:role/lasso-lambda-role-dr"
+description = "Lasso Queue Management DR"
+env_variables = {
+		"DB_REGION_NAME"				=	"us-west-2"
+		"LOG_LEVEL"						=	"DEBUG"
+		"POSTGRES_RDS_DB_SECRET_NAME"	=	"lasso-rds-postgres-secret-dr"
+		"POSTGRES_RDS_PROXY_END_POINT"	=	"lasso-postgres-rds-proxy-dr.proxy-cmace33urilh.us-west-2.rds.amazonaws.com/postgres"
+		"POSTGRES_SCHEMA"				=	"lasso_prod"
+	} 
+tags = {
+    "ApplicationName" = "Lasso"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02162023"
+	"DataClassification" = "Low"
+	"Department" = "LSO"
+	"Infrastructure" = "False"
+	"LastUpdated" = "04142023"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+        }
+memory_size = 512
+timeout = 15
+subnets = ["subnet-0b927d24fec28d40b","subnet-0a1d3486597f552fe"]
+security_groups = ["sg-0c967e241c1fe533e"]
+reserved_concurrent_executions = -1
+publish = false
+runtime = "java11"
+handler = "com.ins.web.LSOQueueManagementHandler::handleRequest"
+filename = "jar/sample.jar"
+package_type = "Zip"
+source_code_hash = "jar/sample.jar"

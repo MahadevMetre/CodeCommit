@@ -1,0 +1,21 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:702230634984:autoscaling_stage_topic",
+  "Tags": [
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "createdDate",
+      "Value": "05/22/2021"
+    }
+  ]
+}

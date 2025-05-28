@@ -1,0 +1,25 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:601751840347:loadbalancer/net/jboss-digital-nlb-pci/ecd2a53df9a16a35",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "digital"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-digital-nlb-pci"
+    }
+  ]
+}

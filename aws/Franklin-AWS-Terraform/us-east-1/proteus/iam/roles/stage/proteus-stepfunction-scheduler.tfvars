@@ -1,0 +1,19 @@
+role_name							= "proteus-stepfunction-scheduler-stage"
+iam_role_desc						= "Grant access to stepfunction Stage"
+role_tags							= {
+       "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "mfaizudeen"
+	   "DataClassification" = "Low"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "05182023"
+	   "LastUpdated"        = "05182023"
+    }
+fmg-dw-eventbridge-policy		    = true
+fmg-dw-eventbridge-policy_arn	    = "arn:aws:iam::702230634984:policy/fmg-dw-eventbridge-policy"

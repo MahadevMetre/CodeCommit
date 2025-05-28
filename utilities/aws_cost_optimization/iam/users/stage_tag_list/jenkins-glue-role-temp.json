@@ -1,0 +1,56 @@
+{
+    "Tags": [
+        {
+            "Key": "Usage",
+            "Value": "POC"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "Datawarehouse"
+        },
+        {
+            "Key": "Automated",
+            "Value": "False"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "Low"
+        },
+        {
+            "Key": "Department",
+            "Value": "DLH"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "TechStack",
+            "Value": "None"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        }
+    ]
+}

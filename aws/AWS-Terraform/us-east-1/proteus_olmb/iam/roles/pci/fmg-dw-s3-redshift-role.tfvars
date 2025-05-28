@@ -1,0 +1,19 @@
+role_name							= "fmg-dw-s3-redshift-role-pci"
+iam_role_desc						= "FMG Datawarehouse S3 Redshift Role PCI"
+role_tags							= {
+	   "ApplicationName"    = "Proteus2.0"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "DevOps"
+	   "DataClassification" = "PCI"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "2.0"
+	   "CreatedOn"		    = "09252024"
+	   "LastUpdated"        = "09252024"
+    }
+proteus2_kms_policy				= true
+proteus2_kms_policy_arn			= "arn:aws:iam::601751840347:policy/proteus2-kms-policy-pci"

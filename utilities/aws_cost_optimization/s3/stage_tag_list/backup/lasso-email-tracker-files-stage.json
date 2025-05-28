@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Lasso Email Tracker Files Stage"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "05152023"
+        },
+        {
+            "Key": "project",
+            "Value": "Lasso"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "05152023"
+        }
+    ]
+}

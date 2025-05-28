@@ -1,0 +1,7 @@
+arn:aws:sns:us-east-1:964190570136:CISBenchmarkAlarm
+arn:aws:sns:us-east-1:964190570136:CISBenchmarkCloudTrail
+arn:aws:sns:us-east-1:964190570136:FKN_BackupVault_CloudWatch_Alarms_Topic
+arn:aws:sns:us-east-1:964190570136:checkpoint-north-hub-GWLBStack-Y2PAFSROKRYC-SecurityGatewaysStack-3Q0KSMNYY1W2-NotificationTopic-1RHFJPX9FW8BI
+arn:aws:sns:us-east-1:964190570136:fmg-security-monitor
+arn:aws:sns:us-east-1:964190570136:kibana-alert-topic-temp
+arn:aws:sns:us-east-1:964190570136:processS3ArchiveEvent-stage

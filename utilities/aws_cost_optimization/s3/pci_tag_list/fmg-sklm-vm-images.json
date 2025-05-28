@@ -1,0 +1,52 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "SKLM"
+        },
+        {
+            "Key": "Department",
+            "Value": "Managed Services"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "SKLM"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "Verinext"
+        },
+        {
+            "Key": "Automated",
+            "Value": "False"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "True"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "PCI"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "11/2022"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "5/18/2023"
+        }
+    ]
+}

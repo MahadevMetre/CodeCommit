@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0ef478432c1b40fcf"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-PSCHM-PCI1"
+    },
+    {
+      "Key": "Project",
+      "Value": "CCMS"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+    "Configuration": {
+        "FunctionName": "maintenancegw-dustyPage-staging",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:maintenancegw-dustyPage-staging",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/maintenancegw-dustyPage-staging",
+        "Handler": "todos/dustyPage.dustyPage",
+        "CodeSize": 10297114,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.432+0000",
+        "CodeSha256": "d0hHMc0Jj+jm6IP8O1wOO6hkk8/oZjfeyRVc83i6JLw=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0ed61b6beb807094e",
+                "subnet-076a071fa0723c80e"
+            ],
+            "SecurityGroupIds": [
+                "sg-0a5da8e1a87daaa60"
+            ],
+            "VpcId": "vpc-0051d323df13c7db3"
+        },
+        "DeadLetterConfig": {
+            "TargetArn": "arn:aws:sqs:us-east-1:702230634984:franklin-stage-lambda-dlq"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHjafs2VvAP7uYo7gLu2fM/1wM+uUXU0e27IsGp3Ys1YvwFdbFslY/vv4/KPXa7Zcm4cAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMtsKkOp55LIOsSVEWAgEQgDvWhgd/8DL0a0UwDZH2LwIuDTy+ZXjr1wBxCQPoRnxiWHHx2DFoyZIGeVjR5XiQw33uLc4knp/kYxfC7Q=="
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:702230634984:key/25d3c9c7-2173-4df2-976e-f400f58f052d",
+        "TracingConfig": {
+            "Mode": "Active"
+        },
+        "RevisionId": "33d3d5bb-9ef7-4533-a2f3-f078213e257e",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:702230634984:layer:parameterlayer:129",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/maintenancegw-dustyPage-staging-6184b002-7ff0-4cba-baf7-c90f6b1d1270?versionId=cxSvvl_Vb7_wju0.sfdkkE47B3pSrgFd&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJGMEQCIC2jg6wwcCH7BDz1EIWm%2BOskTd1j84JzNe3Dd8U481pqAiBjH%2BWYxm6HIfJW3nI%2FKia8wst6p%2Big8y7bL1P3voVMNyqyBQhGEAAaDDc0OTY3ODkwMjgzOSIM8B1tZ%2BiAlkcFpCZNKo8FB8k57Ody8q5%2F7%2B2fWaBSkxLhWijrsH0%2FgOwz%2BEzAWOBLcCgaJ96Ox%2Ftl4y3TrPe%2FvWKI9FSjg3Y6AgveGkwqUul1nRwoILY8ZRiWCsPtcl51T3Ur5h6Cvc6os3giodQu07xT%2FhOZ0Qv2apW0Z1wejl9Tu5tEsF622dPkLjaRWIT1FfB4s0mPHs7K69afBydOn6n0Vsj7HGp3Dw%2B7ftQ2R3pBcFQEjphKu97yjOjJ%2BySYXNZbJF2mDzdfY7Q1zy%2F8wlakCDF27cvIjtqomeAiMfgvmxR770ROUVyI1Ea5J2VThvLRNB6M2Ovm3OBIUf1oS95uVS6AZDFaiOlHt2T07gvgbSDfuYR1jF6lzifrIZ4s7yvO6gHJfn%2BOdZoQHEYkFlUpAdrgSkSQBDBl48U70rVwvEBRQII7ICBQ%2B7o1FDJ3Z3wnoHyG0EDKSsuCQEz1W1xdY5Jq2ToeC31ZAAOEarFkphRxQ8xgcRT5NFVZDoyplrdw4QfV33InV3wCjMA2avzEo3MN%2Bez48cMiXaEBLc10pgTAe6q7K%2FhQ159Zx%2BM8nMVzxX1QonyS4fhPPp4oLhwEk%2FW6i6TJF59NZ8ghuIziIBdLhcPOGsTgrNEEitbfhlNfOpEb7h4DyYQRfMGxnnjENp179dhEiCWmR9DmjMYKavYUVpEG01hHTsLcKTX7vkSh8kaXuwGSjCOdmdVQ%2BWjWdzv21edHAHAVcs%2FLbrBHr%2FEygdeFJoEcR0LoPmk6w95unRBor2sRL4tSw%2BwYp6FELv4tlEk7r%2Fjr3yx0n7Ilt7B07GiKmTKdh3TJnhvymxhgGwf%2BSwufwQaOLjJHFoDtMfdb9LdunDIoaugG6PVOz7SNVVcxjj1hvo3%2FWzC0%2BvShBjqyAWSdBx%2F1ELfYOlgAG%2BAKx4j3ZgPyhn7yFbQnNVd3SvfCpmYyhUdphsg0Ra9EvBSppUm6soY1yWI31ZcFizUr%2BtDHMjFotvNn41pdLaDw%2F2BdZWEd7y2KuWtqtGQHz1LFMMMIJYA07QA8UWneAbjhRpUMWFcz0ce77aD3fxiwwMHwmXqgedoE7rAlG3b%2Bhqr%2FKNL88ckWH28D79OsywCgE9wW5gpsr2zB1N9iZX98cR3NWWU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T133000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3QGZIVQ7W%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8ec5e758419a62ed0013cf84d6c51fd3d8d116355abf6ccf3266b56e86cb8cd9"
+    },
+}

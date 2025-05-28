@@ -1,0 +1,12 @@
+{
+    "TagSet": [
+        {
+            "Key": "Customer",
+            "Value": "FMAD"
+        },
+        {
+            "Key": "Name",
+            "Value": "customercommunications-stage"
+        }
+    ]
+}

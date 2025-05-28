@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "Insurance Migration"
+        },
+        {
+            "Key": "environment",
+            "Value": "pci"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CretedBy",
+            "Value": "Arrington Jeffrey JARRINGTON"
+        }
+    ]
+}

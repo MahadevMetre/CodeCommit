@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0277a1b6222694259"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "Franklin-AD-DUO_SRV-1A"
+    }
+  ]
+}

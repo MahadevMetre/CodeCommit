@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "dev"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "bmukesh"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Insurance Claims Bock Server Dev"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "11072022"
+        },
+        {
+            "Key": "project",
+            "Value": "Lasso"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "10072022"
+        }
+    ]
+}

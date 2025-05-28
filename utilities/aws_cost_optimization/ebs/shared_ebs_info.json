@@ -1,0 +1,873 @@
+{
+    "Volumes": [
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2019-11-22T03:23:36+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-06d110bfdebe4eeb9",
+                    "State": "attached",
+                    "VolumeId": "vol-0c6af779a096f86b4",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2019-11-22T03:23:36.070000+00:00",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-02e105f83f77cd927",
+            "State": "in-use",
+            "VolumeId": "vol-0c6af779a096f86b4",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-UBN-Pub-Sparta"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2020-02-20T19:46:17.972000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 100,
+            "SnapshotId": "snap-0e078112eedeec9db",
+            "State": "available",
+            "VolumeId": "vol-0e5d5c779801f87fc",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ES Node 1"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-04-26T20:48:11+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-02109efe8faa47d36",
+                    "State": "attached",
+                    "VolumeId": "vol-0de6cde627f7d0882",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2020-04-26T20:48:11.254000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 200,
+            "SnapshotId": "snap-035ee9b0c38e6b45d",
+            "State": "in-use",
+            "VolumeId": "vol-0de6cde627f7d0882",
+            "Iops": 600,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EPM Automate Shared"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "pcharan"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-09-29T23:24:15+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0d1390d9b2f00c7f5",
+                    "State": "attached",
+                    "VolumeId": "vol-0ce98d549648ecc15",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2020-09-29T23:24:15.580000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 100,
+            "SnapshotId": "snap-0f06f1549ff7327c9",
+            "State": "in-use",
+            "VolumeId": "vol-0ce98d549648ecc15",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "dselvaraj"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "EC2-DevOps-Shared"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2021-07-20T02:10:02.167000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 100,
+            "SnapshotId": "snap-0d77793a48824cdb6",
+            "State": "available",
+            "VolumeId": "vol-088f1539992a18ae1",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Created On",
+                    "Value": "07/19/2021"
+                },
+                {
+                    "Key": "Purpose",
+                    "Value": "Elastic Search - Node1"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Common"
+                },
+                {
+                    "Key": "Created By",
+                    "Value": "rasekar"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-12-06T15:25:57+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-05f713fc336d20c00",
+                    "State": "attached",
+                    "VolumeId": "vol-041e2cf1cad4ebeb0",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2021-12-06T15:25:57.528000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0235b927fead2f903",
+            "State": "in-use",
+            "VolumeId": "vol-041e2cf1cad4ebeb0",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-03-02T05:29:08+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-04aad3022e25bc095",
+                    "State": "attached",
+                    "VolumeId": "vol-09039a96ac2a1f36e",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-03-02T05:29:08.556000+00:00",
+            "Encrypted": false,
+            "Size": 50,
+            "SnapshotId": "snap-0ce4ad4a65b3d72e7",
+            "State": "in-use",
+            "VolumeId": "vol-09039a96ac2a1f36e",
+            "Iops": 150,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-06-29T13:55:48+00:00",
+                    "Device": "/dev/sdb",
+                    "InstanceId": "i-0bf3bf0d970990c20",
+                    "State": "attached",
+                    "VolumeId": "vol-0b9c2fd15d644ba87",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-06-29T13:55:22.788000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/f63edfc7-3937-4f21-bbad-803ed127e0dd",
+            "Size": 2000,
+            "SnapshotId": "",
+            "State": "in-use",
+            "VolumeId": "vol-0b9c2fd15d644ba87",
+            "Iops": 6000,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ebs-1"
+                },
+                {
+                    "Key": "Application",
+                    "Value": "Palo Alto Networks Panorama"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "PS Team"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-06-29T13:55:48+00:00",
+                    "Device": "/dev/sdc",
+                    "InstanceId": "i-0bf3bf0d970990c20",
+                    "State": "attached",
+                    "VolumeId": "vol-07f82cbdfb2f2f6dd",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-06-29T13:55:22.786000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/f63edfc7-3937-4f21-bbad-803ed127e0dd",
+            "Size": 2000,
+            "SnapshotId": "",
+            "State": "in-use",
+            "VolumeId": "vol-07f82cbdfb2f2f6dd",
+            "Iops": 6000,
+            "Tags": [
+                {
+                    "Key": "Owner",
+                    "Value": "PS Team"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "ebs-2"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Application",
+                    "Value": "Palo Alto Networks Panorama"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-06-29T13:55:26+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0bf3bf0d970990c20",
+                    "State": "attached",
+                    "VolumeId": "vol-03a02f5a81ee8a07b",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-06-29T13:55:26.766000+00:00",
+            "Encrypted": false,
+            "Size": 81,
+            "SnapshotId": "snap-0ed5b911b06d6ab97",
+            "State": "in-use",
+            "VolumeId": "vol-03a02f5a81ee8a07b",
+            "Iops": 243,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-07-27T15:29:21+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0b18f5c05b0005c38",
+                    "State": "attached",
+                    "VolumeId": "vol-0f9c1a2272e883435",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-07-27T15:29:21.133000+00:00",
+            "Encrypted": false,
+            "Size": 60,
+            "SnapshotId": "snap-0a1f3cefe7eddee6f",
+            "State": "in-use",
+            "VolumeId": "vol-0f9c1a2272e883435",
+            "Iops": 180,
+            "Tags": [
+                {
+                    "Key": "ManagedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "PS Team"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "vmseries01"
+                },
+                {
+                    "Key": "Application",
+                    "Value": "Palo Alto Networks VM-Series NGFW"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-12T15:37:42+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-01819d866a879e41b",
+                    "State": "attached",
+                    "VolumeId": "vol-0b2a375833246824a",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-08-12T15:37:42.236000+00:00",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "snap-0a03e148127ae1239",
+            "State": "in-use",
+            "VolumeId": "vol-0b2a375833246824a",
+            "Iops": 300,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-31T15:04:10+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0277a1b6222694259",
+                    "State": "attached",
+                    "VolumeId": "vol-03f30a9c7bd78a6ba",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-08-31T15:04:10.706000+00:00",
+            "Encrypted": false,
+            "Size": 50,
+            "SnapshotId": "snap-0866053e60abfae8d",
+            "State": "in-use",
+            "VolumeId": "vol-03f30a9c7bd78a6ba",
+            "Iops": 150,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-31T16:15:53+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0b4188dc82ca644bf",
+                    "State": "attached",
+                    "VolumeId": "vol-0067d48e82036fede",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-08-31T16:15:53.944000+00:00",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "snap-01cc05c3d0921e040",
+            "State": "in-use",
+            "VolumeId": "vol-0067d48e82036fede",
+            "Iops": 300,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-31T16:18:30+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-07e70d8209b81b396",
+                    "State": "attached",
+                    "VolumeId": "vol-0e00027589af7a89a",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-08-31T16:18:30.854000+00:00",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "snap-0d72d84d17da70c74",
+            "State": "in-use",
+            "VolumeId": "vol-0e00027589af7a89a",
+            "Iops": 300,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-09-08T18:39:47+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0d5d132220220da49",
+                    "State": "attached",
+                    "VolumeId": "vol-047a937becb05c228",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-09-08T18:39:47.310000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0f3e40d6bbbcc8b58",
+            "State": "in-use",
+            "VolumeId": "vol-047a937becb05c228",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-09-08T18:39:47+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0cd17301a436b6dd9",
+                    "State": "attached",
+                    "VolumeId": "vol-0126a5e3efac6ff29",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-09-08T18:39:47.300000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0f3e40d6bbbcc8b58",
+            "State": "in-use",
+            "VolumeId": "vol-0126a5e3efac6ff29",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-09-14T20:21:47+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0ce8189f864ea9b46",
+                    "State": "attached",
+                    "VolumeId": "vol-032cdf876d0cbc7ae",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-09-14T20:21:47.879000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0866053e60abfae8d",
+            "State": "in-use",
+            "VolumeId": "vol-032cdf876d0cbc7ae",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-09-22T17:05:58+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-00f2bdf03427aff62",
+                    "State": "attached",
+                    "VolumeId": "vol-0223e3bde916a47bd",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-09-22T17:05:58.875000+00:00",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "snap-0a8ead4139e41a130",
+            "State": "in-use",
+            "VolumeId": "vol-0223e3bde916a47bd",
+            "Iops": 300,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-11-09T20:33:34+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-09d145aef7c56bba2",
+                    "State": "attached",
+                    "VolumeId": "vol-02f12194811bd73c9",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-11-09T20:33:34.366000+00:00",
+            "Encrypted": false,
+            "Size": 200,
+            "SnapshotId": "snap-0dc2ea8e1e2f5c26a",
+            "State": "in-use",
+            "VolumeId": "vol-02f12194811bd73c9",
+            "Iops": 600,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-11-10T13:06:01+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-06e3e13f5149777c9",
+                    "State": "attached",
+                    "VolumeId": "vol-07e385c8cf10d2291",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-11-10T13:06:01.294000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-08da0ef50f3a19780",
+            "State": "in-use",
+            "VolumeId": "vol-07e385c8cf10d2291",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-11-22T10:32:00+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-04def741b69a46239",
+                    "State": "attached",
+                    "VolumeId": "vol-0981caa2be6abb0ac",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2022-11-22T10:32:00.876000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 30,
+            "SnapshotId": "snap-0cc18315b85966d60",
+            "State": "in-use",
+            "VolumeId": "vol-0981caa2be6abb0ac",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2023-02-03T11:13:01+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0a370f759c57064b7",
+                    "State": "attached",
+                    "VolumeId": "vol-0a1c4cf243f5d503c",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2023-02-03T11:13:01.888000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 30,
+            "SnapshotId": "snap-0c371a5504a01769d",
+            "State": "in-use",
+            "VolumeId": "vol-0a1c4cf243f5d503c",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2023-02-15T05:53:51+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0da0b605220604519",
+                    "State": "attached",
+                    "VolumeId": "vol-06267bae16913ab99",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2023-02-15T05:53:51.918000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 125,
+            "SnapshotId": "snap-04cb0f411fe7a3137",
+            "State": "in-use",
+            "VolumeId": "vol-06267bae16913ab99",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2023-02-15T05:54:54+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-066e528b6e546c0f2",
+                    "State": "attached",
+                    "VolumeId": "vol-0af89c9cfe96350ac",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2023-02-15T05:54:54.958000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 125,
+            "SnapshotId": "snap-04cb0f411fe7a3137",
+            "State": "in-use",
+            "VolumeId": "vol-0af89c9cfe96350ac",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2020-02-20T19:47:37.565000+00:00",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:964190570136:key/50362799-ce91-4022-983a-21616865762e",
+            "Size": 100,
+            "SnapshotId": "snap-0e078112eedeec9db",
+            "State": "available",
+            "VolumeId": "vol-0751b91e6bf96d462",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ES Node 2"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-05-21T22:07:17+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0dd2e869fc411f59f",
+                    "State": "attached",
+                    "VolumeId": "vol-0c15dfb03766353c5",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2021-05-21T22:07:17.979000+00:00",
+            "Encrypted": false,
+            "Size": 40,
+            "SnapshotId": "snap-047df8af4c816d1fa",
+            "State": "in-use",
+            "VolumeId": "vol-0c15dfb03766353c5",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-07-27T15:29:20+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0094731a67d9d6b7a",
+                    "State": "attached",
+                    "VolumeId": "vol-06a0d35bcdc0596d0",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-07-27T15:29:20.934000+00:00",
+            "Encrypted": false,
+            "Size": 60,
+            "SnapshotId": "snap-0a1f3cefe7eddee6f",
+            "State": "in-use",
+            "VolumeId": "vol-06a0d35bcdc0596d0",
+            "Iops": 180,
+            "Tags": [
+                {
+                    "Key": "Owner",
+                    "Value": "PS Team"
+                },
+                {
+                    "Key": "Application",
+                    "Value": "Palo Alto Networks VM-Series NGFW"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "vmseries02"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-12T15:59:33+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-030da8a33e90f1600",
+                    "State": "attached",
+                    "VolumeId": "vol-0ad33a1d888754511",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-08-12T15:59:33.787000+00:00",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "snap-0a03e148127ae1239",
+            "State": "in-use",
+            "VolumeId": "vol-0ad33a1d888754511",
+            "Iops": 300,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-31T15:06:35+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-049ded290725ed36b",
+                    "State": "attached",
+                    "VolumeId": "vol-02586d974df8ca5ae",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-08-31T15:06:36.011000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0866053e60abfae8d",
+            "State": "in-use",
+            "VolumeId": "vol-02586d974df8ca5ae",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-31T16:17:15+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0443b1239cd94aa4d",
+                    "State": "attached",
+                    "VolumeId": "vol-040942b858dd7f972",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-08-31T16:17:15.410000+00:00",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "snap-05518224afd0da4ca",
+            "State": "in-use",
+            "VolumeId": "vol-040942b858dd7f972",
+            "Iops": 300,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-08-31T16:19:19+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0db56b64045a5506f",
+                    "State": "attached",
+                    "VolumeId": "vol-070164a3b2713a7e9",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-08-31T16:19:20.065000+00:00",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "snap-0ee04682d1d80a105",
+            "State": "in-use",
+            "VolumeId": "vol-070164a3b2713a7e9",
+            "Iops": 300,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-09-08T18:49:33+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0a79a4cdc6950cdbe",
+                    "State": "attached",
+                    "VolumeId": "vol-0a4bfaded8289b796",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-09-08T18:49:33.413000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0f3e40d6bbbcc8b58",
+            "State": "in-use",
+            "VolumeId": "vol-0a4bfaded8289b796",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-09-08T18:49:33+00:00",
+                    "Device": "/dev/sda1",
+                    "InstanceId": "i-0f4c978c33af2e9b4",
+                    "State": "attached",
+                    "VolumeId": "vol-02d1a854fa3babdc1",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1b",
+            "CreateTime": "2022-09-08T18:49:33.403000+00:00",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0f3e40d6bbbcc8b58",
+            "State": "in-use",
+            "VolumeId": "vol-02d1a854fa3babdc1",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        }
+    ]
+}

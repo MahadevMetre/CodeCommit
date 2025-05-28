@@ -1,0 +1,2865 @@
+{
+    "Images": [
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-08-05T04:36:20.000Z",
+            "ImageId": "ami-01fa3f960bc566782",
+            "ImageLocation": "116762271881/Nginx-Dev2-08042020",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0ef52c47e2dcef4d1",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "Nginx-Dev2-08042020",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-09-24T07:13:10.000Z",
+            "ImageId": "ami-02ac1a94e856d75ad",
+            "ImageLocation": "116762271881/jboss_admin_ipps_sept24",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-069aef3a0adcafb1b",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "jboss_admin_ipps_sept24",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_admin_ipps_sept24",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-10-26T03:33:50.000Z",
+            "ImageId": "ami-0610028e80f7d0414",
+            "ImageLocation": "116762271881/EC2-WIN-CrushFTP-AMI",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "Platform": "windows",
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0c6f5d8feeeb0c77e",
+                        "VolumeSize": 80,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "xvdca",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "xvdcb",
+                    "VirtualName": "ephemeral1"
+                },
+                {
+                    "DeviceName": "xvdcc",
+                    "VirtualName": "ephemeral2"
+                },
+                {
+                    "DeviceName": "xvdcd",
+                    "VirtualName": "ephemeral3"
+                },
+                {
+                    "DeviceName": "xvdce",
+                    "VirtualName": "ephemeral4"
+                },
+                {
+                    "DeviceName": "xvdcf",
+                    "VirtualName": "ephemeral5"
+                },
+                {
+                    "DeviceName": "xvdcg",
+                    "VirtualName": "ephemeral6"
+                },
+                {
+                    "DeviceName": "xvdch",
+                    "VirtualName": "ephemeral7"
+                },
+                {
+                    "DeviceName": "xvdci",
+                    "VirtualName": "ephemeral8"
+                },
+                {
+                    "DeviceName": "xvdcj",
+                    "VirtualName": "ephemeral9"
+                },
+                {
+                    "DeviceName": "xvdck",
+                    "VirtualName": "ephemeral10"
+                },
+                {
+                    "DeviceName": "xvdcl",
+                    "VirtualName": "ephemeral11"
+                },
+                {
+                    "DeviceName": "xvdcm",
+                    "VirtualName": "ephemeral12"
+                },
+                {
+                    "DeviceName": "xvdcn",
+                    "VirtualName": "ephemeral13"
+                },
+                {
+                    "DeviceName": "xvdco",
+                    "VirtualName": "ephemeral14"
+                },
+                {
+                    "DeviceName": "xvdcp",
+                    "VirtualName": "ephemeral15"
+                },
+                {
+                    "DeviceName": "xvdcq",
+                    "VirtualName": "ephemeral16"
+                },
+                {
+                    "DeviceName": "xvdcr",
+                    "VirtualName": "ephemeral17"
+                },
+                {
+                    "DeviceName": "xvdcs",
+                    "VirtualName": "ephemeral18"
+                },
+                {
+                    "DeviceName": "xvdct",
+                    "VirtualName": "ephemeral19"
+                },
+                {
+                    "DeviceName": "xvdcu",
+                    "VirtualName": "ephemeral20"
+                },
+                {
+                    "DeviceName": "xvdcv",
+                    "VirtualName": "ephemeral21"
+                },
+                {
+                    "DeviceName": "xvdcw",
+                    "VirtualName": "ephemeral22"
+                },
+                {
+                    "DeviceName": "xvdcx",
+                    "VirtualName": "ephemeral23"
+                },
+                {
+                    "DeviceName": "xvdcy",
+                    "VirtualName": "ephemeral24"
+                },
+                {
+                    "DeviceName": "xvdcz",
+                    "VirtualName": "ephemeral25"
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-WIN-CrushFTP-AMI",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-05-28T15:49:53.000Z",
+            "ImageId": "ami-068f80731c1e98edc",
+            "ImageLocation": "116762271881/jboss_iapps_slave_manual_ami_may28",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0ef2dc2e83ca65872",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "jboss_iapps_slave_manual_ami_may28",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_iapps_slave_manual_ami_may28",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2019-12-12T00:59:44.000Z",
+            "ImageId": "ami-0291a89884db6b114",
+            "ImageLocation": "116762271881/EC2-RHEL-JBoss-GoldenImage",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0e925eb9b1cda2e8f",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "Gold Image for JBoss Redhat Linux EC2",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-RHEL-JBoss-GoldenImage",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-10-26T04:02:13.000Z",
+            "ImageId": "ami-0c61a537b1b6877b1",
+            "ImageLocation": "116762271881/EC2-WIN-CrushFTP-Proxy-Golden-AMI",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "Platform": "windows",
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-0ba909817271a4fd9",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                },
+                {
+                    "DeviceName": "xvdca",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "xvdcb",
+                    "VirtualName": "ephemeral1"
+                },
+                {
+                    "DeviceName": "xvdcc",
+                    "VirtualName": "ephemeral2"
+                },
+                {
+                    "DeviceName": "xvdcd",
+                    "VirtualName": "ephemeral3"
+                },
+                {
+                    "DeviceName": "xvdce",
+                    "VirtualName": "ephemeral4"
+                },
+                {
+                    "DeviceName": "xvdcf",
+                    "VirtualName": "ephemeral5"
+                },
+                {
+                    "DeviceName": "xvdcg",
+                    "VirtualName": "ephemeral6"
+                },
+                {
+                    "DeviceName": "xvdch",
+                    "VirtualName": "ephemeral7"
+                },
+                {
+                    "DeviceName": "xvdci",
+                    "VirtualName": "ephemeral8"
+                },
+                {
+                    "DeviceName": "xvdcj",
+                    "VirtualName": "ephemeral9"
+                },
+                {
+                    "DeviceName": "xvdck",
+                    "VirtualName": "ephemeral10"
+                },
+                {
+                    "DeviceName": "xvdcl",
+                    "VirtualName": "ephemeral11"
+                },
+                {
+                    "DeviceName": "xvdcm",
+                    "VirtualName": "ephemeral12"
+                },
+                {
+                    "DeviceName": "xvdcn",
+                    "VirtualName": "ephemeral13"
+                },
+                {
+                    "DeviceName": "xvdco",
+                    "VirtualName": "ephemeral14"
+                },
+                {
+                    "DeviceName": "xvdcp",
+                    "VirtualName": "ephemeral15"
+                },
+                {
+                    "DeviceName": "xvdcq",
+                    "VirtualName": "ephemeral16"
+                },
+                {
+                    "DeviceName": "xvdcr",
+                    "VirtualName": "ephemeral17"
+                },
+                {
+                    "DeviceName": "xvdcs",
+                    "VirtualName": "ephemeral18"
+                },
+                {
+                    "DeviceName": "xvdct",
+                    "VirtualName": "ephemeral19"
+                },
+                {
+                    "DeviceName": "xvdcu",
+                    "VirtualName": "ephemeral20"
+                },
+                {
+                    "DeviceName": "xvdcv",
+                    "VirtualName": "ephemeral21"
+                },
+                {
+                    "DeviceName": "xvdcw",
+                    "VirtualName": "ephemeral22"
+                },
+                {
+                    "DeviceName": "xvdcx",
+                    "VirtualName": "ephemeral23"
+                },
+                {
+                    "DeviceName": "xvdcy",
+                    "VirtualName": "ephemeral24"
+                },
+                {
+                    "DeviceName": "xvdcz",
+                    "VirtualName": "ephemeral25"
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-WIN-CrushFTP-Proxy-Golden-AMI",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "CrushFTP-Proxy-Golden-AMI"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-12-02T08:32:38.000Z",
+            "ImageId": "ami-029dc4104eac2ddbe",
+            "ImageLocation": "116762271881/insuranceapps-jboss-admin-dev2021-ami",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0ac3b15f0989c7ad7",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "insuranceapps-jboss-admin-dev2021-ami",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "createdBy",
+                    "Value": "jsamuel"
+                },
+                {
+                    "Key": "project",
+                    "Value": "insuranceapps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "insuranceapps-jboss-admin-dev-dec2021"
+                },
+                {
+                    "Key": "purpose",
+                    "Value": "Ami Creation prior to Instance type upgrade"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-08-27T17:07:19.000Z",
+            "ImageId": "ami-068e9cffb3d3e2b3b",
+            "ImageLocation": "116762271881/RML-DEV1-08272020",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0d1294269b8b9d3f0",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RML-DEV1-08272020",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-10-26T04:01:34.000Z",
+            "ImageId": "ami-0529c129a72177cb0",
+            "ImageLocation": "116762271881/CrushFTP-Golden-AMI",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "Platform": "windows",
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-06bd430c2e97f1c29",
+                        "VolumeSize": 80,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                },
+                {
+                    "DeviceName": "xvdca",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "xvdcb",
+                    "VirtualName": "ephemeral1"
+                },
+                {
+                    "DeviceName": "xvdcc",
+                    "VirtualName": "ephemeral2"
+                },
+                {
+                    "DeviceName": "xvdcd",
+                    "VirtualName": "ephemeral3"
+                },
+                {
+                    "DeviceName": "xvdce",
+                    "VirtualName": "ephemeral4"
+                },
+                {
+                    "DeviceName": "xvdcf",
+                    "VirtualName": "ephemeral5"
+                },
+                {
+                    "DeviceName": "xvdcg",
+                    "VirtualName": "ephemeral6"
+                },
+                {
+                    "DeviceName": "xvdch",
+                    "VirtualName": "ephemeral7"
+                },
+                {
+                    "DeviceName": "xvdci",
+                    "VirtualName": "ephemeral8"
+                },
+                {
+                    "DeviceName": "xvdcj",
+                    "VirtualName": "ephemeral9"
+                },
+                {
+                    "DeviceName": "xvdck",
+                    "VirtualName": "ephemeral10"
+                },
+                {
+                    "DeviceName": "xvdcl",
+                    "VirtualName": "ephemeral11"
+                },
+                {
+                    "DeviceName": "xvdcm",
+                    "VirtualName": "ephemeral12"
+                },
+                {
+                    "DeviceName": "xvdcn",
+                    "VirtualName": "ephemeral13"
+                },
+                {
+                    "DeviceName": "xvdco",
+                    "VirtualName": "ephemeral14"
+                },
+                {
+                    "DeviceName": "xvdcp",
+                    "VirtualName": "ephemeral15"
+                },
+                {
+                    "DeviceName": "xvdcq",
+                    "VirtualName": "ephemeral16"
+                },
+                {
+                    "DeviceName": "xvdcr",
+                    "VirtualName": "ephemeral17"
+                },
+                {
+                    "DeviceName": "xvdcs",
+                    "VirtualName": "ephemeral18"
+                },
+                {
+                    "DeviceName": "xvdct",
+                    "VirtualName": "ephemeral19"
+                },
+                {
+                    "DeviceName": "xvdcu",
+                    "VirtualName": "ephemeral20"
+                },
+                {
+                    "DeviceName": "xvdcv",
+                    "VirtualName": "ephemeral21"
+                },
+                {
+                    "DeviceName": "xvdcw",
+                    "VirtualName": "ephemeral22"
+                },
+                {
+                    "DeviceName": "xvdcx",
+                    "VirtualName": "ephemeral23"
+                },
+                {
+                    "DeviceName": "xvdcy",
+                    "VirtualName": "ephemeral24"
+                },
+                {
+                    "DeviceName": "xvdcz",
+                    "VirtualName": "ephemeral25"
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "CrushFTP-Golden-AMI",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "CrushFTP-Golden-AMI"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-02-06T14:38:41.000Z",
+            "ImageId": "ami-0161a445ab8da332c",
+            "ImageLocation": "116762271881/pre install ami for ssm agent and cloudwatch agent",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0b35f3be25976df03",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "pre install ami for ssm agent and cloudwatch agent",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-10-08T16:02:53.000Z",
+            "ImageId": "ami-0ffa66adb5d6063f6",
+            "ImageLocation": "116762271881/jboss_slave_dig_oct8",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0f5f26b49dcd84fe9",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "jboss_slave_dig_oct8",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_slave_dig_oct8",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss_slave_dig_oct8"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-01-14T23:52:43.000Z",
+            "ImageId": "ami-09b7b28dc4e4ba246",
+            "ImageLocation": "116762271881/JBoss_App_Inst_1",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-063fc34c3ca610eca",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "JBoss_App_Inst_1",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "JBoss_App_Inst_1",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-09-21T16:44:28.000Z",
+            "ImageId": "ami-05e1e3d2285f4344c",
+            "ImageLocation": "116762271881/EC2-WIN-CrushFTP-Dev",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "Platform": "windows",
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0020cab81ea2729d4",
+                        "VolumeSize": 80,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "xvdca",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "xvdcb",
+                    "VirtualName": "ephemeral1"
+                },
+                {
+                    "DeviceName": "xvdcc",
+                    "VirtualName": "ephemeral2"
+                },
+                {
+                    "DeviceName": "xvdcd",
+                    "VirtualName": "ephemeral3"
+                },
+                {
+                    "DeviceName": "xvdce",
+                    "VirtualName": "ephemeral4"
+                },
+                {
+                    "DeviceName": "xvdcf",
+                    "VirtualName": "ephemeral5"
+                },
+                {
+                    "DeviceName": "xvdcg",
+                    "VirtualName": "ephemeral6"
+                },
+                {
+                    "DeviceName": "xvdch",
+                    "VirtualName": "ephemeral7"
+                },
+                {
+                    "DeviceName": "xvdci",
+                    "VirtualName": "ephemeral8"
+                },
+                {
+                    "DeviceName": "xvdcj",
+                    "VirtualName": "ephemeral9"
+                },
+                {
+                    "DeviceName": "xvdck",
+                    "VirtualName": "ephemeral10"
+                },
+                {
+                    "DeviceName": "xvdcl",
+                    "VirtualName": "ephemeral11"
+                },
+                {
+                    "DeviceName": "xvdcm",
+                    "VirtualName": "ephemeral12"
+                },
+                {
+                    "DeviceName": "xvdcn",
+                    "VirtualName": "ephemeral13"
+                },
+                {
+                    "DeviceName": "xvdco",
+                    "VirtualName": "ephemeral14"
+                },
+                {
+                    "DeviceName": "xvdcp",
+                    "VirtualName": "ephemeral15"
+                },
+                {
+                    "DeviceName": "xvdcq",
+                    "VirtualName": "ephemeral16"
+                },
+                {
+                    "DeviceName": "xvdcr",
+                    "VirtualName": "ephemeral17"
+                },
+                {
+                    "DeviceName": "xvdcs",
+                    "VirtualName": "ephemeral18"
+                },
+                {
+                    "DeviceName": "xvdct",
+                    "VirtualName": "ephemeral19"
+                },
+                {
+                    "DeviceName": "xvdcu",
+                    "VirtualName": "ephemeral20"
+                },
+                {
+                    "DeviceName": "xvdcv",
+                    "VirtualName": "ephemeral21"
+                },
+                {
+                    "DeviceName": "xvdcw",
+                    "VirtualName": "ephemeral22"
+                },
+                {
+                    "DeviceName": "xvdcx",
+                    "VirtualName": "ephemeral23"
+                },
+                {
+                    "DeviceName": "xvdcy",
+                    "VirtualName": "ephemeral24"
+                },
+                {
+                    "DeviceName": "xvdcz",
+                    "VirtualName": "ephemeral25"
+                }
+            ],
+            "Description": "EC2-WIN-CrushFTP-Dev-09212022",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-WIN-CrushFTP-Dev",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-01-16T20:13:33.000Z",
+            "ImageId": "ami-047bdfa3aae84b0c6",
+            "ImageLocation": "116762271881/Nginx-App-Dev-Golden",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0465b5baff2fadce1",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "Golden image for Nginx app dev",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "Nginx-App-Dev-Golden",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-01-28T12:16:27.000Z",
+            "ImageId": "ami-0614f77764ccb2013",
+            "ImageLocation": "116762271881/nginx-digital-ansible",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-02ddf80e35d83ddd6",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Ansible Installed",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "nginx-digital-ansible",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "nginx-digital-ami-dev"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-10-20T14:09:52.000Z",
+            "ImageId": "ami-0ac25ad57d8d630cb",
+            "ImageLocation": "116762271881/GoldenAMI-test",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0bf1307a535664688",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "SSM, Cloudwatch agents installed, and Cloudwatch config.json file added",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "GoldenAMI-test",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-03-19T12:17:21.000Z",
+            "ImageId": "ami-02e224401a87545f5",
+            "ImageLocation": "116762271881/JBOSS_DEV_SLAVE",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0e8711a6a5da1fa73",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "JBOSS_DEV_SLAVE",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "createdBy",
+                    "Value": "Jsamuel"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-16T04:40:48.000Z",
+            "ImageId": "ami-0cc08b2d368f256ec",
+            "ImageLocation": "116762271881/EC2-JBoss-Admin-InsuranceApps-Before-Instance-Upgrade-03162023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0acaa3a2fb54e223c",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "AMI Took before upgrading the generation to c6i",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-JBoss-Admin-InsuranceApps-Before-Instance-Upgrade-03162023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-JBoss-Admin-InsuranceApps-Before-Instance-Upgrade-03162023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-02-03T12:30:32.000Z",
+            "ImageId": "ami-05aeb1db1b0ddb0a0",
+            "ImageLocation": "116762271881/jboss_slave_digital_feb_3",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-08868ba4dc31e41ad",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "jboss_slave_digital_feb_3",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_slave_digital_feb_3",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss_slave_digital_feb_3"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-16T04:40:29.000Z",
+            "ImageId": "ami-015e4e2bc0565b5ba",
+            "ImageLocation": "116762271881/EC2-JBoss-Slave-Digital-Before-Instance-Upgrade-03162023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0f0d9c549058baed4",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "AMI Took before upgrading the generation to c6i",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-JBoss-Slave-Digital-Before-Instance-Upgrade-03162023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-JBoss-Slave-Digital-Before-Instance-Upgrade-03162023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-10-03T15:40:29.000Z",
+            "ImageId": "ami-046a9efdcc729f096",
+            "ImageLocation": "116762271881/jboss_slave_digital_dev",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0cf2ba185bb63e35a",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "jboss_slave_digital_dev",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_slave_digital_dev",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-17T09:11:16.000Z",
+            "ImageId": "ami-0111152a464f4aecb",
+            "ImageLocation": "116762271881/nginx-insuranceapps-dev-03172023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0d38a74f983f42d93",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "nginx-insuranceapps-dev-03172023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "jsamuel"
+                },
+                {
+                    "Key": "terraform",
+                    "Value": "True"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "nginx-insuranceapps-ami-dev"
+                },
+                {
+                    "Key": "environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Purpose",
+                    "Value": "AMI created from insuranceapps-nginx golden source"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "insuranceapps"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-10-26T03:43:21.000Z",
+            "ImageId": "ami-03b963065db7e2f15",
+            "ImageLocation": "116762271881/EC2-WIN-CrushFTP-Proxy-AMI",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "Platform": "windows",
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0b69027919fe29ce6",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "xvdca",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "xvdcb",
+                    "VirtualName": "ephemeral1"
+                },
+                {
+                    "DeviceName": "xvdcc",
+                    "VirtualName": "ephemeral2"
+                },
+                {
+                    "DeviceName": "xvdcd",
+                    "VirtualName": "ephemeral3"
+                },
+                {
+                    "DeviceName": "xvdce",
+                    "VirtualName": "ephemeral4"
+                },
+                {
+                    "DeviceName": "xvdcf",
+                    "VirtualName": "ephemeral5"
+                },
+                {
+                    "DeviceName": "xvdcg",
+                    "VirtualName": "ephemeral6"
+                },
+                {
+                    "DeviceName": "xvdch",
+                    "VirtualName": "ephemeral7"
+                },
+                {
+                    "DeviceName": "xvdci",
+                    "VirtualName": "ephemeral8"
+                },
+                {
+                    "DeviceName": "xvdcj",
+                    "VirtualName": "ephemeral9"
+                },
+                {
+                    "DeviceName": "xvdck",
+                    "VirtualName": "ephemeral10"
+                },
+                {
+                    "DeviceName": "xvdcl",
+                    "VirtualName": "ephemeral11"
+                },
+                {
+                    "DeviceName": "xvdcm",
+                    "VirtualName": "ephemeral12"
+                },
+                {
+                    "DeviceName": "xvdcn",
+                    "VirtualName": "ephemeral13"
+                },
+                {
+                    "DeviceName": "xvdco",
+                    "VirtualName": "ephemeral14"
+                },
+                {
+                    "DeviceName": "xvdcp",
+                    "VirtualName": "ephemeral15"
+                },
+                {
+                    "DeviceName": "xvdcq",
+                    "VirtualName": "ephemeral16"
+                },
+                {
+                    "DeviceName": "xvdcr",
+                    "VirtualName": "ephemeral17"
+                },
+                {
+                    "DeviceName": "xvdcs",
+                    "VirtualName": "ephemeral18"
+                },
+                {
+                    "DeviceName": "xvdct",
+                    "VirtualName": "ephemeral19"
+                },
+                {
+                    "DeviceName": "xvdcu",
+                    "VirtualName": "ephemeral20"
+                },
+                {
+                    "DeviceName": "xvdcv",
+                    "VirtualName": "ephemeral21"
+                },
+                {
+                    "DeviceName": "xvdcw",
+                    "VirtualName": "ephemeral22"
+                },
+                {
+                    "DeviceName": "xvdcx",
+                    "VirtualName": "ephemeral23"
+                },
+                {
+                    "DeviceName": "xvdcy",
+                    "VirtualName": "ephemeral24"
+                },
+                {
+                    "DeviceName": "xvdcz",
+                    "VirtualName": "ephemeral25"
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-WIN-CrushFTP-Proxy-AMI",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-12-25T14:04:38.000Z",
+            "ImageId": "ami-0bf65123e8d26dc45",
+            "ImageLocation": "116762271881/jboss_admin_dig_dev_dec25",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-07dec18b4ba665241",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "jboss_admin_dig_dev_dec25",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_admin_dig_dev_dec25",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss_admin_dig_dev_dec25"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-11-24T17:34:41.000Z",
+            "ImageId": "ami-04bf59f158c792f6c",
+            "ImageLocation": "116762271881/RML_Dev_11242020",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-051f83e1b1bcaacac",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "RML_Dev_11242020",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RML_Dev_11242020",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-08-29T13:28:08.000Z",
+            "ImageId": "ami-09b5ad6b2caffd210",
+            "ImageLocation": "116762271881/EC2-RHEL-JBoss-Admin-Dev_29_Aug_2022",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-083cece29002f3294",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "EC2-RHEL-JBoss-Admin-Dev_29_Aug_2022",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-RHEL-JBoss-Admin-Dev_29_Aug_2022",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-JBoss-Admin-Dev_29_Aug_2022"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-10-26T16:16:36.000Z",
+            "ImageId": "ami-0a6ce3db5fad75c73",
+            "ImageLocation": "116762271881/ANX-GoldenImage-RHEL-JBoss-Admin-InsuranceApps-10-26-2022",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-025730bd2b25151f9",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "ANX-GoldenImage-RHEL-JBoss-Admin-InsuranceApps-10-26-2022",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "createdBy",
+                    "Value": "clafontant"
+                },
+                {
+                    "Key": "createdOn",
+                    "Value": "10-26-22"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-16T04:23:03.000Z",
+            "ImageId": "ami-04558eb5284bd00de",
+            "ImageLocation": "116762271881/EC2-RHEL-JBoss-Admin-Dev-Before-Instance-Upgrade-03162023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-09856622876b2d5bf",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "AMI Took before upgrading the generation to c6i",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-RHEL-JBoss-Admin-Dev-Before-Instance-Upgrade-03162023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-JBoss-Admin-Dev-Before-Instance-Upgrade-03162023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-06-04T09:33:56.000Z",
+            "ImageId": "ami-099d360ba4b5ced76",
+            "ImageLocation": "116762271881/Gitlab-Dev",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0950ca3519245fb63",
+                        "VolumeSize": 100,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Snapshot of Gitlab dev instance",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "Gitlab-Dev",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-02-07T15:50:27.000Z",
+            "ImageId": "ami-0fe7885cd910e2a44",
+            "ImageLocation": "116762271881/pre ssm agent install ami",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-05c4d565ce82490ae",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "pre ssm agent install ami",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-02-02T04:19:05.000Z",
+            "ImageId": "ami-08200a82b299bc2ae",
+            "ImageLocation": "116762271881/Nginx-App-02012020",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0b1aab49d5f734811",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "Nginx-App-02012020",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-16T04:23:09.000Z",
+            "ImageId": "ami-06ec7da5ae87c6e4d",
+            "ImageLocation": "116762271881/EC2-RHEL-PSCHM-Dev1-Before-Instance-Upgrade-03162023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-052e443238dac7c77",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "AMI Took before upgrading the generation to c6i",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-RHEL-PSCHM-Dev1-Before-Instance-Upgrade-03162023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-PSCHM-Dev1-Before-Instance-Upgrade-03162023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-02-03T18:02:28.000Z",
+            "ImageId": "ami-0911d0603d7283530",
+            "ImageLocation": "116762271881/Gitlab-Gold-02032020",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0f1a7bef63e5abccc",
+                        "VolumeSize": 100,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "Gitlab-Gold-02032020",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-16T04:23:05.000Z",
+            "ImageId": "ami-08cee24bafceeaae3",
+            "ImageLocation": "116762271881/EC2-RHEL-JBoss-App-Dev1-Before-Instance-Upgrade-03162023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0829793ac0b4418df",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "AMI Took before upgrading the generation to c6i",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-RHEL-JBoss-App-Dev1-Before-Instance-Upgrade-03162023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-JBoss-App-Dev1-Before-Instance-Upgrade-03162023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-01-15T17:54:33.000Z",
+            "ImageId": "ami-0342c804b4f762892",
+            "ImageLocation": "116762271881/Admin-Temp-Image",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-015bcf94735a3f785",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "Admin-Temp-Image",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-09-24T07:12:09.000Z",
+            "ImageId": "ami-0d7a6b9e7948400ac",
+            "ImageLocation": "116762271881/jboss_slave_ipps_sept24",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0c10cc4eb447cb49d",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "jboss_slave_ipps_sept24",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_slave_ipps_sept24",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-01-26T14:03:25.000Z",
+            "ImageId": "ami-0e61f07c9b82f0c31",
+            "ImageLocation": "116762271881/nginx-node-digital-vanity",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0d9d791c13046ae0a",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Updated with sshpass and jenkins creds",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "nginx-node-digital-vanity",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "nginx-node-digital-vanity"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-10-11T07:58:55.000Z",
+            "ImageId": "ami-07256a8cf24f4b01e",
+            "ImageLocation": "116762271881/jboss_admin_digital_oct11",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-00f146b835383222c",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "jboss_admin_digital_oct11",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_admin_digital_oct11",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-11-08T13:07:43.000Z",
+            "ImageId": "ami-04d6741ea6a99479c",
+            "ImageLocation": "116762271881/jboss_slave_digital_ami_11082022",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0060192122e2a307a",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "jboss_slave_digital_ami_11082022",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_slave_digital_ami_11082022",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss_slave_digital_ami_11082022"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-16T04:40:40.000Z",
+            "ImageId": "ami-09cacc3526b42b8b5",
+            "ImageLocation": "116762271881/EC2-JBoss-Admin-Digital-Before-Instance-Upgrade-03162023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-05d3df3f82efa28c0",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "AMI Took before upgrading the generation to c6i",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-JBoss-Admin-Digital-Before-Instance-Upgrade-03162023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-JBoss-Admin-Digital-Before-Instance-Upgrade-03162023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-05-28T05:27:46.000Z",
+            "ImageId": "ami-0cf865cb63c65bd03",
+            "ImageLocation": "116762271881/automation_dev",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-06b89f8eb36b44733",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdf",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-0099a1e94d6994d2f",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "automation_dev",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "CretedBy",
+                    "Value": "jsamuel"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "automation_dev_image"
+                },
+                {
+                    "Key": "environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "createdDate",
+                    "Value": "05/20/2021"
+                },
+                {
+                    "Key": "terraform",
+                    "Value": "True"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-17T09:32:07.000Z",
+            "ImageId": "ami-0cd4f603c1050522f",
+            "ImageLocation": "116762271881/nginx-digital-ami-dev",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0e8bbd05cf10b00ea",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "nginx-digital-ami-dev",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "nginx-digital-dev-03172023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-10-20T14:44:39.000Z",
+            "ImageId": "ami-0f73c46406320a403",
+            "ImageLocation": "116762271881/dummy",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-04220b9c06e39819c",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "junk",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "dummy",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-11-01T10:25:35.000Z",
+            "ImageId": "ami-01a93287fa07aa4f4",
+            "ImageLocation": "116762271881/jboss_admin_iapps_nov_1_2022",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-09ab76aea1d923c48",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "jboss_admin_iapps_nov_1_2022",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_admin_iapps_nov_1_2022",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss_admin_iapps_nov_1_2022"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-01-16T21:31:13.000Z",
+            "ImageId": "ami-00c6bec6bbfe2417f",
+            "ImageLocation": "116762271881/JBoss-App-Temp",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-024b1d5d14960ebdf",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "Temp image for JBoss App instance",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "JBoss-App-Temp",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-09-10T11:31:17.000Z",
+            "ImageId": "ami-00139c7be82f8d48e",
+            "ImageLocation": "116762271881/Jboss-slave-dynamic-server-name",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-053887e1c841c1bfc",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdf",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-07ffce9db78b6bdd5",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "Jboss-slave-dynamic-server-name",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "createdBy",
+                    "Value": "jsamuel"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-10-22T05:58:31.000Z",
+            "ImageId": "ami-048656f7bb984961b",
+            "ImageLocation": "116762271881/dig-jboss-admin-10222021",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0e9ff688b9a80a76d",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdf",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-0257f98085ecbbb3b",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "dig-jboss-admin-10222021",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "dig-jboss-admin-10222021",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-04-13T03:12:16.000Z",
+            "ImageId": "ami-051fa812263cff20c",
+            "ImageLocation": "116762271881/JBOSS_Slave_April_2021",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-040d91ceddf3a33a6",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "JBOSS_Slave_April_2021",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "createdBy",
+                    "Value": "jsamuel"
+                },
+                {
+                    "Key": "purpose",
+                    "Value": "server upgrade"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-17T09:07:42.000Z",
+            "ImageId": "ami-08325f58e709850e3",
+            "ImageLocation": "116762271881/jboss-slave-insuranceapps-dev-03172023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0f6972b04054798f1",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss-slave-insuranceapps-dev-03172023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "jsamuel"
+                },
+                {
+                    "Key": "environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "terraform",
+                    "Value": "True"
+                },
+                {
+                    "Key": "Purpose",
+                    "Value": "AMI created from insuranceapps-jboss-slave golden source"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "insuranceapps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "jboss-slave-insuranceapps-ami-dev"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-03-10T20:18:10.000Z",
+            "ImageId": "ami-0399e59f8f29cb965",
+            "ImageLocation": "116762271881/EC2-WIN-DW-DBeaver-031022",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "Platform": "windows",
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0640e5feb50aa87e8",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "EC2-WIN-DW-DBeaver",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-WIN-DW-DBeaver-031022",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-WIN-DW-DBeaver-031022"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-05-03T01:08:49.000Z",
+            "ImageId": "ami-082ecffb8ebcfdc38",
+            "ImageLocation": "116762271881/ANX-GoldenImage-EC2-JBoss-Admin-InsuranceApps",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-05a16bbe93ca8810e",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "AMI created on 05/02/2022 based on EC2-JBoss-Admin-InsuranceApps for Anexinet Purposes.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "ANX-GoldenImage-EC2-JBoss-Admin-InsuranceApps",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "purpose",
+                    "Value": "Anexinet to add needed software to Golden Image"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-17T09:32:04.000Z",
+            "ImageId": "ami-0dc04afae41f81957",
+            "ImageLocation": "116762271881/jboss-slave-digital-ami-dev",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0934e4d2189da77c7",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss-slave-digital-ami-dev",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss-slave-digital-dev-03172023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-07-06T10:19:00.000Z",
+            "ImageId": "ami-075f989d6c28c0997",
+            "ImageLocation": "116762271881/jboss_slave_node_alert_logic",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0c453165267829a32",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdf",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-0e517929ed25790f0",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_slave_node_alert_logic",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "CretedBy",
+                    "Value": "jsamuel"
+                },
+                {
+                    "Key": "environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "terraform",
+                    "Value": "True"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "JBOSS-Slave-Image"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-03-15T19:43:26.000Z",
+            "ImageId": "ami-04d61325ca05c9f07",
+            "ImageLocation": "116762271881/EC2-WIN-DW-Datagateway",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "Platform": "windows",
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0128fa3439bd66181",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-WIN-DW-Datagateway",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Datagateway-image"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2020-06-04T15:07:28.000Z",
+            "ImageId": "ami-09a1773db069b7048",
+            "ImageLocation": "116762271881/Gitlab-Runner-Dev",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-02ba1c9f639ee8ad3",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "Snapshot of Gitlab Runner dev instance",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "Gitlab-Runner-Dev",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-16T04:40:34.000Z",
+            "ImageId": "ami-09af247d78a322e3d",
+            "ImageLocation": "116762271881/EC2-JBoss-Slave-InsuranceApps-Before-Instance-Upgrade-03162023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-03fc0231c99927f85",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "AMI Took before upgrading the generation to c6i",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-JBoss-Slave-InsuranceApps-Before-Instance-Upgrade-03162023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-JBoss-Slave-InsuranceApps-Before-Instance-Upgrade-03162023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-09-16T11:53:46.000Z",
+            "ImageId": "ami-0c0cefe72f1c0dfe1",
+            "ImageLocation": "116762271881/jboss-admin-dual-cluster-Gold-copy",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-09174a40882580c48",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss-admin-dual-cluster-Gold-copy",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "createdBy",
+                    "Value": "jsamuel"
+                },
+                {
+                    "Key": "purpose",
+                    "Value": "Golden copy of dual cluster JBOSS"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-02-03T11:57:20.000Z",
+            "ImageId": "ami-05e30d3ddb8c16fdc",
+            "ImageLocation": "116762271881/jboss_admin_digital_feb_3",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0bc0cf26cd7a185c3",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "jboss_admin_digital_feb_3",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_admin_digital_feb_3",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss_admin_digital_feb_3"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-03-16T04:23:07.000Z",
+            "ImageId": "ami-022157acdd4af7ac1",
+            "ImageLocation": "116762271881/EC2-RHEL-RML-Dev1-Before-Instance-Upgrade-03162023",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-033121c32e5382997",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "AMI Took before upgrading the generation to c6i",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "EC2-RHEL-RML-Dev1-Before-Instance-Upgrade-03162023",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "EC2-RHEL-RML-Dev1-Before-Instance-Upgrade-03162023"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-10-19T10:20:01.000Z",
+            "ImageId": "ami-017d89c3267ef3cf3",
+            "ImageLocation": "116762271881/jboss_slave_iapps_oct19",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-01d9254ed856fa1d0",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "jboss_slave_iapps_oct19",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "jboss_slave_iapps_oct19",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jboss_slave_iapps_oct19"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2021-10-30T05:32:28.000Z",
+            "ImageId": "ami-0f8dd8ecfd8d03c57",
+            "ImageLocation": "116762271881/[Copied ami-08fc1910d07a65045 from us-east-1] jboss-slave-insuranceapps-dev-node",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "PlatformDetails": "Red Hat Enterprise Linux",
+            "UsageOperation": "RunInstances:0010",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-000f4158de7c0a450",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": true
+                    }
+                }
+            ],
+            "Description": "[Copied ami-08fc1910d07a65045 from us-east-1] jboss-slave-insuranceapps-dev-node",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "[Copied ami-08fc1910d07a65045 from us-east-1] jboss-slave-insuranceapps-dev-node",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-03-10T12:34:48.000Z",
+            "ImageId": "ami-0d011131a5c15f22e",
+            "ImageLocation": "116762271881/qlink-image",
+            "ImageType": "machine",
+            "Public": false,
+            "OwnerId": "116762271881",
+            "Platform": "windows",
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0f7557445b3a51e1b",
+                        "VolumeSize": 100,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "AMI for Qlink EC2 instance",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "qlink-image",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "qlink-image"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        }
+    ]
+}

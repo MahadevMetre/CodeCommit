@@ -1,0 +1,25 @@
+{
+    "Topics": [
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:964190570136:CISBenchmarkAlarm"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:964190570136:CISBenchmarkCloudTrail"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:964190570136:FKN_BackupVault_CloudWatch_Alarms_Topic"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:964190570136:checkpoint-north-hub-GWLBStack-Y2PAFSROKRYC-SecurityGatewaysStack-3Q0KSMNYY1W2-NotificationTopic-1RHFJPX9FW8BI"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:964190570136:fmg-security-monitor"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:964190570136:kibana-alert-topic-temp"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:964190570136:processS3ArchiveEvent-stage"
+        }
+    ]
+}

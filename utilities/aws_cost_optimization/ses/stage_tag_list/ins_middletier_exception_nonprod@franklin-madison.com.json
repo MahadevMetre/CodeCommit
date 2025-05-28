@@ -1,0 +1,13 @@
+{
+  "ResourceArn": "arn:aws:ses:us-east-1:702230634984:identity/ins_middletier_exception_nonprod@franklin-madison.com",
+  "Tags": [
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "InsuranceApps"
+    }
+  ]
+}

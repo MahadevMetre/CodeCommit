@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-05f713fc336d20c00"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "Anexinet Shared Jump Box"
+    }
+  ]
+}

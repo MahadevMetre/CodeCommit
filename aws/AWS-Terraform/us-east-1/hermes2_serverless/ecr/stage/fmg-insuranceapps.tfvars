@@ -1,0 +1,16 @@
+repo_name				= "fmg-insuranceapps"
+repo_tags = {
+	"ApplicationName"		= "InsuranceApps"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07032023"
+	"DataClassification"	= "None"
+	"Department"			= "IAPPS"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "07032023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

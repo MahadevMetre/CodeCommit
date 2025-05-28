@@ -1,0 +1,24 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "dev"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "createdDate",
+            "Value": "03/02/2021"
+        },
+        {
+            "Key": "Name",
+            "Value": "customercommunications-email-dev"
+        }
+    ]
+}

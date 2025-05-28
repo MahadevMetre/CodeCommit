@@ -1,0 +1,13 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:601751840347:OnlinePaymentSNStopic-pci",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Online Payment"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jarrington"
+    }
+  ]
+}

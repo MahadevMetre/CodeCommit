@@ -1,0 +1,17 @@
+name               = "jboss_slave_node_alert_logic"
+source_instance_id = "i-0db1079772def62a2"
+tags = {
+    "ApplicationName" = "DevOps"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "NoInfo"
+    "DataClassification" = "Low"
+    "Department" = "DOS"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}

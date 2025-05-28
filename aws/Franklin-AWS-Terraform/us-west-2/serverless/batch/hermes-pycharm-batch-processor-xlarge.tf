@@ -1,0 +1,153 @@
+resource "aws_batch_compute_environment" "hms_py_batch_proc_ce_xlarge" {
+	count = var.hermes_pycharm_batch_processor_xlarge_bool ? 1: 0
+	compute_environment_name = var.ce_name_xlarge
+
+	compute_resources {
+		allocation_strategy = var.ce_cr_allocation_strategy
+		ec2_key_pair = var.ce_cr_ec2_key_pair
+		instance_role = var.ce_cr_instance_role
+		instance_type = var.ce_cr_instance_type_xlarge
+		max_vcpus = var.ce_cr_max_vcpus_xlarge
+		security_group_ids = var.ce_cr_sg_list
+		subnets = var.ce_cr_subnet_list
+		type = var.ce_cr_type
+		tags = var.ce_cr_tags
+	}
+
+	update_policy {
+		job_execution_timeout_minutes	= 30
+		terminate_jobs_on_update		= false
+	}
+
+	service_role	= var.ce_service_role
+	type			= var.ce_type
+	tags			= var.ce_tags
+}
+
+resource "aws_batch_job_queue" "hms_py_batch_proc_jq_xlarge" {
+	count = var.hermes_pycharm_batch_processor_xlarge_bool ? 1: 0
+	name					= var.jq_name_xlarge
+	state					= "ENABLED"
+	priority				= 1
+	compute_environments	= [aws_batch_compute_environment.hms_py_batch_proc_ce_xlarge[0].arn]
+}
+
+resource "aws_batch_job_definition" "hms_py_batch_xlarge_proc_jd" {
+	count = var.hermes_pycharm_batch_processor_xlarge_bool ? 1: 0
+	name = var.jd_name_xlarge
+	type = "container"
+	platform_capabilities = ["EC2"]
+	retry_strategy {
+		attempts = 3
+		evaluate_on_exit {
+			action = "RETRY"
+			on_status_reason = "Host EC2*"
+		}
+		evaluate_on_exit {
+			action = "RETRY"
+			on_status_reason = "Timeout waiting for network interface provisioning to complete."
+		}
+		evaluate_on_exit {
+			action = "RETRY"
+			on_status_reason = "Network interface provision complete error timeout wait for network interface provision."
+		}
+		evaluate_on_exit {
+			action = "RETRY"
+			on_status_reason = "Rate limit exceeded while preparing network interface to be attached to instance"
+		}
+		evaluate_on_exit {
+			action = "EXIT"
+			on_reason = "*"
+		}
+	}
+	timeout {
+		attempt_duration_seconds = var.jd_timeout_xlarge
+	}
+	container_properties = jsonencode({
+		command = var.jd_container_command
+		image   = var.jd_container_image
+		executionRoleArn = var.jd_container_exec_role_arn
+		jobRoleArn = var.jd_container_job_role_arn
+
+		resourceRequirements = [
+		{
+			type  = "VCPU"
+			value = var.jd_container_vcpu_xlarge
+		},
+		{
+			type  = "MEMORY"
+			value = var.jd_container_memory_xlarge
+		}
+		]
+
+		logConfiguration = {
+			logDriver  = "awslogs"
+			options = {}
+			secretOptions = []
+		}
+
+		secrets = []
+
+		volumes = [
+		{
+			name = var.jd_container_volume_name
+			efsVolumeConfiguration = {
+				fileSystemId = var.jd_container_volume_fs_id
+				rootDirectory = var.jd_container_volume_root_dir
+			}
+		}
+		]
+
+		environment = var.jd_container_env_vars
+
+		mountPoints = [
+		{
+			sourceVolume  = var.jd_container_volume_name
+			containerPath = var.jd_container_mountpoint_container_path
+			readOnly      = false
+		}
+		]
+
+		ulimits = []
+	})
+	tags = var.jd_tags
+}
+
+resource "aws_cloudwatch_event_rule" "hms_py_batch_xlarge_proc_rule" {
+	count = var.hermes_pycharm_batch_processor_xlarge_bool ? 1: 0
+	name = var.eb_rule_name_xlarge
+	tags = var.eb_rule_tags
+	state = "DISABLED"
+
+	event_pattern = jsonencode(var.eb_rule_event_pattern_xlarge)
+	// Ignore any changes made to the variable state
+	lifecycle {
+		ignore_changes = [state]
+	}
+}
+
+resource "aws_cloudwatch_event_target" "hms_py_batch_xlarge_proc_target" {
+	count = var.hermes_pycharm_batch_processor_xlarge_bool ? 1: 0
+	rule = aws_cloudwatch_event_rule.hms_py_batch_xlarge_proc_rule[0].name
+	arn = aws_batch_job_queue.hms_py_batch_proc_jq_xlarge[0].arn
+	role_arn = var.event_target_role_arn
+
+	batch_target {
+		job_definition	= aws_batch_job_definition.hms_py_batch_xlarge_proc_jd[0].arn
+		job_name		= var.event_target_job_name_xlarge
+	}
+
+	input_transformer {
+		input_paths = var.et_transformer_input_paths
+		input_template = var.et_transformer_input_template
+	}
+
+	retry_policy {
+		maximum_event_age_in_seconds = 60
+		maximum_retry_attempts = 0
+	}
+
+	dead_letter_config {
+		arn = var.sqs_dlq_arn
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "Rules": [
+        {
+            "RuleId": "f095411d-0e38-4403-a2f2-75f0ffcdc35c",
+            "Name": "onlinepayment-WAF-security-automation-stage-HTTP Flood Rule"
+        }
+    ]
+}

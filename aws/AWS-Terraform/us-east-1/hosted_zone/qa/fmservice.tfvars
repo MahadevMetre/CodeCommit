@@ -1,0 +1,18 @@
+domain_name = "fmservice.com"
+vpc_id = "vpc-00f27e42f4b836922"
+comment = "Terraform : Private fmservice.com Hosted Zone"
+tags = {
+    "ApplicationName" = "DevOps"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "06262024"
+    "DataClassification" = "Low"
+    "Department" = "DOS"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262024"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}

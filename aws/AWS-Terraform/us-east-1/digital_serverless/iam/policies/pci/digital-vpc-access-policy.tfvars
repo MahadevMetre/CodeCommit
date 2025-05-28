@@ -1,0 +1,18 @@
+iam_policy_name			= "digital-vpc-access-policy-pci"
+iam_policy_tags			= {
+		"Department": "DGT"
+        "LastUpdated": "06262024"
+        "CostCenter":  "FMG"
+        "CreatedOn": "06262024"
+        "DataClassification": "PCI"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Digital"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "DevOps"
+    }
+digital_vpc_access_policy	= "true"
+iam_policy_desc				= "Digital Lambda VPC Access Policy PCI"

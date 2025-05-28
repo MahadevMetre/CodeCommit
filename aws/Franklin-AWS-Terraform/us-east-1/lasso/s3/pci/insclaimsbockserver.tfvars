@@ -1,0 +1,25 @@
+bucket_short_name = "insclaimsbockserver"
+environment = "pci"
+logging_bucket_name =  "franklin-pci-s3-access-logs"
+logging_bucket_base_prefix = "insclaimsbockserver-pci"
+acl                 = "private"
+tags ={
+    "ApplicationName"		= "Lasso"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "sbose"
+	"CreatedOn"				= "10292022"
+	"CostCenter"			= "FMG"
+	"DataClassification"	= "PCI"
+	"Department"			= "LSO"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "09272023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+insclaimsbockserver_policy = true
+allowed_read_only_user_list = ["arn:aws:iam::894891841990:user/InsuranceClaimsBockServer-LassoBiz-UserProd"]
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 90
+versioning_enabled_bool	= true

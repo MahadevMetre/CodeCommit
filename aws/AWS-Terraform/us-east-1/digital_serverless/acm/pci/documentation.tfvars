@@ -1,0 +1,17 @@
+domain_name = "documentation.fmservice.com"
+validation = "DNS"
+tags = {
+	"ApplicationName" = "Marketing"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "DevOps"
+	"CreatedOn" = "07272024"
+	"DataClassification" = "PCI"
+	"Department" = "MKT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "07272024"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+}

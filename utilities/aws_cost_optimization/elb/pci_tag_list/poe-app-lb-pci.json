@@ -1,0 +1,17 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:601751840347:loadbalancer/app/poe-app-lb-pci/91e27be83f978bb8",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Insurance Migration"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    },
+    {
+      "Key": "Name",
+      "Value": "poe-app-lb-pci"
+    }
+  ]
+}

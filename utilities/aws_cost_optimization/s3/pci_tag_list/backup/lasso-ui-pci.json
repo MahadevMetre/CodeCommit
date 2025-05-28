@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "pci"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "bmukesh"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Lasso S3 UI Bucket PCI"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "08112022"
+        },
+        {
+            "Key": "project",
+            "Value": "Lasso"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "08112022"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+bucket_short_name = "insclaimsbockserver"
+environment = "preprod"
+logging_bucket_name =  "franklin-stage-s3-access-logs"
+logging_bucket_base_prefix = "insclaimsbockserver-preprod"
+acl                 = "private"
+tags ={
+    "ApplicationName"		= "Lasso"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "sbose"
+	"CreatedOn"				= "10132022"
+	"CostCenter"			= "FMG"
+	"DataClassification"	= "None"
+	"Department"			= "LSO"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "11072022"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+insclaimsbockserver_policy = true
+allowed_read_only_user_list = ["arn:aws:iam::894891841990:user/InsuranceClaimsBockServer-LassoBiz-UserNonProd"]
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 30

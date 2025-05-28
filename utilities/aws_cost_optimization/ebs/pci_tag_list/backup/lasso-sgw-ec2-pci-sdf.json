@@ -1,0 +1,16 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-039ccd19085df8641"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "lasso-sgw-ec2-pci-sdf"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    }
+  ]
+}

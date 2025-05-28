@@ -1,0 +1,29 @@
+cf_aliases = ["stage-business.fmservice.com"]
+cf_origin_domain_name = "nginx-alb-blu-green-stage-545056914.us-east-1.elb.amazonaws.com"
+cf_origin_origin_id = "ELB-nginx-alb-blu-green-stage-545056914/self-service-portal"
+cf_custom_origin_http_port = "80"
+cf_custom_origin_https_port = "443"
+cf_custom_origin_origin_protocol_policy = "https-only"
+cf_custom_origin_origin_ssl_protocols = ["TLSv1.2"]
+cf_logging_config_bucket = "fmservice-cloudfront-logger-qa.s3.amazonaws.com"
+cf_logging_config_prefix = "fmservice-it"
+cf_logging_config_include_cookies = true
+cf_http_version = "http2"
+cf_enabled = true
+cf_is_ipv6_enabled = true
+cf_dcb_allowed_methods = ["GET", "HEAD", "OPTIONS", "PUT", "POST", "PATCH", "DELETE"]
+cf_dcb_cached_methods = ["GET", "HEAD", "OPTIONS"]
+cf_dcb_target_origin_id = "ELB-nginx-alb-blu-green-stage-545056914/self-service-portal"
+cf_dcb_compress = false
+cf_dcb_viewer_protocol_policy = "redirect-to-https"
+cf_dcb_fv_query_string = true
+cf_dcb_fv_headers = ["*"]
+cf_dcb_fv_c_forward = "all"
+cf_vc_acm_certificate_arn = "arn:aws:acm:us-east-1:702230634984:certificate/16578c99-0f7a-4921-9f21-d9ead6431d23"
+cf_vc_minimum_protocol_version = "TLSv1.2_2021"
+cf_vc_ssl_support_method = "sni-only"
+cf_price_class = "PriceClass_100"
+cf_r_g_restriction_type = "whitelist"
+cf_r_g_locations = ["IN", "US"]
+
+

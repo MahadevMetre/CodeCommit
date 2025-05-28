@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0ce8189f864ea9b46"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "AlertLogic-SysLog-Server"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+domain_name = "stage.mtservicesapps.fmservice.com"
+validation = "DNS"
+tags = {
+    "ApplicationName" = "Digital"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "NoInfo"
+    "DataClassification" = "Low"
+    "Department" = "DGT"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}

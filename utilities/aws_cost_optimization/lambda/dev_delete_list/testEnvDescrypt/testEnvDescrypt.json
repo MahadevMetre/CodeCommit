@@ -1,0 +1,42 @@
+{
+    "Configuration": {
+        "FunctionName": "testEnvDescrypt",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:testEnvDescrypt",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::116762271881:role/onlinepayment-lambda-role-dev",
+        "Handler": "lambda_function.lambda_handler",
+        "CodeSize": 378,
+        "Description": "",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2023-04-03T14:35:42.831+0000",
+        "CodeSha256": "XEeQZ7j98EETf4EeE/GkDWIbnwLJhgsGBtcMkoerfJk=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "envVar1": "AQICAHhwO394notFxgPOxiYF68obYT7qqM1RsHQ9SSMmBIEKpwEldw+48zkWGI5jzMxx425RAAAAYjBgBgkqhkiG9w0BBwagUzBRAgEAMEwGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMRtmrYqaEQGTIu9qEAgEQgB9zTe5WHhPKUvfQKZo9uLTnt/fYvEofmbvo5VlRU5TN"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "599df151-9164-4ecd-9d62-703899a32df3",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/testEnvDescrypt-38c25eb4-3696-431c-a0c4-48a96436d6c0?versionId=bVTZ.wCu9FGmbt_Aw.F0tH_RXf_CpNlT&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJHMEUCIHdEHK%2B8qLUfhAH1B8JRZy135FtVNEUbsjgBO8WH9jEdAiEAl9PznIdRR%2BZiHVJFughG99MvDf2vTT4vWc%2FIUkBj7B8qsQUIQhAAGgw3NDk2Nzg5MDI4MzkiDM9%2F5rkGm%2Bii2g5IayqOBTatKu%2B2bg1oZfkkHG%2FF1B98adSkJdBZ2R40uz7JYyWVjXNWHHk%2FhcSU0dSpli01U7SdByp8H2B7Zg2Tb7VrsJSl7GOWiIRVLz%2BWlOGKykzXQra4%2BLt92xVe5jyMp5z24FNOUJcHKBwu6kYCMv%2BmQj8XujlvHc2JiDQj5QH2VsH%2BLF4S8tasA07xlJJrUpsib%2FF9P3oZOmgmryFH2H3WxnVqVadQpStXRFNmkkESnwQwRB4U3%2F%2B%2BqcgN0QblrL2RScaIZCUmZCJdluJiabw7B4t3rnTRTD3XinkoM0CY2eQgmYOAHv6WdDW24U%2BPgqOScOmfd9c%2FOFr4TXSg6kElrjEy47HK572Lp7fxs%2Bm6rFZoMt%2F8D2fH7xWbZ6J5yxzRxNt2dYwo89nNkvR8LTFmaNC4vEf3pCU%2Bvsq%2F8uGUtl633YxlMB9Fn4HQwb2phZ8T8xY%2B7SOgdaVojZ3HYrXamDLojIW4WJwLXu0rnieLRVtc2slB%2F%2F14SkTZCehd%2BqVvbqW67PxNCM8ZtLkCemMYxNwmeoJF%2BQ%2BDnkC9DGT0cFwzrOGRaANkfho6q3qTdfzAVaaOuKYkOVfdXsnqRMGLpzmEBD2OsYiqbgcsS1KS22YiGMG0dDPLuo3%2FBP0xPAps0G619hxbT97cgDnmqxzeG22SG0e175cXDBjMC7uS0prT6RxE0jF0y3yo1syTqV%2FwFNnNGW56EhMVGPccP6ePn3LfY0sOl%2FIfzoH08DS3yWSNtzr1ajDXorleVbYzy%2BX8%2FaqP62FTK2Cs9Q6MmCn%2ByUigRaiqo8XhGuuIV4C5M0TMGfOrKYAXqxPmQBFgBHk7r7zooXsRV5b4PPVGtY1XNB7Z6exANl8zIp5j7WGNNjC4nfShBjqxAcIDBSDot8ZkpliDt6DK5eF50ea4P8VEg%2FG8lGzUC2LDKkWmlfL%2Fuw1pxEhiOVJuYg%2FlZG8Y2E58SY3%2FZVHgEwALftHFJ8XjFrpuVGK6z7Rzig4iDAIcWeDj1FBWNCq0vmwpFA8CdYykI%2FR%2FrausAlNqYis4qjEPiziSddqgmQnyNPosJHG42xHbkXDHLt%2BSPDEJJ%2BtSNZZi9o%2B29zRMyyxgNVmzeXUY0sxIvSZTuXerVQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T103111Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3ZBMXYMWJ%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2d13e07b82838f3624c53d18fb070d3367fee9cd09699abcc48a53c159a619f6"
+    },
+}

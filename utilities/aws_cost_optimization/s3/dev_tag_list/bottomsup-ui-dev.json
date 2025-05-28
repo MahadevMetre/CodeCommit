@@ -1,0 +1,72 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "Angular"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "BOTTOMSUP"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "Automated",
+            "Value": "True"
+        },
+        {
+            "Key": "purpose",
+            "Value": "BottomsUp S3 UI Bucket Dev"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "project",
+            "Value": "BottomsUp"
+        },
+        {
+            "Key": "Department",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "environment",
+            "Value": "dev"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "None"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "01112023"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "01112023"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "01112023"
+        }
+    ]
+}

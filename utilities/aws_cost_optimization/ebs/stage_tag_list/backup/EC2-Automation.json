@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-045eb0389118627da"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-Automation"
+    }
+  ]
+}

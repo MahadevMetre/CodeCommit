@@ -1,0 +1,40 @@
+{
+	"dev": {
+		"build": [
+			"apilla",
+			"jsamuel",
+			"mfaizudeen",
+			"sbose"
+		]
+	},
+	"stage": {
+		"build": [
+			"apilla",
+			"jsamuel",
+			"mfaizudeen",
+			"sbose"
+		]
+	},
+	"pci": {
+		"build": [
+			"apilla",
+			"controlaccount",
+			"jsamuel",
+			"ksenkodi"
+		]
+	},
+	"api_list": {
+		"dev": {
+			"digitalselfservice-dev": "igcthd1gs9/digital-dev/digitalselfservice-dev-digital-dev-swagger-apigateway.yaml",
+			"marketingservice-dev": "2duwmdphh5/marketing-dev/marketingservice-dev-marketing-dev-swagger-apigateway.yaml"
+		},
+		"stage": {
+			"digitalselfservice-staging": "pejf9j7bnl/digital-stage/digitalselfservice-staging-digital-stage-swagger-apigateway.yaml",
+			"marketingservice-staging": "gy90pzjqu0/marketing-stage/marketingservice-staging-marketing-stage-swagger-apigateway.yaml"
+		},
+		"pci": {
+			"digitalselfservice-pci": "4wqilgbps3/digital-pci/digitalselfservice-pci-digital-pci-swagger-apigateway.yaml",
+			"marketingservice-pci": "38mi4hp88f/marketing-pci/marketingservice-pci-marketing-pci-swagger-apigateway.yaml"
+		}
+	}
+}

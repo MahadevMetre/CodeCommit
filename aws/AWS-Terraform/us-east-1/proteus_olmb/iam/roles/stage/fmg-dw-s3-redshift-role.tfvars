@@ -1,0 +1,19 @@
+role_name							= "fmg-dw-s3-redshift-role-stage"
+iam_role_desc						= "FMG DW S3 Redshift Role Stage"
+role_tags							= {
+	   "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "DevOps"
+	   "DataClassification" = "Low"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "08222024"
+	   "LastUpdated"        = "08222024"
+    }
+proteus2_kms_policy				= true
+proteus2_kms_policy_arn			= "arn:aws:iam::702230634984:policy/proteus2-kms-policy-stage"

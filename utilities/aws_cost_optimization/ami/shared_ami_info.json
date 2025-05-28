@@ -1,0 +1,1138 @@
+{
+  "Images": [
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2022-08-31T15:53:55.000Z",
+      "ImageId": "ami-0c65357960619ebf9",
+      "ImageLocation": "964190570136/EC2-WIN-PRODAD-AADC2-08312022",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "Platform": "windows",
+      "PlatformDetails": "Windows",
+      "UsageOperation": "RunInstances:0002",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-0ee04682d1d80a105",
+            "VolumeSize": 30,
+            "VolumeType": "gp2",
+            "Encrypted": false
+          }
+        },
+        {
+          "DeviceName": "xvdca",
+          "VirtualName": "ephemeral0"
+        },
+        {
+          "DeviceName": "xvdcb",
+          "VirtualName": "ephemeral1"
+        },
+        {
+          "DeviceName": "xvdcc",
+          "VirtualName": "ephemeral2"
+        },
+        {
+          "DeviceName": "xvdcd",
+          "VirtualName": "ephemeral3"
+        },
+        {
+          "DeviceName": "xvdce",
+          "VirtualName": "ephemeral4"
+        },
+        {
+          "DeviceName": "xvdcf",
+          "VirtualName": "ephemeral5"
+        },
+        {
+          "DeviceName": "xvdcg",
+          "VirtualName": "ephemeral6"
+        },
+        {
+          "DeviceName": "xvdch",
+          "VirtualName": "ephemeral7"
+        },
+        {
+          "DeviceName": "xvdci",
+          "VirtualName": "ephemeral8"
+        },
+        {
+          "DeviceName": "xvdcj",
+          "VirtualName": "ephemeral9"
+        },
+        {
+          "DeviceName": "xvdck",
+          "VirtualName": "ephemeral10"
+        },
+        {
+          "DeviceName": "xvdcl",
+          "VirtualName": "ephemeral11"
+        },
+        {
+          "DeviceName": "xvdcm",
+          "VirtualName": "ephemeral12"
+        },
+        {
+          "DeviceName": "xvdcn",
+          "VirtualName": "ephemeral13"
+        },
+        {
+          "DeviceName": "xvdco",
+          "VirtualName": "ephemeral14"
+        },
+        {
+          "DeviceName": "xvdcp",
+          "VirtualName": "ephemeral15"
+        },
+        {
+          "DeviceName": "xvdcq",
+          "VirtualName": "ephemeral16"
+        },
+        {
+          "DeviceName": "xvdcr",
+          "VirtualName": "ephemeral17"
+        },
+        {
+          "DeviceName": "xvdcs",
+          "VirtualName": "ephemeral18"
+        },
+        {
+          "DeviceName": "xvdct",
+          "VirtualName": "ephemeral19"
+        },
+        {
+          "DeviceName": "xvdcu",
+          "VirtualName": "ephemeral20"
+        },
+        {
+          "DeviceName": "xvdcv",
+          "VirtualName": "ephemeral21"
+        },
+        {
+          "DeviceName": "xvdcw",
+          "VirtualName": "ephemeral22"
+        },
+        {
+          "DeviceName": "xvdcx",
+          "VirtualName": "ephemeral23"
+        },
+        {
+          "DeviceName": "xvdcy",
+          "VirtualName": "ephemeral24"
+        },
+        {
+          "DeviceName": "xvdcz",
+          "VirtualName": "ephemeral25"
+        }
+      ],
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-WIN-PRODAD-AADC2-08312022",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2023-02-14T06:26:36.000Z",
+      "ImageId": "ami-0f23831b8eadb90de",
+      "ImageLocation": "964190570136/EC2-ES-Shared-Node1-Unhealthy_021423",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": false,
+            "SnapshotId": "snap-04312b72f334c1213",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "AMI Backup for EC2-ES-Shared-Node1-Unhealthy_021423",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-ES-Shared-Node1-Unhealthy_021423",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "EC2-Name",
+          "Value": "EC2-ES-Shared-Node1-Unhealthy"
+        },
+        {
+          "Key": "CreatedOn",
+          "Value": "02142023"
+        },
+        {
+          "Key": "Name",
+          "Value": "EC2-ES-Shared-Node1-Unhealthy_021423"
+        },
+        {
+          "Key": "CreatedBy",
+          "Value": "sbose"
+        },
+        {
+          "Key": "InstanceID",
+          "Value": "i-060eb6d64016487a0"
+        },
+        {
+          "Key": "Purpose",
+          "Value": "Backup of ES Nodes before destroying"
+        },
+        {
+          "Key": "EC2-IP",
+          "Value": "10.153.10.10"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2023-02-14T06:27:00.000Z",
+      "ImageId": "ami-070da9ce28ee925af",
+      "ImageLocation": "964190570136/EC2-ES-Shared-Node1_021423",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": false,
+            "SnapshotId": "snap-03225d8b1361eed2a",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "AMI Backup for EC2-ES-Shared-Node1_021423",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-ES-Shared-Node1_021423",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "CreatedBy",
+          "Value": "sbose"
+        },
+        {
+          "Key": "EC2-Name",
+          "Value": "EC2-ES-Shared-Node1"
+        },
+        {
+          "Key": "Name",
+          "Value": "EC2-ES-Shared-Node1_021423"
+        },
+        {
+          "Key": "EC2-IP",
+          "Value": "10.153.10.96"
+        },
+        {
+          "Key": "InstanceID",
+          "Value": "i-0196081676b615115"
+        },
+        {
+          "Key": "Purpose",
+          "Value": "Backup of ES Nodes before destroying"
+        },
+        {
+          "Key": "CreatedOn",
+          "Value": "02142023"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2021-07-20T00:38:45.000Z",
+      "ImageId": "ami-02ba31c518508e28a",
+      "ImageLocation": "964190570136/EC2-ES-Shared-AMI",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": false,
+            "SnapshotId": "snap-0d77793a48824cdb6",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "EC2-ES-Shared-AMI from EC2-ES-Shared-Node2",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-ES-Shared-AMI",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "Created On",
+          "Value": "07/19/2021"
+        },
+        {
+          "Key": "Created By",
+          "Value": "rasekar"
+        },
+        {
+          "Key": "Purpose",
+          "Value": "EC2-ES-Shared-Node1 is failing health check "
+        },
+        {
+          "Key": "Project",
+          "Value": "Common"
+        },
+        {
+          "Key": "Name",
+          "Value": "EC2-ES-Shared-AMI"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2023-02-14T06:26:44.000Z",
+      "ImageId": "ami-05ab44e3118392a79",
+      "ImageLocation": "964190570136/EC2-ES-Shared-Node2_021423",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": false,
+            "SnapshotId": "snap-06677c3857b9fc25c",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "AMI Backup for EC2-ES-Shared-Node2_021423",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-ES-Shared-Node2_021423",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "CreatedOn",
+          "Value": "02142023"
+        },
+        {
+          "Key": "InstanceID",
+          "Value": "i-06e24c63fdd9ca066"
+        },
+        {
+          "Key": "Name",
+          "Value": "EC2-ES-Shared-Node2_021423"
+        },
+        {
+          "Key": "Purpose",
+          "Value": "Backup of ES Nodes before destroying"
+        },
+        {
+          "Key": "EC2-IP",
+          "Value": "10.153.11.10"
+        },
+        {
+          "Key": "CreatedBy",
+          "Value": "sbose"
+        },
+        {
+          "Key": "EC2-Name",
+          "Value": "EC2-ES-Shared-Node2"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2019-09-23T20:29:01.000Z",
+      "ImageId": "ami-05bf3f95948ff5752",
+      "ImageLocation": "964190570136/tinyproxypublic",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-0f321dff7e9869ab5",
+            "VolumeSize": 8,
+            "VolumeType": "gp2",
+            "Encrypted": false
+          }
+        }
+      ],
+      "Description": "ubuntu18allpackages",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "tinyproxypublic",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2020-12-11T05:09:19.000Z",
+      "ImageId": "ami-036424793e5e59b04",
+      "ImageLocation": "964190570136/Gitlab and APM",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-09af2c0a899746801",
+            "VolumeSize": 30,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "Final image for Gitlab and APM server",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "Gitlab and APM",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "Gitlab APM"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2020-12-11T05:11:31.000Z",
+      "ImageId": "ami-0432e32702e86dd6d",
+      "ImageLocation": "964190570136/Gitlab Runner",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-061324d4743463b3a",
+            "VolumeSize": 30,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "Final image for Gitlab Runner",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "Gitlab Runner",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "Gitlab Runner"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2022-10-23T21:42:52.000Z",
+      "ImageId": "ami-0f95cbba0fbb0f68d",
+      "ImageLocation": "964190570136/ami_nov_24_2022",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-005375e26d4b1e7ef",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "ami_nov_24_2022",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "ami_nov_24_2022",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "devops_ami_oct_24_2022"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2022-08-31T15:53:34.000Z",
+      "ImageId": "ami-01ef81c99bc9c438d",
+      "ImageLocation": "964190570136/EC2-WIN-PRODAD-AADC1-08312022",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "Platform": "windows",
+      "PlatformDetails": "Windows",
+      "UsageOperation": "RunInstances:0002",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-0d72d84d17da70c74",
+            "VolumeSize": 30,
+            "VolumeType": "gp2",
+            "Encrypted": false
+          }
+        },
+        {
+          "DeviceName": "xvdca",
+          "VirtualName": "ephemeral0"
+        },
+        {
+          "DeviceName": "xvdcb",
+          "VirtualName": "ephemeral1"
+        },
+        {
+          "DeviceName": "xvdcc",
+          "VirtualName": "ephemeral2"
+        },
+        {
+          "DeviceName": "xvdcd",
+          "VirtualName": "ephemeral3"
+        },
+        {
+          "DeviceName": "xvdce",
+          "VirtualName": "ephemeral4"
+        },
+        {
+          "DeviceName": "xvdcf",
+          "VirtualName": "ephemeral5"
+        },
+        {
+          "DeviceName": "xvdcg",
+          "VirtualName": "ephemeral6"
+        },
+        {
+          "DeviceName": "xvdch",
+          "VirtualName": "ephemeral7"
+        },
+        {
+          "DeviceName": "xvdci",
+          "VirtualName": "ephemeral8"
+        },
+        {
+          "DeviceName": "xvdcj",
+          "VirtualName": "ephemeral9"
+        },
+        {
+          "DeviceName": "xvdck",
+          "VirtualName": "ephemeral10"
+        },
+        {
+          "DeviceName": "xvdcl",
+          "VirtualName": "ephemeral11"
+        },
+        {
+          "DeviceName": "xvdcm",
+          "VirtualName": "ephemeral12"
+        },
+        {
+          "DeviceName": "xvdcn",
+          "VirtualName": "ephemeral13"
+        },
+        {
+          "DeviceName": "xvdco",
+          "VirtualName": "ephemeral14"
+        },
+        {
+          "DeviceName": "xvdcp",
+          "VirtualName": "ephemeral15"
+        },
+        {
+          "DeviceName": "xvdcq",
+          "VirtualName": "ephemeral16"
+        },
+        {
+          "DeviceName": "xvdcr",
+          "VirtualName": "ephemeral17"
+        },
+        {
+          "DeviceName": "xvdcs",
+          "VirtualName": "ephemeral18"
+        },
+        {
+          "DeviceName": "xvdct",
+          "VirtualName": "ephemeral19"
+        },
+        {
+          "DeviceName": "xvdcu",
+          "VirtualName": "ephemeral20"
+        },
+        {
+          "DeviceName": "xvdcv",
+          "VirtualName": "ephemeral21"
+        },
+        {
+          "DeviceName": "xvdcw",
+          "VirtualName": "ephemeral22"
+        },
+        {
+          "DeviceName": "xvdcx",
+          "VirtualName": "ephemeral23"
+        },
+        {
+          "DeviceName": "xvdcy",
+          "VirtualName": "ephemeral24"
+        },
+        {
+          "DeviceName": "xvdcz",
+          "VirtualName": "ephemeral25"
+        }
+      ],
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-WIN-PRODAD-AADC1-08312022",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2023-02-20T17:21:35.000Z",
+      "ImageId": "ami-063c568a0f245b601",
+      "ImageLocation": "964190570136/EC2-Crucible-image",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/xvda",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "Iops": 3000,
+            "SnapshotId": "snap-0ca4600e6cd51fe50",
+            "VolumeSize": 30,
+            "VolumeType": "gp3",
+            "Throughput": 125,
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "Copy of Crucible in the DMZ",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-Crucible-image",
+      "RootDeviceName": "/dev/xvda",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "EC2-Crucible-image\t"
+        },
+        {
+          "Key": "Ticket",
+          "Value": "T20230203.0037"
+        },
+        {
+          "Key": "createdby",
+          "Value": "Jsmart"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2022-08-31T15:51:48.000Z",
+      "ImageId": "ami-0d2ff3c82f1bd4a0b",
+      "ImageLocation": "964190570136/EC2-WIN-PRODAD-DC1-08312022",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "Platform": "windows",
+      "PlatformDetails": "Windows",
+      "UsageOperation": "RunInstances:0002",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-01cc05c3d0921e040",
+            "VolumeSize": 30,
+            "VolumeType": "gp2",
+            "Encrypted": false
+          }
+        },
+        {
+          "DeviceName": "xvdca",
+          "VirtualName": "ephemeral0"
+        },
+        {
+          "DeviceName": "xvdcb",
+          "VirtualName": "ephemeral1"
+        },
+        {
+          "DeviceName": "xvdcc",
+          "VirtualName": "ephemeral2"
+        },
+        {
+          "DeviceName": "xvdcd",
+          "VirtualName": "ephemeral3"
+        },
+        {
+          "DeviceName": "xvdce",
+          "VirtualName": "ephemeral4"
+        },
+        {
+          "DeviceName": "xvdcf",
+          "VirtualName": "ephemeral5"
+        },
+        {
+          "DeviceName": "xvdcg",
+          "VirtualName": "ephemeral6"
+        },
+        {
+          "DeviceName": "xvdch",
+          "VirtualName": "ephemeral7"
+        },
+        {
+          "DeviceName": "xvdci",
+          "VirtualName": "ephemeral8"
+        },
+        {
+          "DeviceName": "xvdcj",
+          "VirtualName": "ephemeral9"
+        },
+        {
+          "DeviceName": "xvdck",
+          "VirtualName": "ephemeral10"
+        },
+        {
+          "DeviceName": "xvdcl",
+          "VirtualName": "ephemeral11"
+        },
+        {
+          "DeviceName": "xvdcm",
+          "VirtualName": "ephemeral12"
+        },
+        {
+          "DeviceName": "xvdcn",
+          "VirtualName": "ephemeral13"
+        },
+        {
+          "DeviceName": "xvdco",
+          "VirtualName": "ephemeral14"
+        },
+        {
+          "DeviceName": "xvdcp",
+          "VirtualName": "ephemeral15"
+        },
+        {
+          "DeviceName": "xvdcq",
+          "VirtualName": "ephemeral16"
+        },
+        {
+          "DeviceName": "xvdcr",
+          "VirtualName": "ephemeral17"
+        },
+        {
+          "DeviceName": "xvdcs",
+          "VirtualName": "ephemeral18"
+        },
+        {
+          "DeviceName": "xvdct",
+          "VirtualName": "ephemeral19"
+        },
+        {
+          "DeviceName": "xvdcu",
+          "VirtualName": "ephemeral20"
+        },
+        {
+          "DeviceName": "xvdcv",
+          "VirtualName": "ephemeral21"
+        },
+        {
+          "DeviceName": "xvdcw",
+          "VirtualName": "ephemeral22"
+        },
+        {
+          "DeviceName": "xvdcx",
+          "VirtualName": "ephemeral23"
+        },
+        {
+          "DeviceName": "xvdcy",
+          "VirtualName": "ephemeral24"
+        },
+        {
+          "DeviceName": "xvdcz",
+          "VirtualName": "ephemeral25"
+        }
+      ],
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-WIN-PRODAD-DC1-08312022",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2022-08-31T15:52:32.000Z",
+      "ImageId": "ami-05e1940e6daa7184e",
+      "ImageLocation": "964190570136/EC2-WIN-PRODAD-DC2-08312022",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "Platform": "windows",
+      "PlatformDetails": "Windows",
+      "UsageOperation": "RunInstances:0002",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-05518224afd0da4ca",
+            "VolumeSize": 30,
+            "VolumeType": "gp2",
+            "Encrypted": false
+          }
+        },
+        {
+          "DeviceName": "xvdca",
+          "VirtualName": "ephemeral0"
+        },
+        {
+          "DeviceName": "xvdcb",
+          "VirtualName": "ephemeral1"
+        },
+        {
+          "DeviceName": "xvdcc",
+          "VirtualName": "ephemeral2"
+        },
+        {
+          "DeviceName": "xvdcd",
+          "VirtualName": "ephemeral3"
+        },
+        {
+          "DeviceName": "xvdce",
+          "VirtualName": "ephemeral4"
+        },
+        {
+          "DeviceName": "xvdcf",
+          "VirtualName": "ephemeral5"
+        },
+        {
+          "DeviceName": "xvdcg",
+          "VirtualName": "ephemeral6"
+        },
+        {
+          "DeviceName": "xvdch",
+          "VirtualName": "ephemeral7"
+        },
+        {
+          "DeviceName": "xvdci",
+          "VirtualName": "ephemeral8"
+        },
+        {
+          "DeviceName": "xvdcj",
+          "VirtualName": "ephemeral9"
+        },
+        {
+          "DeviceName": "xvdck",
+          "VirtualName": "ephemeral10"
+        },
+        {
+          "DeviceName": "xvdcl",
+          "VirtualName": "ephemeral11"
+        },
+        {
+          "DeviceName": "xvdcm",
+          "VirtualName": "ephemeral12"
+        },
+        {
+          "DeviceName": "xvdcn",
+          "VirtualName": "ephemeral13"
+        },
+        {
+          "DeviceName": "xvdco",
+          "VirtualName": "ephemeral14"
+        },
+        {
+          "DeviceName": "xvdcp",
+          "VirtualName": "ephemeral15"
+        },
+        {
+          "DeviceName": "xvdcq",
+          "VirtualName": "ephemeral16"
+        },
+        {
+          "DeviceName": "xvdcr",
+          "VirtualName": "ephemeral17"
+        },
+        {
+          "DeviceName": "xvdcs",
+          "VirtualName": "ephemeral18"
+        },
+        {
+          "DeviceName": "xvdct",
+          "VirtualName": "ephemeral19"
+        },
+        {
+          "DeviceName": "xvdcu",
+          "VirtualName": "ephemeral20"
+        },
+        {
+          "DeviceName": "xvdcv",
+          "VirtualName": "ephemeral21"
+        },
+        {
+          "DeviceName": "xvdcw",
+          "VirtualName": "ephemeral22"
+        },
+        {
+          "DeviceName": "xvdcx",
+          "VirtualName": "ephemeral23"
+        },
+        {
+          "DeviceName": "xvdcy",
+          "VirtualName": "ephemeral24"
+        },
+        {
+          "DeviceName": "xvdcz",
+          "VirtualName": "ephemeral25"
+        }
+      ],
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "EC2-WIN-PRODAD-DC2-08312022",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2022-11-29T04:52:00.000Z",
+      "ImageId": "ami-03385145ce6225844",
+      "ImageLocation": "964190570136/DevOps AMI 11292022",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-0dbeb71301620c3f8",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "Taking AMI of existing instance for testing integration with Sonarqube",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "DevOps AMI 11292022",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2022-12-03T20:14:51.000Z",
+      "ImageId": "ami-07ac8332bde6b2714",
+      "ImageLocation": "964190570136/ec2_devops_ami_java_upgrade_4Dec2022",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-0278f36d994f89cb3",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "ami took before upgrading java version to 11",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "ec2_devops_ami_java_upgrade_4Dec2022",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "ec2_devops_ami_java_upgrade_4Dec2022"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2021-09-28T19:51:59.000Z",
+      "ImageId": "ami-0579d777164cabd00",
+      "ImageLocation": "964190570136/DevOps AMI 0929",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-0a37f2c1733f4d072",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "DevOps AMI 0929",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "DevOps AMI 0929",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "VirtualizationType": "hvm"
+    },
+    {
+      "Architecture": "x86_64",
+      "CreationDate": "2021-08-21T05:47:20.000Z",
+      "ImageId": "ami-0b04c111d81ac8bc8",
+      "ImageLocation": "964190570136/DevOps-Image-08212021",
+      "ImageType": "machine",
+      "Public": false,
+      "OwnerId": "964190570136",
+      "PlatformDetails": "Linux/UNIX",
+      "UsageOperation": "RunInstances",
+      "State": "available",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "SnapshotId": "snap-0089986de9e1fe853",
+            "VolumeSize": 100,
+            "VolumeType": "gp2",
+            "Encrypted": true
+          }
+        }
+      ],
+      "Description": "",
+      "EnaSupport": true,
+      "Hypervisor": "xen",
+      "Name": "DevOps-Image-08212021",
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SriovNetSupport": "simple",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "DevOps-AMI-08212021"
+        },
+        {
+          "Key": "purpose",
+          "Value": "DevOPs server backup AMI"
+        },
+        {
+          "Key": "createdDate",
+          "Value": "08212021"
+        },
+        {
+          "Key": "createdBy",
+          "Value": "jsamuel"
+        },
+        {
+          "Key": "project",
+          "Value": "DevOps Maintenance"
+        }
+      ],
+      "VirtualizationType": "hvm"
+    }
+  ]
+}

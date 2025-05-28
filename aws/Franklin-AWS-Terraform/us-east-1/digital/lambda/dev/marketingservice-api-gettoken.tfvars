@@ -1,0 +1,33 @@
+lambda_function_name = "marketingservice-api-gettoken-dev"
+role = "arn:aws:iam::601751840347:role/marketing-lambda-role-pci"
+description = "This is a get token call for marketing service"
+env_variables = {
+		"BLOB" = "AQICAHhpgarfAJGNwCu+nUEpfEs98L3ScPojfJgQYQaUajUohQHRqy6J3FZ+fc8QNvPQlW0kAAAAfTB7BgkqhkiG9w0BBwagbjBsAgEAMGcGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMGVEdPE9gUKUKjWjtAgEQgDoNqtite5K9Tpd80ct3kvou97CBMB5ieQY5hvzID95GK6ltilN7rjUTIpy3IeItaInhYbtEAPy2ET8D"
+		"LOGGER" = "DEBUG"
+	}
+tags = {
+	"ApplicationName" = "Marketing"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "DevOps"
+	"CreatedOn" = "08032022"
+	"DataClassification" = "Low"
+	"Department" = "MKT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "01242024"
+	"TechStack" = "NodeJS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+	}
+memory_size = 512
+timeout = 15
+subnets = ["subnet-0734d8f28467d319f","subnet-06291ceaa523f684c"]
+security_groups = ["sg-0a0103659b308d78b","sg-0f4493af34ac18357"]
+reserved_concurrent_executions = -1
+publish = false
+runtime = "nodejs20.x"
+handler = "marketingservice-api-gettoken.handler"
+filename = "js/marketingservice-api-gettoken.zip"
+package_type = "Zip"
+source_code_hash = "js/marketingservice-api-gettoken.zip"

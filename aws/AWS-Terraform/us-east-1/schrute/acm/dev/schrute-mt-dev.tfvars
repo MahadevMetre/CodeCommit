@@ -1,0 +1,17 @@
+domain_name = "dev-schrute-mt.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+	"ApplicationName"		= "schrute"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "09092024"
+	"DataClassification"	= "None"
+	"Department"			= "HMS"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "09092024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

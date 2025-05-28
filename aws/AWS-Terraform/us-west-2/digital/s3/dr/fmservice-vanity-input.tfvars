@@ -1,0 +1,42 @@
+bucket_short_name = "fmservice-vanity-input"
+environment = "dr"
+logging_bucket_name = "franklin-dr-s3-access-logs"
+logging_bucket_base_prefix = "digital"
+acl = "private"
+tags ={
+    "ApplicationName" = "Digital"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02272023"
+	"DataClassification" = "Low"
+	"Department" = "DGT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "02272023"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+    "Name" = "Bucket to input xlsx file for vanity URL update in dr environment"
+}
+fmservice_vanity_bucket_policy = true
+fmservice_vanity_biz_user_arn = "arn:aws:iam::894891841990:user/FMG_DIGITAL_BUSINESS"
+
+create_fmservice_vanity_iam_user = true
+iam_user_tags = {
+	"ApplicationName" = "Digital"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02272023"
+	"DataClassification" = "Low"
+	"Department" = "DGT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "02272023"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+	"Name" = "User created for Jenkins to access the bucket and get ec2 asg list"
+}
+enforce_bucket_owner = true

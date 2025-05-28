@@ -1,0 +1,25 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/ec2con-ecs-iapps-alb-dev-manual/16f44c9483bbd376",
+  "Tags": [
+    {
+      "Key": "Environment",
+      "Value": "devel"
+    },
+    {
+      "Key": "Created On",
+      "Value": "12/1/2023"
+    },
+    {
+      "Key": "Created By",
+      "Value": "vlakshmi"
+    },
+    {
+      "Key": "Test",
+      "Value": "True"
+    },
+    {
+      "Key": "Application",
+      "Value": "Atlas Serverless"
+    }
+  ]
+}

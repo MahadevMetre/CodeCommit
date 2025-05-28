@@ -1,0 +1,26 @@
+module "cognito" {
+  source = "../../../modules/cognito"
+  user_pool_name                   = var.user_pool_name
+  custom_attributes                = var.custom_attributes
+  identity_pool_name               = var.identity_pool_name
+  authenticated_role_arn           = var.authenticated_role_arn
+  unauthenticated_role_arn         = var.unauthenticated_role_arn
+  estimated_number_of_users        = var.estimated_number_of_users
+  required_attributes              = var.required_attributes
+  self_registration_enabled        = var.self_registration_enabled
+  email_provider                   = var.email_provider
+  sms_role_arn                     = var.sms_role_arn
+  message_templates                = var.message_templates
+  app_client_name                  = var.app_client_name
+  auth_flow_session_duration       = var.auth_flow_session_duration
+  refresh_token_expiration_days    = var.refresh_token_expiration_days
+  access_token_expiration_minutes  = var.access_token_expiration_minutes
+  authentication_flows             = var.authentication_flows
+  attribute_permissions            = var.attribute_permissions
+  lambda_triggers                  = var.lambda_triggers
+  tags                             = var.tags
+  cognito_domain                   = var.cognito_domain
+  enable_token_revocation          = var.enable_token_revocation
+  identity_provider_name           = var.identity_provider_name
+  client_id                        = var.client_id
+}

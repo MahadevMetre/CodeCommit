@@ -1,0 +1,37 @@
+{
+    "Configuration": {
+        "FunctionName": "Captiva-Claims",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:Captiva-Claims",
+        "Runtime": "python3.9",
+        "Role": "arn:aws:iam::116762271881:role/Captiva_Resolution_Lambda_Role",
+        "Handler": "lambda_function.lambda_handler",
+        "CodeSize": 1190,
+        "Description": "Captiva Resolution Textract - POC",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2023-04-03T14:35:39.134+0000",
+        "CodeSha256": "xfcSqBUdD5FbRZMou3ROr33oK1GpRjogFBSsDPIIvgY=",
+        "Version": "$LATEST",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "7283ef45-7dbb-481b-88d5-44d11aa8bed5",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/Captiva-Claims-1795b684-7024-4ab5-8c8c-5a4c53c52b5b?versionId=fLB58vkHjbyVqDpViqWDUU_X4zIL6ccu&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJHMEUCIA4d7oT%2Fv6reciwgws%2BUZkqMo5bmF11Sg3spbl27%2BmhcAiEA2yO89yVurkb8OoCJ%2BPsIsYTWVsTu4UiFUEpNdL%2BdwgYqsQUIQhAAGgw3NDk2Nzg5MDI4MzkiDFJOU%2Bvqb%2FD4VQTm8iqOBUjc4fQtTa3d%2FJGLD%2FHRT2roY73Y13qzIDOoFKHEFQirrAjUxpfsNtOXMqzP3Z5Q4Us6vYO0gX2f%2FWVHKUInGMkUs%2BFzxnn9edJGF2rrIw%2FpYRwBNLdCJG1rxY0Qj79LKevHUH7zMBLMgx4IYJjS%2BM5MX3oih2BvIG9oFzyZtQVrZm6yq4jFxk%2BCV%2FKRMdOWD1OT50naYcE4aWXinnxXKt9N4bTwfJRg%2FaqQ%2FYCEoCGj0SNThxWjFoGJRBqs4f1ZzRIJAkl5anVFqy1D8A4p8tdxhfePoTh6RMm8JyWcRfTTU3zVm%2BdiLf1QpD9oV64qwPw7hF7yr7QwItm0cRGLRgm7artpHsYSdNhDboc5pNQMSXJFpjkIwgkubu9kpsneaheYYF%2BVsWZpL%2FT%2BaL9saHB89r9fdHG0U9bEDtiVHic%2FRb7fgpKConuIBkix%2BUZ8EC6q39qBINv1cDiYh3P6QHQ4AaL8MTmGa6MKS7QFXSe82DtiIUStn4fPSbcpT%2F90YWlWFyKzzeVm3%2FPqs6IrlMDBmaiwD92jSetgmOGjpg%2Ba1kuOCQwIIN1808URUY1cVZCO3QOwyUR8enlE%2BO%2F2fO2Z7olU6lV9WlhBa2cbG0xcTEBftGmSd3f7HRvs8rxMstfTdZvw4oeLu6XVg2A99RkQ3zBNdJN6eiolpxMQUSlDlSK0nT9HHaGdUgyeA2OjR0jSTL4s0DJ1jPIO%2B1IOhrPojyqN%2BjfUz%2F8jyvxyJfakVco2BRv1zE0wGe1s%2Bw1ufciKTEuL9kqRAZD6sh%2FxUi8mC0ioSzvy1RNeImu0W9dBD91zMIvrEOfYlIYMqI4e3kP1Obo4m7%2BnfMxabi6syMowTOErMax1Mzktj2RvNDD1mfShBjqxAdAEZ%2BYt%2FsExdflBRf2E0ueFZHtXWx7N8bspXGTCmk9R2z%2FQSJkP5RW9THwCXFdvomE7fdw7pEVKMuIiVfZPr39Zn%2FVL0MvdZ4F5%2BfspAf69P2UtlvG9iRo6IL9BOurqebGK1SECCxaUsN0%2F7CqlpXD%2FK5uGZqYiumw7lCr1M5Qn1vw5pFb1z1RgZaBRXyCoA0nuXNvWT3j9clYTuVf0Np72DBBqm7JSH8%2FGGcCZ3Pxb7g%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T101941Z&X-Amz-SignedHeaders=host&X-Amz-Expires=599&X-Amz-Credential=ASIA25DCYHY35WQJD5VT%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3010c0c82e266181fe4526cb43d35732d46da81d8ca399780c45cc2fdc83a763"
+    },
+}

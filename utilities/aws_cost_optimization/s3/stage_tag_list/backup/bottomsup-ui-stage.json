@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "purpose",
+            "Value": "BottomsUp S3 UI Bucket Stage"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "01172023"
+        },
+        {
+            "Key": "project",
+            "Value": "BottomsUp"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "01172023"
+        }
+    ]
+}

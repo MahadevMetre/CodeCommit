@@ -1,0 +1,19 @@
+role_name							= "proteus-redshift-scheduler-pci"
+iam_role_desc						= "Grant access to redshift PCI"
+role_tags							= {
+       "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "mfaizudeen"
+	   "DataClassification" = "Low"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "05182023"
+	   "LastUpdated"        = "05182023"
+    }
+proteus-redshift-scheduler		    = true
+proteus-redshift-scheduler_arn	    = "arn:aws:iam::601751840347:policy/proteus-redshift-scheduler"

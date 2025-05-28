@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/116762271881/selfservice-confirm-user-incoming-dev",
+  "Tags": {
+    "Project": "Digital",
+    "createdBy": "jsamuel",
+    "Purpose": "Confirm User Registration"
+  }
+}

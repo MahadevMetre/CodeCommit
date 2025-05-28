@@ -1,0 +1,17 @@
+iam_policy_name			= "digital-cognito-admin-policy"
+iam_policy_tags			= {
+		"Department": "DGT"
+        "LastUpdated": "02202022"
+        "CostCenter":  "FMG"
+        "CreatedOn": "02202022"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Digital"
+        "TechStack": "AWS"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "sbose"
+    }
+cognito_admin_policy	= "true"

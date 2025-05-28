@@ -1,0 +1,19 @@
+digital_incoming_fifo_bool = true
+sqs_queue_name = "digital_customer_service_incoming_queue_qa.fifo"
+fifo_queue_bool = true
+sqs_queue_tags = {
+	"ApplicationName"		= "Digital"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "08232024"
+	"DataClassification"	= "Low"
+	"Department"			= "DGT2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "08232024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+sqs_user_arn = "arn:aws:iam::894891841990:user/Digital-SQS-User-NonProd"

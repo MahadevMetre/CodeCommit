@@ -1,0 +1,21 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/net/jboss-dig-app-nlb-dev/6c65a5bade0301dc",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "Digital"
+    },
+    {
+      "Key": "Purpose",
+      "Value": "NLB for Digital API - Self Servicing and Marketing"
+    },
+    {
+      "Key": "Created On",
+      "Value": "06/30/2021"
+    },
+    {
+      "Key": "Created By",
+      "Value": "rasekar"
+    }
+  ]
+}

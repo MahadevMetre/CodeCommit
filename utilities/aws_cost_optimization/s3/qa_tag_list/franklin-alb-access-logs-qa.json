@@ -1,0 +1,76 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "AWS"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "Automated",
+            "Value": "True"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "Purpose",
+            "Value": "For storing access logs for ALB"
+        },
+        {
+            "Key": "Name",
+            "Value": "franklin-alb-access-logs-qa"
+        },
+        {
+            "Key": "Project",
+            "Value": "Logging and monitoring"
+        },
+        {
+            "Key": "Department",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "environment",
+            "Value": "qa"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "None"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "NoInfo"
+        }
+    ]
+}

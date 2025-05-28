@@ -1,0 +1,43 @@
+efs_name = "fastrax_efs"
+efs_perf_mode = "generalPurpose"
+efs_throughput_mode = "bursting"
+efs_encrypted = true
+efs_tags = {
+	"ApplicationName" = "Digital"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "DevOps"
+	"CreatedOn" = "05112021"
+	"DataClassification" = "None"
+	"Department" = "DGT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "09242023"
+	"Name" = "EFS-Digital-App"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+}
+kms_key_id = "arn:aws:kms:us-east-1:116762271881:key/f991debb-2f56-4590-bd49-8245fad06084"
+subnet_id = "subnet-06291ceaa523f684c"
+efs_attach_to_second_subnet = true
+subnet2_id = "subnet-0734d8f28467d319f"
+
+efs_security_group_name = "Efs_access_group"
+vpc_id = "vpc-00ff8e33839358d28"
+efs_sg_tags = {
+	"ApplicationName" = "Digital"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "DevOps"
+	"CreatedOn" = "05112021"
+	"DataClassification" = "None"
+	"Department" = "DGT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "09242023"
+	"Name" = "Efs_access_group"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+}

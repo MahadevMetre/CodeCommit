@@ -1,0 +1,77 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@332.va_1ee476d8f6d">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>fmservice_cert</name>
+          <defaultValue>Absolute path of fmservice.com cert file</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>fmservice_key</name>
+          <defaultValue>Absolute path of fmservice.com key file</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>true</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+
+RED=&apos;\033[0;31m&apos;
+GREEN=&apos;\033[0;32m&apos;
+ORANGE=&apos;\033[0;33m&apos;
+BLUE=&apos;\033[0;34m&apos;
+PURPLE=&apos;\033[0;35m&apos;
+NC=&apos;\033[0m&apos;
+
+printf &quot;${PURPLE}fmservice cert file${NC} : ${GREEN}$fmservice_cert${NC}\n&quot;
+printf &quot;${PURPLE}fmservice key file${NC} : ${GREEN}$fmservice_key${NC}\n&quot;
+
+printf &quot;${PURPLE}Pushing fmservice cert and key to ${GREEN}Digital Dev EFS${NC}\n&quot;
+sshpass -f ~/.id_rsa_cred -P &apos;Enter passphrase for key&apos; scp -r $fmservice_cert jenkins@10.153.14.33:/common/deploy/ssl/fmservice_cert.pem
+sshpass -f ~/.id_rsa_cred -P &apos;Enter passphrase for key&apos; scp -r $fmservice_key jenkins@10.153.14.33:/common/deploy/ssl/fmservice_key.pem
+
+printf &quot;${ORANGE}Updating cert and key in Digital Dev${NC}\n&quot;
+sshpass -f ~/.id_rsa_cred -P &apos;Enter passphrase for key&apos; ssh -i ~/.ssh/id_rsa jenkins@10.153.14.33 &quot;
+sshpass -f ~/.id_rsa_cred -P &apos;password for jenkins:&apos; sudo cp /common/deploy/ssl/fmservice_cert.pem /common/nginx/ssl/fmservice_cert.pem;
+sshpass -f ~/.id_rsa_cred -P &apos;password for jenkins:&apos; sudo cp /common/deploy/ssl/fmservice_key.pem /common/nginx/ssl/fmservice_key.pem
+&quot;
+
+printf &quot;${PURPLE}Pushing fmservice cert and key to ${GREEN}Digital Stage EFS${NC}\n&quot;
+sshpass -f ~/.id_rsa_cred -P &apos;Enter passphrase for key&apos; scp -r $fmservice_cert jenkins@10.153.19.227:/common/deploy/ssl/fmservice_cert.pem
+sshpass -f ~/.id_rsa_cred -P &apos;Enter passphrase for key&apos; scp -r $fmservice_key jenkins@10.153.19.227:/common/deploy/ssl/fmservice_key.pem
+
+printf &quot;${BLUE}Updating cert and key in Digital Stage${NC}\n&quot;
+sshpass -f ~/.id_rsa_cred -P &apos;Enter passphrase for key&apos; ssh -i ~/.ssh/id_rsa jenkins@10.153.19.227 &quot;
+sshpass -f ~/.id_rsa_cred -P &apos;password for jenkins:&apos; sudo cp /common/deploy/ssl/fmservice_cert.pem /common/nginx/ssl/fmservice_cert.pem;
+sshpass -f ~/.id_rsa_cred -P &apos;password for jenkins:&apos; sudo cp /common/deploy/ssl/fmservice_key.pem /common/nginx/ssl/fmservice_key.pem
+&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</project>

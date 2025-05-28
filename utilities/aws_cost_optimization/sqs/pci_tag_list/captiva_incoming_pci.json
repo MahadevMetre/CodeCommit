@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/captiva_incoming_pci",
+  "Tags": {
+    "CretedBy": "Arrington Jeffrey JARRINGTON",
+    "environment": "pci",
+    "terraform": "True"
+  }
+}

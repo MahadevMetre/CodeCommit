@@ -1,0 +1,80 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@332.va_1ee476d8f6d">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>Username</name>
+          <description>Username to be added</description>
+          <defaultValue>must_change_this</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>UserID</name>
+          <description>UserID to be added</description>
+          <defaultValue>must_change_this</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>GroupID</name>
+          <description>GroupID to be added</description>
+          <defaultValue>must_change_this</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.FileParameterDefinition>
+          <name>SSH-Public-Key</name>
+          <description>SSH Public Key to be added</description>
+        </hudson.model.FileParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>ServerName</name>
+          <description>ServerName To choose on which playbook to be Execute</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Choose One</string>
+              <string>insjb_dev_admin</string>
+              <string>digital_dev</string>
+              <string>insuranceapp_dev</string>
+              <string>insjb_stage_admin</string>
+              <string>automation</string>
+              <string>digital_stage</string>
+              <string>insuranceapp_stage</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.PasswordParameterDefinition>
+          <name>Password</name>
+          <description>Password &lt;username&gt; to be added</description>
+          <defaultValue>{AQAAABAAAAAQBCxUc5A0G9XrS5RQIccSXmRLl1VpdKYT6aKxy0cjFsc=}</defaultValue>
+        </hudson.model.PasswordParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>true</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>ansible-playbook $WORKSPACE/usercreate.yaml -e &quot;user_name=$Username password=$Password uid=$UserID gid=$GroupID &quot; -i /etc/ansible/$ServerName -u ansible --private-key=&quot;~/.ssh/ansible.pem&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</project>

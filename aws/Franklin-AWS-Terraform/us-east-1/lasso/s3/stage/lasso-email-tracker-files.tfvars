@@ -1,0 +1,21 @@
+bucket_short_name = "lasso-email-tracker-files"
+environment = "stage"
+logging_bucket_name =  "franklin-stage-s3-access-logs"
+logging_bucket_base_prefix = "lasso-email-tracker-files-stage"
+acl                 = "private"
+tags ={
+    "ApplicationName"		= "Lasso"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "05152023"
+	"CostCenter"			= "FMG"
+	"DataClassification"	= "Low"
+	"Department"			= "LSO"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "06262023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+allow_ses_put_policy = true

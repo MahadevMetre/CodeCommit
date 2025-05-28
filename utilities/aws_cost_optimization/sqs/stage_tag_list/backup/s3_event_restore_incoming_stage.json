@@ -1,0 +1,10 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/s3_event_restore_incoming_stage",
+  "Tags": {
+    "environment": "stage",
+    "terraform": "True",
+    "ModifedDate": "04/02/2021",
+    "CretedBy": "Arrington Jeffrey JARRINGTON",
+    "ModifiedBy": "jsamuel"
+  }
+}

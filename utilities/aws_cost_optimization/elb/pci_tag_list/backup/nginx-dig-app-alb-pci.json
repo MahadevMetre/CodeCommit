@@ -1,0 +1,25 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:601751840347:loadbalancer/app/nginx-dig-app-alb-pci/9677cf905b7e0a4b",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "digital"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "Name",
+      "Value": "nginx-dig-app-alb-pci"
+    }
+  ]
+}

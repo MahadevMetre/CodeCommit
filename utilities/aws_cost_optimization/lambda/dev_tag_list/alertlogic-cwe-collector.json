@@ -1,0 +1,20 @@
+{
+    "Tags": {
+        "ApplicationName": "OnlinePayment",
+        "Automated": "True",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+        "CreatedBy": "NoInfo",
+        "CreatedOn": "NoInfo",
+        "DataClassification": "Low",
+        "Department": "OnlinePayment",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Node.js",
+        "Usage": "Project",
+        "Version": "1.0",
+        "aws:cloudformation:logical-id": "CollectLambdaFunction",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:116762271881:stack/AlertLogicGaurdDuty/46a2d340-59ed-11ec-aab6-0a492b04931b",
+        "aws:cloudformation:stack-name": "AlertLogicGaurdDuty"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:601751840347:loadbalancer/app/jboss-digital-alb-pci/e18fc5047cc13a36",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "digital"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-digital-alb-pci"
+    }
+  ]
+}

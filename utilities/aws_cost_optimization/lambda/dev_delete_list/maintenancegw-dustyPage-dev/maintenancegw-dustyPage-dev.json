@@ -1,0 +1,53 @@
+{
+    "Configuration": {
+        "FunctionName": "maintenancegw-dustyPage-dev",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:maintenancegw-dustyPage-dev",
+        "Runtime": "python3.7",
+        "Role": "arn:aws:iam::116762271881:role/maintenancegw-lambda-role-dev",
+        "Handler": "todos/dustyPage.dustyPage",
+        "CodeSize": 10296518,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-07T16:21:29.230+0000",
+        "CodeSha256": "MqYqKOnV4vYD1uVKSCUYlIkGI85ubm6Gsi9wYLESOxM=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [],
+            "SecurityGroupIds": [],
+            "VpcId": ""
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "maintenancegw-parameters-dev"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "31d6e624-0593-4e82-8ca7-e8e27dec9202",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:116762271881:layer:parameterlayer:424",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/maintenancegw-dustyPage-dev-7473cb63-4767-4675-a4c7-f8c8c7bcdc6c?versionId=Fyrk_NgluOSxgzW0ey6p_moMAAMJaEqE&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCXVzLWVhc3QtMSJHMEUCIQDRWZbatvB%2BHOAesm1%2BfsIdDl3uMjjv%2FkazcveyJFB93wIgOLPwRoopSvsHhZqekh3f0Sh4yCvqpS4ASpRRTZiTM68qsgUIbhAAGgw3NDk2Nzg5MDI4MzkiDOReDlYfQC6HhtsNWSqPBaREe3WtDD0efu7Uy2P2w38hvcCTov5C9seS0uj81yRw12K6n7os4QrqeaUCZEBo9Q1PFyAjqpDZAoYCHJzzKflrgGNLjshIIZ5dD4EInsCe8TbzCqUcXBFvdH6ghntRm5AVJ8yqTs7ByugfA8l%2FZuRDOoHo%2Fxudkhth21kY%2Fjh7zdur5B4QwwqtrSwD%2FL3ADeBLqEoo3EU9gwHqanWTlR6PNWT49d6AtX2rs%2FFWymJ9GpC%2FASlD5C3%2FqZz718zJCmTuiISbDYH94RIL1UBVf9MMz0NEN%2FoOZO6vnXDRtCeGBmvftNiSlreoseE4WShIi4SQerkA5KRBhy%2BzwQoxA47J%2BVMz4PWp4JbdS9yZv1Ijy6Xz5QJil0Eg9nqUFLilGMNnr06ojW4c3SahYcGR%2FoeJxq%2BCkCUxx1iYbg7kRi0jOvw%2BTtek9jBHteMo7xEFIbgAMsqbWNvJVbBWKbDpXYt5CSPqfr5dDlnX5sppRQtW%2FrB%2FikheGN5Xk3n2HmN44Y8eXUlTCAFLxyR3T8%2FApenY8QJuoCbBcNXTDxy9XELxDKP1CbEAuKhPXj%2FsMQ4i7nwxqgHwbihoJi8TujvVEZaMHIriEmW%2BfPyCD0N20PHZv%2Bru6sPZynTX%2FhyOsl9XA385UTEnHLuxcj45Wmu%2FZ57GY%2BcNBZJO32%2BZkJL8WjYQPE7qM2%2FNLKK7Qjfy%2FjubShqhwe9IXyGTlNVn5mah1DVgv3rjsPssC%2F2FiG6cIM0VlCEh7Wt%2BPOxgGsRu5tTgL0ru0NcAHPUmMhb%2BY9gi198k6PigcH8btraLl2SSeOhUO53uaioayYTzJtcz2Gtgs%2FFpcd5F5pfjIUx1efTKqKpvBejneoUFAmLFmHcg7IYwuvj9oQY6sQHG%2FrgMvvlQvktYh6iLKIBNp3z6vEOO5%2FmLWO4o2cqNFQ0Y1MkIe%2BETxtH8fOyf6ikpurO2D%2BVj8A%2FKikBupDulWkBZT0zghVPcpk%2F94P5%2F8uQoRaDlkicHte%2BIW5XJTZYKQ4GQ4cZfwMN3rPQdvM1ew1elL0V5fetlcmIUYGURHNjQ76SzTv30G6Kxva%2FI5xvtSnuV0RzU329Uc4dqO34oWOdNQpVoA2jG%2B6Ruj3VZfYU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230419T062620Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3XIP57PPY%2F20230419%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9d5cc66ba43cf958b89d0fd94d286e6a0b08d397e9a158518826f4dda6762eaf"
+    },
+}

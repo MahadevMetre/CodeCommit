@@ -1,0 +1,18 @@
+iam_policy_name				= "lasso-secrets-manager-policy-dev"
+iam_policy_tags				= {
+		"Department": "LSO"
+        "LastUpdated": "03012023"
+        "CostCenter":  "FMG"
+        "CreatedOn": "07142022"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Lasso"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "sbose"
+    }
+lasso_secrets_mgr_policy	= "true"
+iam_policy_desc				= "Lasso Access Secret Manager Dev"

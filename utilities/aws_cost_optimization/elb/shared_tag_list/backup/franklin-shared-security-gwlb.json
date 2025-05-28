@@ -1,0 +1,9 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:964190570136:loadbalancer/gwy/franklin-shared-security-gwlb/b37237127ee16cbc",
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "franklin-shared-security-gwlb"
+    }
+  ]
+}

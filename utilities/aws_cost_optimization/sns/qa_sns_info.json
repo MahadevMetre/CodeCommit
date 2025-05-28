@@ -1,0 +1,13 @@
+{
+    "Topics": [
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:634621569833:CISBenchmarkCloudTrail"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:634621569833:aws-config-notifications-topic-qa"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:634621569833:franklinqa"
+        }
+    ]
+}

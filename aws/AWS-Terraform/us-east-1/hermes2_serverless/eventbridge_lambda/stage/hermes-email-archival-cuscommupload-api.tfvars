@@ -1,0 +1,40 @@
+hermes_email_archival_cuscommupload_api_bool = true
+lambda_function_name = "hermes-email-archival-cuscommupload-api-stage"
+role = "arn:aws:iam::702230634984:role/hermes-lambda-role-stage"
+description = "Hermes Email Archival & Customer Communication Upload API Stage"
+env_variables = {
+	"CUSCOMMUPLOAD_API_URL"		= "https://stage.mtservicesapps.franklinmadisonds.com/batchintegration-web/rest/cusCommUploadProcess"
+	"EMAIL_ARCHIVAL_API_URL"	= "https://stage.mtservicesapps.franklinmadisonds.com/batchintegration-web/rest/emailArchiveProcess"
+}
+tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "11232023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "11232023"
+	"TechStack"				= "Python"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+memory_size = 128
+ephemeral_storage_size = 512
+timeout = 10
+subnets = ["subnet-0ed61b6beb807094e","subnet-076a071fa0723c80e"]
+security_groups = ["sg-0b2cbcc29401d05ef"]
+reserved_concurrent_executions = -1
+publish = false
+runtime = "python3.11"
+handler = "hermes-email-archival-cuscommupload-api.lambda_handler"
+filename = "py/hermes-email-archival-cuscommupload-api.zip"
+package_type = "Zip"
+source_code_hash = "py/hermes-email-archival-cuscommupload-api.zip"
+
+schedule_group_name = "hermes-serverless-scheduled-jobs-stage"
+schedule_name = "hermes-cuscommupload-api-schedule-stage"
+schedule2_name = "hermes-email-archival-api-schedule-stage"
+schedule_target_role_arn = "arn:aws:iam::702230634984:role/hermes-ecs-task-execution-role-stage"

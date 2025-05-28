@@ -1,0 +1,23 @@
+bucket_short_name = "hermes-file-integration"
+environment = "qa"
+logging_bucket_name =  "franklin-qa-s3-access-logs"
+logging_bucket_base_prefix = "hermes-file-integration-qa"
+acl                 = "private"
+tags ={
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "05092024"
+	"CostCenter"			= "Operations"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "05092024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+s3_eventbridge_notifications = true
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 30

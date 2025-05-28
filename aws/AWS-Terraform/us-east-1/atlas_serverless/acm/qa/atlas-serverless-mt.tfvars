@@ -1,0 +1,17 @@
+domain_name = "qa-atlas-serverless-mt.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+	"ApplicationName"		= "Atlas2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07092024"
+	"DataClassification"	= "Low"
+	"Department"            = "ATS2"
+	"Infrastructure"        = "False"
+	"LastUpdated"           = "07102024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

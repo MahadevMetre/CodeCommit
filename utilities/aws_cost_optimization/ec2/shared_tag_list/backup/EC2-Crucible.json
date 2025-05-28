@@ -1,0 +1,40 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0a370f759c57064b7"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedOn",
+      "Value": "02032023"
+    },
+    {
+      "Key": "purpose",
+      "Value": "Crucible Server"
+    },
+    {
+      "Key": "environment",
+      "Value": "shared"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-Crucible"
+    },
+    {
+      "Key": "project",
+      "Value": "crucible"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "UpdatedOn",
+      "Value": "02042023"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    }
+  ]
+}

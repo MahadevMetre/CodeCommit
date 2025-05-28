@@ -1,0 +1,18 @@
+iam_policy_name		= "lasso-kms-policy-dr"
+iam_policy_tags		= {
+		"Department": "LSO"
+		"LastUpdated": "06162023"
+		"CostCenter": "FMG"
+		"CreatedOn": "06162023"
+		"DataClassification": "Low"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "1.0"
+		"ApplicationName": "Lasso"
+		"TechStack": "None"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "mfaizudeen"
+	}
+lasso_kms_policy	= "true"
+iam_policy_desc		= "Lasso KMS Policy DR"

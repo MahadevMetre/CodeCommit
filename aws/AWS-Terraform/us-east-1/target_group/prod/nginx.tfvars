@@ -1,0 +1,10 @@
+health_check_port = 443
+protocol = "HTTPS"
+target_group_name = "nginx-app-target-group-pci"
+vpc_id   = ""
+protocol_version = "HTTP2"
+healthy_threshold = 5
+interval = 30
+unhealthy_threshold = 2
+health_check_timeout = 5
+load_balancing_algorithm_type = "least_outstanding_requests"

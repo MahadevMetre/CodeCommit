@@ -1,0 +1,88 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.plugins.promoted__builds.PromotionProcess plugin="promoted-builds@945.v597f5c6a_d3fd">
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <conditions>
+    <hudson.plugins.promoted__builds.conditions.ManualCondition>
+      <users>vhd, bshivaraju</users>
+      <parameterDefinitions/>
+    </hudson.plugins.promoted__builds.conditions.ManualCondition>
+  </conditions>
+  <icon>star-blue</icon>
+  <isVisible></isVisible>
+  <buildSteps>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+
+set +x
+/opt/scripts/aws_s3_get_object.sh
+
+aws_account_id=702230634984
+aws_environment=qa
+aws_profile=jenkins_serverless_mgmt_user_stage
+application_name=pycharm-batch-${aws_environment}
+docker_file_name=Dockerfile_pycharm_batch_build
+repo_name=fmg-insuranceapps
+repo_url=${aws_account_id}.dkr.ecr.us-east-1.amazonaws.com/${repo_name}
+artifact_dir=/common/jenkins/promoted_builds/$PROMOTED_JOB_NAME/$PROMOTED_NUMBER/$aws_environment
+working_dir=$WORKSPACE/$aws_environment
+deploy_folder=deploy
+
+rm -rf $working_dir
+mkdir -p $working_dir
+cd $working_dir
+
+cp -ar $artifact_dir/* .
+
+cp $pycharm_user_nonprod pycharm_user
+cp $reportlab_license_nonprod ReportLabPLUSLicense.py
+cp $pycharm_aws_creds_stage pycharm_aws_creds.zip
+unzip pycharm_aws_creds.zip
+
+cp -ar $deploy_folder/* .
+
+export DOCKER_BUILDKIT=1
+docker build -t ${application_name} -f ${docker_file_name} .
+
+rm pycharm_user
+rm ReportLabPLUSLicense.py
+rm -rf pycharm_aws_creds*
+
+docker tag ${application_name}:latest ${repo_url}:${application_name}
+
+aws --profile ${aws_profile} ecr get-login-password | docker login --username AWS --password-stdin ${aws_account_id}.dkr.ecr.us-east-1.amazonaws.com
+aws --profile ${aws_profile} ecr batch-delete-image --repository-name ${repo_name} --image-ids imageTag=${application_name}
+docker push ${repo_url}:${application_name}</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </buildSteps>
+  <buildWrappers>
+    <org.jenkinsci.plugins.credentialsbinding.impl.SecretBuildWrapper plugin="credentials-binding@657.v2b_19db_7d6e6d">
+      <bindings>
+        <org.jenkinsci.plugins.credentialsbinding.impl.FileBinding>
+          <credentialsId>pycharm_user_nonprod</credentialsId>
+          <variable>pycharm_user_nonprod</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.FileBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.FileBinding>
+          <credentialsId>reportlab_license_nonprod</credentialsId>
+          <variable>reportlab_license_nonprod</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.FileBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.FileBinding>
+          <credentialsId>pycharm_aws_creds_stage</credentialsId>
+          <variable>pycharm_aws_creds_stage</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.FileBinding>
+      </bindings>
+    </org.jenkinsci.plugins.credentialsbinding.impl.SecretBuildWrapper>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</hudson.plugins.promoted__builds.PromotionProcess>

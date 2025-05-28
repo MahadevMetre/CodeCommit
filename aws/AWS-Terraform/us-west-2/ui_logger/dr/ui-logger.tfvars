@@ -1,0 +1,24 @@
+project_name="ui-logger"
+env="dr"
+lambda_desc = "Lambda to write logs into s3 bucket"
+lambda_memory = 128
+lambda_runtime ="python3.9"
+lambda_timeout = 29
+tags = {
+	"ApplicationName" = "DevOps"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02282023"
+	"DataClassification" = "Low"
+	"Department" = "DOS"
+	"Infrastructure" = "False"
+	"LastUpdated" = "01192024"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+}
+s3_lifecycle_days = 400
+noncurrent_days = 400
+noncurrent_version_expiration = 2

@@ -1,0 +1,28 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0f70b1d9587f2f726"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "06122023"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Hermes"
+    },
+    {
+      "Key": "Name",
+      "Value": "hermes-kafka-poc"
+    },
+    {
+      "Key": "Purpose",
+      "Value": "poc"
+    }
+  ]
+}

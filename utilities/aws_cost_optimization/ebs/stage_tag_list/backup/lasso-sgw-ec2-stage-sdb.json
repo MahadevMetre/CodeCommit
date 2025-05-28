@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0f6c041e430d38f0a"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "lasso-sgw-ec2-stage-sdb"
+    }
+  ]
+}

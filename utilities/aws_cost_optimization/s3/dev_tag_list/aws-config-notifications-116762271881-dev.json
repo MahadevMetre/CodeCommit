@@ -1,0 +1,76 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Usage",
+            "Value": "Project"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "AWS_CONFIG"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "Automated",
+            "Value": "True"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "Purpose",
+            "Value": "To have the config changes sent as email and pushed to s3 bucket"
+        },
+        {
+            "Key": "Project",
+            "Value": "aws_config"
+        },
+        {
+            "Key": "Department",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "environment",
+            "Value": "dev"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "None"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "04012023"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "04012023"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "04012023"
+        }
+    ]
+}

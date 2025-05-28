@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "ReplicateTags",
+            "Value": "Tagging copy"
+        },
+        {
+            "Key": "ReplicateObject",
+            "Value": "Objects"
+        },
+        {
+            "Key": "ReplicateDelete",
+            "Value": "Remove"
+        },
+        {
+            "Key": "GetObjectVersionTagging",
+            "Value": "Permission"
+        }
+    ]
+}

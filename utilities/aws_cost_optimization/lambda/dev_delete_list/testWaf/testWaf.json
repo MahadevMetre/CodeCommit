@@ -1,0 +1,43 @@
+{
+    "Configuration": {
+        "FunctionName": "testWaf",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:testWaf",
+        "Runtime": "nodejs12.x",
+        "Role": "arn:aws:iam::116762271881:role/onlinepayment-WAF-securit-LambdaRoleCustomResource-VQZIO5X966WH",
+        "Handler": "index.handler",
+        "CodeSize": 630,
+        "Description": "",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2023-04-03T15:55:54.230+0000",
+        "CodeSha256": "RcSarbwqff1RUhaRr0OzchqeRHE3A3cxhPh0VazG1aM=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "env2": "AQICAHhwO394notFxgPOxiYF68obYT7qqM1RsHQ9SSMmBIEKpwHO256KXedajjmfe2Tcth+4AAAAXzBdBgkqhkiG9w0BBwagUDBOAgEAMEkGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMwQ3u0JsqmXopS5lmAgEQgBwPV6trJPbo6fVm5pmTfUc+qY8jWAVUAxeGcTuQ",
+                "env1": "AQICAHhwO394notFxgPOxiYF68obYT7qqM1RsHQ9SSMmBIEKpwGcDArVRUrKJL+NccgPlfYgAAAAXzBdBgkqhkiG9w0BBwagUDBOAgEAMEkGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMC5/xld3xB8MyZQJwAgEQgBzZQ6/yiVMQA//AnqswQHmUoYQET9lyyLX1mYN+"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "5cf6e1a5-e41f-4ab5-8bb0-13703c357d17",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/testWaf-7eac9d1e-9b8b-4cf3-9584-58cc9641efb4?versionId=0rYXKLepS4Xf06.BCnPLfwurR.r9sKET&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJGMEQCIHT89xgrRRPEtjvW9tyZEg6UP9YuspTMMUvHSw7T4biVAiB7dlhUeLmKAgs56G%2BPl32b%2BCjoeL43HItJM5GGZL6viiqxBQhCEAAaDDc0OTY3ODkwMjgzOSIM8F4w2ys3H1EYQmJvKo4F9HH9uo%2F%2BYXVnkmHWFtHY9IMG%2BybnIDJx0y0YgynwuI2oTBlClaUVmDiL9nbs2hIrnEFPQeYkdBdRTPv3bUjJ%2B4DCkaho8iw5Tjrf28fosYIXz82hjGGHyfalSxexgp5j6dRu10arBoQrv%2BgDKx4gvPxnbbuiSDh7v9xxey9iAS9H4%2BlfCTmxDGgQu704JgPP2D2nK0yv4%2FtX4sQd9NRMcOjSY0mNV3PZhZOOa%2FMRw948BASn%2BFJzafDk9DxybBwjpCyZqTEr6QPHtUj8PSZvNWLiubZt%2BBQCFmYzIwZ6xnY9TTW88uIOkkoXWawUdfNWa3FcIB2hClRMPl%2BOg8Xrko4MNE5Dt%2BN7XlwzfmkxTxVxo3M88qhwFTQnTD53WqXjDGXAWrOfxLj1gVXsCDaLc2f4WGY2lzEjWdhKztkdTcRk5M%2FlpS87%2F7jkfUeKdnPGEPiQ6cAPzHiKEHNQZc29UqqgNeJo7g9nUCFZ7Ns0KM0WLTeXavd%2FZJYe1KIXYM1GdtuNNyxWMN9uLD9pJoyiKq0Cd%2Fh%2F0DQm79Uje%2BbCAC6fIwYnCY67NacQFRTTollvPjtz3BlNGE%2FNmNqincCnAySrSqRH8E1Qkb75XD8Ltm495GseKlFapK8Fr5hrL6nzItkQbH2FMd5Bc%2Fxyisa6uaCcWtA4YQ37TMeKCESI1Rw6F7hahonuodeS4pBq99AdP8vRCJ8i7btcRujolvAbKB%2B2pEkifLwdl9WYnoIDTKV5J9aY0lHi9t0vPz2t2N8DuzQdbMpQxUcmpnSmuAaTgq92eRs2U8%2FPO%2B1fHTCSkma5UFMuLKXR%2FZRtsGIpjf3QkVBW8sy7jsL08i%2FkjYjNdf1pQxIQVg2gEWzF%2FZvhMJCk9KEGOrIBAT6SsWLXRaZpy7Cm7RdnWjx9OxvT4rZ%2FDBTAV2jLeW49wu4D7DR43teuH9%2FeHd9EWX1vdabcl9h6cpQG%2B0pdd%2FADGxyzbjbFFeFIRx3%2B8u8eyCqetTLLs%2BVitMVMVhwPkIG1mukrl8yeclXS4O1Nrvxjd9qvE8HmCs6AniWTFa8x%2FNRa4Vwb0%2F7fmUzzuDjI0TvbSElIIelo2JHEVxCBg%2F7KuOzzdNatX8Y0JlZRcFR0sQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T103825Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY34ZWHVZ7H%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=18ee9aad326ce2e4910bb1978c4a4b74bbc0955eda6dfc62b6eae247decec813"
+    },
+}

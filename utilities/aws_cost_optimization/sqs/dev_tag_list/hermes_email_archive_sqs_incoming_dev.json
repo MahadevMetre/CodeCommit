@@ -1,0 +1,20 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/116762271881/hermes_email_archive_sqs_incoming_dev",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "Hermes",
+    "CreatedBy": "dselvaraj",
+    "Automated": "False",
+    "BackupPlan": "None",
+    "Name": "hermes_email_archive_sqs_incoming_dev",
+    "Project": "CCMS",
+    "Department": "HMS",
+    "CostCenter": "FMG",
+    "Version": "1.0",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "NoInfo"
+  }
+}

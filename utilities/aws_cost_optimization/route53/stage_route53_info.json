@@ -1,0 +1,51 @@
+{
+    "HostedZones": [
+        {
+            "Id": "/hostedzone/Z0104853365CWO3L30ZXE",
+            "Name": "cuc.com.",
+            "CallerReference": "6A4AF3E6-64FC-92B8-92AF-C2A6CC7C6404",
+            "Config": {
+                "PrivateZone": true
+            },
+            "ResourceRecordSetCount": 6
+        },
+        {
+            "Id": "/hostedzone/Z01047193VU3QL13KQH85",
+            "Name": "affinionds.com.",
+            "CallerReference": "8077D406-BC00-B5AF-B4A2-D927757DA346",
+            "Config": {
+                "PrivateZone": true
+            },
+            "ResourceRecordSetCount": 9
+        },
+        {
+            "Id": "/hostedzone/Z010407314HT5G1PGDENW",
+            "Name": "franklinmadisonds.com.",
+            "CallerReference": "39AD8995-3A91-5EFF-95A9-9F816D154E8B",
+            "Config": {
+                "PrivateZone": true
+            },
+            "ResourceRecordSetCount": 29
+        },
+        {
+            "Id": "/hostedzone/Z03740564EA8BQCOHWRM",
+            "Name": "fmservice.com.",
+            "CallerReference": "26929346-d718-4d55-bd10-03f15ab1ab94",
+            "Config": {
+                "Comment": "",
+                "PrivateZone": true
+            },
+            "ResourceRecordSetCount": 8
+        },
+        {
+            "Id": "/hostedzone/Z026347532GFHZD4UX086",
+            "Name": "franklin-madison.com.",
+            "CallerReference": "terraform-20221214185207149500000001",
+            "Config": {
+                "Comment": "Terraform : Private franklin-madison.com Hosted Zone",
+                "PrivateZone": true
+            },
+            "ResourceRecordSetCount": 8
+        }
+    ]
+}

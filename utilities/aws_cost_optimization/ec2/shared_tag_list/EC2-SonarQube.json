@@ -1,0 +1,40 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-04def741b69a46239"
+  ],
+  "Tags": [
+    {
+      "Key": "purpose",
+      "Value": "SonarQube Server"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "environment",
+      "Value": "shared"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "mfaizudeen"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "11212022"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-SonarQube"
+    },
+    {
+      "Key": "UpdatedOn",
+      "Value": "02042023"
+    },
+    {
+      "Key": "project",
+      "Value": "sonarqube"
+    }
+  ]
+}

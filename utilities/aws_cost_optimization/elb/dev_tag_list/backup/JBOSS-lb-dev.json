@@ -1,0 +1,21 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/JBOSS-lb-dev/ecd687ba4839980e",
+  "Tags": [
+    {
+      "Key": "environment",
+      "Value": "dev"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CretedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Name",
+      "Value": "JBOSS-lb-dev"
+    }
+  ]
+}

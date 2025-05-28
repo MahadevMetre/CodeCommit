@@ -1,0 +1,9 @@
+franklinmadisonds.com
+CR_Franklin@AffinionGroup.com
+fm_staging_sec_team@franklin-madison.com
+EXSTREAM_INS@franklin-madison.com
+gitadmin@franklin-madison.com
+pbcs-admin@franklin-madison.com
+fm_pci_prod_sec_team@franklin-madison.com
+GitDeployments@franklin-madison.com
+ins_middletier_exception_prod@franklin-madison.com

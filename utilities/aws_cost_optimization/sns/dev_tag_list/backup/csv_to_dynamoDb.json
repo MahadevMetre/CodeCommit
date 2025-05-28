@@ -1,0 +1,9 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:116762271881:csv_to_dynamoDb",
+  "Tags": [
+    {
+      "Key": "project",
+      "Value": "poeReencryption"
+    }
+  ]
+}

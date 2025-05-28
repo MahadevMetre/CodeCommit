@@ -1,0 +1,9 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:116762271881:glacier_job_topic",
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "glacier_objects_sns_dev"
+    }
+  ]
+}

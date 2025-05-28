@@ -1,0 +1,148 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@332.va_1ee476d8f6d">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Account</name>
+          <description>AWS account to use. Make sure you choose the right account.</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Choose One</string>
+              <string>dev</string>
+              <string>qa</string>
+              <string>stage</string>
+              <string>pci</string>
+              <string>prod</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Repo_Path</name>
+          <description>Choose the repo path.</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>branches/hermes3.0</string>
+              <string>branches/lasso</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Root_Folder</name>
+          <description>Choose the root folder.</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>sprint0</string>
+              <string>sprint1</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Folder_Name</name>
+          <description>Folder name where the SQLs are stored. Relative to the root folder.</description>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>File_Name</name>
+          <description>SQL file name. Use *.sql to run all sql files in the directory.</description>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>DB_Name</name>
+          <description>Name of the Database.</description>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Testing</name>
+          <description>Choose true to prevent execution of the SQL query.</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>true</string>
+              <string>false</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Application</name>
+          <description>Make sure you choose the right application.</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Choose One</string>
+              <string>hermes2.0</string>
+              <string>hermes3.0</string>
+              <string>lasso</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>set +x
+cd /opt/scripts/
+./rds_execute_sql.sh &quot;$Account&quot; &quot;$Repo_Path&quot; &quot;$Root_Folder&quot; &quot;$Folder_Name&quot; &quot;$File_Name&quot; &quot;$DB_Name&quot; &quot;$Testing&quot; &quot;$Application&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <org.jenkinsci.plugins.credentialsbinding.impl.SecretBuildWrapper plugin="credentials-binding@657.v2b_19db_7d6e6d">
+      <bindings>
+        <org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+          <credentialsId>rds-pg-fmg-serverless-admin-password-dev</credentialsId>
+          <variable>admin_pass_dev_hermes2</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+          <credentialsId>rds-pg-fmg-serverless-admin-password-qa</credentialsId>
+          <variable>admin_pass_qa_hermes2</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+          <credentialsId>rds-pg-fmg-serverless-admin-password-stage</credentialsId>
+          <variable>admin_pass_stage_hermes2</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+          <credentialsId>rds-pg-fmg-serverless-admin-password-prod</credentialsId>
+          <variable>admin_pass_prod_hermes2</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+          <credentialsId>rds-postgres-fmg-admin-password-dev</credentialsId>
+          <variable>admin_pass_dev_lasso</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+          <credentialsId>rds-postgres-fmg-admin-password-stage</credentialsId>
+          <variable>admin_pass_stage_lasso</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+          <credentialsId>rds-postgres-fmg-admin-password-pci</credentialsId>
+          <variable>admin_pass_pci_lasso</variable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.StringBinding>
+        <org.jenkinsci.plugins.credentialsbinding.impl.UsernamePasswordMultiBinding>
+          <credentialsId>fa1eeeb6-8ea8-4b36-81c9-5f88ef8ef815</credentialsId>
+          <usernameVariable>svn_username</usernameVariable>
+          <passwordVariable>svn_password</passwordVariable>
+        </org.jenkinsci.plugins.credentialsbinding.impl.UsernamePasswordMultiBinding>
+      </bindings>
+    </org.jenkinsci.plugins.credentialsbinding.impl.SecretBuildWrapper>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+    <org.jenkinsci.plugins.builduser.BuildUser plugin="build-user-vars-plugin@1.9"/>
+  </buildWrappers>
+</project>

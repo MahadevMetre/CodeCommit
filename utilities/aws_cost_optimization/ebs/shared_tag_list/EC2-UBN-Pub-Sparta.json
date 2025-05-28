@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0c6af779a096f86b4"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-UBN-Pub-Sparta"
+    }
+  ]
+}

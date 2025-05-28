@@ -1,0 +1,16 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0ba99db18a1edb703"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "DW-Qlik-Replication-xvdf"
+    },
+    {
+      "Key": "purpose",
+      "Value": "Dev Qlik Volume"
+    }
+  ]
+}

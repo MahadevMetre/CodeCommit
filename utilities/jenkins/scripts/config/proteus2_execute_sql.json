@@ -1,0 +1,46 @@
+{
+	"dev": {
+		"build": [
+			"apilla",
+			"bramesh",
+			"jsamuel",
+			"kkumar3",
+			"mfaizudeen",
+			"sbose",
+			"sujasudhakaran",
+			"vkesavan",
+			"vmylapilli"
+		]
+	},
+	"stage": {
+		"build": [
+			"apilla",
+			"jsamuel",
+			"mkumaraswamy",
+			"mfaizudeen",
+			"sbose",
+			"sujasudhakaran"
+		]
+	},
+	"pci": {
+		"build": [
+			"apilla",
+			"controlaccount",
+			"jsamuel",
+			"vmylapilli"
+		]
+	},
+	"properties": {
+		"json_config_name": {
+			"DataModel": "datamodel_config.json",
+			"PowerBI": "powerbi_config.json"
+		}
+	},
+	"deploy_branch_access": [
+		"apilla",
+		"controlaccount",
+		"jsamuel",
+		"sujasudhakaran",
+		"vmylapilli"
+	]
+}

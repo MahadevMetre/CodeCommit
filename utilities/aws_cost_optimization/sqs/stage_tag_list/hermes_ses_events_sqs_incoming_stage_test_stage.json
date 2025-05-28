@@ -1,0 +1,21 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_ses_events_sqs_incoming_stage_test_stage",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "Hermes",
+    "CreatedBy": "jsamuel",
+    "Automated": "False",
+    "BackupPlan": "None",
+    "Department": "HMS",
+    "environment": "stage",
+    "CostCenter": "FMG",
+    "CretedBy": "jsamuel",
+    "Version": "1.0",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "terraform": "True",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "NoInfo"
+  }
+}

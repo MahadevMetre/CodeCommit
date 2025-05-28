@@ -1,0 +1,23 @@
+bucket_short_name = "lasso-batch-files"
+environment = "dr"
+logging_bucket_name =  "franklin-dr-s3-access-logs"
+logging_bucket_base_prefix = "lasso-batch-files-dr"
+acl                 = "private"
+tags ={
+    "ApplicationName" = "Lasso"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02152023"
+	"DataClassification" = "Low"
+	"Department" = "LSO"
+	"Infrastructure" = "False"
+	"LastUpdated" = "02152023"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+}
+replication_policy_dr = false
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 90

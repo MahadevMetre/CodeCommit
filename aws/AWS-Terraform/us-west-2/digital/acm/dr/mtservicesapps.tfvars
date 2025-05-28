@@ -1,0 +1,18 @@
+domain_name = "dr.mtservicesapps.fmservice.com"
+validation = "DNS"
+tags = {
+    "ApplicationName" = "Digital"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "mfaizudeen"
+	"CreatedOn" = "02232023"
+	"DataClassification" = "None"
+	"Department" = "DGT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "02232023"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+    "Name"	= "Internal mtservices domain cert"   
+}

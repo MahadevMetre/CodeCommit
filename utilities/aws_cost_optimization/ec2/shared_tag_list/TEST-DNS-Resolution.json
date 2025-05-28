@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-06e3e13f5149777c9"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "TEST-DNS-Resolution"
+    }
+  ]
+}

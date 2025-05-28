@@ -1,0 +1,16 @@
+repo_name				= "fmg-schrute"
+repo_tags = {
+	"ApplicationName"		= "Schrute"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "09092024"
+	"DataClassification"	= "Low"
+	"Department"			= "IAPPS"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "09092024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

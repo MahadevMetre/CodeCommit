@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "qa"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "mfaizudeen"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Lasso Claims Tracker Files QA"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "03212023"
+        },
+        {
+            "Key": "project",
+            "Value": "Lasso"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "03212023"
+        }
+    ]
+}

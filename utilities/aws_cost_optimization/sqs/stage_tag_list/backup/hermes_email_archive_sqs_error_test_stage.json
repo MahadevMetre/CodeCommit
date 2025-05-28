@@ -1,0 +1,9 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_email_archive_sqs_error_test_stage",
+  "Tags": {
+    "CreatedDate": "02/02/2021",
+    "environment": "stage",
+    "terraform": "True",
+    "CretedBy": "jsamuel"
+  }
+}

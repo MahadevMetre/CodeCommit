@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0698ed81874f1c823"
+  ],
+  "Tags": [
+    {
+      "Key": "purpose",
+      "Value": "Data Replication AS400 to S3"
+    },
+    {
+      "Key": "project",
+      "Value": "Data warehouse Project"
+    },
+    {
+      "Key": "Name",
+      "Value": "DW-Qlik-Replication"
+    }
+  ]
+}

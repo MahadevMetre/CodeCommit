@@ -1,0 +1,16 @@
+{
+    "TagSet": [
+        {
+            "Key": "CretedBy",
+            "Value": "PCHARAN"
+        },
+        {
+            "Key": "environment",
+            "Value": "dev"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        }
+    ]
+}

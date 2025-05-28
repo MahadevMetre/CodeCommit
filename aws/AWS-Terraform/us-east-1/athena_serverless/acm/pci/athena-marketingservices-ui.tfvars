@@ -1,0 +1,17 @@
+domain_name = "marketingservices-athena-ui.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+    "ApplicationName"		= "AthenaNextgen2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07012024"
+	"DataClassification"	= "PCI"
+	"Department"			= "ANG2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "07012024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+    }

@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "Online Payment"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jarrington"
+        },
+        {
+            "Key": "Customer",
+            "Value": "FMAD"
+        },
+        {
+            "Key": "Name",
+            "Value": "cf-templates"
+        }
+    ]
+}

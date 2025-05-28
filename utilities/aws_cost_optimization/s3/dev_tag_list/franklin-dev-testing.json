@@ -1,0 +1,60 @@
+{
+    "TagSet": [
+        {
+            "Key": "TechStack",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "Owner",
+            "Value": "Brian"
+        },
+        {
+            "Key": "Usage",
+            "Value": "POC"
+        },
+        {
+            "Key": "ApplicationName",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "bclements"
+        },
+        {
+            "Key": "Automated",
+            "Value": "False"
+        },
+        {
+            "Key": "BackupPlan",
+            "Value": "None"
+        },
+        {
+            "Key": "Department",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "CostCenter",
+            "Value": "FMG"
+        },
+        {
+            "Key": "Version",
+            "Value": "1.0"
+        },
+        {
+            "Key": "Infrastructure",
+            "Value": "False"
+        },
+        {
+            "Key": "DataClassification",
+            "Value": "None"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "NoInfo"
+        },
+        {
+            "Key": "LastUpdated",
+            "Value": "NoInfo"
+        }
+    ]
+}

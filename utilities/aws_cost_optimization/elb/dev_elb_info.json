@@ -1,0 +1,272 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/net/eft-crushftp-nlb-dev/4afe781a5f63abf8",
+            "DNSName": "eft-crushftp-nlb-dev-4afe781a5f63abf8.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2022-09-17T10:58:10.323000+00:00",
+            "LoadBalancerName": "eft-crushftp-nlb-dev",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-00cf7ed46e8b84ed6",
+                    "LoadBalancerAddresses": [
+                        {
+                            "IpAddress": "34.202.211.129",
+                            "AllocationId": "eipalloc-076ed72a1c350df65"
+                        }
+                    ]
+                },
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-0084a7f3b21fa9a0c",
+                    "LoadBalancerAddresses": [
+                        {
+                            "IpAddress": "18.214.196.85",
+                            "AllocationId": "eipalloc-083ea0d8a37ccf1fb"
+                        }
+                    ]
+                }
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/net/jboss-dig-app-nlb-dev/6c65a5bade0301dc",
+            "DNSName": "jboss-dig-app-nlb-dev-6c65a5bade0301dc.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2021-06-30T20:40:58.395000+00:00",
+            "LoadBalancerName": "jboss-dig-app-nlb-dev",
+            "Scheme": "internal",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0734d8f28467d319f",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/jboss-app-lb-dev/c4e16d452786a869",
+            "DNSName": "internal-jboss-app-lb-dev-1041630858.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2019-08-16T22:32:30.910000+00:00",
+            "LoadBalancerName": "jboss-app-lb-dev",
+            "Scheme": "internal",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0734d8f28467d319f",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0536e2e6fb0df534c"
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/nginx-app-lb-dev/abfe34b944383e6b",
+            "DNSName": "internal-nginx-app-lb-dev-505598819.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2019-12-06T04:26:40.260000+00:00",
+            "LoadBalancerName": "nginx-app-lb-dev",
+            "Scheme": "internal",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0734d8f28467d319f",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0ccc068fa8605c601"
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/JBOSS-lb-dev/ecd687ba4839980e",
+            "DNSName": "internal-JBOSS-lb-dev-1944762755.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-05-30T08:39:57.690000+00:00",
+            "LoadBalancerName": "JBOSS-lb-dev",
+            "Scheme": "internal",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0734d8f28467d319f",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0340579230fec9c4b",
+                "sg-037f5b5bb9a9bc966"
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/nginx-dig-app-alb-dev/33e343a307f99222",
+            "DNSName": "nginx-dig-app-alb-dev-2085675485.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-07-07T07:41:14.200000+00:00",
+            "LoadBalancerName": "nginx-dig-app-alb-dev",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-0084a7f3b21fa9a0c",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-00cf7ed46e8b84ed6",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0745972cea3812e95",
+                "sg-0212ebfa056923c40",
+                "sg-0a937473f7fcb77a7"
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/nginx-insuranceapps-app-alb-dev/02a30901515b5da5",
+            "DNSName": "internal-nginx-insuranceapps-app-alb-dev-292109076.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-09-15T10:53:29.730000+00:00",
+            "LoadBalancerName": "nginx-insuranceapps-app-alb-dev",
+            "Scheme": "internal",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0734d8f28467d319f",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-098b5393346ba5693"
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/jboss-insuranceapps-alb-dev/6b90e3d19f704505",
+            "DNSName": "internal-jboss-insuranceapps-alb-dev-409243907.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-09-28T09:49:09.470000+00:00",
+            "LoadBalancerName": "jboss-insuranceapps-alb-dev",
+            "Scheme": "internal",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0734d8f28467d319f",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-01485bd2c4af40ae6"
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:116762271881:loadbalancer/app/ec2con-ecs-iapps-alb-dev-manual/16f44c9483bbd376",
+            "DNSName": "internal-ec2con-ecs-iapps-alb-dev-manual-1480009328.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2023-01-12T05:20:37+00:00",
+            "LoadBalancerName": "ec2con-ecs-iapps-alb-dev-manual",
+            "Scheme": "internal",
+            "VpcId": "vpc-00ff8e33839358d28",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0734d8f28467d319f",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-04cae60edb8d83ba1"
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}

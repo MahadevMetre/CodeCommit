@@ -1,0 +1,28 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-00bb5002b3f6fdb45"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-RML-Dev1"
+    },
+    {
+      "Key": "Project",
+      "Value": "CCMS"
+    },
+    {
+      "Key": "Patch Group",
+      "Value": "rhel"
+    },
+    {
+      "Key": "Type",
+      "Value": "adhoc"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    }
+  ]
+}

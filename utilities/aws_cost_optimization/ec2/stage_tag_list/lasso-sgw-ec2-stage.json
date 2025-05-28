@@ -1,0 +1,72 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-06dbc5b5827f7ad12"
+  ],
+  "Tags": [
+    {
+      "Key": "CreatedBy",
+      "Value": "sbose"
+    },
+    {
+      "Key": "CostCenter",
+      "Value": "FMG"
+    },
+    {
+      "Key": "DataClassification",
+      "Value": "None"
+    },
+    {
+      "Key": "LastUpdated",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Infrastructure",
+      "Value": "True"
+    },
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "Version",
+      "Value": "1.0"
+    },
+    {
+      "Key": "Department",
+      "Value": "LSO"
+    },
+    {
+      "Key": "Automated",
+      "Value": "False"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Lasso"
+    },
+    {
+      "Key": "CreatedOn",
+      "Value": "NoInfo"
+    },
+    {
+      "Key": "Name",
+      "Value": "lasso-sgw-ec2-stage"
+    },
+    {
+      "Key": "TechStack",
+      "Value": "StorageGateway"
+    },
+    {
+      "Key": "BackupPlan",
+      "Value": "None"
+    },
+    {
+      "Key": "QSConfigName-8l8fj",
+      "Value": "Stage Patch Report"
+    },
+    {
+      "Key": "WeekendShutdown",
+      "Value": "False"
+    }
+  ]
+}

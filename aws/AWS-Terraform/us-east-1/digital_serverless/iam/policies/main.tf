@@ -1,0 +1,22 @@
+module "iam_policy" {
+	source						= "../../../../modules/iam/user_policy/"
+	iam_policy_name				= var.iam_policy_name
+	iam_policy_desc				= var.iam_policy_desc
+	iam_policy_tags				= var.iam_policy_tags
+	lambda_invoke_policy		= var.lambda_invoke_policy
+	digital_logger_policy	    = var.digital_logger_policy
+	digital_log_group_arn		= var.digital_log_group_arn
+	digital_secrets_mgr_policy	= var.digital_secrets_mgr_policy
+	digital_vpc_access_policy	= var.digital_vpc_access_policy
+	digital_ecr_docker_policy   = var.digital_ecr_docker_policy
+	marketing-dynamodb-policy   = var.marketing-dynamodb-policy
+	marketing_kms_policy        = var.marketing_kms_policy
+	secrets_name				= var.secrets_name
+	iam_role_id					= var.iam_role_id
+	digital-serverless-ses      = var.digital-serverless-ses
+    Cloud-front-digital-sg-update-lambda-policy = var.Cloud-front-digital-sg-update-lambda-policy
+	digital_serverless_parameter_store_policy = var.digital_serverless_parameter_store_policy
+	digital-admin-cognito-policy = var.digital-admin-cognito-policy
+    digital-lambda-InlinePolicy = var.digital-lambda-InlinePolicy
+	digital-cognito-up-sms-policy = var.digital-cognito-up-sms-policy
+}

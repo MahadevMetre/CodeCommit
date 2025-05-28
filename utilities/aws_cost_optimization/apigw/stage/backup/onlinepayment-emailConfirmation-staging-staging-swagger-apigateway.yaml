@@ -1,0 +1,39 @@
+---
+swagger: "2.0"
+info:
+  version: "2022-03-23T03:01:45Z"
+  title: "onlinepayment-emailConfirmation-staging"
+host: "6ejk3q6un5.execute-api.us-east-1.amazonaws.com"
+basePath: "/staging"
+schemes:
+- "https"
+paths:
+  /emailconfirmation:
+    post:
+      produces:
+      - "application/json"
+      parameters:
+      - name: "custom-header"
+        in: "header"
+        required: false
+        type: "string"
+      responses: {}
+      x-amazon-apigateway-integration:
+        httpMethod: "POST"
+        uri: "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:702230634984:function:onlinepayment-emailConfirmation-stage/invocations"
+        responses:
+          default:
+            statusCode: "200"
+        passthroughBehavior: "when_no_match"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+x-amazon-apigateway-policy:
+  Version: "2012-10-17"
+  Statement:
+  - Effect: "Allow"
+    Principal: "*"
+    Action: "execute-api:Invoke"
+    Resource: "arn:aws:execute-api:us-east-1:702230634984:6ejk3q6un5/*"
+    Condition:
+      StringEquals:
+        aws:sourceVpce: "vpce-0199ad4a5254c3a11"

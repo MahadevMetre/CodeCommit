@@ -1,0 +1,3087 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0c322300a1dd5dc79",
+                    "InstanceId": "i-0748caeff1e77ad11",
+                    "InstanceType": "c6i.large",
+                    "KeyName": "ec2-rhel-dev",
+                    "LaunchTime": "2023-06-12T02:50:47+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-20.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.20",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-06-17 00:00:05 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2019-12-11T21:52:36+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-071b140da8a45dbac"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/franklin-dev-ssm-ec2-role",
+                        "Id": "AIPARWL4S4CEVIM5TPAXW"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2019-12-11T21:52:35+00:00",
+                                "AttachmentId": "eni-attach-0104ba0b1b6eb7e24",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "ec2-rhel-jboss-admin-sg-dev",
+                                    "GroupId": "sg-074f20371cf6f8de8"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:75:9d:8b:3c:e5",
+                            "NetworkInterfaceId": "eni-0a6041020cd956a2c",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-20.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.20",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-20.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.20"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "ec2-rhel-jboss-admin-sg-dev",
+                            "GroupId": "sg-074f20371cf6f8de8"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-RHEL-JBoss-Admin-Dev"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "JBoss"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "CostCenter",
+                            "Value": "Operations"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "dselvaraj"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "jboss-admin-adhoc"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "HMS"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "Project",
+                            "Value": "Insurance Migration"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Hermes"
+                        },
+                        {
+                            "Key": "Patch Group",
+                            "Value": "rhel"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2019-12-11T21:52:35+00:00",
+                    "PrivateDnsNameOptions": {},
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-0d2a806d02df4eb95"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0291a89884db6b114",
+                    "InstanceId": "i-0ee2f2e2cb456bdea",
+                    "InstanceType": "c6i.xlarge",
+                    "KeyName": "ec2-rhel-dev",
+                    "LaunchTime": "2023-06-12T03:00:24+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-21.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.21",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-06-17 00:00:06 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2019-12-12T01:10:28+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0a251534653bff320"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/franklin-dev-ssm-ec2-role",
+                        "Id": "AIPARWL4S4CEVIM5TPAXW"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2019-12-12T01:10:27+00:00",
+                                "AttachmentId": "eni-attach-02497881815852e25",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": " ec2-rhel-jboss-app-sg-dev",
+                                    "GroupId": "sg-02d874d3ba1230f74"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:d3:05:b1:48:b7",
+                            "NetworkInterfaceId": "eni-0aa4391c71161be06",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-21.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.21",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-21.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.21"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": " ec2-rhel-jboss-app-sg-dev",
+                            "GroupId": "sg-02d874d3ba1230f74"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Type",
+                            "Value": "adhoc"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Project",
+                            "Value": "Insurance Migration"
+                        },
+                        {
+                            "Key": "CostCenter",
+                            "Value": "Operations"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "dselvaraj"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-RHEL-JBoss-App-Dev1"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "JBoss"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Hermes"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "HMS"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Patch Group",
+                            "Value": "rhel"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2019-12-12T01:10:27+00:00",
+                    "PrivateDnsNameOptions": {},
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-059780d4b125428a0"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-01fa3f960bc566782",
+                    "InstanceId": "i-0ecb251d2dc00b599",
+                    "InstanceType": "c6i.xlarge",
+                    "KeyName": "ec2-rhel-dev",
+                    "LaunchTime": "2023-06-12T03:00:25+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-22.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.22",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-06-17 00:00:06 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2020-08-05T05:30:31+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-00bb5002b3f6fdb45"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/franklin-dev-ssm-ec2-role",
+                        "Id": "AIPARWL4S4CEVIM5TPAXW"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2020-08-05T05:30:30+00:00",
+                                "AttachmentId": "eni-attach-0f699b303e92a7d5c",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "ec2-rhel-rml-sg-dev",
+                                    "GroupId": "sg-0ec53b9e2d1f015ef"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:59:f2:59:58:d5",
+                            "NetworkInterfaceId": "eni-0b1ddaf0eec299e2c",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-22.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.22",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-22.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.22"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "ec2-rhel-rml-sg-dev",
+                            "GroupId": "sg-0ec53b9e2d1f015ef"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-RHEL-RML-Dev1"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "adhoc"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "Patch Group",
+                            "Value": "rhel"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "HMS"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "PyCharm"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "Project",
+                            "Value": "CCMS"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Hermes"
+                        },
+                        {
+                            "Key": "CostCenter",
+                            "Value": "Operations"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "dselvaraj"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2020-08-05T05:30:30+00:00",
+                    "PrivateDnsNameOptions": {},
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-0a792559fcf39e7c7"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-04bf59f158c792f6c",
+                    "InstanceId": "i-07c5fc5acbe08e057",
+                    "InstanceType": "r6i.large",
+                    "KeyName": "ec2-rhel-dev",
+                    "LaunchTime": "2023-06-12T03:00:26+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-23.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.23",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-06-17 00:00:06 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2020-11-24T19:27:08+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-09d1cc38134ffcd92"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2020-11-24T19:27:07+00:00",
+                                "AttachmentId": "eni-attach-096f67b03532847c9",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "ec2-rhel-pschm-sg-dev",
+                                    "GroupId": "sg-0dcca83445dc722f8"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:cb:52:76:b8:8f",
+                            "NetworkInterfaceId": "eni-056c9b3f244c1060c",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-23.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.23",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-23.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.23"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "ec2-rhel-pschm-sg-dev",
+                            "GroupId": "sg-0dcca83445dc722f8"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "adhoc"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "dselvaraj"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "HMS"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "PsCharm"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "CostCenter",
+                            "Value": "Operations"
+                        },
+                        {
+                            "Key": "Project",
+                            "Value": "CCMS"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Hermes"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-RHEL-PSCHM-Dev1"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "legacy-bios",
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2020-11-24T19:27:07+00:00",
+                    "PrivateDnsNameOptions": {},
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-0cecc6913728fb455"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-096fda3c22c1c990a",
+                    "InstanceId": "i-005196cf4e6ad706d",
+                    "InstanceType": "c6i.xlarge",
+                    "KeyName": "EC2-Dev-key",
+                    "LaunchTime": "2023-06-12T02:50:48+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-33.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.33",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-06-17 00:00:07 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2021-05-13T10:34:38+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0d343cfb43a90ca8f"
+                            }
+                        }
+                    ],
+                    "ClientToken": "8DE9261A-C7B0-4C3D-8E7A-C33895B73F55",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/ManagedInstanceRoleforSSM",
+                        "Id": "AIPARWL4S4CE5AWHGFG3H"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-05-13T10:34:37+00:00",
+                                "AttachmentId": "eni-attach-054635acfaf2a4430",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "jboss_admin_security_group",
+                                    "GroupId": "sg-0340579230fec9c4b"
+                                },
+                                {
+                                    "GroupName": "Efs_access_group",
+                                    "GroupId": "sg-0dec3c563b782653b"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:9c:91:31:fa:bf",
+                            "NetworkInterfaceId": "eni-0a5370ffefde3272c",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-33.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.33",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-33.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.33"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "jboss_admin_security_group",
+                            "GroupId": "sg-0340579230fec9c4b"
+                        },
+                        {
+                            "GroupName": "Efs_access_group",
+                            "GroupId": "sg-0dec3c563b782653b"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-JBoss-Admin-Digital"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "DGT"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "jboss-admin-adhoc"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "sbose"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "JBoss"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "terraform",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "CreatedDate",
+                            "Value": "05/11/2021"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Digital"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2021-05-13T10:34:37+00:00",
+                    "PrivateDnsNameOptions": {},
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-01bc61734ca1144b9"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-096fda3c22c1c990a",
+                    "InstanceId": "i-0db1079772def62a2",
+                    "InstanceType": "c6i.large",
+                    "KeyName": "EC2-Dev-key",
+                    "LaunchTime": "2023-05-25T10:55:38+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-202.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.202",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-05-25 11:09:56 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2021-05-13T10:40:39+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0a2cece324ad4d0db"
+                            }
+                        }
+                    ],
+                    "ClientToken": "B4FDD206-A40D-4733-998F-C9F6C0916F09",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-05-13T10:40:38+00:00",
+                                "AttachmentId": "eni-attach-0fa10e0038ef944fd",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "jboss_slave_security_group",
+                                    "GroupId": "sg-037f5b5bb9a9bc966"
+                                },
+                                {
+                                    "GroupName": "Efs_access_group",
+                                    "GroupId": "sg-0dec3c563b782653b"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:6d:5a:98:34:77",
+                            "NetworkInterfaceId": "eni-09bac5f03036cce11",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-202.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.202",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-202.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.202"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "jboss_slave_security_group",
+                            "GroupId": "sg-037f5b5bb9a9bc966"
+                        },
+                        {
+                            "GroupName": "Efs_access_group",
+                            "GroupId": "sg-0dec3c563b782653b"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "sbose"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "DGT"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "JBoss"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Digital"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-JBoss-Slave-Digital"
+                        },
+                        {
+                            "Key": "terraform",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "CretedBy",
+                            "Value": "jsamuel"
+                        },
+                        {
+                            "Key": "createdDate",
+                            "Value": "05/12/2021"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2021-05-13T10:40:38+00:00",
+                    "PrivateDnsNameOptions": {},
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-04fa99b39d2ea0bf5"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-08258a5316bc610da",
+                    "InstanceId": "i-09f780e2e62dc159f",
+                    "InstanceType": "t3.small",
+                    "KeyName": "EC2-Dev-key",
+                    "LaunchTime": "2023-05-25T10:55:38+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-30.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.30",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-05-25 11:09:56 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2023-01-26T13:48:39+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0a72dbf8892888e63"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-06-25T13:52:36+00:00",
+                                "AttachmentId": "eni-attach-079780ec2de6bccef",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "nginx_node_security_group",
+                                    "GroupId": "sg-0a02311a28b939f42"
+                                },
+                                {
+                                    "GroupName": "Efs_access_group",
+                                    "GroupId": "sg-0dec3c563b782653b"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:9e:e8:53:c5:43",
+                            "NetworkInterfaceId": "eni-0c9daea75afe8b35e",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-30.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.30",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-30.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.30"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "nginx_node_security_group",
+                            "GroupId": "sg-0a02311a28b939f42"
+                        },
+                        {
+                            "GroupName": "Efs_access_group",
+                            "GroupId": "sg-0dec3c563b782653b"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "sbose"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "Nginx"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Digital"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-Nginx-Node-Digital"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "DGT"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2021-06-25T13:52:36+00:00",
+                    "PrivateDnsNameOptions": {},
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-0b154fcd8a0de4ac1"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-029bfac3973c1bda1",
+                    "InstanceId": "i-0fbccdd56a0b95c92",
+                    "InstanceType": "t3.xlarge",
+                    "KeyName": "jk-dev",
+                    "LaunchTime": "2022-01-27T13:36:27+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "Platform": "windows",
+                    "PrivateDnsName": "ip-10-153-14-119.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.119",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2021-08-17T13:43:12+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0d4fc3b4e144cffe0"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-08-17T13:43:05+00:00",
+                                "AttachmentId": "eni-attach-003bab1c0a372f807",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "jk-test",
+                                    "GroupId": "sg-077b48192cd805c71"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:f3:1e:a0:09:93",
+                            "NetworkInterfaceId": "eni-0b3218f34eadf08ef",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-119.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.119",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-119.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.119"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "jk-test",
+                            "GroupId": "sg-077b48192cd805c71"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "DLH"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Datawarehouse"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-WIN-DW-Datagateway"
+                        },
+                        {
+                            "Key": "Purpose",
+                            "Value": "Test connectivity"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Windows",
+                    "UsageOperation": "RunInstances:0002",
+                    "UsageOperationUpdateTime": "2021-08-17T13:43:05+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    }
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-05140fbbf88f38ae2"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-09662f95df2af0aeb",
+                    "InstanceId": "i-0fb0e3f3991d79e76",
+                    "InstanceType": "c6i.large",
+                    "KeyName": "EC2-Dev-key",
+                    "LaunchTime": "2023-05-25T10:55:38+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-115.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.115",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-05-25 11:09:56 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2021-09-22T09:26:44+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0e498451100741828"
+                            }
+                        }
+                    ],
+                    "ClientToken": "2B4A660E-1EB3-4822-A26B-35E736665476",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-09-22T09:26:43+00:00",
+                                "AttachmentId": "eni-attach-0bc3beb9b089a2d8a",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "insuranceapps-jboss-slave-sg-dev",
+                                    "GroupId": "sg-01485bd2c4af40ae6"
+                                },
+                                {
+                                    "GroupName": "efs-sg-dev",
+                                    "GroupId": "sg-055fcd6e5bb9d467e"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:3d:45:5e:b2:d1",
+                            "NetworkInterfaceId": "eni-07309a614b3e91774",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-115.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.115",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-115.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.115"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "insuranceapps-jboss-slave-sg-dev",
+                            "GroupId": "sg-01485bd2c4af40ae6"
+                        },
+                        {
+                            "GroupName": "efs-sg-dev",
+                            "GroupId": "sg-055fcd6e5bb9d467e"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "IAPPS"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "terraform",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "jsamuel"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "project",
+                            "Value": "insuranceapps"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "JBoss"
+                        },
+                        {
+                            "Key": "purpose",
+                            "Value": "EC2 JBoss Slave Golden source for insurance apps servers"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-JBoss-Slave-InsuranceApps"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "InsuranceApps"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "False"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2021-09-22T09:26:43+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-054fbc0fd29e6c514"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-05be68029aaf1c1ee",
+                    "InstanceId": "i-04cbc2f709250c894",
+                    "InstanceType": "t3.small",
+                    "KeyName": "EC2-Dev-key",
+                    "LaunchTime": "2023-05-25T10:55:38+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-109.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.109",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-05-25 11:09:56 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2021-09-23T14:36:50+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0c7f9ad5c388fa359"
+                            }
+                        }
+                    ],
+                    "ClientToken": "66DCE49A-D9B9-42B1-8667-2A2800282F2D",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-09-23T14:36:49+00:00",
+                                "AttachmentId": "eni-attach-0761e568391889edd",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "efs-sg-dev",
+                                    "GroupId": "sg-055fcd6e5bb9d467e"
+                                },
+                                {
+                                    "GroupName": "insuranceapps-nginx-node-sg-dev",
+                                    "GroupId": "sg-098b5393346ba5693"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:c8:2a:fe:66:a1",
+                            "NetworkInterfaceId": "eni-0b859371ec8f4c2fb",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-109.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.109",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-109.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.109"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "efs-sg-dev",
+                            "GroupId": "sg-055fcd6e5bb9d467e"
+                        },
+                        {
+                            "GroupName": "insuranceapps-nginx-node-sg-dev",
+                            "GroupId": "sg-098b5393346ba5693"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Automated",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "jsamuel"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-Nginx-Node-InsuranceApps"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "terraform",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "IAPPS"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "purpose",
+                            "Value": "EC2 Golden source for insurance apps servers"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "InsuranceApps"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "Nginx"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "project",
+                            "Value": "insuranceapps"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2021-09-23T14:36:49+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-07d3bd20af67160c2"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-029dc4104eac2ddbe",
+                    "InstanceId": "i-0439e5c96fcd13830",
+                    "InstanceType": "c6i.xlarge",
+                    "KeyName": "EC2-Dev-key",
+                    "LaunchTime": "2023-06-12T02:50:48+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-187.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.187",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-06-17 00:00:07 GMT)",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2021-12-02T08:48:52+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0ab057b1fb8b0aa3f"
+                            }
+                        }
+                    ],
+                    "ClientToken": "F6B4B9DB-BC2F-4EBD-836F-0ADA9F45BA04",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/EC2CloudWatch2AgentRole",
+                        "Id": "AIPARWL4S4CE67FRUPV5W"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-12-02T08:48:51+00:00",
+                                "AttachmentId": "eni-attach-05c5d33cffdc2297d",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "insuranceapps-jboss-admin-sg-dev",
+                                    "GroupId": "sg-057a74b4104e89fa4"
+                                },
+                                {
+                                    "GroupName": "efs-sg-dev",
+                                    "GroupId": "sg-055fcd6e5bb9d467e"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:bf:dc:28:5e:67",
+                            "NetworkInterfaceId": "eni-0bb1c7d504aa5acc0",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-187.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.187",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-187.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.187"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "insuranceapps-jboss-admin-sg-dev",
+                            "GroupId": "sg-057a74b4104e89fa4"
+                        },
+                        {
+                            "GroupName": "efs-sg-dev",
+                            "GroupId": "sg-055fcd6e5bb9d467e"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "project",
+                            "Value": "insuranceapps"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "jsamuel"
+                        },
+                        {
+                            "Key": "terraform",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "IAPPS"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "jboss-admin-adhoc"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "JBoss"
+                        },
+                        {
+                            "Key": "environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "purpose",
+                            "Value": "EC2 JBOSS Admin server for insurance apps servers"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-JBoss-Admin-InsuranceApps"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "True"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "InsuranceApps"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Red Hat Enterprise Linux",
+                    "UsageOperation": "RunInstances:0010",
+                    "UsageOperationUpdateTime": "2021-12-02T08:48:51+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-0ee56757013f4a291"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0399e59f8f29cb965",
+                    "InstanceId": "i-0e80dee61d082f280",
+                    "InstanceType": "t3.large",
+                    "KeyName": "anexinet-dev",
+                    "LaunchTime": "2022-12-09T14:59:29+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "Platform": "windows",
+                    "PrivateDnsName": "ip-10-153-14-90.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.90",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2022-03-10T20:51:52+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0ddf9d8eef666783d"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2022-03-10T20:51:52+00:00",
+                                "AttachmentId": "eni-attach-0625556b652101b5c",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "franklin-dw-securitygroup",
+                                    "GroupId": "sg-04b9561366370a383"
+                                },
+                                {
+                                    "GroupName": "jk-test",
+                                    "GroupId": "sg-077b48192cd805c71"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:bc:c9:90:ee:95",
+                            "NetworkInterfaceId": "eni-0f481fb4e12d9fa8c",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-90.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.90",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-90.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.90"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "franklin-dw-securitygroup",
+                            "GroupId": "sg-04b9561366370a383"
+                        },
+                        {
+                            "GroupName": "jk-test",
+                            "GroupId": "sg-077b48192cd805c71"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Department",
+                            "Value": "DLH"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Datawarehouse"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-WIN-DW-DBeaver 2"
+                        },
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "False"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Windows",
+                    "UsageOperation": "RunInstances:0002",
+                    "UsageOperationUpdateTime": "2022-03-10T20:51:52+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    }
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-0075e4c535ca62522"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0aad84f764a2bd39a",
+                    "InstanceId": "i-08be1a27f0891b6e3",
+                    "InstanceType": "t3.large",
+                    "KeyName": "anexinet-dev",
+                    "LaunchTime": "2023-03-15T19:47:54+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "Platform": "windows",
+                    "PrivateDnsName": "ip-10-153-12-155.ec2.internal",
+                    "PrivateIpAddress": "10.153.12.155",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-52-55-180-154.compute-1.amazonaws.com",
+                    "PublicIpAddress": "52.55.180.154",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-0084a7f3b21fa9a0c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2022-01-27T12:56:48+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-03e3cc0df66dc4b0f"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-52-55-180-154.compute-1.amazonaws.com",
+                                "PublicIp": "52.55.180.154"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2022-01-27T12:56:48+00:00",
+                                "AttachmentId": "eni-attach-0845e01e813d58e5f",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "EC2-Jump-Box",
+                                    "GroupId": "sg-0ee68eabf1267cc3c"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:2c:5b:09:5c:75",
+                            "NetworkInterfaceId": "eni-0e227d39e1a48b348",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-12-155.ec2.internal",
+                            "PrivateIpAddress": "10.153.12.155",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-52-55-180-154.compute-1.amazonaws.com",
+                                        "PublicIp": "52.55.180.154"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-12-155.ec2.internal",
+                                    "PrivateIpAddress": "10.153.12.155"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0084a7f3b21fa9a0c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "EC2-Jump-Box",
+                            "GroupId": "sg-0ee68eabf1267cc3c"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "LastUpdatedBy",
+                            "Value": "clafontant"
+                        },
+                        {
+                            "Key": "Purpose",
+                            "Value": "Used by Verinext DW team to access instances in all FMG AWS accounts"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "3/8/2023"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "EC2-WIN-Jump-Box"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Windows",
+                    "UsageOperation": "RunInstances:0002",
+                    "UsageOperationUpdateTime": "2022-01-27T12:56:48+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    }
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-0b9e674df5fb825e0"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0aad84f764a2bd39a",
+                    "InstanceId": "i-089b0dde70501e6c7",
+                    "InstanceType": "m5a.xlarge",
+                    "KeyName": "anexinet-dev",
+                    "LaunchTime": "2022-02-04T12:55:35+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "Platform": "windows",
+                    "PrivateDnsName": "ip-10-153-14-205.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.205",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2022-02-04T12:55:36+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0698ed81874f1c823"
+                            }
+                        },
+                        {
+                            "DeviceName": "xvdf",
+                            "Ebs": {
+                                "AttachTime": "2023-02-15T21:11:20+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-0ba99db18a1edb703"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+                        "Id": "AIPARWL4S4CETWRM5SNGL"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2022-02-04T12:55:35+00:00",
+                                "AttachmentId": "eni-attach-0b6d94d244958c760",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "dw_qlik_security_group",
+                                    "GroupId": "sg-0f26a4947f49117f2"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:90:e0:15:9b:7b",
+                            "NetworkInterfaceId": "eni-0846f5ff77d3eef2e",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-205.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.205",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-205.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.205"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "dw_qlik_security_group",
+                            "GroupId": "sg-0f26a4947f49117f2"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Version",
+                            "Value": "1.0"
+                        },
+                        {
+                            "Key": "WeekendShutdown",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "BackupPlan",
+                            "Value": "Monthly"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "purpose",
+                            "Value": "Data Replication AS400 to S3"
+                        },
+                        {
+                            "Key": "Automated",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "CostCenter",
+                            "Value": "FMG"
+                        },
+                        {
+                            "Key": "Usage",
+                            "Value": "Project"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Datawarehouse"
+                        },
+                        {
+                            "Key": "LastUpdated",
+                            "Value": "NoInfo"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "DW-Qlik-Replication"
+                        },
+                        {
+                            "Key": "Department",
+                            "Value": "DLH"
+                        },
+                        {
+                            "Key": "Infrastructure",
+                            "Value": "False"
+                        },
+                        {
+                            "Key": "DataClassification",
+                            "Value": "None"
+                        },
+                        {
+                            "Key": "TechStack",
+                            "Value": "Qlik"
+                        },
+                        {
+                            "Key": "project",
+                            "Value": "Data warehouse Project"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Windows",
+                    "UsageOperation": "RunInstances:0002",
+                    "UsageOperationUpdateTime": "2022-02-04T12:55:35+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    }
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-09f15599174242e42"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-04a0ae173da5807d3",
+                    "InstanceId": "i-0f70b1d9587f2f726",
+                    "InstanceType": "t3.micro",
+                    "KeyName": "hermes-kafka-poc",
+                    "LaunchTime": "2023-06-12T10:40:47+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-153-14-167.ec2.internal",
+                    "PrivateIpAddress": "10.153.14.167",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-06291ceaa523f684c",
+                    "VpcId": "vpc-00ff8e33839358d28",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2023-06-12T10:40:47+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0d5949da5dbf565a6"
+                            }
+                        }
+                    ],
+                    "ClientToken": "b6fda5c6-a2bf-4ee0-b25e-399910436e2e",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::116762271881:instance-profile/hermes-kafka-poc",
+                        "Id": "AIPARWL4S4CETXFKJ24JJ"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2023-06-12T10:40:47+00:00",
+                                "AttachmentId": "eni-attach-074ad66635c9b20ba",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "ec2con-service-ecs-cluster-insuranceapps-alb-sg-dev-manual",
+                                    "GroupId": "sg-04cae60edb8d83ba1"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:a1:34:44:96:d7",
+                            "NetworkInterfaceId": "eni-038172690be57283e",
+                            "OwnerId": "116762271881",
+                            "PrivateDnsName": "ip-10-153-14-167.ec2.internal",
+                            "PrivateIpAddress": "10.153.14.167",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-153-14-167.ec2.internal",
+                                    "PrivateIpAddress": "10.153.14.167"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-06291ceaa523f684c",
+                            "VpcId": "vpc-00ff8e33839358d28",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "ec2con-service-ecs-cluster-insuranceapps-alb-sg-dev-manual",
+                            "GroupId": "sg-04cae60edb8d83ba1"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "sbose"
+                        },
+                        {
+                            "Key": "CreatedOn",
+                            "Value": "06122023"
+                        },
+                        {
+                            "Key": "ApplicationName",
+                            "Value": "Hermes"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "hermes-kafka-poc"
+                        },
+                        {
+                            "Key": "Purpose",
+                            "Value": "poc"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2023-06-12T10:40:47+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "uefi"
+                }
+            ],
+            "OwnerId": "116762271881",
+            "ReservationId": "r-00477376a81925fe4"
+        }
+    ]
+}

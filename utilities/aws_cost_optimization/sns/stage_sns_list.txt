@@ -1,0 +1,14 @@
+arn:aws:sns:us-east-1:702230634984:AlertLogicS3SNSTopic-230378978437-us-east-1
+arn:aws:sns:us-east-1:702230634984:CISBenchmarkCloudTrail
+arn:aws:sns:us-east-1:702230634984:CUSCOMMEMAIL-TOPIC
+arn:aws:sns:us-east-1:702230634984:Pinpoint-SMS
+arn:aws:sns:us-east-1:702230634984:autoscaling_stage_topic
+arn:aws:sns:us-east-1:702230634984:aws-config-notifications-topic-stage
+arn:aws:sns:us-east-1:702230634984:dynamodb
+arn:aws:sns:us-east-1:702230634984:fmg-dw-notifications-stage
+arn:aws:sns:us-east-1:702230634984:franklinstage
+arn:aws:sns:us-east-1:702230634984:hermes_email_archive_topic_stage
+arn:aws:sns:us-east-1:702230634984:hermes_ses_events_topic_stage
+arn:aws:sns:us-east-1:702230634984:outcomestopic
+arn:aws:sns:us-east-1:702230634984:processS3ArchiveEvent_error_sns_stage
+arn:aws:sns:us-east-1:702230634984:processS3ArchiveEvent_sns_stage

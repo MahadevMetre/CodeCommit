@@ -1,0 +1,17 @@
+{
+    "Tags": {
+        "ApplicationName": "",
+        "Automated": "True",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+        "CreatedBy": "sbose",
+        "CreatedOn": "01212023",
+        "DataClassification": "Low",
+        "Department": "AWS",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Python",
+        "Usage": "Project",
+        "Version": "1.0"
+    }
+}

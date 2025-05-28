@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-08c617bf5b39d52ff"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-RHEL-RML-PCI2"
+    },
+    {
+      "Key": "Project",
+      "Value": "CCMS"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "dselvaraj"
+    }
+  ]
+}

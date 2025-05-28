@@ -1,0 +1,37 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-staging-hello",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:onlinepayment-staging-hello",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/onlinepayment-staging-us-east-1-lambdaRole",
+        "Handler": "handler.hello",
+        "CodeSize": 10529698,
+        "Description": "",
+        "Timeout": 6,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.863+0000",
+        "CodeSha256": "KBxYZlYPvalY+ho876nw5x2k64M9TyJy9XpxqsvabnQ=",
+        "Version": "$LATEST",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "55218771-c89f-4514-a0a9-0934ce38ff2b",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/onlinepayment-staging-hello-62760103-a754-4cba-a4a4-d21ccac15f43?versionId=6ai5y_8BWhlsxMf8yBNSQ7TxYAh6u8f4&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEwaCXVzLWVhc3QtMSJHMEUCIQCR8onXZMCg%2F9HkfEtgslccCyfuXlpwMLPoKuhxrzoDKwIgTShPMOKsSrBccQ2uT1WqEATdVn4bzW7iveSayhz0v7IqsQUIRBAAGgw3NDk2Nzg5MDI4MzkiDLTi%2FutYhVyGhKCBwiqOBYr1simWjeFtKF%2FDWK6JsYIRMpEg8tj%2F5GilcFbCc2FXUghKMpSHSfraf0BL%2BVZHD2vAEKilCbrhulNdGNXxkAmTUOGY%2FgLLEcGaXm2v5%2FeLGwFpgqw33HWyGh%2B3TcTGTt4C308sH7i2najZU0qpSmzvayFKWCq6Bo1m%2BFzo3ulV6T3LURyQ7MAwHfjnaisj6mmMqtiY80CfOlEB34ml%2FxkQ6d8Dp%2FL%2FlA%2Bz3iFYAkH%2Fnip3xW48JGHUFt03cyHsG%2F7OxecyqAyhIjRrLHml%2BKNUImVfOruQJtxzLueGchsXDibYlhhZ9oTCD%2BmlaFW3Mf2w1M5CmQWApjHeex2qHiVw8%2FRt28ZxGKgbZcGVxg5s%2BK05t%2FeHIxFgzPo2DoVdNCYnhoI95lbf9SaaIKcpOSroyNeM5iTryann0nXvhz5Me5qbqrOKNYYvM2Z7RoPrcyRKTALuIGTJT7AgircQ%2FUJxckKiZNd%2FS7F41DE%2BFNJ8oCl1jahWYkLuvswy%2BaBCb%2FRpDB2hmkvFy%2BU%2Fmzewr%2F34s8vcjq6fEaLmm21HvNrAq06X7DWwms6EQ5EMaxapbAr%2F983c55tvrP0zj7wThmUrc%2BMO1SGXh3Dmgn99m80GccVk8GDsEJzQNkmLmlnn8BQjnCXrTigNhSt1R7FRBRfKtTu2Fv1fup5R8ueJSWoL6YDfRPVRTJNXqq%2F1zMyNb0y5lpDIoI2LiKb%2BV7X6UG1OmlZz%2BKTFthRFhYB488CrnyaxJ80DeFHOvryawort1JA75CvRGB27HGJ2E6CiddCUd76m%2F79dMkTkb1UY6nPZcPHvuXwtMW%2FWituZIbcvlz0eLfQmWaMNP%2BHIvn7hjGSGEMHMqOPkoinKdxW7mDDR0PShBjqxAaMUUmyXSnukjr2rFgdkfmslYbrKSqI8RzyFn%2FHYft5HSKBudIDSdPsntMUCrPFq6VR%2F8%2BLQmgwQDxRITiDdcxW3SAYqJ6aWdj3n7p8O1b8eYueUk2h8VksIgRCb7Ixlf%2Fxg3Dd2T9bJ8aF5mI1Hv6d9lIZjFBQMHG6ZH5cA5jOvnwraRleeY5Ni951rGfpcd0H3kU0kDvKtXeqEUIXOyseHm%2F%2F7yYbhkp8ZgiFxvrXP9A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T121828Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY33QHTQ5GM%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=69e328f4ebae2e6006724a2a3aed392bbbe5c9310329caab597ab254a03f3029"
+    },
+}

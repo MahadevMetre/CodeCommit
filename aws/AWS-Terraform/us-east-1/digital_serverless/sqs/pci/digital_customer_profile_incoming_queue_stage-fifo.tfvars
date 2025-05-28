@@ -1,0 +1,19 @@
+digital_incoming_fifo_bool = true
+sqs_queue_name = "digital_customer_profile_incoming_queue_pci.fifo"
+fifo_queue_bool = true
+sqs_queue_tags = {
+	"ApplicationName"		= "Digital"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07102024"
+	"DataClassification"	= "PCI"
+	"Department"			= "DGT"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "08032024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+sqs_user_arn = "arn:aws:iam::894891841990:user/Digital-SQS-User-Prod"

@@ -1,0 +1,86 @@
+secret_name				= "batch-int-secrets-stage"
+secret_description		= "Batch INT Secrets Stage"
+secret_rc_window		= "0"
+secret_tags = {
+    "ApplicationName" = "BatchInt"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "07162024"
+    "DataClassification" = "Low"
+    "Department" = "ATS2"
+    "Infrastructure" = "False"
+    "LastUpdated" = "07162024"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+
+secret_values = {
+	"inscabinet_encryption_key" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2008" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2009" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2010" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2011" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2012" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2013" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2014" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2015" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2016" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2017" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2018" = "DUMMY_VALUE"
+	"inscabinet_encryption_key2019" = "DUMMY_VALUE"
+    "inscabinet_encryption_key2020" = "DUMMY_VALUE"
+	"fastrax_username" = "DUMMY_VALUE"
+	"fastrax_password" = "DUMMY_VALUE"
+	"digital_sqsuser_access_key" = "DUMMY_VALUE"
+	"digital_sqsuser_secret_key" = "DUMMY_VALUE"
+	"pcml_user" = "DUMMY_VALUE"
+	"pcml_pwd" = "DUMMY_VALUE"
+	"cuscomm_accesskey" = "DUMMY_VALUE"
+	"cuscomm_secretkey" = "DUMMY_VALUE"
+	"amazon_ses_access_key" = "DUMMY_VALUE"
+	"amazon_ses_secret_key" = "DUMMY_VALUE"
+	"claims_bucket_access_key" = "DUMMY_VALUE"
+    "claims_bucket_secret_key" = "DUMMY_VALUE"
+	"term_bucket_access_key" = "DUMMY_VALUE"
+	"term_bucket_secret_key" = "DUMMY_VALUE"
+	"nonterm_bucket_access_key" = "DUMMY_VALUE"
+    "nonterm_bucket_secret_key" = "DUMMY_VALUE"
+	"historic_bucket_access_key" = "DUMMY_VALUE"
+	"historic_bucket_secret_key" = "DUMMY_VALUE"
+	"hermes_sqsuser_access_key" = "DUMMY_VALUE"
+    "hermes_sqsuser_secret_key" = "DUMMY_VALUE"
+	"datasource_username" = "DUMMY_VALUE"
+	"datasource_password" = "DUMMY_VALUE"
+	"datasource_url" = "DUMMY_VALUE"
+	"as400_db_hostname" = "DUMMY_VALUE"
+    "as400_libraries" = "DUMMY_VALUE"
+    "efs_sftp_hostname" = "DUMMY_VALUE"
+    "efs_sftp_passphrase" = "DUMMY_VALUE"
+    "efs_sftp_pkey_base64" = "DUMMY_VALUE"
+    "efs_sftp_pkey_file" = "DUMMY_VALUE"
+    "efs_sftp_username" = "DUMMY_VALUE"
+	"pgp_mnl_secret_key" = "DUMMY_VALUE"
+    "pgp_chubb_secret_key" = "DUMMY_VALUE"
+    "pgp_sirus_secret_key" = "DUMMY_VALUE"
+    "pgp_underwriting_secret_key" = "DUMMY_VALUE"
+    "pgp_zurich_secret_key" = "DUMMY_VALUE"
+    "inscabinet_encryption_key2024" = "DUMMY_VALUE"
+    "inscabinet_encryption_key2023" = "DUMMY_VALUE"
+    "inscabinet_encryption_key2022" = "DUMMY_VALUE"
+	"hermes_s3_access_key" = "DUMMY_VALUE"
+    "hermes_s3_secret_key" = "DUMMY_VALUE"
+}
+
+
+
+
+
+
+
+
+
+
+

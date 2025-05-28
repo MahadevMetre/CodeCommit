@@ -1,0 +1,21 @@
+role_name							= "digital-ecs-task-execution-role-qa"
+iam_role_desc						= "Allows ECS to call AWS Parameter store, batch and secrets"
+policy_name                         = "digital-serverless-parameter-store-policy"
+role_tags							= {
+		"Department": "DGT"
+        "LastUpdated": "07102024"
+        "CostCenter":  "FMG"
+        "CreatedOn": "07102024"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Digital"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "DevOps"
+    }
+kms_key                             = "arn:aws:kms:us-east-1:634621569833:key/mrk-574664e6e446469b9dc26f3ea9088dde"
+digital-serverless-parameter        = true 
+secrets_name                        = "arn:aws:ssm:us-east-1:634621569833:parameter/digital-serverless-parameters-qa"

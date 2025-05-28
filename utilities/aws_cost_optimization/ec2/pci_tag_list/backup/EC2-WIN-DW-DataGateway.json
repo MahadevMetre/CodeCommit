@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0fe7e645759fb42a1"
+  ],
+  "Tags": [
+    {
+      "Key": "Terraform",
+      "Value": "true"
+    },
+    {
+      "Key": "Environment",
+      "Value": "prod"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-DW-DataGateway"
+    }
+  ]
+}

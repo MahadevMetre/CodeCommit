@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_statusupdate_sqs_error_pci",
+  "Tags": {
+    "Project": "CCMS",
+    "CreatedBy": "dselvaraj",
+    "Name": "hermes_statusupdate_sqs_error_pci"
+  }
+}

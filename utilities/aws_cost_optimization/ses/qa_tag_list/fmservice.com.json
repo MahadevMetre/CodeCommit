@@ -1,0 +1,13 @@
+{
+  "ResourceArn": "arn:aws:ses:us-east-1:634621569833:identity/fmservice.com",
+  "Tags": [
+    {
+      "Key": "Usage",
+      "Value": "Project"
+    },
+    {
+      "Key": "ApplicationName",
+      "Value": "Digital"
+    }
+  ]
+}

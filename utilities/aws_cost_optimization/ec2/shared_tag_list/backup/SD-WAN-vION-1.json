@@ -1,0 +1,28 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-01819d866a879e41b"
+  ],
+  "Tags": [
+    {
+      "Key": "aws:cloudformation:stack-id",
+      "Value": "arn:aws:cloudformation:us-east-1:964190570136:stack/SD-WAN-Brownfield-1/9f7ae5c0-1a54-11ed-9654-1280c7782f79"
+    },
+    {
+      "Key": "purpose",
+      "Value": "Prisma SD-WAN"
+    },
+    {
+      "Key": "aws:cloudformation:stack-name",
+      "Value": "SD-WAN-Brownfield-1"
+    },
+    {
+      "Key": "Name",
+      "Value": "SD-WAN-vION-1"
+    },
+    {
+      "Key": "aws:cloudformation:logical-id",
+      "Value": "MyEC2Instance"
+    }
+  ]
+}

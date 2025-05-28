@@ -1,0 +1,21 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/116762271881/gps_printpo_sqs_error_dev",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "GPSNextGen",
+    "CreatedBy": "jsamuel",
+    "Automated": "True",
+    "BackupPlan": "None",
+    "Department": "GPS",
+    "environment": "dev",
+    "CostCenter": "Graphics",
+    "CretedBy": "jsamuel",
+    "Version": "1.0",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "terraform": "True",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "NoInfo"
+  }
+}

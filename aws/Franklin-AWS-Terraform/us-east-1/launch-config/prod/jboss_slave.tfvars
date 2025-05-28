@@ -1,0 +1,16 @@
+config_name = "jboss_slave_config"
+image_id = ""
+instance_type = "c4.large"
+key_name = ""
+security_groups = [""]
+associate_public_ip_address = false
+enable_monitoring = true
+ebs_optimized = true
+root_size = 10
+root_volume_type = "standard"
+root_encrypted = true
+device_name = "/dev/sdf"
+ebs_volume = 30
+ebs_delete = true
+ebs_encrypted = true
+ebs_volume_type = "gp2"

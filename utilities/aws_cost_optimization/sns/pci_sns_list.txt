@@ -1,0 +1,14 @@
+arn:aws:sns:us-east-1:601751840347:CISBenchmarkAlarm
+arn:aws:sns:us-east-1:601751840347:CISBenchmarkCloudTrail
+arn:aws:sns:us-east-1:601751840347:OnlinePaymentSNStopic-pci
+arn:aws:sns:us-east-1:601751840347:PCI-CloudWatch-Alarm
+arn:aws:sns:us-east-1:601751840347:PCI-Console-Signin
+arn:aws:sns:us-east-1:601751840347:PCI_IAM_Policy_Change
+arn:aws:sns:us-east-1:601751840347:Wells-Fargo-PCI-EC2-Webserver
+arn:aws:sns:us-east-1:601751840347:autoscaling_pci_topic
+arn:aws:sns:us-east-1:601751840347:fmg-dw-notifications-pci
+arn:aws:sns:us-east-1:601751840347:hermes_email_archive_topic_pci
+arn:aws:sns:us-east-1:601751840347:hermes_ses_events_topic_pci
+arn:aws:sns:us-east-1:601751840347:pci-config-change
+arn:aws:sns:us-east-1:601751840347:processS3ArchiveEvent_error_sns_pci
+arn:aws:sns:us-east-1:601751840347:processS3ArchiveEvent_sns_pci

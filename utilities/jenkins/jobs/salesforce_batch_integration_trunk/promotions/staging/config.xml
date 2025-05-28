@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.plugins.promoted__builds.PromotionProcess plugin="promoted-builds@945.v597f5c6a_d3fd">
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <conditions>
+    <hudson.plugins.promoted__builds.conditions.ManualCondition>
+      <users>vhd, anjani, syed, the_next_qa_lead, kdm, bshivaraju, kmehto</users>
+      <parameterDefinitions/>
+    </hudson.plugins.promoted__builds.conditions.ManualCondition>
+    <hudson.plugins.promoted__builds.conditions.UpstreamPromotionCondition>
+      <requiredPromotionNames>dev</requiredPromotionNames>
+    </hudson.plugins.promoted__builds.conditions.UpstreamPromotionCondition>
+  </conditions>
+  <icon>star-silver</icon>
+  <isVisible></isVisible>
+  <buildSteps>
+    <hudson.tasks.Shell>
+      <command>/opt/scripts/aws_s3_get_object.sh
+/opt/scripts/jboss_deployment_iapps.sh $S3_ARTIFACTS_FETCH_PATH 10.153.19.220 staging batch</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </buildSteps>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</hudson.plugins.promoted__builds.PromotionProcess>

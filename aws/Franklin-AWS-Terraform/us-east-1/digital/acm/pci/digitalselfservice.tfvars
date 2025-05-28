@@ -1,0 +1,18 @@
+domain_name = "fmservice.com"
+validation = "DNS"
+tags = {
+    "ApplicationName" = "Digital"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "sbose"
+    "CreatedOn" = "NoInfo"
+    "DataClassification" = "PCI"
+    "Department" = "DGT"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+subject_alternative_names = ["www.fmservice.com"]

@@ -1,0 +1,17 @@
+domain_name = "stage-marketingservices-athena-mt.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+	"ApplicationName"		= "AthenaNextgen2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "06162024"
+	"DataClassification"	= "None"
+	"Department"			= "ANG2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "06202024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

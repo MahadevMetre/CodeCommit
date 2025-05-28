@@ -1,0 +1,59 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-getCustomerDetailsByCVGIDLastName-stage",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:onlinepayment-getCustomerDetailsByCVGIDLastName-stage",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/onlinepayment-getCustomerDetailsByCVGIDLastName-staging",
+        "Handler": "todos/getCustomerDetailsByCVGIDLastName.getCustomerDetailsByCVGIDLastName",
+        "CodeSize": 11039564,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.433+0000",
+        "CodeSha256": "eSb+0+bvSgQeFhbIZ4BwcVuVGBj6XouVU+QLXs5ZABA=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0ed61b6beb807094e",
+                "subnet-076a071fa0723c80e"
+            ],
+            "SecurityGroupIds": [
+                "sg-0a5da8e1a87daaa60"
+            ],
+            "VpcId": "vpc-0051d323df13c7db3"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHiEbmZYZoosOoas35/jcfKOpWEoKN/lQJ3A1VVLVlWFAAGFvyKq+UZmGbSJzF3r+JeYAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMrDSArtj3mw0OOQ8pAgEQgDuMpwxBsXXvP5eCCed1U26JtsuC4CTcaqdh/4mV0k9wikjz5fCy5vgBFpPFyZECXalhoTnNfCFBck3KAg=="
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:702230634984:key/25d3c9c7-2173-4df2-976e-f400f58f052d",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "fc7913d2-6144-49da-b8c7-76dc6ef3dfdc",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:702230634984:layer:parameterlayer:129",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/onlinepayment-getCustomerDetailsByCVGIDLastName-stage-532b6264-cd07-48e0-926f-42be42ffee6e?versionId=ouqdNAIBuHUdqrCY4RyQLKxSZjWg46OU&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJGMEQCICqslY9M5MwKSMawJeqfqWZGqdF2i2mMKIE9V6c7ezcSAiAMRiE047s5NkiJKdHnpSFfGWS4PoGpjq4Puh4VPyriniqyBQhFEAAaDDc0OTY3ODkwMjgzOSIM8fYQ%2F3Mova4A%2B0E0Ko8FdkvxqBMa2nk%2ByoiBunmXVHUfdajlLqo9M9RhN8tMMz5fulyJ9w4xq1%2FGpvRMKyQgmMew%2FIOCcfeT4ULuS1AnAcWvrVzbHBpwhCK5RAMgqBI9Vw5jCRxZZcBGxV71Ny32D5I4l1DIJz2emJ6eOiz4XOAy76Q9jTpryJ%2BaMzRkuToDN3VqEXPkbYX9ah%2BU3t%2FuEM0VwRER8Sy%2Fovc32qBGxnKFqh%2FY7ugq5dtiVtGwhpz21NsJeVSVN8uR3g8HMVu0ygmiSTwpew8rx85m2ZkUzZgsa3qfTky34rc683DnAYc%2FAQnE%2BwnDZkEtxr8ot1oe12NWb1fTpyw%2Fy%2BUapof%2FPk3m1CAiQADecPKy5DOoKcD%2F7gX8yEWBfYAOt7Yg5KSiRQWItDh860tpL8I0jcIC3c1lfjYnDA2QjqcN0turUa23TlbNqu3NbEITrJzMY%2FsxQs2SevVccsUBeq759VRaTmIUSdDmjZOF1Fy7N4rjT3%2B7gTbAmHU3IFgy2N7ipDtpn454USIJf%2FhoRQHIZvWwMKnGOXtzjsWdHg08wz2k5LMkbXVtDhGvXTyBdfOq3ACQjYQAIZ2Up08kas%2BA6tnKtVBKZZ%2BSGgJplawzISmi2absuWqXxfrsjCKoPU75GzBAOcKz7aphMHz8SA%2B%2Ff4R%2BiUs8wkgmDgz9a9SF4pq6h6PSyjVnmQGwZkPUYT5XkfXHjoi%2BanrHW2uJRK08MTHIEdhEjY%2BuB76MmkweqfkOwLGb%2Fa5WG%2BRmGZNfaFDYjFdwFhqpLo9ajuF4EhWCxmk%2FQ45GRDxe4le6LnV%2FSmTgMZrHfkRFQ4czOhJLJ43qhfV82ux%2FcspzXla%2Fcyc3Ck8YlhGewZ%2BK74WT7E6yQTPoqzCR9vShBjqyAU7JjFzFPiB2yyI%2B50jTnI7JdkgvHJqTu3dFZO6a2t128oxVQdUq3gwgy4AgQ0yS0TbfrQuQ2vErsHRxreiOATi54jMVmPFvYH6ZbWmNJ3EMklk%2FuM04jdkiu5iKI3ChN4RdRbwVk32fapa1l5Q20%2BPKU1MWptq9dy%2Fiq1Acr04NFl0gdv4u%2BA9%2Fbl2Snm09s3UNNjj4CKYqmnHFngqw8jHpNCw%2FDAchXjqFYMYykr6AMXo%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T134319Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3WKND5BHP%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3b413bc45ef963ee9cfa697755ca0b482d330267a377a21163868d31a5ef5d62"
+    },
+}

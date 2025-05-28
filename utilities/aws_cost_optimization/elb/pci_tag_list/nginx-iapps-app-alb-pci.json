@@ -1,0 +1,25 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:601751840347:loadbalancer/app/nginx-iapps-app-alb-pci/8c68fd5fe3d282a3",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "insuranceapps"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Name",
+      "Value": "nginx-iapps-app-alb-pci"
+    }
+  ]
+}

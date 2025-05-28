@@ -1,0 +1,62 @@
+$ aws lambda get-function --function-name "CSV-to-DDB-pci-CsvToDDBLambdaFunction-JAhMwbfac82u"
+{
+    "Configuration": {
+        "FunctionName": "CSV-to-DDB-pci-CsvToDDBLambdaFunction-JAhMwbfac82u",
+        "FunctionArn": "arn:aws:lambda:us-east-1:601751840347:function:CSV-to-DDB-pci-CsvToDDBLambdaFunction-JAhMwbfac82u",
+        "Runtime": "python3.7",
+        "Role": "arn:aws:iam::601751840347:role/CSV-to-DDB-pci-LambdaRole-1X16H42TBQYV5",
+        "Handler": "index.lambda_handler",
+        "CodeSize": 1022,
+        "Description": "",
+        "Timeout": 900,
+        "MemorySize": 3008,
+        "LastModified": "2023-05-05T04:37:19.171+0000",
+        "CodeSha256": "DL/4lM8Qjspxqk9bgJaf1BlsE4JCY0u80w38ycXzpHo=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "bucket": "poemetadatapci",
+                "key": "poemetadatapci.csv",
+                "table": "PoeReEncMigrationPci"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "0c529232-9c12-406b-bbe3-4de870b9128e",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/601751840347/CSV-to-DDB-pci-CsvToDDBLambdaFunction-JAhMwbfac82u-00c2f300-f4e4-4e4d-be9f-73575d0c8728?versionId=Ma37JrLtDm0F36QpEoEriqe10AFECvRH&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDkEM%2FEvY83QllJ7vL5qThpke3ZReQ3u2ozAh5%2Bgw%2FPYQIgB6uUCsdFiivuFWmEyGZdQVV%2BcVWm8cGbMpPZz7C%2BkDIquwUI%2Ff%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3NDk2Nzg5MDI4MzkiDLmfCcohGe7HixI7dCqPBRTeu%2BBsxRQWMnbKZKRbse9tWbfL7MdF7EkHuoOM3TqLUyse8adgdC%2Fpju32E%2FY4uZcZMeIhDqOp5hz2LggGqKM6mRQ%2F10zGWOpTggXh5Df3lMVjOGQUFMaMhO3JIKs1dLERssdcDsUwkn%2B8DNbsR3Dee6FaW6OXf%2FEfjXY%2BvFtB7yuJvP0TaVTtM8WDkLv9u6xU9DODaVK7gq8zjTz0x4ljM7oIRmDLOqlKpCQu8uCJ%2FaKXnk5vKAmRpTyJiIYSsqbw1R5WIZGXh5S2WIt5sKNVizMh0kVIHHtSCEmvcme9SX3BLLtlxVN8qRqUWN3L%2F%2FlJwCKq7eNNBBbPAUpJk7jEhJrL2JupRDqLFlVvXTJFDP7z9615x2HvMeolj5S1OsiaOcNmrUCYEw0TBFg%2FG27aI6itHs23JK95nz9ilH5DeRSNPU4sbp31Ulb%2Bd0aC%2Fd5NtPVYfEm%2FlvkKfiWl17D8UqzwKZukyPTL16Jc8%2FiVW1UDqq6rlWOsl21onEQee9oxet0aubywuUrjewVVrwrUc86UHOgeYLuLCQHodEay610r9hUbArPpSIjjlnxRPwvHI%2Blgs850PjznEvUmjAHdPOXGDUOf48ew7wskwjcw28jM9jITDcyWFXQ%2BjKN2uu4pgjHm2i0VW%2BPZc7GOeMh8QZ%2F1gJ2fBkw9CuqV7nLR7dJidE10mv7LMMii1GU8vqyfZfCUVvKkT0kfXMBB5WiAMjYL5Ww7guMZpGCd7rdeeLwEOUMyDyM%2B%2FmibeplUtrtrO7ol7ymYFBp50Duv91xA%2BDw7MTNoquq%2BOPv%2FEo%2B1fZisyvZWSN58eUTV%2Fgl4vPjA53ruM5NASPetA4HZDShWfEfuSVVmjXuRDxbLtyIw9P%2FRogY6sQEGe1n22s8uysDlHqbfHz5H%2B%2FraWN6MVktE4LFaD4SATjadaOebFPMQJL3Ym8PSL9naHElIrgamhcqBJh8p%2BA4mWZ24tsXHSXc4gXZORM0ORy7ZlRPt4ZilFXolsu7Us%2F4LfyIKzlBqMICQVR6fT4tRHmgWG5cgd%2BZUdmR2vVPp0xzzERgQNaOBcMOLDfEJOLCNNSfK2oya5w1e8Wm4HtUg%2FdSWRG7kqueFPkFXPzDwUug%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230505T050251Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3QIVXQMPU%2F20230505%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6a5e9b26591eec6e4ec83d786509d599c6ecd10b3e82af98af7e49fd3d01aedc"
+    },
+    "Tags": {
+        "TechStack": "Java",
+        "aws:cloudformation:stack-name": "CSV-to-DDB-pci",
+        "Usage": "Project",
+        "ApplicationName": "",
+        "CreatedBy": "DevOps",
+        "Automated": "False",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:601751840347:stack/CSV-to-DDB-pci/55d68560-8137-11ed-9fb9-12b127c8f26d",
+        "BackupPlan": "None",
+        "Department": "",
+        "CostCenter": "FMG",
+        "Version": "1.0",
+        "Infrastructure": "False",
+        "DataClassification": "Low",
+        "aws:cloudformation:logical-id": "CsvToDDBLambdaFunction",
+        "LastUpdated": "05042023"
+    }
+}

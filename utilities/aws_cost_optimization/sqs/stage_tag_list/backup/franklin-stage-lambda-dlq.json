@@ -1,0 +1,6 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/franklin-stage-lambda-dlq",
+  "Tags": {
+    "Project": "OnlinePayments"
+  }
+}

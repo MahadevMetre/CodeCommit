@@ -1,0 +1,17 @@
+domain_name = "qa-digital-services-mt.fmservice.com"
+validation = "DNS"
+tags = {
+	"ApplicationName"		= "Digital"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "08222024"
+	"DataClassification"	= "dev"
+	"Department"			= "DGT"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "08222024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

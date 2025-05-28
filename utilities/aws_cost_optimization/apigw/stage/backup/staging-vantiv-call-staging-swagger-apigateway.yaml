@@ -1,0 +1,32 @@
+---
+swagger: "2.0"
+info:
+  description: "vantiv call API"
+  version: "2019-04-10T05:25:20Z"
+  title: "staging-vantiv-call"
+host: "du9yxowkrl.execute-api.us-east-1.amazonaws.com"
+basePath: "/staging"
+schemes:
+- "https"
+paths:
+  /vantivcall:
+    post:
+      produces:
+      - "application/json"
+      responses:
+        "200":
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+      x-amazon-apigateway-integration:
+        httpMethod: "POST"
+        uri: "https://payments.vantivprelive.com/vap/communicator/online"
+        responses:
+          default:
+            statusCode: "200"
+        passthroughBehavior: "when_no_match"
+        type: "http"
+definitions:
+  Empty:
+    type: "object"
+    title: "Empty Schema"

@@ -1,0 +1,20 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0ba70819a5e640591"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-Win-fmg-dw-qlik_replica"
+    },
+    {
+      "Key": "purpose",
+      "Value": "data-warehouse"
+    },
+    {
+      "Key": "env",
+      "Value": "qa"
+    }
+  ]
+}

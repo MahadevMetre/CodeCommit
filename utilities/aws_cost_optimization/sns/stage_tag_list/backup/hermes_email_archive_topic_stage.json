@@ -1,0 +1,21 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:702230634984:hermes_email_archive_topic_stage",
+  "Tags": [
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "createdDate",
+      "Value": "02/02/2021"
+    },
+    {
+      "Key": "CretedBy",
+      "Value": "jsamuel"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+bucket_short_name = "fmservice-vanity-input"
+environment = "stage"
+logging_bucket_name = "franklin-stage-s3-access-logs"
+logging_bucket_base_prefix = "digital"
+acl = "private"
+tags ={
+    "ApplicationName" = "Digital"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "sbose"
+    "CreatedOn" = "02012023"
+    "DataClassification" = "Low"
+    "Department" = "DGT"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+fmservice_vanity_bucket_policy = true
+fmservice_vanity_biz_user_arn = "arn:aws:iam::894891841990:user/FMG_DIGITAL_BUSINESS"
+
+create_fmservice_vanity_iam_user = true
+iam_user_tags = {
+	"ApplicationName" = "Digital"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "sbose"
+    "CreatedOn" = "02012023"
+    "DataClassification" = "Low"
+    "Department" = "DGT"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+enforce_bucket_owner = true

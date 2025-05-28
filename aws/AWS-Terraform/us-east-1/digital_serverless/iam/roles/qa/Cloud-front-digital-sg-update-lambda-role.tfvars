@@ -1,0 +1,18 @@
+role_name							= "Cloud-front-digital-sg-update-lambda-role-qa"
+iam_role_desc						= "CloudFront Lambda security group manager qa"
+role_tags							= {
+		"Department": "DGT"
+        "LastUpdated": "09122024"
+        "CostCenter":  "FMG"
+        "CreatedOn": "09122024"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Digital"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "DevOps"
+    }
+Cloud-front-digital-sg-update-lambda-policy_arn			= "arn:aws:iam::634621569833:policy/Cloud-front-digital-sg-update-lambda-policy-qa"

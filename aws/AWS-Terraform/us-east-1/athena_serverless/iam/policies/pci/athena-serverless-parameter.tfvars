@@ -1,0 +1,5 @@
+iam_policy_name				= "athena-serverless-parameter-pci"
+iam_role_id					= "athena-ecs-task-execution-role-pci"
+athena-serverless-parameter	= "true"
+ssm_parameter_arn           = "arn:aws:ssm:us-east-1:601751840347:parameter/athena-serverless-parameters-pci"
+kms_key                     = "update-arn-kms-athena-serverless-pci/kms"

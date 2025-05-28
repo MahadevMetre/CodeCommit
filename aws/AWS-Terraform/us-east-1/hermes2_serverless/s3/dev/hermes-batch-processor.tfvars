@@ -1,0 +1,24 @@
+bucket_short_name = "hermes-batch-processor"
+environment = "dev"
+logging_bucket_name =  "franklin-dev-s3-access-logs"
+logging_bucket_base_prefix = "hermes-batch-processor-dev"
+acl                 = "private"
+tags ={
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07192023"
+	"CostCenter"			= "Operations"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "07232023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+s3_eventbridge_notifications = true
+hermes_batch_processor_policy = true
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 15

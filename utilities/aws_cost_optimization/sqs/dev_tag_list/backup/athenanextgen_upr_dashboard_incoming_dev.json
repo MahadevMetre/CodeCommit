@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/116762271881/athenanextgen_upr_dashboard_incoming_dev",
+  "Tags": {
+    "environment": "dev",
+    "terraform": "True",
+    "CreatedBy": "sbose"
+  }
+}

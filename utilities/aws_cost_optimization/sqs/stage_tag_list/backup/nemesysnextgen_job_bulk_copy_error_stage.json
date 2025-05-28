@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/nemesysnextgen_job_bulk_copy_error_stage",
+  "Tags": {
+    "environment": "stage",
+    "terraform": "True",
+    "CreatedBy": "sbose"
+  }
+}

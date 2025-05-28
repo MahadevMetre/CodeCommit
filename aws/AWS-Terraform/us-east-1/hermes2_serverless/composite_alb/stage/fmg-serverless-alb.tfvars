@@ -1,0 +1,227 @@
+alb_sg_name					= "fmg-ecs-sg-alb-stage"
+alb_sg_description			= "Security group to allow inbound to alb"
+alb_sg_vpc_id				= "vpc-0051d323df13c7db3"
+alb_sg_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07142023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "03072024"
+	"Name"					= "fmg-ecs-sg-alb-stage"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+alb_sg_ingress_rules = {
+	"1" = {
+		from_port			= 443
+		to_port				= 443
+		protocol			= "tcp"
+		cidr_blocks			= ["10.153.18.0/23"]
+		description			= "HTTPS From Private Subnets Stage"
+	},
+	"2" = {
+		from_port			= 443
+		to_port				= 443
+		protocol			= "tcp"
+		cidr_blocks			= ["10.64.0.0/16"]
+		description			= "HTTPS From Palo VPN"
+	},
+	"3" = {
+		from_port			= 443
+		to_port				= 443
+		protocol			= "tcp"
+		cidr_blocks			= ["10.33.99.102/32"]
+		description			= "HTTPS From Devlsys7"
+	},
+	"4" = {
+		from_port			= 443
+		to_port				= 443
+		protocol			= "tcp"
+		cidr_blocks			= ["202.168.90.114/32"]
+		description			= "HTTPS From Virtusa Navalur Tunnel"
+	},
+	"5" = {
+		from_port			= 443
+		to_port				= 443
+		protocol			= "tcp"
+		cidr_blocks			= ["203.62.174.143/32"]
+		description			= "HTTPS From Virtusa Navalur Tunnel"
+	}
+}
+
+lb_name						= "fmg-serverless-alb-stage"
+lb_type						= "application"
+lb_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07142023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "07142023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+lb_subnets						= ["subnet-0ed61b6beb807094e", "subnet-076a071fa0723c80e"]
+lb_enable_deletion_protection	= true
+lb_internal_bool				= true
+lb_bucket_name					= "franklin-stage-alb-accesslogs"
+lb_idle_timeout					= 120
+
+tg_name								= "fmg-serverless-tg-stage"
+port								= 8080	
+tg_health_check_port				= "traffic-port"
+# tg_health_check_port				= 8080
+tg_protocol							= "HTTP"
+tg_vpc_id							= "vpc-0051d323df13c7db3"
+tg_protocol_version					= "HTTP1"
+tg_deregistration_delay				= 15
+tg_healthy_threshold				= 5
+tg_interval							= 30
+tg_unhealthy_threshold				= 2
+tg_health_check_timeout				= 5
+tg_load_balancing_algorithm_type	= "least_outstanding_requests"
+tg_health_check_protocol			= "HTTP"
+tg_target_type						= "ip"
+tg_health_check_path				= "/actuator/health"
+tg_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "07142023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "07142023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+
+tg2_name							= "pycharm-webservices-tg-stage"
+port2								= 80	
+tg2_health_check_port				= "traffic-port"
+# tg2_health_check_port				= 80
+tg2_protocol						= "HTTP"
+tg2_vpc_id							= "vpc-0051d323df13c7db3"
+tg2_protocol_version				= "HTTP1"
+tg2_deregistration_delay			= 15
+tg2_healthy_threshold				= 5
+tg2_interval						= 30
+tg2_unhealthy_threshold				= 2
+tg2_health_check_timeout			= 5
+tg2_load_balancing_algorithm_type	= "round_robin"
+tg2_health_check_protocol			= "HTTP"
+tg2_target_type						= "ip"
+tg2_health_check_path				= "/"
+tg2_success_codes					= "200"
+tg2_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "09232023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "09232023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+
+tg3_name							= "fmg-serverless-email-tg-stage"
+port3								= 8080	
+tg3_health_check_port				= "traffic-port"
+# tg3_health_check_port				= 8080
+tg3_protocol						= "HTTP"
+tg3_vpc_id							= "vpc-0051d323df13c7db3"
+tg3_protocol_version				= "HTTP1"
+tg3_deregistration_delay			= 15
+tg3_healthy_threshold				= 5
+tg3_interval						= 30
+tg3_unhealthy_threshold				= 2
+tg3_health_check_timeout			= 5
+tg3_load_balancing_algorithm_type	= "least_outstanding_requests"
+tg3_health_check_protocol			= "HTTP"
+tg3_target_type						= "ip"
+tg3_health_check_path				= "/actuator/health"
+tg3_success_codes					= "200"
+tg3_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "11042023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "11042023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+
+lbr_priority		= 1
+lbr_action_type		= "forward"
+lbr_path_pattern	= ["/pycharm/*"]
+lbr_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "09232023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "09232023"
+	"Name"					= "PyCharm Rule"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+
+lbr2_priority		= 2
+lbr2_action_type	= "forward"
+lbr2_path_pattern	= ["/emailintegration/*"]
+lbr2_tags = {
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "11042023"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "11042023"
+	"Name"					= "Email Integration Rule"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+
+lbl_certificate_arn					= "arn:aws:acm:us-east-1:702230634984:certificate/fede4ce2-188a-4762-8cb4-4e5a97dcccc7"
+lbl_health_check_port				= 443
+lbl_protocol						= "HTTPS"
+lbl_default_action_type				= "forward"
+lbl_ssl_policy						= "ELBSecurityPolicy-TLS13-1-2-2021-06"
+
+route53_zone_id				= "Z010407314HT5G1PGDENW"
+route53_name				= "stage-ecs.mtservices.franklinmadisonds.com"
+route53_type				= "CNAME"

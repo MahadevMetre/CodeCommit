@@ -1,0 +1,18 @@
+iam_user_name			= "digital-cognito-admin"
+iam_user_tags			= {
+		"Department": "DGT"
+        "LastUpdated": "06262023"
+        "CostCenter":  "FMG"
+        "CreatedOn": "NoInfo"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Digital"
+        "TechStack": "AWS"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "DevOps"
+    }
+iam_policy_name			= "arn:aws:iam::601751840347:policy/digital-cognito-admin-policy"
+cognito_admin_policy	= "true"

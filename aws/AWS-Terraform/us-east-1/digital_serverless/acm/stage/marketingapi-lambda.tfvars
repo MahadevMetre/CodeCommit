@@ -1,0 +1,17 @@
+domain_name = "stage-marketingapi-lambda.fmservice.com"
+validation = "DNS"
+tags = {
+    "ApplicationName" = "Marketing"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "06072024"
+    "DataClassification" = "Low"
+    "Department" = "MKT"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06072024"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}

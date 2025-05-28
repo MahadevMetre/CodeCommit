@@ -1,0 +1,13 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:116762271881:hermes_ses_events_topic_dev",
+  "Tags": [
+    {
+      "Key": "createdby",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "environment",
+      "Value": "dev"
+    }
+  ]
+}

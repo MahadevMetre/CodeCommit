@@ -1,0 +1,17 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:601751840347:processS3ArchiveEvent_error_sns_pci",
+  "Tags": [
+    {
+      "Key": "CretedBy",
+      "Value": "Arrington Jeffrey JARRINGTON"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    }
+  ]
+}

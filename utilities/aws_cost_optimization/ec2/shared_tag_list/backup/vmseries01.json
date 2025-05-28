@@ -1,0 +1,24 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0b18f5c05b0005c38"
+  ],
+  "Tags": [
+    {
+      "Key": "Owner",
+      "Value": "PS Team"
+    },
+    {
+      "Key": "Application",
+      "Value": "Palo Alto Networks VM-Series NGFW"
+    },
+    {
+      "Key": "Name",
+      "Value": "vmseries01"
+    },
+    {
+      "Key": "ManagedBy",
+      "Value": "terraform"
+    }
+  ]
+}

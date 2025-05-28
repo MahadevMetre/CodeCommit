@@ -1,0 +1,59 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-updatePaymentDetails-stage",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:onlinepayment-updatePaymentDetails-stage",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/onlinepayment-updatePaymentDetails-staging",
+        "Handler": "todos/updatePaymentDetails.updatePaymentDetails",
+        "CodeSize": 11039564,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.444+0000",
+        "CodeSha256": "kKXVcFQwD0FnB5mahrLV6Lnx7RorxHphZVgjmadybTw=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0ed61b6beb807094e",
+                "subnet-076a071fa0723c80e"
+            ],
+            "SecurityGroupIds": [
+                "sg-0a5da8e1a87daaa60"
+            ],
+            "VpcId": "vpc-0051d323df13c7db3"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHiEbmZYZoosOoas35/jcfKOpWEoKN/lQJ3A1VVLVlWFAAGFvyKq+UZmGbSJzF3r+JeYAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMrDSArtj3mw0OOQ8pAgEQgDuMpwxBsXXvP5eCCed1U26JtsuC4CTcaqdh/4mV0k9wikjz5fCy5vgBFpPFyZECXalhoTnNfCFBck3KAg=="
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:702230634984:key/25d3c9c7-2173-4df2-976e-f400f58f052d",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "396b917d-f697-4165-9f76-65389c5114f3",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:702230634984:layer:parameterlayer:129",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/onlinepayment-updatePaymentDetails-stage-a525a14c-de0a-44c5-ade6-5ca7332a0388?versionId=TF1d9ci20R5FknJzcPfKgjtBWJM9IPql&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJIMEYCIQCwRk%2BcrqHy%2B9RIxl0cdqdsL6cJ9QCgoMwTP4lAaYdAmgIhAMwS3dV1rYOQLogbCWNSSxSGoIrkO0to1K2GKRGvksr5KrEFCEUQABoMNzQ5Njc4OTAyODM5IgwmiOC%2BGkI8FefQkJAqjgWlj5UUa5ip56OT%2BHONqxuPp1KqgevZZIIyEro3B6AbK%2BZzeRclaIIao6prOi1hAkfFd%2FJg1IG5MNJZfB2uAh4fapd9tPF3dM85QlIy%2BT1D2sSu3n%2FqU8ojfkyaIzqzWb3ij%2FxywJ3bi1uzCKYl9z52vSb8WeCx7kubgg62AZe0fmphfp2Y%2F3KnNJYgrLyzro547N%2Fh8zpUKc4OxEcgvZ7N%2BRL9WTREdC1ofmSJzXk9sri%2FACf6%2FHvCFK9O%2FR3ElicldTPhxJKR%2F410C6jJ5XgW7OdLxNh1FG5xGvfggY38BRomYIM6SAUlM62qvS1ROVZl%2FRKfLDj7MKqdFrtBBbd81HqbIj1s%2BhC3AABFzy39a63qLIEzBp6q7ZwG%2F1TuxjHJSOU2Yr4Ws%2BpRL40AsRriKN8DpMNk%2FRxUupUG4JEncwRvUzI6R7bNebdbgkTeR%2BPZlDO7QndKnRWVv6b%2BquGC1h%2FMqNFbO%2FH16uLDpIEQvdGDXZGfdekwiNUCZ0pikU5Zo0%2BL7A1wtEMhTR5KRAxp9vTzTlDDEL2xMdn%2FVNRx8JNNaS6iPriqPb%2F0Y%2B%2Bp%2B5ym90onzE3p44Gz2lXUlORjXANF0fBwrAQYtdoX%2BgBOKDJyY2xt3AiQNC1JVlipfNY4Foez9G857rCP5rk%2F9gTuBuV56%2FKGBnczpebAYwODyICUQg6jaTSsIAppUfjQiW2uhHSeJ1vDDHalyhQ5oCp%2BwpSpN%2BmAKSa7nLwoNlxJXHuDWFnkBcrEwrpNt2jLlSb9FfGUjXAyivVPCho2MUedbFvI4mio2Ol12sCcuOuyWHb5nYpFUiBnzIRo7sWwJZttZv34fBR%2BrFeXv7b3HZKrKeOCDyKerz96c1ksm9owlvb0oQY6sAHHt7Vt7FhqR0N7F96LcXqVXRd8KMXF5%2B%2F7kX8kPY%2BudtvmnBHzh7UUzZOA4aclzbsnYtD7vkyKd1Ky0NGVs7V0RyAnZLyki8o0ubMKTpKfBTXlnUgpVvHGpxvUWMAzI9sAMW0Uo2xW3Wj43xGqcNQjhCOLom0UfmV5CWwSERRoVTMZ%2BhyQtHa2VOWGcZWyYzwrYeJ6wkcs0VG9D8oU6atcBFLWUoqYSp%2FDpIFifgsWqg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T125856Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3RTKMZNUB%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26300eef2ad40c8edc77b5cf2b45d53f19a1593af28510d6e2e6f6e15adcd075"
+    },
+}

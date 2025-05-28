@@ -1,0 +1,22 @@
+bucket_short_name = "proteus-etl-config"
+environment = "pci"
+logging_bucket_name =  "franklin-pci-s3-access-logs"
+logging_bucket_base_prefix = "proteus-etl-config-pci"
+acl                 = "private"
+tags ={
+	   "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "mfaizudeen"
+	   "DataClassification" = "Low"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "05182023"
+	   "LastUpdated"        = "05182023"
+}
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 90

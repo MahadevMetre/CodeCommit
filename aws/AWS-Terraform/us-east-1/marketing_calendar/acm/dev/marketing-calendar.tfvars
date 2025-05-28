@@ -1,0 +1,17 @@
+domain_name = "dev-calendar-search.fmservice.com"
+validation = "DNS"
+tags = {
+	"ApplicationName" = "Marketing"
+	"Automated" = "True"
+	"BackupPlan" = "None"
+	"CostCenter" = "FMG"
+	"CreatedBy" = "DevOps"
+	"CreatedOn" = "09252024"
+	"DataClassification" = "Low"
+	"Department" = "MKT"
+	"Infrastructure" = "False"
+	"LastUpdated" = "09252024"
+	"TechStack" = "AWS"
+	"Usage" = "Project"
+	"Version" = "1.0"
+}

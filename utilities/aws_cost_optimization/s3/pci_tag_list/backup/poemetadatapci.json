@@ -1,0 +1,20 @@
+{
+    "TagSet": [
+        {
+            "Key": "aws:cloudformation:stack-name",
+            "Value": "CSV-to-DDB-pci"
+        },
+        {
+            "Key": "aws:cloudformation:logical-id",
+            "Value": "S3Bucket"
+        },
+        {
+            "Key": "aws:cloudformation:stack-id",
+            "Value": "arn:aws:cloudformation:us-east-1:601751840347:stack/CSV-to-DDB-pci/55d68560-8137-11ed-9fb9-12b127c8f26d"
+        },
+        {
+            "Key": "purpose",
+            "Value": "To support multi-region kms key configuration - temp solution"
+        }
+    ]
+}

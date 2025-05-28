@@ -1,0 +1,25 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:601751840347:loadbalancer/app/jboss-iapps-alb-pci/1729a6decdd5c0a4",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "insuranceapps"
+    },
+    {
+      "Key": "environment",
+      "Value": "pci"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-iapps-alb-pci"
+    }
+  ]
+}

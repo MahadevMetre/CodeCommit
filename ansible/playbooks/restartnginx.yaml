@@ -1,0 +1,9 @@
+- hosts: all
+  become: yes
+  remote_user: ansible
+  become_user: root
+  tasks:
+  - name: restart nginx
+    service:
+      name: nginx
+      state: restarted

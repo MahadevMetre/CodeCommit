@@ -1,0 +1,57 @@
+$ aws lambda get-function --function-name "onlinepayment-cloudfront-header-pci"
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-cloudfront-header-pci",
+        "FunctionArn": "arn:aws:lambda:us-east-1:601751840347:function:onlinepayment-cloudfront-header-pci",
+        "Runtime": "nodejs10.x",
+        "Role": "arn:aws:iam::601751840347:role/service-role/onlinepayment-cloudfrontheader-role-pci",
+        "Handler": "index.handler",
+        "CodeSize": 625,
+        "Description": "",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2020-02-05T20:34:33.358+0000",
+        "CodeSha256": "BkqBHftPkq77oNgYt5cf8l93zMqSqgR8yRKzjzaMuH0=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0a33ed77fe2cfb6ef",
+                "subnet-0a797df6e7dcae3db"
+            ],
+            "SecurityGroupIds": [
+                "sg-06fb67b2feff9f1b3"
+            ],
+            "VpcId": "vpc-00bd4d2758879b1e0"
+        },
+        "DeadLetterConfig": {
+            "TargetArn": "arn:aws:sqs:us-east-1:601751840347:frk-pci-lambda-dlq"
+        },
+        "TracingConfig": {
+            "Mode": "Active"
+        },
+        "RevisionId": "cd3060a7-37e0-4200-bb30-9113ec527e95",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/601751840347/onlinepayment-cloudfront-header-pci-9bdea8ff-943d-402c-a747-81438dc95958?versionId=xwgvnluzFKB95CqGD5C1HIqIHrYukhtg&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCICx%2FxIpsq2HAdsVCLo%2F9hr569PKFsy9o8Sqhv2uD2t8zAiEA8SgtW2CAgNrBpD8etNCqzZTWpeeyCEMNQJnDGFeODusquQUI%2FP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3NDk2Nzg5MDI4MzkiDO0v2dC1EyBUHhPDrCqNBV3xBi9qg0W0Y8GL8HJRPeaFyuk2pnSu3ONFdLGsIe84iR8kTm0Ki2QB0gG8TSKEdJZcn8bQ30t4d8lSirPL%2F9RcUXy1mC4L6fetuFwE%2BVNJjbM2d%2Bz9OtDmaS2BNn3sRT39XDhZLW3BGrVD8sJFBAJSFzSXuwrNNPz9WsM%2BVF8o7eZPmd7FSTT7K6y0Kpk2iGFpsoh%2BdrLaroCT3YUVNinGYXsAOxYNsum%2Bcwo4WdNcS1LiOIGw5pLnfjaFZCLJ98yIbvPN1%2Beps%2BRQk%2BN%2BCwGih9QIVEquN8kInvijmqNHFbGOoO9UR4o5qGIgBHggEHCEHhbMO4fDcYQ1%2FLX5ydePRmMf8U%2F9ocXxONwY0beU95LZtVQCLTyvxt73ZH2BCdU%2BN3GbDu48c9V06GliJZviP20OigWziD56KyP%2BoeSRhCkoeHuzkdWeVDQaO4iBflrgKsrDwxzbxrfIKi1B18xo6xqyoBSZXNl%2Blq49UHr9D%2FFcMr8lu%2Bj8C651QpW9W64x6P9SA4Mkr3cplkzaeXSpmuUV7QlIPV6qyqwex3mvGXBZ85DzGygKuLmXc3lE9bcEFDSquK01A8rasFdkJ2wCYzKXxqqS7O8KB%2BaL37KXP5K7rhDbFjrpR4QW6ZxPTF9YsCkS6ymweIegaQsVa%2FjzpE%2FaekOmWRrjiiGgGQkYfLQ7%2Fa5BFQoE0FJsn7GV8NcAG%2FpeCy2bxXrY3ynST1rdt%2FKusWCUb2Bf5IF6cOGhEzeHQpKflDGvw4FisfQph5fll5xDGgnZP2rvsCCE8Jkr5qCU3NApk%2F4tDvxqJ%2FX%2BlEXG5gsB%2BvRGcq6KIZSJ0FAeVMEf3TLuxw3pEdGBtVWjpSdsHXyraWZk04jiMPfd0aIGOrEBDQpIWHyl0ozVgGKXrC9acCSb8x90xqH37BUBt3Q9y4YIjGQxmcyp9dpd8ySePuH7vJwiyOP6rHs9uWa8xOQbNQfpmCeQxs1m7UZsub%2FnqTNhHB1EN2HVSKw4wkBjqtX%2BiGYHdiMCnHC5AFbUW0VNoz1Vq50CRO4RnSSjjsFDi6qoiZKW1Bb0CBd7EMiP4a60WtFAHM5PBQ0AEj%2BLWwnkQxsY4Ru4wDAT4F9L9l0enN85&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230505T035833Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3SC2B7E2P%2F20230505%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b0848bfba7eac4b8089eb9aee1e3ca704bb7a35d0bfed7af22c716f9a6987f9a"
+    },
+    "Tags": {
+        "Customer": "FMAD"
+    },
+    "Concurrency": {
+        "ReservedConcurrentExecutions": 40
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-preSignupverifyUser-stage",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:onlinepayment-preSignupverifyUser-stage",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/onlinepayment-preSignupverifyUser-staging",
+        "Handler": "todos/preSignupverifyUser.preSignupverifyUser",
+        "CodeSize": 11039564,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.865+0000",
+        "CodeSha256": "D21fxmX/dZYUax3FCJRGvLi8fWIV4a0wggtzOoE+FtQ=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0ed61b6beb807094e",
+                "subnet-076a071fa0723c80e"
+            ],
+            "SecurityGroupIds": [
+                "sg-0a5da8e1a87daaa60"
+            ],
+            "VpcId": "vpc-0051d323df13c7db3"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHiEbmZYZoosOoas35/jcfKOpWEoKN/lQJ3A1VVLVlWFAAGFvyKq+UZmGbSJzF3r+JeYAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMrDSArtj3mw0OOQ8pAgEQgDuMpwxBsXXvP5eCCed1U26JtsuC4CTcaqdh/4mV0k9wikjz5fCy5vgBFpPFyZECXalhoTnNfCFBck3KAg=="
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:702230634984:key/25d3c9c7-2173-4df2-976e-f400f58f052d",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "abcc910d-2ccb-4fc0-a958-00af179095f2",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:702230634984:layer:parameterlayer:129",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/onlinepayment-preSignupverifyUser-stage-edb6d4b7-97f2-45a0-95ee-16fa34d55cca?versionId=4XRu9ZjCcIzQ3ABnfxCUaID1u3I3IGJr&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLWVhc3QtMSJHMEUCIQDwN%2FCVI585475so30f9ECfLICoTfqGfPbUD%2BTABd2qgAIgfIIk1jzswWB2F%2FWBNhQ4dQdcKL0MP4m2JHaO5KsVPoQqsQUIRxAAGgw3NDk2Nzg5MDI4MzkiDBWlXmcz5Kbc9j3otiqOBem5CxWXg6Cbh4Y%2BMvLeKEMD7p9wdB1g1AQ3gC21%2BNQldqBPDlf4uDy479bvMA7QhMBS2tZG7jOA37ZWjdGgpRe7PjsTrqCNgwGCNAgfjauWyIxb9XJ8z%2BqyzEaOR%2FGx8vYoWlLkn6M8jgj0Co19h2haXAx875JN0kvJAcDwFJDOhKxPOlxR4%2FUF%2FaFRz3IRV4B8a4WIgP1efdGq%2F3Wg5lhNGCtMep4vD09yvNpWfOdISLPuY6KeBLJkwOpebKQdNa95bng5DRSHQ5iQyAbCt%2FihlPxFtp%2BjpB27K5UmJRIJp0aHpVluuyIGYtvNgPzZ12zkvFgqPgL1pe4iRFOWHQ6gzI80SVgHr35QmMhrRWVatL6P%2FArsq%2BbwOu3h9E8ks%2Fgt%2FeRxZeswfceAHc48THo%2Fh61KWA5eOc04zQkjL5Smpge3tDJBI7n16I70uqPO1Z74F0MXlWjsaz8%2BbkXEVctA%2BXWC65KdFP1jdb%2BP4LPp%2FRRG%2Bh6MFJPP%2Bl%2B203rdrXh2oJzahgytgHantWj0B06%2FogW37Pjxowl0YaUHWdP9jtqO7aS6uusWP%2Bp6NX%2F5PSNYBoYMhA88MtlyFfkDNrzCsWtJk1kpa%2B4gyoe9yAggG98i3UAbFxxNxtIcM5%2BOXJPVo1vjH9mC79mdqgbw%2Bv9nhKdSebmpuoTBtlH2SD7nG2IpLDNlmQ4SBDE39sdcAgXmUZ7fnrI4PQwa64h8guTPDF%2FR7kIT0ggycmcV9ZVytPfnHV8dBWx7eywx03gQM65f1Sq1%2Bo0IWf2mN8JHY7zBZmYMirtwRXhzefgHwQkIkAuhXFPpXor5mU1dCMSXU0fCeDwdfyLQ5l5xHycnZMvlWqOJI0erL5x1DoTP4DDjlPWhBjqxAbcNar2r4AgxtXg%2B%2B0hfs0WxnHDO84%2BthOEQ4W5lwlGhLalQucwKVYJdTdv1gNvOETfTJ21WNrvYyXDU16epqmXzLTLhNTxneyUPg2IBtDdz5GTDdXZhx1I3r2ihKrW%2Br1JO4%2BlnTEdvXr%2BbVU4Dd7aspT%2BAZu%2BxHqye7NTQjeU1zrOzuMqoYVH4dTOXeothNg9QhnIxulNIFDRX2E06ps1IMbBCog6tmUostK1LXK%2B%2Fzg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T134912Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3SQDLRMCL%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d7ab289f5e83a27dd2d6013654ff0109b646285093d89f37a52c2b5ead3d379b"
+    },
+}

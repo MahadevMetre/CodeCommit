@@ -1,0 +1,8 @@
+{
+    "SqlInjectionMatchSets": [
+        {
+            "SqlInjectionMatchSetId": "0ff28cdd-0984-4c41-b01e-2ad3f560b054",
+            "Name": "onlinepayment-WAF-security-automation-stage-CloudFrontStack-K1Y5VJ1KLH1X - SQL injection Detection"
+        }
+    ]
+}

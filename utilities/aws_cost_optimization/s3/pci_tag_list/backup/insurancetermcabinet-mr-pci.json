@@ -1,0 +1,8 @@
+{
+    "TagSet": [
+        {
+            "Key": "purpose",
+            "Value": "To support multi-region kms key configuration"
+        }
+    ]
+}

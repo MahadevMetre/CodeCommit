@@ -1,0 +1,28 @@
+{
+    "TagSet": [
+        {
+            "Key": "project",
+            "Value": "Insuranceapps"
+        },
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "createdDate",
+            "Value": "09/22/2021"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Data output storage bucket"
+        }
+    ]
+}

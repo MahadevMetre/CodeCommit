@@ -1,0 +1,74 @@
+$ aws lambda get-function --function-name "onlinepayment-verifyUser-pci"
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-verifyUser-pci",
+        "FunctionArn": "arn:aws:lambda:us-east-1:601751840347:function:onlinepayment-verifyUser-pci",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::601751840347:role/onlinepayment-verifyUser-lambda-role-pci",
+        "Handler": "todos/verifyUser.validateUser",
+        "CodeSize": 11039564,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2022-02-16T13:34:38.000+0000",
+        "CodeSha256": "0aupDBucRgFjJkV06E+0IlCKjc6PU5Eqm1CSv4fq40E=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0a33ed77fe2cfb6ef",
+                "subnet-0a797df6e7dcae3db"
+            ],
+            "SecurityGroupIds": [
+                "sg-06fb67b2feff9f1b3"
+            ],
+            "VpcId": "vpc-00bd4d2758879b1e0"
+        },
+        "DeadLetterConfig": {
+            "TargetArn": "arn:aws:sqs:us-east-1:601751840347:frk-pci-lambda-dlq"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHgenvEsq9hq97ResA5XXmbhtO4mtvgsdjR8igKo2ny0ZwGl+c7XNFVi7VggOKworWpUAAAAejB4BgkqhkiG9w0BBwagazBpAgEAMGQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMwQ+1MoqGfi9trfBuAgEQgDejMD+VlH5yxm1pNQtvxUlwnwgtb/gIwie9dLIHyq0p66NPVQqVQvJGZdvG+GM8PZiA/gqo6hub"
+            }
+        },
+        "KMSKeyArn": "arn:aws:kms:us-east-1:601751840347:key/1fde54ab-d3d8-4936-8abd-446f011abc58",
+        "TracingConfig": {
+            "Mode": "Active"
+        },
+        "RevisionId": "c033445b-db37-4457-b6f6-69bbc41f67d0",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:601751840347:layer:parameterlayer:7",
+                "CodeSize": 442
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/601751840347/onlinepayment-verifyUser-pci-972dd442-e459-4f0b-9f35-0fa4b4806ebb?versionId=..GsWZ_rqwj_LaKJ_cv1ibX_SYsvxycI&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD3xj%2FLAscVgFZrrI3k7dMaKfwXRFOjA5FBy6zVIAKMMgIgU6jluss2N0EzbaB%2BpP47LPo2VsdzKn%2BcSeeKeOdqMN0quQUI%2B%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3NDk2Nzg5MDI4MzkiDPlhhm4r3vQ8AK32DSqNBcuMDPazSkbdhGNZ2HnHbAkrnWEjCidmk2Zvfx%2BG0z8o5ep0FyyUv0NKQkmXeYqdCByhP8s%2FmyARrfHVKaWuwA28sxY6yZCkp9x0MFYL4s5Gw0zNlpG4SLlr8E4f1F6edzsWqevrKyGWx7syFOZufZTv7xjXsjxhFOIeG30zOPsK17fmekm0QdoHgPUwrufMnH3WIJKl0Ly%2Beep4gQ%2F%2FXIspg%2FOysXzsDqrDdO6Nu05FrNANJicwlCVUdt65TMS9EYRbFV6auECpWl5ME6TjTqfR0VuUcNDyzIIcCy7pRq5q96I1A%2FqEJDLz1rIrgQ%2F58dyZajG8PgzrXyAvbOsbY%2FY8nDrRngqrxZwsRuuXVVbX4LPNRRBbln04kR6tONfn43wggh%2F94sUl%2FXl3kQkAwdqR0dKilUQz4jOOL%2Fpwu%2FhnEcR%2FqHT7W8F8PtOAEo858X%2FFCoAGXRSm9igxAfzyd%2FB7vaH6pd9Dn3TgXaINVvgZt8fP6puHRcQuky2K45ctfeoPiVpRW9yyMJCKEKCm95Ji0x0jOmVfS2SuKUx%2FqqN9UKdER2p%2BLpQ4Ep1EpFhhzru0fnK%2BeR7zBqbEF%2BxYaHCGa9cvxq%2Brn31OEbNGlioolIAwGtGx%2Bd6wrQ%2FELquZs%2Bsm9Rys%2F6abmg2bgCSo7LCffyXuzXc8rMOVcVXRvZO9VWlw3MYGK9UaxqCagLjNEirSD%2BYrozplXgTMv2YOqp5YYYDpo15URXqgzzh9F5%2BvgZxwPeoekXcJ%2Bygh%2F7m%2BTGFFEjcYm%2BBxMPH%2F3tEBBuuBrbenV%2FRFKq5C5vWEHG4rC0gNceIJTV8iHAoK86t8kGKOUXzYm61YRoOVRwt4pmG3QbYEWcrYqaX5%2FPvQMO3N0aIGOrEBKGiE6cVZ1z1CbJcERhR%2FqCRc7joEb9%2Be06Ql4GfcVKerEJN9qgr%2Byp%2BO3%2FHsyjk6G3YIcsYXK6xnc2Ckpi2bYObzrByjdqzmgQ8gItZ%2FMtlUZNK1ik97sgJNoRrfhAi08w6%2FazkPsxzE9jriln%2FFJmRBhFYCzN0GAB3YFJFPKpae1%2FM%2FGmSqHI1CaXbjBC94RLEFAwjwOY8bDXMBV9uAPfAHyzfQSevmAu4y15wR8w1D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230505T041148Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3T5BCB643%2F20230505%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=62f3a44d7e99360bdc70230cd7759a4280962859555e86e42a01305de408fba0"
+    },
+    "Tags": {
+        "Project": "OnlinePayments",
+        "aws:cloudformation:stack-name": "onlinepayment-pci",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:601751840347:stack/onlinepayment-pci/6deda400-71e9-11e9-b334-0a56ba5f6f9e",
+        "STAGE": "pci",
+        "aws:cloudformation:logical-id": "VerifyUserLambdaFunction",
+        "Name": "Lambda-priv-VerifyUser-pci"
+    },
+    "Concurrency": {
+        "ReservedConcurrentExecutions": 40
+    }
+}

@@ -1,0 +1,18 @@
+iam_user_name = "athena-db-user-pci"
+iam_user_tags = {
+    "ApplicationName" = "DashBoard"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "09182024"
+    "DataClassification" = "PCI"
+    "Department" = "DSB"
+    "Infrastructure" = "False"
+    "LastUpdated" = "09182024"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}
+iam_policy_name      = "arn:aws:iam::601751840347:policy/dashboard-rds-policy-pci"
+dashboard_rds_policy = "true"

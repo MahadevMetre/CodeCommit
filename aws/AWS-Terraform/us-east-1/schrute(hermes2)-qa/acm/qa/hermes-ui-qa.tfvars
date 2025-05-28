@@ -1,0 +1,17 @@
+domain_name = "schrute-qa.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+	"ApplicationName"		= "Hermes"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "Operations"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "05212024"
+	"DataClassification"	= "None"
+	"Department"			= "HMS"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "05212024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}

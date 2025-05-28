@@ -1,0 +1,18 @@
+iam_policy_name			= "lasso-ses-access-policy-dev"
+iam_policy_tags			= {
+        "Department": "LSO"
+        "LastUpdated": "02082023"
+        "CostCenter":  "FMG"
+        "CreatedOn": "02082023"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Lasso"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "sbose"
+    }
+ses_access_policy		= "true"
+iam_policy_desc			= "Lasso Lambda SES Policy Dev"

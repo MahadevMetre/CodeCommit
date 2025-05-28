@@ -1,0 +1,24 @@
+bucket_short_name = "hermes-file-integration-payload"
+environment = "dr"
+logging_bucket_name =  "franklin-dr-s3-access-logs"
+logging_bucket_base_prefix = "hermes-file-integration-payload-dr"
+acl                 = "private"
+tags ={
+	"ApplicationName"		= "Hermes2.0"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "02232024"
+	"CostCenter"			= "Operations"
+	"DataClassification"	= "None"
+	"Department"			= "HMS2"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "02232024"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 180
+versioning_enabled_bool				= true
+replication_policy_prodtodr = true

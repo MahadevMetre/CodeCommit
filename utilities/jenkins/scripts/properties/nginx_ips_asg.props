@@ -1,0 +1,8 @@
+devel=10.153.14.33
+staging=10.153.19.227
+production=10.153.30.33
+devel_iapps=10.153.14.187
+qa_iapps=10.153.19.220
+staging_iapps=10.153.19.220
+production_iapps=10.153.30.115
+dr_iapps=10.153.42.115

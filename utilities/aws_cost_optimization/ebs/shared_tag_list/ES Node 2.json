@@ -1,0 +1,12 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0751b91e6bf96d462"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "ES Node 2"
+    }
+  ]
+}

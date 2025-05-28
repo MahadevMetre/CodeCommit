@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.plugins.promoted__builds.PromotionProcess plugin="promoted-builds@945.v597f5c6a_d3fd">
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <conditions>
+    <hudson.plugins.promoted__builds.conditions.ManualCondition>
+      <users>ksenkodi, kgulliver, ckilyk, jrindler, ksimmons, mkitgor</users>
+      <parameterDefinitions/>
+    </hudson.plugins.promoted__builds.conditions.ManualCondition>
+    <hudson.plugins.promoted__builds.conditions.UpstreamPromotionCondition>
+      <requiredPromotionNames>prod</requiredPromotionNames>
+    </hudson.plugins.promoted__builds.conditions.UpstreamPromotionCondition>
+  </conditions>
+  <icon>star-orange</icon>
+  <isVisible></isVisible>
+  <buildSteps>
+    <hudson.tasks.Shell>
+      <command>/opt/scripts/aws_s3_get_object.sh
+set +x
+cd /opt/scripts
+./maven_docker_push.sh &quot;214946096060&quot; &quot;dr&quot; &quot;jenkins_serverless_mgmt_user_dr&quot; &quot;hermes-batch-processor&quot; &quot;Dockerfile_batch_processor&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </buildSteps>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.26"/>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.4">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
+</hudson.plugins.promoted__builds.PromotionProcess>

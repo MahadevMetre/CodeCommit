@@ -1,0 +1,37 @@
+{
+    "Configuration": {
+        "FunctionName": "ClaimsTracker-Textract-POC",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:ClaimsTracker-Textract-POC",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::116762271881:role/service-role/ClaimsTracker-Textract-POC-role-3hvgsmxp",
+        "Handler": "lambda_function.lambda_handler",
+        "CodeSize": 299,
+        "Description": "",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2023-04-03T15:41:42.605+0000",
+        "CodeSha256": "fI06ZlRH/KN6Ra3twvdRllUYaxv182Tjx0qNWNlKIhI=",
+        "Version": "$LATEST",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "33bb1b33-99fd-46b0-9e9e-09ffc4150b5f",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/ClaimsTracker-Textract-POC-9c42caef-b019-484e-a3ef-e37692c3aa38?versionId=XqMwsY_A.0VhNBP9oCSHhBjVEdwwMurl&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEsaCXVzLWVhc3QtMSJHMEUCIBdbKq3l30tuSbwN%2BRcEvGKna9gCIfIOlSkq4%2FHtrkxeAiEA%2BQ%2Fv1jnSPZE4VFt86WnVnrzDry5ih9l%2BfHjWLsl8JG0qsgUIQxAAGgw3NDk2Nzg5MDI4MzkiDB2NrljtD%2FAKYftoFSqPBUkmivJxScd9RvbsH5ELIbbFmtJpEEMGURWjU9VeI9kqQVYkcGVlkI56t%2B3%2BKiWxYr53xKFYhMtDuaGSLJ8yQ9LKzJ40Wn4hegFIVq5KYxrk%2FsTzrFtzhbUl9xd1bA9%2BFcf77I4PfxHsB6OdjAAs5GC%2BOsPBpWLlile0sgxcwlfCJPaN%2BrCSblAs6oHFSLzehBFS8Tm8qoi%2BMGylUhVvj4stsNLuHbccebwYnnLATHmHVMquGIoNvNB2ZQPcK14KxInOBN7NDrI5caM%2Bjlflvd3t5Z6eQ2NcsfYDBQY0aMWMsqZTTEOJfq7ve51QtsWtIXV4uhvmvzJCttdImCuTP6HVCV1MXdw2b9tr4MSZ7heKPgZ4IhHWByJuB1M2prkh4Jn2EQ0zsYmr%2B35ozxjrL8MV5GZNbJEGJr2P1mkEPI7UF9GpeQdehREo5pTQWU%2BHC%2F9mPz81z2uKP1AtRJUm0HwFFibgUkzUysC6vbUPh66HKYGD0N9hHFNkHSYhr1Ko4WyLgYq36pjHt7wCboRkijFEyiT%2B6KcusJ3DvLOQCSfJF0OK7khum9%2F3u9S9mJQV9nJKlDMhzT1zHkLxJOI40JwnvMBjg2HWktS7DVrU0YvFZCDN9u4MxwV%2Bq6tW6twL6%2BHJbZ5y6hYNXXmbNgMsatw9QFaHleNyZI8q%2Fjca0mLHW7gfQp3zKeAcyTqrbWyEabuRbJE%2FpR2KLia9h%2BFZ%2BK9J%2BFaX04ArIW%2B5R6hq3NJpUnctCTSJuotHT8unT2sW%2FKr8VWHmyyAdNuGaG39%2F%2FFvsA9%2FCf34BQvBrKWTzcXV%2FkMVmKYXmhlI0vkcvNA9auOOHt4Sf4oRQby6sO4hoiHBk%2FgVJ4R%2BQaxGpZER7L9Ywx7P0oQY6sQGok%2BxWubRJWEMFel7gM6iRk4XMrjAw5Gy1tU3FU%2B59qxYBlyYeuxCm%2B8K56tD%2Fj20WABsn%2FCYkLM60vLYwfjipGQs0a0PgtMlAwmZBn%2B2LEbylnfvOH9suTpGEB%2FOkhRsjtVUOlcSHDmP2PlJ5e6hwQHVV%2FfzDVeSJ5p9NUsfUQb49UfeCpvGdqDMmu0mEgqAeWN9DD45lvKYJ5DHwhizZ2z7%2BjJ5dljvhISb1XwoYL3s%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T110047Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY37VYKOXVC%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c72b8361d8231f9fb38754732dc55d3a12067be8d9c489de408399acb3c6fda6"
+    },
+}

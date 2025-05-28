@@ -1,0 +1,17 @@
+domain_name = "lasso.franklinmadisonds.com"
+validation = "DNS"
+tags = {
+        "Department": "LSO"
+		"LastUpdated": "06152023"
+		"CostCenter": "FMG"
+		"CreatedOn": "08112022"
+		"DataClassification": "Low"
+		"Infrastructure": "False"
+		"Usage": "Project"
+		"Version": "1.0"
+		"ApplicationName": "Lasso"
+		"TechStack": "AWS"
+		"Automated": "True"
+		"BackupPlan": "None"
+		"CreatedBy": "DevOps"
+}

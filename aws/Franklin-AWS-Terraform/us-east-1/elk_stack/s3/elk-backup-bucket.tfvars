@@ -1,0 +1,22 @@
+bucket_short_name = "elk-backup-bucket"
+environment = "shared"
+logging_bucket_name = "franklin-shared-s3-access-logs"
+logging_bucket_base_prefix = "elk-backup-bucket"
+acl = "private"
+tags = {
+    "ApplicationName"		= "ELK-Stack"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CostCenter"			= "FMG"
+	"CreatedBy"				= "DevOps"
+	"CreatedOn"				= "08242023"
+	"DataClassification"	= "None"
+	"Department"			= "ELK"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "08242023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 540

@@ -1,0 +1,16 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-06dbc5b5827f7ad12"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "lasso-sgw-ec2-stage"
+    },
+    {
+      "Key": "QSConfigName-8l8fj",
+      "Value": "Stage Patch Report"
+    }
+  ]
+}

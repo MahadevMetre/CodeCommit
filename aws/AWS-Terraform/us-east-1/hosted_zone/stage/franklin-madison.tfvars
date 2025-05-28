@@ -1,0 +1,18 @@
+domain_name = "franklin-madison.com"
+vpc_id = "vpc-0051d323df13c7db3"
+comment = "Terraform : Private franklin-madison.com Hosted Zone"
+tags = {
+    "ApplicationName" = "DevOps"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "sbose"
+    "CreatedOn" = "12142022"
+    "DataClassification" = "Low"
+    "Department" = "DOS"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}

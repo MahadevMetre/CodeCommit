@@ -1,0 +1,32 @@
+{
+    "TagSet": [
+        {
+            "Key": "environment",
+            "Value": "stage"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "purpose",
+            "Value": "Bucket to input xlsx file for vanity URL update in stage environment"
+        },
+        {
+            "Key": "UpdatedOn",
+            "Value": "02012023"
+        },
+        {
+            "Key": "project",
+            "Value": "digital"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedOn",
+            "Value": "02012023"
+        }
+    ]
+}

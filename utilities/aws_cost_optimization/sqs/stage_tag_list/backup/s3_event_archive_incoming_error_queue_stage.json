@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/s3_event_archive_incoming_error_queue_stage",
+  "Tags": {
+    "CretedBy": "Arrington Jeffrey JARRINGTON",
+    "environment": "stage",
+    "terraform": "True"
+  }
+}

@@ -1,0 +1,18 @@
+iam_policy_name			= "digital-vpc-access-policy-stage"
+iam_policy_tags			= {
+		"Department": "DGT"
+        "LastUpdated": "04222024"
+        "CostCenter":  "FMG"
+        "CreatedOn": "04032024"
+        "DataClassification": "Low"
+        "Infrastructure": "False"
+        "Usage":"Project"
+        "Version": "1.0"
+        "ApplicationName": "Digital"
+        "TechStack": "None"
+        "Automated": "True"
+        "BackupPlan": "None"
+        "CreatedBy": "DevOps"
+    }
+digital_vpc_access_policy	= "true"
+iam_policy_desc				= "Digital Lambda VPC Access Policy Stage"

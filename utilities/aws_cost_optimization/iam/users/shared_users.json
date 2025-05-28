@@ -1,0 +1,25 @@
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "certbot_acme",
+            "UserId": "AIDA6A7R4Q2MGDQ4JNYXS",
+            "Arn": "arn:aws:iam::964190570136:user/certbot_acme",
+            "CreateDate": "2019-12-21T19:21:51+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "s3_access_user_jenkins_artifacts_backup",
+            "UserId": "AIDA6A7R4Q2MOGS67BH3I",
+            "Arn": "arn:aws:iam::964190570136:user/s3_access_user_jenkins_artifacts_backup",
+            "CreateDate": "2022-12-01T20:37:12+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses-smtp-user.20200221-183033",
+            "UserId": "AIDA6A7R4Q2MCBEEEZY4Y",
+            "Arn": "arn:aws:iam::964190570136:user/ses-smtp-user.20200221-183033",
+            "CreateDate": "2020-02-22T00:31:18+00:00"
+        }
+    ]
+}

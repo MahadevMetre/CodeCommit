@@ -1,0 +1,42 @@
+{
+    "Configuration": {
+        "FunctionName": "testEnvVarMaintain",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:testEnvVarMaintain",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::116762271881:role/maintenancegw-lambda-role-dev",
+        "Handler": "lambda_function.lambda_handler",
+        "CodeSize": 375,
+        "Description": "",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2023-04-03T14:35:42.844+0000",
+        "CodeSha256": "8rB1UT0FBjH3S01Ysbkn2ZO8tWk7McZr3qFKwvOr790=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHiy6oTXab3eNjfofVqxEkugR6hCwO+f/YouZbNEyMf9RwGOXExl5VZ/Y3ICVG8+Ii4fAAAAejB4BgkqhkiG9w0BBwagazBpAgEAMGQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMfcnAPx3X6z7k0pRxAgEQgDfAnqdvg+UBQCsHw75ye+KYRw+MJ5SM/AEOMgCFGTsnJcdmAk1bbecwVsq0IYg7pCDWvcs+iBzf"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "3796751f-399d-4736-b773-7cbc3d9f0da0",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/testEnvVarMaintain-d545939e-94b1-486f-8389-b139b5859a0d?versionId=YqHLihZ13HNJJBJh7_2X3lIwtWKt9N5I&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJHMEUCIQCsVXJqj6rAQqufqjBwZQAJDdwiJKALXqVnnZeDCLLCJgIgQ8cWIQvuPxCWmOwMvD8Qe38k6Ymh4%2BaParwY5xu9jsQqrwUIQhAAGgw3NDk2Nzg5MDI4MzkiDItum2JIt5s8%2B6QmMCqMBfw70RxBqrKm7k3TTcNZ5xxIIN166MnHZ6chGA7PakwGXvKGpM6ljrLYc8xm2KpsLKo5vca16rjyHG%2BmIlBWqh1MSsh%2B5bb2Rh9GWBOIbp4d5Efds4c8A6Jtlwx6T8xhHT0VJxavDnZF7RbWRqvlB3k18pY89%2Fz80eHk4bd6n4AuixfWT4EzBFG%2BYEbJkSzRj2ipj6BG807y2qEXsBhpA2UACaH%2Fk5g752g5sYzCTNGpd13Klb0VsSE4Sdj6emdBPQlDdg56jv%2BEPDnbXAHEALX32GUsgbAl8x25qHns2574m1i5khBIz8Rgv9%2BrrQnGyHFBzyvgaueu1%2FFHMfH1z0Y%2BmzySvr8bwlDzRJTvP3KVOnExngj3cVVF1Yt6lPONWRMB8IWvIvwfjzQTYiavWIQGXbGlRhPKLVtNicmOR5ejRF95MHCv8JAy95JGgBDTLn1wWzwXJ%2BuiegNWPqStABcV4G0EG5dO9oTScFP2QnxW6pFYWbezizp6EelT6Z4oaMGoHrgwX1aIbDQ%2Ba1AvEd2Gg2X5zVNLqa%2Fz5%2FbvxN64NGQGecVhRGAUr9LSEWQRuOhPO2%2BK68%2BbZbipHfAd2iQxZ8FlR2ovu9H0ayzKD%2BL666cSUEaf99SwIqzYVpS9CNt1sLRSobls77dn8qVC73qHrtJeFNHIZjmkdk%2FfOcln794d8GKhZpq8WHEMTiHgEMdmY35qHTsKv7Snmu66CJGzBy06woPKQIMUTkld78DP%2FyqoO8mXH7VPT06pKuKV5S2xQAP2aRP8yD5OXpxGS4lFiYZ5cgRbQBEOL2wbcNq7c85Uu0W%2FX77kuJayyjLtMPABo7GnIBAqfonLHdyNF01%2FLsxu%2Fu83ziKFe9ow0Jn0oQY6sQGXykBZEdm6JeEGE9Szk2YXunZFVXCnwqg1%2BI64o3wdaTkUatL53KMWHwXSKOwK%2BSsnO%2B%2F%2Fp06PTJHIr0t5y1rMykDZmjK4RC2%2FhcXkSyfi9bzZXoskdXF%2FWSBqzqjxhnjtH7L%2B6xtkGGigd0jvyQsBFo5455THk07VE8m%2Fjr%2FMdguNgBkvV%2BHIVIIU18STokVpvQm5Wdiksre2xzywZNjkAbx5x3QJHSxL%2FUnWpGYqtJk%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T103359Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY35R7A3B5M%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=20d597cc4c6568ca35d0c86de90bb669162d7f33239cfacfd69e2fc605812240"
+    },
+}

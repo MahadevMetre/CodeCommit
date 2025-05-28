@@ -1,0 +1,17 @@
+domain_name = "dev-marketingserviceapi.fmservice.com"
+validation = "DNS"
+tags = {
+    "ApplicationName" = "Marketing"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "DevOps"
+    "CreatedOn" = "NoInfo"
+    "DataClassification" = "Low"
+    "Department" = "MKT"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+}

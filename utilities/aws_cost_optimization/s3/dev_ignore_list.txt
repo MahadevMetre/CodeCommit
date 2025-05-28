@@ -1,0 +1,6 @@
+aws-logs-116762271881-us-east-1
+aws-quicksetup-patchpolicy-access-log-116762271881-0lcr9
+aws-sam-cli-managed-default-samclisourcebucket-ohmit66ahpb1
+customercommunications-dev
+poemetadata
+redshift-backup-1105

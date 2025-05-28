@@ -1,0 +1,8 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_postscript_sqs_incoming_pci",
+  "Tags": {
+    "Project": "CCMS",
+    "CreatedBy": "dselvaraj",
+    "Name": "hermes_postscript_sqs_incoming_pci"
+  }
+}

@@ -1,0 +1,21 @@
+role_name							= "proteus-etl-dev"
+iam_role_desc						= "Allows ETL Jobs to access AWS Dev"
+role_tags							= {
+	   "ApplicationName"    = "Proteus"
+       "Department"         = "PTS"
+       "CostCenter"         = "FMG"
+	   "BackupPlan"         = "None"
+       "TechStack"          = "AWS"
+       "Automated"          = "True"
+       "CreatedBy"          = "mfaizudeen"
+	   "DataClassification" = "Low"
+       "Infrastructure"     = "False"
+       "Usage"              = "Project"
+       "Version"            = "1.0"
+	   "CreatedOn"		    = "05182023"
+	   "LastUpdated"        = "05182023"
+    }
+fmg-dw-redshift_policy				= true
+fmg-dw-redshift_policy_arn			= "arn:aws:iam::116762271881:policy/fmg-dw-redshift_policy"
+proteus-etl-secrets					= true
+proteus-etl-secrets_arn				= "arn:aws:iam::116762271881:policy/proteus-etl-secrets"

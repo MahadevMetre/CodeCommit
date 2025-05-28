@@ -1,0 +1,28 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "i-0db1079772def62a2"
+  ],
+  "Tags": [
+    {
+      "Key": "CretedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "createdDate",
+      "Value": "05/12/2021"
+    },
+    {
+      "Key": "environment",
+      "Value": "dev"
+    },
+    {
+      "Key": "Name",
+      "Value": "EC2-JBoss-Slave-Digital"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    }
+  ]
+}

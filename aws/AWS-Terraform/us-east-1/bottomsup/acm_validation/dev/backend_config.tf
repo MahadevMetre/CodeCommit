@@ -1,0 +1,7 @@
+# Do not rename this file
+
+bucket	=	"franklin-shared-platformconfig"
+key		=	"us-east-1/bottomsup/acm_validation/dev/apigw/terraform.tfstate"
+
+# apigw
+# uiapps

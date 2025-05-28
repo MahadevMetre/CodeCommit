@@ -1,0 +1,12 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "Common"
+        },
+        {
+            "Key": "Name",
+            "Value": "franklin-stage-s3-access-logs"
+        }
+    ]
+}

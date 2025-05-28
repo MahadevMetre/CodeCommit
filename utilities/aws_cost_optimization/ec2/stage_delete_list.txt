@@ -1,0 +1,10 @@
+i-0ca80ac6339951f48;05032023_EC2-Priv-Qualys-Vscan
+i-08438f4bf8577bd31;05032023_EC2-WIN-PUB-Stage1
+i-09884c429b80de799;05032023_EC2-EFS-Insurance-App-datasync-agent
+i-0c4be563ee14f0346;05032023_EC2-EFS-App-Stage-datasync-agent
+i-066717ca87a2f0efc;05032023_EC2-Datagateway
+i-05f300b211ca85893;05032023_EC2-Qlik
+i-02e3622e7112323ed;05032023_Offshore-DW-Temp-Jump-Box
+i-02dcd910c6c694a4c;05032023_stage-ec2-cloudwatch-memorymonitoring
+i-05315ffb5d8414a41;05032023_Stage-Connection-Test
+i-0c56d443936ddf6a9;05032023_stage-jump-box

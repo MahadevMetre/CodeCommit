@@ -1,0 +1,18 @@
+iam_user_name = "athena-db-user-stage"
+iam_user_tags = {
+  Department         = "DSB"
+  LastUpdated        = "06262024"
+  CostCenter         = "FMG"
+  CreatedOn          = "06262024"
+  DataClassification = "Low"
+  Infrastructure     = "False"
+  Usage              = "Project"
+  Version            = "1.0"
+  ApplicationName    = "DashBoard"
+  TechStack          = "AWS"
+  Automated          = "True"
+  BackupPlan         = "None"
+  CreatedBy          = "DevOps"
+}
+iam_policy_name      = "arn:aws:iam::702230634984:policy/dashboard-rds-policy-stage"
+dashboard_rds_policy = "true"

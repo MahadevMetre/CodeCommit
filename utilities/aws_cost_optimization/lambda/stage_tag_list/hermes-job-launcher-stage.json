@@ -1,0 +1,18 @@
+{
+    "Tags": {
+        "ApplicationName": "Hermes",
+        "Automated": "True",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+        "CreatedBy": "sbose",
+        "CreatedOn": "02142023",
+        "DataClassification": "Low",
+        "Department": "HMS",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Java",
+        "Usage": "Project",
+        "Version": "1.0"
+    }
+}
+

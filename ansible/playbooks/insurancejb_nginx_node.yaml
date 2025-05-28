@@ -1,0 +1,150 @@
+---
+ - hosts: insurancejb_nginx
+   become: true
+   tasks:
+     - name: Install rsyslog
+       dnf:
+        name: rsyslog
+        state: present
+     - name: Enable and start rsyslog
+       service:
+        name: rsyslog
+        state: started
+        enabled: true
+     - name: Install EFS Utils
+       dnf:
+        name: amazon-efs-utils
+        state: present
+     - name: Install Nginx
+       dnf:
+        name: nginx
+        state: present
+     - name: Configure Nginx
+       copy:
+        src: insurancejb_nginx_node/nginx.conf
+        dest: /etc/nginx/nginx.conf
+        owner: root
+        group: root
+        mode: 0644
+     - name: Create gitlab group
+       group:
+        name: gitlab
+        gid: 10001
+     - name: Create gitlab user
+       user:
+        name: gitlab
+        password: $6$7e0cULArLpNGfN9C$imEkqMILzG.gb0FRgZxFzgYkrJLVHaaG6QYuiKLCjS77UPnK.vfCdO2t2mS83ekGB0CXkMPYJUWGea5sPsHKK.
+        comment: Gitlab User
+        group: gitlab
+        groups: "wheel, nginx"
+        uid: 10001
+     - name: Create ssl directory
+       file:
+        path: /etc/nginx/ssl
+        state: directory
+        owner: gitlab
+        group: gitlab
+        mode: 0600
+     - name: Setup SSL certs
+       copy:
+        src: "{{ item.src }}" 
+        dest: "{{ item.dest }}"
+        owner: root
+        group: root
+        mode: 0600
+       loop:
+        - src: /home/jenkins/letsencrypt/config/live/franklinmadisonds.com/fullchain.pem
+          dest: /etc/nginx/ssl/wildcard_fmds.pem
+        - src: /home/jenkins/letsencrypt/config/live/franklinmadisonds.com/privkey.pem
+          dest: /etc/nginx/ssl/privkey.pem
+     - name: Enable and start Nginx
+       service:
+        name: nginx
+        state: started
+        enabled: true
+     - name: Setup gitlab public key
+       shell: |
+        mkdir /home/gitlab/.ssh
+        echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA3KCENJuYm/9J7RLR0N11MOyQWQ4dPyLd/OMYmMrgEZKN5qvwJF4M7krwuPk+2UZgYF/UScSOANTpNSFvME90DgnEMjpPik5oldC73N5KVaRMucHp6EqlgenD90vwgHQ3VaMQhLSbNZ7l6xbX1x/f2bfbougK1O4+68U/3zvsCpn5soDdSiyMct+S2wsKqxLXDUg6/5Z8b+w1QLKqlCo2EFSTcKPr2Q6688dthX6Sa0+Uydy5KJypdxI7GeQ3xbL4F+myHkjS2O8tCiiz/XD3ftMIqHvfFSyuVczRCz/4WooZoFmwg5HS7OOy0CFBl3NoOG5qEjLX2tY1OCH2kmSKqQ== rsa-key-20191126" > /home/gitlab/.ssh/authorized_keys
+        chmod -R 700 /home/gitlab/.ssh
+        chmod 600 /home/gitlab/.ssh/authorized_keys
+        chown -R gitlab:gitlab /home/gitlab/.ssh/
+     - name: Setup gitlab private key passphrase
+       copy:
+        src: gitpass
+        dest: /home/gitlab/.id_rsa_cred
+        owner: gitlab
+        group: gitlab
+        mode: 0600
+     - name: Create batch group
+       group:
+        name: batch
+        gid: 10013
+     - name: Create jbadmin group
+       group:
+        name: jbadmin
+        gid: 10000
+     - name: Create jbadmin user
+       user:
+        name: jbadmin
+        comment: Jbadmin User
+        group: jbadmin
+        groups: "batch"
+        uid: 10000
+     - name: Mount EFS
+       shell: |
+        mkdir -p /mnt/efs
+        ln -s /mnt/efs /common
+        echo "fs-2912f2a9:/common/stage /mnt/efs efs tls,_netdev,nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 0 0" >> /etc/fstab
+     - name: Alertlogic Prerequisites
+       copy:
+        src: alagentpp
+        dest: /tmp/al-agent.pp
+     - name: Alertlogic Installation
+       shell: |
+        cd /tmp
+        wget -O al-agent.rpm https://scc.alertlogic.net/software/al-agent-LATEST-1.x86_64.rpm
+        rpm -U al-agent.rpm
+        echo "*.* @@127.0.0.1:1514;RSYSLOG_FileFormat" >> /etc/rsyslog.conf
+        systemctl restart rsyslog
+        semanage port -a -t syslogd_port_t -p tcp 1514
+        setsebool -P nis_enabled 1
+        semodule -i al-agent.pp
+        rm al-agent.pp
+     - name: Filebeat RPM Copy
+       copy:
+        src: insurancejb_nginx_node/filebeat-8.6.2-x86_64.rpm
+        dest: /tmp/filebeat-8.6.2-x86_64.rpm
+        owner: root
+        group: root
+        mode: 0644
+     - name: Filebeat Installation
+       shell: |
+        mkdir /root/filebeat_config
+        mv /tmp/filebeat-8.6.2-x86_64.rpm /root/filebeat_config/filebeat-8.6.2-x86_64.rpm
+        cd /root/filebeat_config
+        rpm -ivh filebeat-8.6.2-x86_64.rpm
+     - name: Install NodeJS
+       dnf:
+        name: nodejs
+        state: present
+     - name: UI Logger Files Copy
+       copy:
+        src: insurancejb_nginx_node/ui_logger.zip
+        dest: /usr/share/nginx/modules/ui_logger.zip
+        owner: root
+        group: root
+        mode: 0644
+     - name: Install pm2 and setup logger
+       shell: |
+        npm i -g pm2
+        cd /usr/share/nginx/modules/
+        unzip -o ui_logger.zip
+        rm -f ui_logger.zip
+        chown -R root:root api
+        cd /usr/share/nginx/modules/api/logger
+        pm2 start server.js
+        pm2 startup
+        systemctl enable pm2-root
+        systemctl start pm2-root
+        pm2 save

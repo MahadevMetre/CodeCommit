@@ -1,0 +1,20 @@
+policy_name			= "ec2-start-stop-policy-dev"
+role_name			= "ec2-start-stop-role-dev"
+role_tags			= {
+    "ApplicationName" = "DevOps"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "sbose"
+    "CreatedOn" = "02102023"
+    "DataClassification" = "Low"
+    "Department" = "DOS"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+    }
+lambda_vpc_connect					= true
+ec2-start-stop-policy				= true
+eventbridge_scheduler_source_arn	= "arn:aws:scheduler:us-east-1:116762271881:schedule/ec2_instance_management/*"

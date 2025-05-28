@@ -1,0 +1,17 @@
+iam_policy_name			= "digital-cognito-admin-policy"
+iam_policy_tags			= {
+    "ApplicationName" = "DevOps"
+    "Automated" = "True"
+    "BackupPlan" = "None"
+    "CostCenter" = "FMG"
+    "CreatedBy" = "sbose"
+    "CreatedOn" = "NoInfo"
+    "DataClassification" = "Low"
+    "Department" = "DOS"
+    "Infrastructure" = "False"
+    "LastUpdated" = "06262023"
+    "TechStack" = "AWS"
+    "Usage" = "Project"
+    "Version" = "1.0"
+    }
+cognito_admin_policy	= "true"

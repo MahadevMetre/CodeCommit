@@ -1,0 +1,8 @@
+{
+    "WebACLs": [
+        {
+            "WebACLId": "93018ec1-553a-4558-b12c-dbe44d793fb9",
+            "Name": "onlinepayment-wafsecurity-stage-CloudFrontStack-1X476VS11XG2N"
+        }
+    ]
+}

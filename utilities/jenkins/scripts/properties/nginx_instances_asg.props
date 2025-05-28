@@ -1,0 +1,8 @@
+devel=nginx-digital-instance-dev
+staging=nginx-digital-instance-stage
+production=nginx-digital-instance-pci
+devel_iapps=nginx-insuranceapps-instance-dev
+qa_iapps=nginx-insuranceapps-instance-stage
+staging_iapps=nginx-insuranceapps-instance-stage
+production_iapps=nginx-insuranceapps-instance-pci
+dr_iapps=nginx-insuranceapps-instance-dr

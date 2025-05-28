@@ -1,0 +1,23 @@
+bucket_short_name = "lasso-batch-files"
+environment = "pci"
+logging_bucket_name =  "franklin-pci-s3-access-logs"
+logging_bucket_base_prefix = "lasso-batch-files-pci"
+acl                 = "private"
+tags ={
+    "ApplicationName"		= "Lasso"
+	"Automated"				= "True"
+	"BackupPlan"			= "None"
+	"CreatedBy"				= "mfaizudeen"
+	"CreatedOn"				= "08112022"
+	"CostCenter"			= "FMG"
+	"DataClassification"	= "PCI"
+	"Department"			= "LSO"
+	"Infrastructure"		= "False"
+	"LastUpdated"			= "09272023"
+	"TechStack"				= "AWS"
+	"Usage"					= "Project"
+	"Version"				= "1.0"
+}
+s3_enable_lifecycle_config = true
+s3_lifecycle_days = 90
+versioning_enabled_bool	= true

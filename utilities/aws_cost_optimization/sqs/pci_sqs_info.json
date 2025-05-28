@@ -1,0 +1,31 @@
+{
+    "QueueUrls": [
+        "https://sqs.us-east-1.amazonaws.com/601751840347/athenanextgen_cc_dashboard_error_prod",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/athenanextgen_cc_dashboard_incoming_prod",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/athenanextgen_upr_dashboard_error_prod",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/athenanextgen_upr_dashboard_incoming_prod",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/captiva_incoming_error_queue_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/captiva_incoming_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/frk-pci-lambda-dlq",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/gps_printpo_sqs_error_prod",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/gps_printpo_sqs_incoming_prod",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_email_archive_sqs_error_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_email_archive_sqs_incoming_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_postscript_sqs_error_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_postscript_sqs_incoming_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_ses_events_sqs_error_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_ses_events_sqs_incoming_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_statusupdate_sqs_error_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_statusupdate_sqs_incoming_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/nemesysnextgen_job_bulk_copy_error_prod",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/nemesysnextgen_job_bulk_copy_incoming_prod",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/outcomesbucket-134273047",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/poe_reencryption_incoming_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/s3_event_archive_incoming_error_queue_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/s3_event_archive_incoming_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/s3_event_restore_incoming_error_queue_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/s3_event_restore_incoming_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/selfservice-confirm-user-error_pci",
+        "https://sqs.us-east-1.amazonaws.com/601751840347/selfservice-confirm-user-incoming_pci"
+    ]
+}

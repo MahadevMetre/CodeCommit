@@ -1,0 +1,53 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-emailConfirmation-dev",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:onlinepayment-emailConfirmation-dev",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::116762271881:role/onlinepayment-lambda-role-dev",
+        "Handler": "todos/emailConfirmation.emailConfirmation",
+        "CodeSize": 8731322,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-07T14:20:27.063+0000",
+        "CodeSha256": "M2C/Q8TdUS1Q7xSAO/MqK5DplUeET4yzJIhpSxNdLik=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [],
+            "SecurityGroupIds": [],
+            "VpcId": ""
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHhwO394notFxgPOxiYF68obYT7qqM1RsHQ9SSMmBIEKpwEisheTzgokAtxCRqCseWTPAAAAejB4BgkqhkiG9w0BBwagazBpAgEAMGQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMutKUfbgC5gFni633AgEQgDeu0dFlFC2K2d+UEKBp6jBQPhHVTQ4BtrnEveHY004yvpHIMTyeeYCkipX8+W5M6ioCUSsN+1WO"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "f6f2f487-1eab-4f70-95e7-2533a63879a2",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:116762271881:layer:parameterlayer:438",
+                "CodeSize": 442
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/onlinepayment-emailConfirmation-dev-951dfa37-8f03-44f1-93d1-de0c25fdadc0?versionId=etPB1.hwHkj0cKtoYHH1l0tEu3I3V1TC&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEsaCXVzLWVhc3QtMSJHMEUCIHhHF7xrGx%2BFCAg3IjHg4j0QHoYnfu2INoVJluGqfVvxAiEAgWD4lkQSgcrd%2FOfszpx83kx3f1HYX1wucW5M4YsZfQsqsQUIQxAAGgw3NDk2Nzg5MDI4MzkiDM4vCOpOJcRKxuvT1iqOBayg9%2BsmETt7WFWDSlxSHKBCUmhuJNYBofIKZu%2FtuwKm%2FDzvRKHDVwVnpBTMVz7V366UhExQyy%2BGzlrEivyW7bcYtVG1Gey%2Bz6JxS013kwxsZt9j%2BmH%2FbMdeUlM8L4kX0wVQckAltGSEKsUAR25paJlW07W9zcBP1orYw%2FC3s8qDKQext4k15r8i8bHtf6K3q6odQ5cD9gHWpqcxhHvy3Ln5aYRDJWJfaX2ftPEib%2F6jX1%2BEd7%2Fflga9VlrflS4LzPsIJKLv7PaDhFKzbJgsJ84WTdX4B7qLVfQAtbNSfmpaZFwP5vd3ELrXDJXg8Cf5STM3q8rubzQaUR2%2ByClmMKkOMVec4srJgd6bnKMnOPy82T4I%2FFDq04yunQhqlLuMUcqwLZWI%2BaODern6eEtgVto852nXSktt3EgtxCu%2FYr4yQZ%2BVdLDRv%2FPu2EpNMvy2TYItUerDrWXmsZP5b0V1Pf4PdvP%2BpAVqpehx4Bdr%2BNWalazVfivSuaVGbDzM6Kv02iXIq6EtJvUuWEGcNYPayrb0ay%2FnC2a1z%2F6O8JIV2Bwu84vxdbzwrvL6ONb17L2yEQjylVS9GZU4Ylqrp7t3cYjNrp4cLr%2FS1YfUcrwvuHguU7x1eweiHjT6qBD0wT5FJ%2Fxfjx3g1181jfh1yyHOk%2B6B6tXAx4pGilZTXy8YQThkIegdCSHvFHba6TARQT%2FWDVUAU8Cbgp1mWAOjQN7LrNyUNL3h8IZT9sKH8D48PRxpejAMThUmj%2BB76eqnSiY1NENRXeprfX6RQVeLzOPk%2BSFBAPB28ne01rVdHscNtMQwKJ3dMbUT7uyi6A%2BAJ4X1MM4de%2BRmJF45Wfem6Pdrsc1mw%2BVlUyRkgqSiq07VhzCmuvShBjqxAU1L3a0CaBNyLNiqbSCOXRDfNGwozJcKQ%2FNTBK%2FJa6ozOqW65zrELgGx2sQMirbVLtockmOg7ealFJxjxm8LZT0aa3jFWmqvOtFYodO5eC%2FDnYpCIOftGM8xproB8nwygIdSkP1rHfyO60VVAtgBURbSkZwfibCOJQhFwWAeBWKELwbDrylvImGTDen9S19Q4YFl6N4YnyVbDFiVtPg6PWhLtk%2BN14vDLYjIuNuizvSmMw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T111958Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3WRN4IQ46%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fe670828ad1012301581938a7e73c3f3e32f2fbdc3430051ae86b542a335671e"
+    },
+}

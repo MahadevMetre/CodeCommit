@@ -1,0 +1,17 @@
+{
+    "Tags": {
+        "ApplicationName": "Datawarehouse",
+        "Automated": "False",
+        "BackupPlan": "None",
+        "CostCenter": "FMG",
+        "CreatedBy": "NoInfo",
+        "CreatedOn": "NoInfo",
+        "DataClassification": "Low",
+        "Department": "DLH",
+        "Infrastructure": "False",
+        "LastUpdated": "NoInfo",
+        "TechStack": "Python",
+        "Usage": "Project",
+        "Version": "1.0"
+    }
+}

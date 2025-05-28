@@ -1,0 +1,28 @@
+{
+    "TagSet": [
+        {
+            "Key": "Project",
+            "Value": "Logging and monitoring"
+        },
+        {
+            "Key": "environment",
+            "Value": "pci"
+        },
+        {
+            "Key": "Purpose",
+            "Value": "For storing access logs for ALB"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "jsamuel"
+        },
+        {
+            "Key": "Name",
+            "Value": "franklin-alb-access-logs-pci"
+        }
+    ]
+}

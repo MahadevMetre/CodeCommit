@@ -1,0 +1,791 @@
+{
+  "Comment": "Proteus2 ETL Full Load Wrapper",
+  "StartAt": "Create Proteus2 ETL BatchID",
+  "States": {
+    "Create Proteus2 ETL BatchID": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "OutputPath": "$.Payload",
+      "Parameters": {
+        "Payload.$": "$",
+        "FunctionName": "arn:aws:lambda:us-east-1:702230634984:function:Proteus2_Create_Batch:$LATEST"
+      },
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "Lambda.ServiceException",
+            "Lambda.AWSLambdaException",
+            "Lambda.SdkClientException"
+          ],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 6,
+          "BackoffRate": 2
+        }
+      ],
+      "Next": "Update ETL Batch as Processing"
+    },
+    "Update ETL Batch as Processing": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::dynamodb:updateItem",
+      "Parameters": {
+        "TableName": "Proteus2_ETL_Batch",
+        "Key": {
+          "batchid": {
+            "S.$": "$.batchid"
+          },
+          "datecreated": {
+            "S.$": "$.batchdatetime"
+          }
+        },
+        "UpdateExpression": "SET #status = :myValueRef",
+        "ExpressionAttributeNames": {
+          "#status": "status"
+        },
+        "ExpressionAttributeValues": {
+          ":myValueRef": {
+            "S": "PROCESSING"
+          }
+        }
+      },
+      "Next": "Full Load Tables",
+      "ResultPath": null
+    },
+    "Full Load Tables": {
+      "Type": "Parallel",
+      "Next": "No Errors",
+      "ResultPath": null,
+      "Branches": [
+        {
+          "StartAt": "dimaccounttype",
+          "States": {
+            "dimaccounttype": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimaccounttype"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimbillinginstitution",
+          "States": {
+            "dimbillinginstitution": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimbillinginstitution"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimproductversion",
+          "States": {
+            "dimproductversion": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimproductversion"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimproductconcept",
+          "States": {
+            "dimproductconcept": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimproductconcept"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimrateset",
+          "States": {
+            "dimrateset": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimrateset"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimpolicy",
+          "States": {
+            "dimpolicy": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimpolicy"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimclient",
+          "States": {
+            "dimclient": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimclient"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimbillreturnreason"
+            },
+            "dimbillreturnreason": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimbillreturnreason"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimaddresses"
+            },
+            "dimaddresses": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.perform_initial_load_dimaddresses"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimalternativetransactionaddress"
+            },
+            "dimalternativetransactionaddress": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.perform_initial_load_dimalternativetransactionaddress"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimsesevent"
+            },
+            "dimsesevent": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "clientservices.perform_initial_load_dimsesevent"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimsesaccounttype"
+            },
+            "dimsesaccounttype": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.perform_initial_load_dimsesaccounttype"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimsolicitationsegment"
+            },
+            "dimsolicitationsegment": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "clientservices.perform_initial_load_dimsolicitationsegment"
+                }
+              },
+              "ResultPath": null,
+              "Next": "factbillingsummary"
+            },
+            "factbillingsummary": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_factbillingsummary"
+                }
+              },
+              "ResultPath": null,
+              "Next": "factcoveragedetails"
+            },
+            "factcoveragedetails": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_factcoveragedetails"
+                }
+              },
+              "ResultPath": null,
+              "Next": "factbillingtransactions"
+            },
+            "factbillingtransactions": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_factbillingtransactions"
+                }
+              },
+              "ResultPath": null,
+              "Next": "factrevenueprocessingpdn"
+            },
+            "factrevenueprocessingpdn": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.perform_initial_load_factrevenueprocessingpdn"
+                }
+              },
+              "ResultPath": null,
+              "Next": "factrevenueprocessingrefund"
+            },
+            "factrevenueprocessingrefund": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "Billing.perform_initial_load_factrevenueprocessingrefund"
+                }
+              },
+              "ResultPath": null,
+              "Next": "fact_online_payment_work"
+            },
+            "fact_online_payment_work": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "Billing.perform_initial_load_fact_online_payment_work"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimonlineaccountupdate"
+            },
+            "dimonlineaccountupdate": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "Billing.perform_initial_load_dimonlineaccountupdate"
+                }
+              },
+              "ResultPath": null,
+              "Next": "factbillingletterfee"
+            },
+            "factbillingletterfee": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "Billing.perform_initial_load_factbillingletterfee"
+                }
+              },
+              "ResultPath": null,
+              "Next": "factfingerhutsettlement"
+            },
+            "factfingerhutsettlement": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "Billing.perform_initial_load_factfingerhutsettlement"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimcampaign"
+            },
+            "dimcampaign": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "clientservices.perform_initial_load_dimcampaign"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimsolicitationevent"
+            },
+            "dimsolicitationevent": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "clientservices.perform_initial_load_dimsolicitationevent"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimbillschedule"
+            },
+            "dimbillschedule": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimbillschedule"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dim_organization"
+            },
+            "dim_organization": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.perform_initial_load_dimorganization"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dim_hold_by_coverage"
+            },
+            "dim_hold_by_coverage": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.sp_full_load_dim_hold_by_coverage"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dim_revenue_processing_event_relation"
+            },
+            "dim_revenue_processing_event_relation": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimrevenueprocessingeventrelation"
+                }
+              },
+              "ResultPath": null,
+              "Next": "fact_rev_proc_event"
+            },
+            "fact_rev_proc_event": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.perform_initial_load_factrevprocevent"
+                }
+              },
+              "ResultPath": null,
+              "Next": "factrevproceventextension"
+            },
+            "factrevproceventextension": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.perform_initial_load_factrevproceventextension"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimcustomer",
+          "States": {
+            "dimcustomer": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimcustomer"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimcodevalues",
+          "States": {
+            "dimcodevalues": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimcodevalues"
+                }
+              },
+              "ResultPath": null,
+              "Next": "dimcarrier"
+            },
+            "dimcarrier": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimcarrier"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimbillset",
+          "States": {
+            "dimbillset": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimbillset"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimemployeedetails",
+          "States": {
+            "dimemployeedetails": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimemployeedetails"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimbroker",
+          "States": {
+            "dimbroker": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "common.perform_initial_load_dimbroker"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "dimlineofbusiness",
+          "States": {
+            "dimlineofbusiness": {
+              "Type": "Task",
+              "Resource": "arn:aws:states:::glue:startJobRun.sync",
+              "Parameters": {
+                "JobName": "Proteus2_ETL_Wrapper",
+                "Arguments": {
+                  "--batch_id.$": "$.batchid",
+                  "--target_db.$": "$.target_db",
+                  "--db_creds.$": "$.db_creds",
+                  "--etl_type": "FullLoad",
+                  "--procedure": "billing.perform_initial_load_dimlineofbusiness"
+                }
+              },
+              "ResultPath": null,
+              "End": true
+            }
+          }
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.TaskFailed"
+          ],
+          "Next": "Error Handler",
+          "ResultPath": "$.batchprocessinfo"
+        }
+      ]
+    },
+    "Error Handler": {
+      "Type": "Pass",
+      "Next": "Update ETL Batch as Failed"
+    },
+    "Update ETL Batch as Failed": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::dynamodb:updateItem",
+      "Parameters": {
+        "TableName": "Proteus2_ETL_Batch",
+        "Key": {
+          "batchid": {
+            "S.$": "$.batchid"
+          },
+          "datecreated": {
+            "S.$": "$.batchdatetime"
+          }
+        },
+        "UpdateExpression": "SET #status = :myValueRef",
+        "ExpressionAttributeNames": {
+          "#status": "status"
+        },
+        "ExpressionAttributeValues": {
+          ":myValueRef": {
+            "S": "FAILED"
+          }
+        }
+      },
+      "Next": "Step function has Failed"
+    },
+    "Step function has Failed": {
+      "Type": "Fail"
+    },
+    "No Errors": {
+      "Type": "Pass",
+      "Next": "Update ETL Batch as Success",
+      "Result": {
+        "processed": true,
+        "success": true,
+        "status": "SUCCESS"
+      },
+      "ResultPath": "$.batchprocessinfo"
+    },
+    "Update ETL Batch as Success": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "Payload.$": "$",
+        "FunctionName": "arn:aws:lambda:us-east-1:702230634984:function:Proteus2_Update_Batch:$LATEST"
+      },
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "Lambda.ServiceException",
+            "Lambda.AWSLambdaException",
+            "Lambda.SdkClientException"
+          ],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 6,
+          "BackoffRate": 2
+        }
+      ],
+      "OutputPath": "$.Payload",
+      "End": true
+    }
+  }
+}

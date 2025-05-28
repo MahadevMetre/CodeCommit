@@ -1,0 +1,18 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/702230634984/hermes_postscript_sqs_error_stage",
+  "Tags": {
+    "TechStack": "NoInfo",
+    "Usage": "Project",
+    "ApplicationName": "Hermes",
+    "CreatedBy": "NoInfo",
+    "Automated": "False",
+    "BackupPlan": "None",
+    "Department": "HMS",
+    "CostCenter": "FMG",
+    "Version": "1.0",
+    "Infrastructure": "False",
+    "DataClassification": "None",
+    "CreatedOn": "NoInfo",
+    "LastUpdated": "NoInfo"
+  }
+}

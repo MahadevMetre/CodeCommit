@@ -1,0 +1,18 @@
+// domain_name = "lasso-dr.franklinmadisonds.com"
+// validation = "DNS"
+// tags = {
+    // "ApplicationName" = "Lasso"
+	// "Automated" = "True"
+	// "BackupPlan" = "None"
+	// "CostCenter" = "FMG"
+	// "CreatedBy" = "mfaizudeen"
+	// "CreatedOn" = "02142023"
+	// "DataClassification" = "Low"
+	// "Department" = "LSO"
+	// "Infrastructure" = "False"
+	// "LastUpdated" = "02142023"
+	// "TechStack" = "AWS"
+	// "Usage" = "Project"
+	// "Version" = "1.0"
+    // "Name"	= "Lasso UI DR ACM"
+// }

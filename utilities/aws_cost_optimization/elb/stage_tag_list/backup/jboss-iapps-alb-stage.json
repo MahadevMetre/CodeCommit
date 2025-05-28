@@ -1,0 +1,25 @@
+{
+  "ResourceArns": "arn:aws:elasticloadbalancing:us-east-1:702230634984:loadbalancer/app/jboss-iapps-alb-stage/8f32ff9d7d0ae8ce",
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "insuranceapps"
+    },
+    {
+      "Key": "environment",
+      "Value": "stage"
+    },
+    {
+      "Key": "terraform",
+      "Value": "True"
+    },
+    {
+      "Key": "CreatedBy",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "Name",
+      "Value": "jboss-iapps-alb-stage"
+    }
+  ]
+}

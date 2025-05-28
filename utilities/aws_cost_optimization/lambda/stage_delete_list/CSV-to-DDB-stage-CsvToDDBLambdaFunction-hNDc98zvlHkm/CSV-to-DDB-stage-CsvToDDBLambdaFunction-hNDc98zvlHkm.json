@@ -1,0 +1,44 @@
+{
+    "Configuration": {
+        "FunctionName": "CSV-to-DDB-stage-CsvToDDBLambdaFunction-hNDc98zvlHkm",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:CSV-to-DDB-stage-CsvToDDBLambdaFunction-hNDc98zvlHkm",
+        "Runtime": "python3.7",
+        "Role": "arn:aws:iam::702230634984:role/CSV-to-DDB-stage-LambdaRole-1NBGEU6WOUGMP",
+        "Handler": "index.lambda_handler",
+        "CodeSize": 1019,
+        "Description": "",
+        "Timeout": 900,
+        "MemorySize": 3008,
+        "LastModified": "2023-04-08T17:26:13.449+0000",
+        "CodeSha256": "rTiUP/5QU6lANbKf3GQTDZiaOxNlbMdAb5hniOLlw9k=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "bucket": "poemetadatastage",
+                "key": "poemetadataStage.csv",
+                "table": "PoeReEncMigrationStage"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "0111cf5e-22ea-4d50-a383-876ba81914d1",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/CSV-to-DDB-stage-CsvToDDBLambdaFunction-hNDc98zvlHkm-9c4ec49a-8e54-43fd-932f-f00671415922?versionId=ahWjw7wy0fvzwCfmeI.MDNf4lzVGzCkT&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEsaCXVzLWVhc3QtMSJIMEYCIQCe5OkDh%2B5Zfwt3NQZuJSd8iE8oaSYg0dYrGCTOxc0KPQIhAL2%2F2CZyNqkEvzV4lfUI%2FGqSj6izO%2F7ij90ObpSrNRqBKrIFCEQQABoMNzQ5Njc4OTAyODM5IgzCXnc3jwetrPyqVToqjwU4cp5xq4xtXrhideHtWMBMhuMi5yyOZzvvaJpYWIhCkXjmVmGyrKKyBYe%2FfrxBoDuPXCGyzc7l3XHa%2BV7J93bP%2BJ2qJ35CQQ6r0LR1FwgFLEmTIIfhczA1Nse%2BEZimJHydIj9hwD8nifBc0bm3MpKsQjcvcIgifhPKOBmQL1K0X0GrItRstD4ZalKh8FhH0agVR7dcboiXA0i%2FukYWDhSLissRuwhtmi3Zb3A02sCusOKXEXE4YVMWr4hG3gRajyhxe1T4X1hy%2B%2Fw26yEjeEGp%2BgknBV6wISUTCXxp2P01miaqrUvBVosn2nbIH7cvnj1Vi%2BxtBMg9gF3AFu2VXs0F0PZBbQDK0HKJL0%2BkXIGJeWZcpXUn3TdTjbVwJO1auNx9oFwwFQNBrLUfMbNUaxSxIlj324ZtW7OjmMpg7VxIqecFAXnCoaHJ3Muoggbu3zzIWotWknXxE4lWN3ukW0rMWHk9SGnpCMpPfNO0HtVAPHgu96w7UnBQotZIzf4tbEUF0x%2Bq2BFEGuAm66m9EDBT3i0T6a1t11zFnv9bIO7Nw5GtcfefkPcDIQ8HdeQ5PKiSEluiAi5q7Rst2DHz5snTJjSrtWhBVphp%2FomkvVzVjxc8j5sVVmSAvCIypEz7GXB0gQsIq6LBmaQXoTpM6tHI3ShaNu%2FCMMuFD7zc6OWXaUECIHNrVxcT2ueOLFu2nd34V1Gt4mdZkrgaaVyze1SooeRxWIxyVCEsaFFZ9zpZoN6nQ9aMTqZnGRaOxrnOajkXt9fYjxD2u07wn%2FEasxZUpqhohPKn3gjIo2HTWEfqpehEcdvSGfJLu4nStkFm%2Bky47K7E7wEZ5D9mxVRb8xugi5fInWS2TWiMGaK1KHypMPrO9KEGOrABoHsZ1EsAZNYhaXs93kgzfcHphs4pf%2FYI6w67SAp7DBmdHnQXuXskL%2Bz6PI1z3aMpClJHazepIic%2BxmvxUYTghz%2BsSL5oLIoqzMbXJDDsaBspG3V3SmthITnrtPYIcPjB8KsjxbTr5rECctEvwTYoXR1AWkTpLCvNJQUCat%2BS9NxddByUqbLD1braDtLN7EPGeg23wUCplE5StFklQZGcoauuGH9sKqqnBXb4sA49wmg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T123935Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY37RDSQKD3%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b476c05fd38aec93c7d0ac79c6e138f0062af9e5c8f2e4398fd64be8f2ce3d6e"
+    },
+}

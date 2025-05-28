@@ -1,0 +1,16 @@
+{
+  "DryRun": false,
+  "Resources": [
+    "vol-0a72df4ca8eda19cc"
+  ],
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "EC2-WIN-DW-Qlik-Base Instance"
+    },
+    {
+      "Key": "purpose",
+      "Value": "FMG DW Qlik Replicate Instance"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+    "Configuration": {
+        "FunctionName": "onlinepayment-verifyUser-stage",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:onlinepayment-verifyUser-stage",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::702230634984:role/onlinepayment-verifyUser-staging",
+        "Handler": "todos/verifyUser.validateUser",
+        "CodeSize": 11039564,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 1024,
+        "LastModified": "2023-04-08T17:26:13.446+0000",
+        "CodeSha256": "0aupDBucRgFjJkV06E+0IlCKjc6PU5Eqm1CSv4fq40E=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0ed61b6beb807094e",
+                "subnet-076a071fa0723c80e"
+            ],
+            "SecurityGroupIds": [
+                "sg-0a5da8e1a87daaa60"
+            ],
+            "VpcId": "vpc-0051d323df13c7db3"
+        },
+        "Environment": {
+            "Variables": {
+                "parameter_store": "AQICAHiEbmZYZoosOoas35/jcfKOpWEoKN/lQJ3A1VVLVlWFAAGFvyKq+UZmGbSJzF3r+JeYAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMrDSArtj3mw0OOQ8pAgEQgDuMpwxBsXXvP5eCCed1U26JtsuC4CTcaqdh/4mV0k9wikjz5fCy5vgBFpPFyZECXalhoTnNfCFBck3KAg=="
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "3172caf9-7828-4291-8372-521c55a32b7e",
+        "Layers": [
+            {
+                "Arn": "arn:aws:lambda:us-east-1:702230634984:layer:parameterlayer:129",
+                "CodeSize": 443
+            }
+        ],
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/onlinepayment-verifyUser-stage-9ece5c0f-14a5-4368-b0ab-d98d7118f58f?versionId=togm0_Dqip2bdZLhlQbIf3dhXgYWeddL&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEwaCXVzLWVhc3QtMSJGMEQCIGcz0g1t7YYTBCQl2KYl3WqNDFz1SwX3Yfj7wx0XLki%2BAiA4dd3ekUPNVIujDTOSlXZ4g7gB36vz3hEDoDpaiwNOxSqxBQhEEAAaDDc0OTY3ODkwMjgzOSIM1ndOJ0RlBbx8J0IaKo4FRalavCXtcu%2FHq8A8mbVp%2BTHanK%2Byv5kY0VVX1fiYmJ2QCrQBBcywFpvZL0F7XAvpevtNG%2FPf4dz2JXam1qYB6wd8V2EhshCEkyuCIYBvT1bV2ujy8BD8KK1up3NG1H2pJZ029Ca9E4j%2FTnJvuyiXd4oI7I88dO4uZse5A82hZ9U%2FkAchXrdP8scbOU4wgTDyC%2FmCLYgdnpcajsr3UB1E1%2Bgc6KAgsvs7PAeMvyze0cSRuS187rQK9PPkSXWBgJ%2FKagJk1L%2FwLyOttNeT7MbfwKjG9ykIfGOzYcMcZ3cJKx14FGkQbytRPZeHanQZtfu00lk%2BspImCScXJQzjEN%2BiRRjDB7auADICbAuYeVdFeuIU89Bnsvq5h%2BP%2BT2ayn3xHKApceZ3FGjyhn%2FPjj6j0Lqby7Am%2F%2Bu8foFvkn9U2VzSy0mMzij5Z7Jyt8Ls4g4xUd6eWaCC2zhXwTCz7gh4Y7Pfas87fCFXHq5g0xMItt%2Be9%2FLOvSFwfbUezlvgebOXcNwmKKmpssQ6OwP%2BO7wdRV7I3rHeK04XzQROQBsm59%2Bh%2BxesFM%2FgmO%2FxHElEPcNFO85jDi%2BXBYE36nWR%2F2ok58ApHiLREHyaiErBAZko4Isfbca2FD2jY4Tddb%2BRDPnri1hwiGwFVuu4DLH4wdMb%2BIzWkZeUuo4kk8ZpFUbhBF3YCLLI3IkBbyAWd9nZTDvG01xGp%2Bsh%2BClU5Yee5EeXL%2BCM96vCyZo8ahAHaZ4TGsjw9f4zuMG%2Fpl48yotflfK6dg0hxChW5e8IyfYFghF2UDttSqz1q3uRPcFbIlHfe8lS8G4iWkFQWvl%2FLdjoVexPhZjc1YdkWkhAxqMQEsrkDcb6C%2BLwQ6UK4j92fGr6EMKrS9KEGOrIB8ECG3yDmYFXZIBuGJClzZBlVZbFkP19KphFgCGYr715Uv4t5ND464X56aD7DqNAV6beo08pko%2B9Y2kT12dc8KKxBCXNw8FLqOSXcMYGNGcR6HtmZK9hr3RjWYdjl1cGj7Bu%2FQ9yEIZ%2B77UA%2FWDB%2Fq3WwUvPltxG3TjLrhipPd7oTJASpjPQ05itZaKVsoI1lRcPjMlYAgEkzrg1HsRhIzvwEt2sRFansXv6TUB0KNy1HbQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T123249Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3R5J6P2M4%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ffa88d360c7eedcf5f900ce849f7dd2b05342ee1627bad3424a98c13bf2db219"
+    },
+}

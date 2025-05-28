@@ -1,0 +1,28 @@
+{
+    "TagSet": [
+        {
+            "Key": "project",
+            "Value": "Insuranceapps"
+        },
+        {
+            "Key": "environment",
+            "Value": "pci"
+        },
+        {
+            "Key": "terraform",
+            "Value": "True"
+        },
+        {
+            "Key": "CreatedBy",
+            "Value": "sbose"
+        },
+        {
+            "Key": "createdDate",
+            "Value": "03112022"
+        },
+        {
+            "Key": "purpose",
+            "Value": "athenanextgen-response-processing output storage bucket"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "QueueUrl": "https://sqs.us-east-1.amazonaws.com/601751840347/hermes_email_archive_sqs_error_pci",
+  "Tags": {
+    "CreatedDate": "03/01/2021",
+    "environment": "pci",
+    "terraform": "True",
+    "CretedBy": "jsamuel"
+  }
+}

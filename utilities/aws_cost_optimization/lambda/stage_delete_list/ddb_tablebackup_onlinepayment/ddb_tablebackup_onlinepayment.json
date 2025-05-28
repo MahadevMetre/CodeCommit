@@ -1,0 +1,45 @@
+{
+    "Configuration": {
+        "FunctionName": "ddb_tablebackup_onlinepayment",
+        "FunctionArn": "arn:aws:lambda:us-east-1:702230634984:function:ddb_tablebackup_onlinepayment",
+        "Runtime": "python3.7",
+        "Role": "arn:aws:iam::702230634984:role/service-role/ddb_tablebackup_onlinepayment-role-8joh3taf",
+        "Handler": "lambda_function.lambda_handler",
+        "CodeSize": 790,
+        "Description": "",
+        "Timeout": 900,
+        "MemorySize": 2048,
+        "LastModified": "2023-04-08T17:26:13.448+0000",
+        "CodeSha256": "rl2CXIdK8hfab0HDHjyfPgToOJwHG1HS6lDM+pRMKrg=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "SOURCE_ROLE": "arn:aws:iam::702230634984:role/ddb_tablebackup_onlinepayment-role-8joh3taf",
+                "TARGET_ROLE": "arn:aws:iam::214946096060:role/ddb_backup_copy",
+                "TARGET_TABLE_NAME": "onlinepayment-transaction-dr",
+                "SOURCE_TABLE_NAME": "onlinepayment-transaction-staging"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "5966fb96-7e7a-4e18-a6b5-4ed8fd321206",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/702230634984/ddb_tablebackup_onlinepayment-c9766bfa-9653-44c7-8cb3-918ed0b01b3e?versionId=i1lmpeuRARNvvkOplyBIywKhLndpWCIH&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEwaCXVzLWVhc3QtMSJGMEQCIHQ4A5iLvMf45hdDjNuKCD6jKlXUaCe0bWfIH1m128raAiAuDsy7q2l0KdcZhHE02eEdX6ksUwXfmCZCV3NmbQ%2B18yqwBQhFEAAaDDc0OTY3ODkwMjgzOSIMHGmq3YQdIQror%2FzAKo0FQutsZDgYmgmFx3q1Ggse%2FB7duybfhls4Tv92TixfVelk3JvBrskyRguAts1p07s6HqByeGAfVXaea9VQofi0ncJ7G37ATqecNaxAnp7CMWgCRduyfv6yy%2BEtP6X61ksR%2Fc4uN0a5H%2B4MM%2FKB0pZjLmw7K7TAOXtBeqsARehnu7oozuNLqxk3uOaUKt2UOFAbMeMQhQWACVtUrn6GAbd71M89tp5Ecw%2FX9%2BdwbXXLAu9ffOmVaU6WnpkUTWQiG9VqkKF%2Bzoy05KPRlNLAI%2BXFyyhtPrkA0iAzVPXtbb4d0F169olJrUsmFVPLr4Mfml%2F%2BVciDVGbCm05JMYoEC9gKYscAZfKaiZmHEJPLP6ymg9AENfs%2BjRYfoSY1NThDtvU2xxGa6TQxcUgUXaKQPfYGOzbG%2BSKFXZZ2NzmgIv7T8dhrMMOJA2Q0x4BGT7E5436esuRpWb7WSTp4OtY6zPzmMrjbSMMq3FLPVV9KexeJOcBkvG91s1BcygwXIRhR97SYyKc3bQqv5kQ1IwQ2SAQqnlJLxgKTiyCqvnAAWaXt8JxFNKCC5fVzJlMwGQ%2FNUj1lwV%2FozhEu3v%2F%2BoVDA1TqXMMvP0QeuRrR2KnykHXB91LIuNycG0w9WquL3fguSZysy7LlSMyw4m4%2BWW79Z8ejuQ0xrtdupeQRjms8uo4%2FImYgTS6cHNmWVxKCspb67ei1lPU2hK4DdRp%2B61n3smUBEJiiNlxrnqrJeIKP2oLQM%2BMXQS51TKz62X0LDsIyK8USR3FF0KXPAVS8iG61BXpvY8JNC0oypJyUJXuxZvyC6Dp6FHdMd4SAaoYoK%2BsPZqF6pqfhhR6%2Bbxt8znIAsWYN8vo0rYVzlVjX9h0Eoi14wxNr0oQY6sgEQirpmOeEz0M2qz4G157NBeznwY819Q5G0kIEpEJ8Atie5cHZGpP0bCiNFnoPHO4P6i57Ps%2Fh6c92CBPxyrNmzQa84lkewGiT10ZGRZjlS6REzzRKtJThtfU3KyHFBtQrPTcFjwI73qHpByaRmatHKb5Iz%2FxcEas62SssfJOOjTwbz67o7KzHBk0sxjs58V6%2FruaoqWct8zsuNs0xLlmddolGyeu9VLvFsAiOCpxiqKr9n&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T123115Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3Y6WX3TUF%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8de2028105b594df234f379bd945854b0db77a9946869531d3eb980dec533b50"
+    },
+}

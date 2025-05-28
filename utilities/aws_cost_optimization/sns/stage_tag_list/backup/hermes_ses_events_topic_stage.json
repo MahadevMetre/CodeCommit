@@ -1,0 +1,13 @@
+{
+  "ResourceArn": "arn:aws:sns:us-east-1:702230634984:hermes_ses_events_topic_stage",
+  "Tags": [
+    {
+      "Key": "createdby",
+      "Value": "jsamuel"
+    },
+    {
+      "Key": "environment",
+      "Value": "stage"
+    }
+  ]
+}

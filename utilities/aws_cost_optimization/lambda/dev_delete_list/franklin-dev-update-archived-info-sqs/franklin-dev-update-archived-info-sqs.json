@@ -1,0 +1,42 @@
+{
+    "Configuration": {
+        "FunctionName": "franklin-dev-update-archived-info-sqs",
+        "FunctionArn": "arn:aws:lambda:us-east-1:116762271881:function:franklin-dev-update-archived-info-sqs",
+        "Runtime": "python3.8",
+        "Role": "arn:aws:iam::116762271881:role/franklin-dev-glacier-transition-sqs-r-lambda-role",
+        "Handler": "lambda_function.handler",
+        "CodeSize": 851,
+        "Description": "",
+        "Timeout": 5,
+        "MemorySize": 128,
+        "LastModified": "2023-04-03T14:35:41.322+0000",
+        "CodeSha256": "OoK6bLjwD0wngGLRk1H2yEMiZvChPmIUW9Ou/Y3HX9Y=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [],
+            "SecurityGroupIds": [],
+            "VpcId": ""
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "4a601052-e127-4ce7-95b2-d944e902c763",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/116762271881/franklin-dev-update-archived-info-sqs-9fcfe44d-a0c4-4369-b2c9-a5d414e6f9c1?versionId=sH0q5bKGFnXFywJkwusDPNJAEMMK1JLk&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQCsbC70TOKNMhqKH6S9UtKt6lXsInKu2MqIdaG7dyR%2BaAIhAJ7VVbIqZ4Zza5%2FvqlBe7gmKTYEU%2F349nHVEhQhhmMUtKrAFCEMQABoMNzQ5Njc4OTAyODM5IgwnACqbq2gch3251lgqjQViDokNMe5B8VmlUj8hD3r%2BxM5udmh3Slq9YAyKpewad4kY5z0uIrI3XN0YSyo6VqZL5YHBXdI3lDjfwWT5Aa%2BMnQWcWVsAaZ5evUk44h2ScjIl%2FnlWW7DOpGW8%2FVGrsUJJdaXZiN7T5FkWZsMGKLawWWc0fkr21FOYQnyC2%2BDCCT%2FWbd9kn4Fwd0aTi5wdAjvpukjOJ7WlNyDIQnRRDn6Cjbr%2F0HdDsFhIIBb4zJIteekR%2FfIEzKxQWuUyFTwgt62i7g6YMtRUQU5WXDAtt%2FUdK4TMvAE6xn85m8vq5FNpfwunp3aViQnGV3tBHteewupHfmwxFEU0pGT7LC5PUAEJpLI3geOdzo2WgDqhhixLJZrKMEEm1agleU5oyqYq1H9yh4Y6Db7ZdvJtnKB3rzpRMMoh1ci14EkN3lehNgY43Ow7A%2FVMz8A%2B4kFQ%2Fhe8BWO5LhlExarhdbqMlZLutjXkV6yq3rYocFfYR2vLt%2FZyZggY%2Brt6iTuNUTlQeaCHAtZsat%2BTMb2J48eDfXDxzK3R2wV95ksNNtRlsV%2FYuck7DYy0WFacvQXjOGf%2Bs%2BzE%2B43n7PPxJBgHMMlmiXMRySl1Mh0oRWnNOD7af0C7bgR6yxyuf333FVPmm2i6pmyvMH4m9ariLmQ03fNYLttmGeJGKJBeq3e2pPoLp9wt7A2IFI57u9XTjYWLSch36RW2%2B3Kzwf33lB0peNH%2BVMaYq3ujHU8KX6%2FgdKTP%2FrjUaUU26sgN9so7YSdzhAYz4MM9FJlfR1JQnouyrdCGKRIowXJ7xDi9tjJN%2Fc5Z07%2BC1G7s9uUvSXq8ReereLv0JLxo1PpLAFZmCKuL1Ey55ybmaX5EYhpQMXGfY6Jz%2B0J50TCUrPShBjqwAeBbxh8GOS8ZgG8VVXpQnIggvDbRXJD8RAjP%2BBf0m4b5lbFYUcELL7TDc4XtF3Bmsemo65ruEy9qYUnAPid7o4ldOpvv4RvMtA5h6vOS8Rd6HfQfTNWcaqiqxFXMyDxdrRbfmUYsfGiWmBMrcF9vDPR1B0VqmUzklMFzzR%2FWzDqSf7zMpeSut0N%2BcnMTGYcblF16PHtgUvICh5L87UyiPUjqU7IyiecuLtckXajvVDYM&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230417T105415Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY36PGGPNWD%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0e4d878039922e9895c5b0a582533878c788a3e14d308338cc3a795fedeb3cd5"
+    },
+}
